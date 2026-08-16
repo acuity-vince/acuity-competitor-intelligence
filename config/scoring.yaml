@@ -1,0 +1,31 @@
+confidence:
+  broker_explicit_access: 95
+  competitor_official_announcement: 95
+  broker_help_centre: 95
+  broker_platform_page: 92
+  broker_news: 90
+  platform_integration_announcement: 90
+  industry_publication: 80
+  broker_comparison: 70
+  generic_third_party: 50
+  unverified_search_snippet: 30
+priority:
+  BROKER_TC_REFERENCE_REMOVED: 85
+  POSSIBLE_REMOVAL: 70
+  BROKER_TC_NEWLY_DETECTED: 75
+  BROKER_TC_PRODUCT_ADDED: 70
+  BROKER_TC_CONFIRMED: 55
+  TC_NEW_CLIENT: 65
+  TC_NEW_PARTNERSHIP: 65
+  TC_NEW_PLATFORM_INTEGRATION: 70
+  TC_NEW_PRODUCT: 55
+  TC_PRODUCT_UPDATE: 40
+  GENERIC_MENTION: 10
+modifiers:
+  priority_account: 10
+  two_signals_30_days: 5
+  three_signals_30_days: 10
+  less_than_7_days: 10
+  less_than_30_days: 5
+  low_confidence_penalty: -20
+

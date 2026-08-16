@@ -1,0 +1,11 @@
+You are classifying public web evidence related to competitor technology.
+
+Company: {company_name}
+Page URL: {url}
+Competitor: Trading Central
+Extracted evidence: {evidence}
+
+Return classification, short_reason, and evidence_strength from 0 to 100. Allowed classifications: CONFIRMED, LIKELY, HISTORICAL, REMOVED, UNCLEAR, NOT_DETECTED.
+
+Do not infer a commercial relationship from a generic mention. Do not assume an old announcement proves current usage. Do not claim that removal from a webpage means a contract ended. Base the classification only on supplied evidence.
+

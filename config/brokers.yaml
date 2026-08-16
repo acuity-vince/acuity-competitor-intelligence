@@ -1,0 +1,13 @@
+brokers:
+  - id: sample_broker
+    company_name: Sample Broker
+    domain: sample-broker.test
+    country: Cyprus
+    region: Europe
+    broker_type: forex_cfd
+    priority_account: true
+    active: false
+    known_research_urls:
+      - https://sample-broker.test/research
+      - https://sample-broker.test/trading-tools
+

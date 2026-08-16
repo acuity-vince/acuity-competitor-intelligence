@@ -1,0 +1,9 @@
+Analyse this Trading Central public announcement for competitive intelligence relevant to Acuity Trading.
+
+Title: {title}
+Date: {date}
+URL: {url}
+Content: {content}
+
+Extract announcement_type, companies_named, brokers_named, platforms_named, products_named, regions_named, short_summary, commercial_relevance_to_acuity, and confidence. Do not add facts absent from the supplied content. Do not label a company as a broker unless the content establishes that.
+

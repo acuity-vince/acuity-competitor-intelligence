@@ -1,0 +1,11 @@
+products:
+  - {product_id: analyst_views, product_name: Analyst Views, aliases: [TC Analyst Views], category: technical_analysis, active: true}
+  - {product_id: featured_ideas, product_name: Featured Ideas, aliases: [TC Featured Ideas], category: trade_ideas, active: true}
+  - {product_id: market_buzz, product_name: Market Buzz, aliases: [TC Market Buzz, MarketBuzz], category: market_intelligence, active: true}
+  - {product_id: economic_insight, product_name: Economic Insight, aliases: [TC Economic Insight], category: economic_research, active: true}
+  - {product_id: economic_calendar, product_name: Economic Calendar, aliases: [TC Economic Calendar], category: calendar, active: true}
+  - {product_id: corporate_calendar, product_name: Corporate Calendar, aliases: [TC Corporate Calendar], category: calendar, active: true}
+  - {product_id: technical_insight, product_name: Technical Insight, aliases: [TC Technical Insight], category: technical_analysis, active: true}
+  - {product_id: alpha_generation, product_name: Alpha Generation, aliases: [TC Alpha Generation], category: market_intelligence, active: true}
+  - {product_id: fibi, product_name: FIBI, aliases: [], category: market_intelligence, active: true}
+

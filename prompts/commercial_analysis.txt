@@ -1,0 +1,2 @@
+Assess the supplied verified signal for Acuity Trading sales relevance. Return a short rationale only. Keep evidence confidence separate from commercial priority. Do not add facts or performance claims.
+
