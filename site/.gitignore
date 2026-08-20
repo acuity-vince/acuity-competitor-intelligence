@@ -1,0 +1,12 @@
+.next/
+dist/
+node_modules/
+.wrangler/
+*.log
+site-package.tar.gz
+preview.png
+/verify.mjs
+/index.html
+/styles.css
+/app.js
+/data/

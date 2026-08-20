@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Acuity's living forex broker and regulatory intelligence registry." />
+    <title>Acuity Broker Intelligence</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%23123e59'/%3E%3Cpath d='M15 45h8V29h-8zm13 0h8V19h-8zm13 0h8V11h-8z' fill='%2317b6a4'/%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand-block">
+          <div class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></div>
+          <div>
+            <p class="eyebrow">Acuity Trading</p>
+            <h1>Broker Intelligence</h1>
+          </div>
+        </div>
+        <div class="status-cluster">
+          <span class="live-pill"><i></i> Living registry</span>
+          <span id="lastUpdated" class="last-updated">Loading source data…</span>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero-copy">
+          <div>
+            <p class="section-kicker">REGULATORY COVERAGE</p>
+            <h2>Your market, mapped.</h2>
+            <p>Search active financial entities, isolate sales-ready broker targets, and trace every result back to regulatory evidence.</p>
+          </div>
+          <button id="exportButton" class="secondary-button" type="button" disabled>
+            <span>Export current view</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 19h14"/></svg>
+          </button>
+        </section>
+
+        <section class="metrics" aria-label="Registry summary">
+          <article class="metric-card emphasis">
+            <span class="metric-label">Active records</span>
+            <strong id="metricRecords">—</strong>
+            <small>Across monitored regulators</small>
+          </article>
+          <article class="metric-card">
+            <span class="metric-label">Potential targets</span>
+            <strong id="metricTargets">—</strong>
+            <small>Forex / CFD relevance</small>
+          </article>
+          <article class="metric-card">
+            <span class="metric-label">Verified evidence</span>
+            <strong id="metricVerified">—</strong>
+            <small>Official source attached</small>
+          </article>
+          <article class="metric-card review-card">
+            <span class="metric-label">Needs review</span>
+            <strong id="metricReview">—</strong>
+            <small>Human validation queue</small>
+          </article>
+        </section>
+
+        <section class="workspace-panel">
+          <div class="view-tabs" role="tablist" aria-label="Registry views">
+            <button class="view-tab active" data-view="targets" role="tab">Sales targets <span id="targetTabCount">0</span></button>
+            <button class="view-tab" data-view="review" role="tab">Review queue <span id="reviewTabCount">0</span></button>
+            <button class="view-tab" data-view="all" role="tab">All active records <span id="allTabCount">0</span></button>
+          </div>
+
+          <div class="toolbar">
+            <label class="search-field">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16.5 16.5 4 4"/></svg>
+              <input id="searchInput" type="search" placeholder="Search firm, licence, domain or reason…" autocomplete="off" />
+              <kbd>/</kbd>
+            </label>
+            <div class="filter-row">
+              <label>
+                <span>Regulator</span>
+                <select id="regulatorFilter"><option value="">All regulators</option></select>
+              </label>
+              <label>
+                <span>Confidence</span>
+                <select id="confidenceFilter">
+                  <option value="">All confidence</option>
+                  <option value="HIGH">High</option>
+                  <option value="MEDIUM">Medium</option>
+                  <option value="LOW">Low</option>
+                </select>
+              </label>
+              <button id="clearFilters" class="clear-button" type="button">Clear filters</button>
+            </div>
+          </div>
+
+          <div class="result-strip">
+            <p><strong id="visibleCount">0</strong> results</p>
+            <p id="viewDescription">Showing potential forex and CFD sales targets.</p>
+          </div>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th><button data-sort="legal_name">Entity <span>↕</span></button></th>
+                  <th><button data-sort="regulator_code">Regulator <span>↕</span></button></th>
+                  <th><button data-sort="jurisdiction">Market <span>↕</span></button></th>
+                  <th><button data-sort="license_number">Licence <span>↕</span></button></th>
+                  <th><button data-sort="classification_confidence">Confidence <span>↕</span></button></th>
+                  <th>Evidence</th>
+                  <th aria-label="Open details"></th>
+                </tr>
+              </thead>
+              <tbody id="registryBody">
+                <tr><td colspan="7" class="loading-cell">Loading the registry…</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="pagination">
+            <p>Rows <span id="rowRange">0–0</span></p>
+            <div>
+              <button id="previousPage" type="button" aria-label="Previous page">←</button>
+              <span id="pageLabel">Page 1 of 1</span>
+              <button id="nextPage" type="button" aria-label="Next page">→</button>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <dialog id="detailDialog" class="detail-dialog">
+      <div class="dialog-header">
+        <div>
+          <p id="detailRegulator" class="section-kicker"></p>
+          <h3 id="detailName"></h3>
+        </div>
+        <button id="closeDialog" class="icon-button" type="button" aria-label="Close details">×</button>
+      </div>
+      <div id="detailContent" class="detail-content"></div>
+    </dialog>
+
+    <template id="emptyState">
+      <tr><td colspan="7" class="empty-cell"><strong>No matching records</strong><span>Try clearing a filter or using a broader search.</span></td></tr>
+    </template>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

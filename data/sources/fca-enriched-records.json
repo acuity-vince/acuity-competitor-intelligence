@@ -1,0 +1,1368 @@
+{
+  "generated_at": "2026-08-18T07:22:01+00:00",
+  "minimum_score": 0.96,
+  "candidate_count": 146,
+  "accepted_count": 2,
+  "records": [
+    {
+      "legal_name": "Credit Financier Invest Limited",
+      "regulator_code": "FCA",
+      "regulator": "Financial Conduct Authority",
+      "jurisdiction": "United Kingdom",
+      "license_number": "828955",
+      "license_type": "Financial Services Register firm",
+      "status": "ACTIVE",
+      "license_date": "",
+      "approved_domains": "",
+      "forex_broker": "YES",
+      "classification_confidence": "HIGH",
+      "classification_reason": "Active FCA firm matched to CySEC candidate Credit Financier Invest (CFI) Ltd (legal-name score 1.000)",
+      "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/828955",
+      "evidence_status": "OFFICIAL_API",
+      "needs_review": "NO",
+      "source_url": "https://register.fca.org.uk/Developer/s/",
+      "last_checked": "2026-08-18T07:20:39+00:00",
+      "matched_from_regulator": "CySEC",
+      "matched_from_name": "Credit Financier Invest (CFI) Ltd",
+      "match_score": 1.0
+    },
+    {
+      "legal_name": "XTB Limited",
+      "regulator_code": "FCA",
+      "regulator": "Financial Conduct Authority",
+      "jurisdiction": "United Kingdom",
+      "license_number": "522157",
+      "license_type": "Financial Services Register firm",
+      "status": "ACTIVE",
+      "license_date": "",
+      "approved_domains": "",
+      "forex_broker": "YES",
+      "classification_confidence": "MEDIUM",
+      "classification_reason": "Active FCA firm matched to CySEC candidate XTB Ltd (legal-name score 1.000)",
+      "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/522157",
+      "evidence_status": "OFFICIAL_API",
+      "needs_review": "NO",
+      "source_url": "https://register.fca.org.uk/Developer/s/",
+      "last_checked": "2026-08-18T07:22:00+00:00",
+      "matched_from_regulator": "CySEC",
+      "matched_from_name": "XTB Ltd",
+      "match_score": 1.0
+    }
+  ],
+  "review_log": [
+    {
+      "candidate_name": "26 DEGREES GLOBAL MARKETS PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "AFMOOM TRADING PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "ALPHASTREAM MARKETS PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "AT GLOBAL MARKETS (AUSTRALIA) PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "AUGS MARKETS PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "AURIC INTERNATIONAL MARKETS (AU) PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "AURORA CAPITAL MARKETS PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "AUSSIE FOREX & FINANCE PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "AUSTRALIAN BOND EXCHANGE PTY. LTD.",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "AUSTRALIAN INVESTMENT EXCHANGE LIMITED",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "AVA CAPITAL MARKETS AUSTRALIA PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "AXEL PRIVATE MARKET PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "BKS MARKETS PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "CITIGROUP GLOBAL MARKETS AUSTRALIA PTY LIMITED",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "CMC MARKETS ASIA PACIFIC PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "CMC MARKETS STOCKBROKING LIMITED",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "DBG MARKETS (AUSTRALIA) PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "DIRECT FX LIMITED",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "Gain Capital UK Limited",
+      "best_fca_frn": "113942",
+      "best_fca_status": "Authorised",
+      "match_score": 0.5,
+      "accepted": false
+    },
+    {
+      "candidate_name": "EC MARKETS FINANCIAL LIMITED",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "LONDON CAPITAL GROUP LIMITED",
+      "best_fca_frn": "182110",
+      "best_fca_status": "Authorised",
+      "match_score": 0.375,
+      "accepted": false
+    },
+    {
+      "candidate_name": "ECHUCA TRADING PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "FIRST PRUDENTIAL MARKETS PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "FMGP TRADING GROUP PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "FOCUS MARKETS PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "FOREX SPORT PTY. LTD.",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "FX CORP PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "GO MARKETS PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "GOLDMAN SACHS FINANCIAL MARKETS PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "HANTEC MARKETS (AUSTRALIA) PTY LIMITED",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "IAM CAPITAL MARKETS LIMITED",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "INTELLIGENT FINANCIAL MARKETS PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "INTERNATIONAL CAPITAL MARKETS PTY. LTD.",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "IUX MARKETS AU PTY LTD.",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "KOHLE CAPITAL MARKETS PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "MACRO GLOBAL MARKETS PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "ON-MARKET BOOKBUILDS PTY LIMITED",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "PU PRIME TRADING PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "STRATOS TRADING PTY. LIMITED",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "TASMAN FOREIGN EXCHANGE PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "TF GLOBAL MARKETS (AUST) PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "TOR FX PTY LIMITED",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "TRADING 212 AU PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "TRADING.COM MARKETS PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "VERTICAL CAPITAL MARKETS PTY. LTD.",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "ZERO MARKETS AUSTRALIA PTY LTD",
+      "candidate_regulator": "ASIC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "ABF Trade EU Limited (ex X Global Markets Ltd)",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "APME FX Trading Europe Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "ATFX Global Markets (Cy) Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Accuindex EU Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Argus Stockbrokers Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "B2B Prime Services EU Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Broctagon Prime Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "CDJ Social Stocks Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "CEX Markets Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "CTS Cloud Trading Solutions Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Capital Com Group Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "Paladin Capital Group (UK), LLP",
+      "best_fca_frn": "809203",
+      "best_fca_status": "Authorised",
+      "match_score": 0.6522,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Capital Com SV Investments Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Claremont Square Capital Ltd (ex Afterprime Europe Limited)",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Colmex Pro Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Credit Financier Invest (CFI) Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "Credit Financier Invest Limited",
+      "best_fca_frn": "828955",
+      "best_fca_status": "Authorised",
+      "match_score": 1.0,
+      "accepted": true
+    },
+    {
+      "candidate_name": "D.T. Direct Investment Hub Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Doo Financial Cyprus Limited",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Doto Europe Ltd (Ex Vasby Capital Markets Ltd)",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "EVBX LTD",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Eightcap EU Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Epidi EU Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Exclusive Change Capital Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "FX Central Clearing Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "FXGLOBE Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "FXOpen EU Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "FXPRO Financial Services Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Finalto EU Ltd (ex Magnasale Trading Ltd)",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Finquotes Financial (Cyprus) Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "First Prudential Markets Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Fortrade Cyprus Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Fusion Markets EU Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Fxnet Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "GBE Brokers Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "GPB Financial Services Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Gate Securities (Cyprus) Ltd (ex Sheer Markets (Cyprus) Ltd)",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Global Trade CIF Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Go Markets Ltd (ex Galactus Ltd)",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Growell Capital Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "HF Markets (Europe) Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Harindale Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Harmovest Capital (Cyprus) Ltd (ex GVD Korimcy Ltd)",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Huaprime EU Ltd (ex Ultima Markets Cyprus Limited)",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "IC Markets (EU) Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "ICFD Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "IGM Forex Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "IQBroker Europe Ltd (ex IQOption Europe Ltd)",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Indication Investments Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Instant Trading EU Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "J2T Services Ltd (ex Lime Trading (CY) Ltd)",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "JFD Group Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "JustMarkets Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Key Way Investments Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Kleis EU LTD",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "L.F. Investment Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Lirunex Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Liteforex (Europe) Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "MTG LIQUIDITY Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Magic Compass Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "MiTrade EU Limited",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Naga Markets Europe Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Naxex Invest Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Nisential Capital Ltd (ex Brickhill Capital (CY) Ltd)",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Noemon Finance Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Notely Trading Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "OCI Oasis Capital Investments (Cyprus) Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "OEXN Limited",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "One Plus Capital Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Peaksight Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Pelican Exchange Europe (CY) Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Pepperstone EU Limited",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Plus500CY Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Prochoice Chrimatistiriaki Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Prodigit Investments Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Royal Financial Trading (Cy) Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "SSC Smart FX Ltd (ex Jin Daocheng Ltd)",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Safecap Investments Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Shine Trades Limited (CY) Ltd (ex. Triumph Int. (Cyprus) Limited)",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Skilling Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "Priscum Limited",
+      "best_fca_frn": "507387",
+      "best_fca_status": "Authorised",
+      "match_score": 0.4348,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Solaris EMEA Limited",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Stratos Europe Ltd (ex FXCM EU LTD)",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Streams Financial Services Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Swissquote Capital Markets Limited",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "T Markets EU Limited (ex NBH Markets EU Limited)",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "TF Global Markets (Europe) Ltd (ex A-Conversio Capital Ltd).",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "TSG Brokers Ltd (ex GWG (Cyprus) Ltd)",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "The First Interstellar Capital Limited",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Tickmill Europe Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Titanedge Securities Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Trade Capital Markets (TCM) Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Tradestone Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Trading.Com Markets EU Limited (ex Trading Point Asset Management Limited)",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Trust Capital TC Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "VSMarkets Ltd (ex Klips CY Ltd)",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "WB Trade EU Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "WGM Services Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "WRDNB Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "WSN Capital Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Wetrade International Cy Limited",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Wisdompoint Capital Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "Wonderinterest Trading Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "XS Markets Ltd (ex RockFrost Ltd)",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "",
+      "best_fca_frn": "",
+      "best_fca_status": "",
+      "match_score": 0.0,
+      "accepted": false
+    },
+    {
+      "candidate_name": "XTB Ltd",
+      "candidate_regulator": "CySEC",
+      "best_fca_name": "XTB Limited",
+      "best_fca_frn": "522157",
+      "best_fca_status": "Authorised",
+      "match_score": 1.0,
+      "accepted": true
+    }
+  ]
+}
