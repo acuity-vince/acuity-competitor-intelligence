@@ -1,0 +1,20 @@
+broker_name,broker_domain,legal_name,regulator_code,license_number,match_method,match_confidence,needs_review
+CFI Financial Group,cfi.trade,Credit Financier Invest (CFI) Ltd,CySEC,179/12,EXACT_DOMAIN,HIGH,NO
+FxPro,fxpro.com,FXPRO Financial Services Ltd,CySEC,078/07,EXACT_DOMAIN,HIGH,NO
+FP Markets,fpmarkets.com,First Prudential Markets Ltd,CySEC,371/18,EXACT_DOMAIN,HIGH,NO
+Fortrade,fortrade.com,Fortrade Cyprus Ltd,CySEC,385/20,EXACT_DOMAIN,HIGH,NO
+Fusion Markets,fusionmarkets.com,Fusion Markets EU Ltd,CySEC,444/24,EXACT_DOMAIN,HIGH,NO
+FxGrow,fxgrow.com,Growell Capital Ltd,CySEC,214/13,EXACT_DOMAIN,HIGH,NO
+Libertex,libertex.com,Indication Investments Ltd,CySEC,164/12,EXACT_DOMAIN,HIGH,NO
+Just2Trade,j2t.com,J2T Services Ltd (ex Lime Trading (CY) Ltd),CySEC,281/15,EXACT_DOMAIN,HIGH,NO
+CAPEX,capex.com,Key Way Investments Ltd,CySEC,292/16,EXACT_DOMAIN,HIGH,NO
+NAGA,naga.com,Naga Markets Europe Ltd,CySEC,204/13,EXACT_DOMAIN,HIGH,NO
+Plus500,plus500.com,Plus500CY Ltd,CySEC,250/14,EXACT_DOMAIN,HIGH,NO
+Markets.com,markets.com,Safecap Investments Ltd,CySEC,092/08,EXACT_DOMAIN,HIGH,NO
+Swissquote,swissquote.com,Swissquote Capital Markets Limited,CySEC,422/22,EXACT_DOMAIN,HIGH,NO
+ThinkMarkets,thinkmarkets.com,TF Global Markets (Europe) Ltd (ex A-Conversio Capital Ltd).,CySEC,215/13,EXACT_DOMAIN,HIGH,NO
+Trading.com (US),trading.com,Trading.Com Markets EU Limited (ex Trading Point Asset Management Limited),CySEC,256/14,EXACT_DOMAIN,HIGH,NO
+eToro,etoro.com,Etoro (Europe) Ltd,CySEC,109/10,EXACT_DOMAIN,HIGH,NO
+FOREX.com,forex.com,StoneX Europe Ltd,CySEC,400/21,EXACT_DOMAIN,HIGH,NO
+TopFX,topfx.com,Topfx Ltd,CySEC,138/11,EXACT_DOMAIN,HIGH,NO
+XM Group,xm.com,Trading Point Of Financial Instruments Ltd,CySEC,120/10,EXACT_DOMAIN,HIGH,NO

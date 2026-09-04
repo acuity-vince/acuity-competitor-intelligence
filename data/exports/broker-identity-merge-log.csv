@@ -1,0 +1,4 @@
+action,source_profile,source_slug,target_profiles,target_slugs,shared_domains
+LINKED_SHARED_LEGAL_ENTITY,Stratos Europe Ltd (ex FXCM EU LTD),stratos-europe-ltd-ex-fxcm-eu-ltd,FXCM | Tradu,fxcm | tradu,fxcm.com | tradu.com
+MERGED_LEGAL_ENTITY_INTO_BRAND,Capital Com Group Ltd,capital-com-group-ltd,capital.com,capital-com,capital.com
+MERGED_LEGAL_ENTITY_INTO_BRAND,Capital Com SV Investments Ltd,capital-com-sv-investments-ltd,capital.com,capital-com,capital.com

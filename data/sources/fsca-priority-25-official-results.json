@@ -1,0 +1,167 @@
+{
+  "checked_at": "2026-09-03T16:47:24+03:00",
+  "regulator": "Financial Sector Conduct Authority",
+  "search_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+  "method": "Each name was submitted to the FSCA's official Authorised Financial Service Providers search. Only rows returned as Authorized are included below. Broker-owned disclosures are used only where the official row does not itself name the broker brand.",
+  "authorised": [
+    {
+      "slug": "cfi-financial-group",
+      "query": "CFI",
+      "fsp_number": "53711",
+      "legal_name": "CFI FINANCIAL (PTY) LTD",
+      "trading_name": "",
+      "official_status": "Authorized",
+      "evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+      "brand_mapping_basis": "Official FSP name contains the broker brand",
+      "brand_mapping_url": ""
+    },
+    {
+      "slug": "fp-markets",
+      "query": "FP Markets",
+      "fsp_number": "50926",
+      "legal_name": "FP MARKETS (PTY) LTD",
+      "trading_name": "",
+      "official_status": "Authorized",
+      "evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+      "brand_mapping_basis": "Official FSP name matches the broker brand",
+      "brand_mapping_url": ""
+    },
+    {
+      "slug": "fxcm",
+      "query": "Stratos South Africa",
+      "fsp_number": "46534",
+      "legal_name": "STRATOS SOUTH AFRICA (PTY) LTD",
+      "trading_name": "",
+      "official_status": "Authorized",
+      "evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+      "brand_mapping_basis": "FXCM-owned disclosure identifies Stratos South Africa and FSP 46534",
+      "brand_mapping_url": "https://www.fxcm.com/za/about-fxcm/international-sites-offices/"
+    },
+    {
+      "slug": "markets-com",
+      "query": "Markets South Africa",
+      "fsp_number": "46860",
+      "legal_name": "MARKETS SOUTH AFRICA (PTY) LTD",
+      "trading_name": "",
+      "official_status": "Authorized",
+      "evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+      "brand_mapping_basis": "Official FSP name matches the broker brand",
+      "brand_mapping_url": ""
+    },
+    {
+      "slug": "doto-europe-ltd-ex-vasby-capital-markets-ltd",
+      "query": "Doto",
+      "fsp_number": "50451",
+      "legal_name": "DOTO SOUTH AFRICA (PTY) LTD",
+      "trading_name": "",
+      "official_status": "Authorized",
+      "evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+      "brand_mapping_basis": "Official FSP name matches the broker brand",
+      "brand_mapping_url": ""
+    },
+    {
+      "slug": "atfx",
+      "query": "AT Global Markets",
+      "fsp_number": "44816",
+      "legal_name": "AT GLOBAL MARKETS SA (PTY) LTD",
+      "trading_name": "",
+      "official_status": "Authorized",
+      "evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+      "brand_mapping_basis": "ATFX-owned disclosure identifies AT Global Markets SA and FSP 44816",
+      "brand_mapping_url": "https://www.atfx.com/en-za/about-us/atfx-regulators"
+    },
+    {
+      "slug": "atfx",
+      "query": "AT Global",
+      "fsp_number": "55142",
+      "legal_name": "AT GLOBAL CAPITAL MARKETS AFRICA (PTY) LTD",
+      "trading_name": "",
+      "official_status": "Authorized",
+      "evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+      "brand_mapping_basis": "ATFX-owned disclosure identifies the entity as authorised to operate under the ATFX brand",
+      "brand_mapping_url": "https://www.atfx.com/en-za/about-us/atfx-regulators"
+    },
+    {
+      "slug": "avatrade",
+      "query": "Ava Capital Markets",
+      "fsp_number": "45984",
+      "legal_name": "AVA CAPITAL MARKETS (PTY) LTD",
+      "trading_name": "AVA TRADE",
+      "official_status": "Authorized",
+      "evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+      "brand_mapping_basis": "Official trading name matches the broker brand",
+      "brand_mapping_url": ""
+    },
+    {
+      "slug": "exness",
+      "query": "Exness",
+      "fsp_number": "51024",
+      "legal_name": "EXNESS ZA (PTY) LTD",
+      "trading_name": "EXNESS",
+      "official_status": "Authorized",
+      "evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+      "brand_mapping_basis": "Official FSP and trading names match the broker brand",
+      "brand_mapping_url": ""
+    },
+    {
+      "slug": "ironfx",
+      "query": "IronFX",
+      "fsp_number": "45276",
+      "legal_name": "NOTESCO SA (PTY) LTD",
+      "trading_name": "IRONFX SA",
+      "official_status": "Authorized",
+      "evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+      "brand_mapping_basis": "Official trading name matches the broker brand",
+      "brand_mapping_url": ""
+    },
+    {
+      "slug": "moneta-markets",
+      "query": "Moneta Markets",
+      "fsp_number": "47490",
+      "legal_name": "MONETA MARKETS (PTY) LTD",
+      "trading_name": "",
+      "official_status": "Authorized",
+      "evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+      "brand_mapping_basis": "Official FSP name matches the broker brand",
+      "brand_mapping_url": ""
+    },
+    {
+      "slug": "vantage-vantage-markets",
+      "query": "Vantage",
+      "fsp_number": "51268",
+      "legal_name": "VANTAGE MARKETS (PTY) LTD",
+      "trading_name": "",
+      "official_status": "Authorized",
+      "evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+      "brand_mapping_basis": "Official FSP name matches the broker brand",
+      "brand_mapping_url": ""
+    },
+    {
+      "slug": "vt-markets",
+      "query": "VT Markets",
+      "fsp_number": "50865",
+      "legal_name": "VT MARKETS (PTY) LTD",
+      "trading_name": "",
+      "official_status": "Authorized",
+      "evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+      "brand_mapping_basis": "Official FSP name matches the broker brand",
+      "brand_mapping_url": ""
+    }
+  ],
+  "search_audit": [
+    {"slug": "cfi-financial-group", "query": "CFI", "result_count": 4, "accepted_fsp_numbers": ["53711"]},
+    {"slug": "fp-markets", "query": "FP Markets", "result_count": 1, "accepted_fsp_numbers": ["50926"]},
+    {"slug": "fxcm", "query": "Stratos South Africa", "result_count": 1, "accepted_fsp_numbers": ["46534"]},
+    {"slug": "markets-com", "query": "Markets South Africa", "result_count": 5, "accepted_fsp_numbers": ["46860"]},
+    {"slug": "doto-europe-ltd-ex-vasby-capital-markets-ltd", "query": "Doto", "result_count": 1, "accepted_fsp_numbers": ["50451"]},
+    {"slug": "atfx", "query": "ATFX", "result_count": 0, "accepted_fsp_numbers": []},
+    {"slug": "atfx", "query": "AT Global", "result_count": 2, "accepted_fsp_numbers": ["44816", "55142"]},
+    {"slug": "atfx", "query": "AT Global Markets", "result_count": 1, "accepted_fsp_numbers": ["44816"]},
+    {"slug": "avatrade", "query": "Ava Capital Markets", "result_count": 1, "accepted_fsp_numbers": ["45984"]},
+    {"slug": "exness", "query": "Exness", "result_count": 1, "accepted_fsp_numbers": ["51024"]},
+    {"slug": "ironfx", "query": "IronFX", "result_count": 1, "accepted_fsp_numbers": ["45276"]},
+    {"slug": "moneta-markets", "query": "Moneta Markets", "result_count": 1, "accepted_fsp_numbers": ["47490"]},
+    {"slug": "vantage-vantage-markets", "query": "Vantage", "result_count": 27, "accepted_fsp_numbers": ["51268"]},
+    {"slug": "vt-markets", "query": "VT Markets", "result_count": 1, "accepted_fsp_numbers": ["50865"]}
+  ]
+}

@@ -30,9 +30,9 @@
       <main>
         <section class="hero-copy">
           <div>
-            <p class="section-kicker">REGULATORY COVERAGE</p>
-            <h2>Your market, mapped.</h2>
-            <p>Search active financial entities, isolate sales-ready broker targets, and trace every result back to regulatory evidence.</p>
+            <p class="section-kicker">BROKER &amp; COMPETITOR COVERAGE</p>
+            <h2>Your market, connected.</h2>
+            <p>Explore broker brands, their regulatory footprint, and verified research-tool relationships in one evolving intelligence layer.</p>
           </div>
           <button id="exportButton" class="secondary-button" type="button" disabled>
             <span>Export current view</span>
@@ -42,19 +42,19 @@
 
         <section class="metrics" aria-label="Registry summary">
           <article class="metric-card emphasis">
-            <span class="metric-label">Active records</span>
+            <span class="metric-label">Broker profiles</span>
             <strong id="metricRecords">—</strong>
-            <small>Across monitored regulators</small>
+            <small>Canonical brands and entities</small>
           </article>
           <article class="metric-card">
-            <span class="metric-label">Potential targets</span>
+            <span class="metric-label">Trading Central</span>
             <strong id="metricTargets">—</strong>
-            <small>Forex / CFD relevance</small>
+            <small>Documented relationships</small>
           </article>
           <article class="metric-card">
-            <span class="metric-label">Verified evidence</span>
+            <span class="metric-label">Priority 25 verified</span>
             <strong id="metricVerified">—</strong>
-            <small>Official source attached</small>
+            <small>All core claims confirmed</small>
           </article>
           <article class="metric-card review-card">
             <span class="metric-label">Needs review</span>
@@ -65,15 +65,17 @@
 
         <section class="workspace-panel">
           <div class="view-tabs" role="tablist" aria-label="Registry views">
-            <button class="view-tab active" data-view="targets" role="tab">Sales targets <span id="targetTabCount">0</span></button>
+            <button class="view-tab active" data-view="trading-central" role="tab">Trading Central <span id="tradingCentralTabCount">0</span></button>
+            <button class="view-tab" data-view="verified-pilot" role="tab">Verified pilot <span id="verifiedPilotTabCount">0</span></button>
+            <button class="view-tab" data-view="priority" role="tab">Priority 100 <span id="priorityTabCount">0</span></button>
             <button class="view-tab" data-view="review" role="tab">Review queue <span id="reviewTabCount">0</span></button>
-            <button class="view-tab" data-view="all" role="tab">All active records <span id="allTabCount">0</span></button>
+            <button class="view-tab" data-view="all" role="tab">All profiles <span id="allTabCount">0</span></button>
           </div>
 
           <div class="toolbar">
             <label class="search-field">
               <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16.5 16.5 4 4"/></svg>
-              <input id="searchInput" type="search" placeholder="Search firm, licence, domain or reason…" autocomplete="off" />
+              <input id="searchInput" type="search" placeholder="Search broker, regulator, licence, domain or research tool…" autocomplete="off" />
               <kbd>/</kbd>
             </label>
             <div class="filter-row">
@@ -90,30 +92,47 @@
                   <option value="LOW">Low</option>
                 </select>
               </label>
+              <label>
+                <span>Company type</span>
+                <select id="companyTypeFilter"><option value="">All company types</option></select>
+              </label>
+              <label>
+                <span>Tool status</span>
+                <select id="vendorStatusFilter">
+                  <option value="">All statuses</option>
+                  <option value="CONFIRMED_ACTIVE">Confirmed active</option>
+                  <option value="LIKELY_ACTIVE">Likely active</option>
+                  <option value="DIRECTORY_REPORTED">Directory reported</option>
+                  <option value="HISTORICAL">Historical</option>
+                  <option value="UNCLEAR">Unclear</option>
+                </select>
+              </label>
               <button id="clearFilters" class="clear-button" type="button">Clear filters</button>
             </div>
           </div>
 
           <div class="result-strip">
             <p><strong id="visibleCount">0</strong> results</p>
-            <p id="viewDescription">Showing potential forex and CFD sales targets.</p>
+            <p id="viewDescription">Showing brokers with documented Trading Central relationships.</p>
           </div>
 
           <div class="table-wrap">
             <table>
               <thead>
                 <tr>
-                  <th><button data-sort="legal_name">Entity <span>↕</span></button></th>
-                  <th><button data-sort="regulator_code">Regulator <span>↕</span></button></th>
-                  <th><button data-sort="jurisdiction">Market <span>↕</span></button></th>
-                  <th><button data-sort="license_number">Licence <span>↕</span></button></th>
-                  <th><button data-sort="classification_confidence">Confidence <span>↕</span></button></th>
+                  <th><button data-sort="brand_name">Broker <span>↕</span></button></th>
+                  <th><button data-sort="company_type">Company type <span>↕</span></button></th>
+                  <th><button data-sort="research_tools">Research tool <span>↕</span></button></th>
+                  <th><button data-sort="regulator_sort">Regulators <span>↕</span></button></th>
+                  <th><button data-sort="primary_market">Primary market <span>↕</span></button></th>
+                  <th><button data-sort="verification_status">Verification <span>↕</span></button></th>
+                  <th><button data-sort="profile_confidence">Confidence <span>↕</span></button></th>
                   <th>Evidence</th>
                   <th aria-label="Open details"></th>
                 </tr>
               </thead>
               <tbody id="registryBody">
-                <tr><td colspan="7" class="loading-cell">Loading the registry…</td></tr>
+                <tr><td colspan="9" class="loading-cell">Loading the registry…</td></tr>
               </tbody>
             </table>
           </div>
@@ -133,7 +152,7 @@
     <dialog id="detailDialog" class="detail-dialog">
       <div class="dialog-header">
         <div>
-          <p id="detailRegulator" class="section-kicker"></p>
+          <p id="detailRegulator" class="section-kicker">Broker profile</p>
           <h3 id="detailName"></h3>
         </div>
         <button id="closeDialog" class="icon-button" type="button" aria-label="Close details">×</button>
@@ -142,7 +161,7 @@
     </dialog>
 
     <template id="emptyState">
-      <tr><td colspan="7" class="empty-cell"><strong>No matching records</strong><span>Try clearing a filter or using a broader search.</span></td></tr>
+      <tr><td colspan="9" class="empty-cell"><strong>No matching records</strong><span>Try clearing a filter or using a broader search.</span></td></tr>
     </template>
 
     <script type="module" src="./app.js"></script>

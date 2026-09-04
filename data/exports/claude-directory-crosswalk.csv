@@ -1,0 +1,376 @@
+broker_name,website,profile_slug,action,match_method,reported_regulator_count,research_tool_vendors,needs_review
+ATFX,https://www.atfx.com/pt/,atfx,MERGED,EXACT_OR_SUBDOMAIN,16,Trading Central,YES
+Plus500,https://www.plus500.com,plus500,MERGED,EXACT_OR_SUBDOMAIN,16,,NO
+Axi,https://www.axi.com/int,axi,ADDED,NEW_PROFILE,12,Autochartist,YES
+B2BROKER,https://b2broker.com/,b2broker,ADDED,NEW_PROFILE,10,,YES
+CFI,https://en.cfi.trade/,cfi-financial-group,MERGED,EXACT_OR_SUBDOMAIN,14,Trading Central,NO
+EC markets,https://www.ecmarkets.com/,ec-markets,ADDED,NEW_PROFILE,5,Acuity Trading,YES
+eToro,https://www.etoro.com/,etoro,MERGED,EXACT_OR_SUBDOMAIN,16,,NO
+Exness,https://www.exness.com/a/11817674,exness,MERGED,EXACT_OR_SUBDOMAIN,12,,NO
+TRADE NATION,https://tradenation.com/,trade-nation,ADDED,NEW_PROFILE,5,,YES
+XM,https://www.xm.com,xm-group,MERGED,EXACT_OR_SUBDOMAIN,13,Trading Central,YES
+AvaTrade,https://www.avatrade.com,avatrade,MERGED,EXACT_OR_SUBDOMAIN,14,Trading Central,NO
+capital.com,https://capital.com,capital-com,ADDED,NEW_PROFILE_AMBIGUOUS_EXISTING,12,,YES
+DBG MARKETS,https://www.dbgmarketsglobal.com/,dbg-markets,ADDED,NEW_PROFILE,3,Autochartist|Trading Central,YES
+doto,https://doto.com/,doto-europe-ltd-ex-vasby-capital-markets-ltd,MERGED,EXACT_OR_SUBDOMAIN,10,Trading Central,NO
+easyMarkets,https://www.easymarkets.com/,easymarkets,MERGED,EXACT_OR_SUBDOMAIN,11,,YES
+Finalto,https://www.finaltotrading.com/,finalto,ADDED,NEW_PROFILE,12,,YES
+FOREX.com,https://www.forex.com/,forex-com,MERGED,EXACT_OR_SUBDOMAIN,12,,YES
+Fortrade,https://www.fortrade.com/,fortrade,MERGED,EXACT_OR_SUBDOMAIN,11,,NO
+FXCM,https://www.fxcm.com,fxcm,MERGED,EXACT_NAME_OR_LEGAL_ENTITY,11,,NO
+FxPro,https://www.fxpro.com/,fxpro,MERGED,EXACT_OR_SUBDOMAIN,11,Trading Central,NO
+GO Markets,https://www.gomarkets.com/en/,go-markets-ltd-ex-galactus-ltd,MERGED,EXACT_OR_SUBDOMAIN,11,,NO
+HFM,https://www.hfm.com/,hfm,ADDED,NEW_PROFILE,11,Autochartist,YES
+IC,https://www.icmarkets.sc/en/,ic,ADDED,NEW_PROFILE,11,Trading Central,YES
+IG,https://www.ig.com/en,ig,MERGED,EXACT_OR_SUBDOMAIN,4,,NO
+InterStellar,https://www.fisg.com/,interstellar,ADDED,NEW_PROFILE,9,,YES
+IronFX,https://www.ironfx.co.uk/en,ironfx,MERGED,EXACT_NAME_OR_LEGAL_ENTITY,13,,YES
+Mitrade,https://www.mitrade.com,mitrade,ADDED,NEW_PROFILE,11,Trading Central,YES
+MONETA MARKETS,https://www.monetamarkets.com,moneta-markets,MERGED,EXACT_OR_SUBDOMAIN,5,,NO
+PU Prime,https://www.puprime.com/,pu-prime,ADDED,NEW_PROFILE,4,Autochartist|Trading Central,YES
+SBCFX,https://www.sbcfx.vip,sbcfx,ADDED,NEW_PROFILE,3,Trading Central,YES
+STARTRADER,https://www.startrader.com,startrader,ADDED,NEW_PROFILE,4,,YES
+Tickmill,https://www.tickmill.com/,tickmill-europe-ltd,MERGED,EXACT_OR_SUBDOMAIN,10,Acuity Trading,NO
+TRADING 212,https://www.trading212.com/en,trading-212-markets-ltd,MERGED,EXACT_OR_SUBDOMAIN,11,,YES
+VELOCITY TRADE,https://velocitytrade.com/,velocity-trade,ADDED,NEW_PROFILE,6,,YES
+XS,https://xs.com/,xs,ADDED,NEW_PROFILE,3,,YES
+ACCM,https://accmfx.com/,accm,ADDED,NEW_PROFILE,4,Autochartist|Trading Central,YES
+ACY Securities,https://acy.com,acy-securities,ADDED,NEW_PROFILE,2,,YES
+admiral,https://admiralmarkets.com/,admiral-markets-admirals,MERGED,EXACT_OR_SUBDOMAIN,10,,YES
+amana,https://amana.app/,amana,ADDED,NEW_PROFILE,11,,YES
+AUS Global,https://www.ausglobaluk.com/,aus-global,ADDED,NEW_PROFILE,3,Trading Central,YES
+AXPM,https://axpmprime.com,axpm,ADDED,NEW_PROFILE,2,,YES
+CMC MARKETS,https://www.cmcmarkets.com/en-sg/,cmc-markets,MERGED,EXACT_OR_SUBDOMAIN,4,,NO
+ColmexPRO,https://www.colmexpro.com/,colmex-pro-ltd,MERGED,EXACT_OR_SUBDOMAIN,10,,NO
+CPT Markets,https://cptmarkets.com,cpt-markets,ADDED,NEW_PROFILE,3,,YES
+CXM,https://www.cxmtrading.com/en/,cxm-2,ADDED,NEW_PROFILE_AMBIGUOUS_EXISTING,3,Trading Central,YES
+ETO Markets,https://www.eto.group/english/index.html,eto-markets,MERGED,EXACT_NAME_OR_LEGAL_ENTITY,3,,YES
+FP Markets,https://www.fpmarkets.com/en-sg/,fp-markets,MERGED,EXACT_OR_SUBDOMAIN,10,Acuity Trading|Autochartist|Trading Central,NO
+Fusion Markets,https://fusionmarkets.com,fusion-markets,MERGED,EXACT_OR_SUBDOMAIN,2,,NO
+GBE brokers,https://gbebrokers.global/,gbe-brokers,ADDED,NEW_PROFILE,10,,YES
+GLOBAL FUTURES SERVICES,https://gfsfutures.com/,global-futures-services,ADDED,NEW_PROFILE,2,,YES
+GTCFX,https://www.gtcfx.com,gtcfx,ADDED,NEW_PROFILE,4,Acuity Trading|Autochartist,YES
+HANTEC FINANCIAL,https://www.hantec.com/,hantec-financial-hantec-markets-asia,MERGED,EXACT_OR_SUBDOMAIN,3,Trading Central,NO
+HYCM,http://henyep.com/,hycm,MERGED,EXACT_NAME_OR_LEGAL_ENTITY,2,,NO
+InteractiveBrokers,https://www.interactivebrokers.com,interactive-brokers,MERGED,EXACT_OR_SUBDOMAIN,3,,YES
+LMAX GROUP,https://www.lmax.com/,lmax-broker-europe-ltd,MERGED,EXACT_OR_SUBDOMAIN,10,,YES
+MACRO,https://www.macroglobalmarkets.com/home,macro,ADDED,NEW_PROFILE,3,,YES
+NAGA,https://naga.com/,naga,MERGED,EXACT_OR_SUBDOMAIN,10,Trading Central,NO
+Neex,https://www.neex.com/,neex,ADDED,NEW_PROFILE,2,,YES
+Orbex,https://www.orbex.com.cy/,orbex-2,ADDED,NEW_PROFILE_AMBIGUOUS_EXISTING,11,,YES
+PGMarkets,https://www.pg-markets.com/en/,pgmarkets,ADDED,NEW_PROFILE,2,,YES
+PLOTIO,https://en.plotioglobal-group.com/,plotio,ADDED,NEW_PROFILE,4,,YES
+RoboMarkets,https://www.robomarkets.com.cy/,robomarkets-ltd,MERGED,EXACT_OR_SUBDOMAIN,9,,NO
+squaredfinancial,https://www.sqfin.com/,squaredfinancial,ADDED,NEW_PROFILE,10,,YES
+Swissquote,https://www.swissquote.eu/,swissquote,MERGED,EXACT_OR_SUBDOMAIN,4,,NO
+Taurex,https://taurex.asia/,taurex,MERGED,EXACT_NAME_OR_LEGAL_ENTITY,2,,YES
+TMGM,https://www.tmgm.com,tmgm,MERGED,EXACT_OR_SUBDOMAIN,4,Acuity Trading|Trading Central,YES
+TradeQuo,https://www.tradequo.com/,tradequo,ADDED,NEW_PROFILE,2,,YES
+trust Capital,https://trustcapital.com/,trust-capital,ADDED,NEW_PROFILE,10,,YES
+Ultima,https://www.ultimamarkets.com/,ultima-markets,MERGED,EXACT_OR_SUBDOMAIN,3,Trading Central,YES
+VALUTRADES,http://www.valutrades.com/,valutrades,ADDED,NEW_PROFILE,2,,YES
+vantage,https://en.vantage-markets.com/,vantage-vantage-markets,MERGED,EXACT_NAME_OR_LEGAL_ENTITY,4,,NO
+VT Markets,https://www.vtmarkets.com/,vt-markets,MERGED,EXACT_OR_SUBDOMAIN,3,,NO
+Windsor Brokers,https://en.windsorbrokers.eu/,windsor-brokers,MERGED,EXACT_NAME_OR_LEGAL_ENTITY,10,,YES
+XTB,https://www.xtb.com/en,xtb-ltd,MERGED,EXACT_OR_SUBDOMAIN,10,,NO
+ZFX,https://www.zfx.com/en/,zfx,ADDED,NEW_PROFILE,2,,YES
+Acetop,http://www.acetop.uk/,acetop,ADDED,NEW_PROFILE,1,,YES
+ActivTrades,https://www.activtrades.mu/en,activtrades,MERGED,EXACT_NAME_OR_LEGAL_ENTITY,2,Trading Central,NO
+ADM,https://www.admis.com.sg/,adm,ADDED,NEW_PROFILE,1,,YES
+Aegon Asset Management,https://www.aegonam.com/,aegon-asset-management,ADDED,NEW_PROFILE,1,,YES
+Afterprime,https://afterprime.com,afterprime,ADDED,NEW_PROFILE,7,,YES
+AIMS,https://www.aimsfx.com/,aims,ADDED,NEW_PROFILE,2,,YES
+AIMSCAP,https://aimscap.com,aimscap,ADDED,NEW_PROFILE,2,,YES
+Alchemy Markets,,alchemy-markets,ADDED,NEW_PROFILE,9,,YES
+ATC BROKERS,https://atcbrokers.co.uk/,atc-brokers,ADDED,NEW_PROFILE,2,,YES
+BBH,https://www.bbh.com/en-us,bbh,ADDED,NEW_PROFILE,1,,YES
+BCR,https://au.thebcr.com/,bcr,ADDED,NEW_PROFILE,1,,YES
+Blueberry,https://www.blueberrymarkets.com/,blueberry,ADDED,NEW_PROFILE,2,Acuity Trading,YES
+CWG Markets,https://www.cwgplatform.com/,cwg-markets,ADDED,NEW_PROFILE,2,Autochartist|Trading Central,YES
+D prime,https://www.dooprime.com,doo-prime,MERGED,EXACT_OR_SUBDOMAIN,3,Trading Central,YES
+darwinex,https://www.darwinex.com/,darwinex,ADDED,NEW_PROFILE,1,,YES
+DecodeFX,https://decodefx.com/en/,decodefx,ADDED,NEW_PROFILE,2,Autochartist|Trading Central,YES
+EBC FINANCIAL GROUP,https://www.ebcfin.com/,ebc-financial-group,MERGED,EXACT_NAME_OR_LEGAL_ENTITY,3,,YES
+eurotrader,https://www.eurotrader.com/en/website-home,eurotrader,MERGED,EXACT_OR_SUBDOMAIN,4,,YES
+Fortune Prime Global,https://fortuneprime.com/,fortune-prime-global,ADDED,NEW_PROFILE,2,,YES
+FREEDOM 24,https://en.freedom24.com/,freedom-finance-europe-ltd,MERGED,EXACT_OR_SUBDOMAIN,9,,YES
+FXT,https://fxtrading.com/,fxtrading-com-fxt,MERGED,EXACT_OR_SUBDOMAIN,2,Trading Central,YES
+GeGold,https://www.gegoldtrade.com/,gegold,ADDED,NEW_PROFILE,1,,YES
+HANTEC MARKETS,https://hmarkets.com/,hantec-financial-hantec-markets-asia,MERGED,EXACT_NAME_OR_LEGAL_ENTITY,2,Acuity Trading,NO
+Harmovest Capital,https://hamovest.com/,harmovest-capital,ADDED,NEW_PROFILE,10,,YES
+iDealing.com,https://www.idealing.com,idealing-com,ADDED,NEW_PROFILE,1,,YES
+ISEC,https://is-wm.com/public/index.php,isec-wealth-management-ltd,MERGED,EXACT_OR_SUBDOMAIN,1,,NO
+IUX,https://iux.com/en,iux,ADDED,NEW_PROFILE,2,,YES
+Jefferies,http://www.jefferies.com/,jefferies,ADDED,NEW_PROFILE,2,,YES
+KCM Trade,https://www.kcmtrade.com/,kcm-trade,ADDED,NEW_PROFILE,2,,YES
+Lirunex,https://lirunex.com/,lirunex,ADDED,NEW_PROFILE,9,,YES
+LTG,https://www.ltgmarkets.com/,ltg,ADDED,NEW_PROFILE,2,,YES
+M4Markets,https://www.m4markets.com/,m4markets,ADDED,NEW_PROFILE,4,,YES
+MAGIC COMPASS,https://www.magiccompass.com,magic-compass-ltd,MERGED,EXACT_OR_SUBDOMAIN,9,,NO
+Make Capital,https://www.makecapital.com/,make-capital,ADDED,NEW_PROFILE,2,,YES
+MEGA FUSION,https://www.mega-fusion.com/,mega-fusion,ADDED,NEW_PROFILE,2,Autochartist,YES
+MH Markets,http://tamrontech.com/,mh-markets,ADDED,NEW_PROFILE,2,,YES
+NCM,https://www.ncminvest.com/,ncm,ADDED,NEW_PROFILE,1,,YES
+OEXN,https://www.oexn.global/,oexn,ADDED,NEW_PROFILE,7,,YES
+OFX,https://www.ofx.com/en-au/,ofx,ADDED,NEW_PROFILE,1,,YES
+OnsaFX,https://onsafx.com/,onsafx,ADDED,NEW_PROFILE,1,,YES
+OTSO Markets,https://www.otsomarkets.com,otso-markets,ADDED,NEW_PROFILE,2,,YES
+quadcode markets,https://quadcodemarkets.com/,iqbroker-europe-ltd-ex-iqoption-europe-ltd,MERGED,EXACT_OR_SUBDOMAIN,1,,NO
+RKX,https://www.rkx.com/,rkx,ADDED,NEW_PROFILE,2,,YES
+RS Finance,https://rs-fin.com,rs-finance,ADDED,NEW_PROFILE,1,Trading Central,YES
+SAXO,https://www.home.saxo/en-hk,saxo-banque-france,MERGED,EXACT_OR_SUBDOMAIN,2,,YES
+Scope Markets,https://www.scopemarkets.com/en/,scope-markets,ADDED,NEW_PROFILE,3,,YES
+Sigma,http://www.sigma-broking.com,sigma,ADDED,NEW_PROFILE,1,,YES
+SPREADEX,https://www.spreadex.com/financials/,spreadex,ADDED,NEW_PROFILE,1,,YES
+Tavira,http://tavira.group/,tavira,ADDED,NEW_PROFILE,1,,YES
+TFIfx,https://tfifx.com/,tfi-ecommpay-ltd-ex-tfi-markets-ltd,MERGED,EXACT_OR_SUBDOMAIN,10,,YES
+tier1fx,https://www.tier1fx.com,tier1fx,ADDED,NEW_PROFILE,9,,YES
+TIGER BROKERS,https://www.itiger.com/hk/en/,tiger-brokers,ADDED,NEW_PROFILE,2,,YES
+TITAN FX,https://titanfx.com/,titan-fx,MERGED,EXACT_OR_SUBDOMAIN,3,,YES
+TOPFX,https://www.topfx.com/en/,topfx,MERGED,EXACT_OR_SUBDOMAIN,10,,YES
+Traders’ Hub,https://tradershub.ae,traders-hub,ADDED,NEW_PROFILE,1,Acuity Trading,YES
+traze,https://traze.com/,traze,ADDED,NEW_PROFILE,3,,YES
+Trive,https://www.trive.com/int/,trive,ADDED,NEW_PROFILE,3,Trading Central,YES
+uexo,https://uexo.com/,uexo,ADDED,NEW_PROFILE,2,Acuity Trading,YES
+UIIC,http://www.uiic.co.uk,uiic,ADDED,NEW_PROFILE,1,,YES
+VAHA,https://www.vahatrade.com,vaha,ADDED,NEW_PROFILE,2,,YES
+WeTrade,https://www.wetrade.com/,wetrade,ADDED,NEW_PROFILE,1,,YES
+ZIFI Markets Ltd,https://www.zifimarketsltd.com/,zifi-markets-ltd,ADDED,NEW_PROFILE,2,,YES
+markets.com,https://global.markets.com,markets-com,MERGED,EXACT_OR_SUBDOMAIN,14,Trading Central,NO
+ForexMart,https://theforexmart.com/,forexmart,ADDED,NEW_PROFILE,12,,YES
+Earn,,earn,ADDED,NEW_PROFILE,8,,YES
+Eurivex,http://eurivex.com/,eurivex-ltd,MERGED,EXACT_OR_SUBDOMAIN,4,,YES
+deriv,https://www.deriv.com,deriv,ADDED,NEW_PROFILE,6,,YES
+Just2Trade,https://j2t.global/,just2trade,MERGED,EXACT_NAME_OR_LEGAL_ENTITY,4,Trading Central,NO
+OLIVE TREE CAPITAL MARKETS,https://www.otcm.eu/,olive-tree-capital-markets-limited,MERGED,EXACT_OR_SUBDOMAIN,7,,YES
+GPB-Financial Services Limited,https://www.gpbfs.com.cy/,gpb-financial-services-ltd,MERGED,EXACT_OR_SUBDOMAIN,4,,NO
+FXOpen,https://www.fxopen.com/en,fxopen-eu-ltd,MERGED,EXACT_OR_SUBDOMAIN,4,,NO
+MEGA EQUITY,https://www.megaequity.com/home,mega-equity-securities-and-financial-services-public-ltd,MERGED,EXACT_OR_SUBDOMAIN,4,,YES
+OMEGA FUNDS INVESTMENT,https://www.omegainvest.com.cy/,omega-funds-investment-ltd,MERGED,EXACT_OR_SUBDOMAIN,3,,YES
+WISDOMPOINT CAPITAL,https://wisdompointcapital.com/,wisdompoint-capital-ltd,MERGED,EXACT_OR_SUBDOMAIN,3,,NO
+SKANESTAS,http://www.skanestas.com/,skanestas-investments-ltd,MERGED,EXACT_OR_SUBDOMAIN,4,,YES
+PURPLE TRADING,,purple-trading,ADDED,NEW_PROFILE,3,,YES
+Ronin Europe,https://ron.in/,ronin-europe-ltd,MERGED,EXACT_OR_SUBDOMAIN,2,,NO
+iFOREX Europe,https://www.iforex.eu,icfd-ltd,MERGED,EXACT_OR_SUBDOMAIN,3,Trading Central,NO
+Dragon Capital,https://dccl.com.cy,dragon-capital-cyprus-ltd,MERGED,EXACT_OR_SUBDOMAIN,3,,YES
+T MARKETS,http://www.trademarkets.eu,t-markets-eu-limited-ex-nbh-markets-eu-limited,MERGED,EXACT_OR_SUBDOMAIN,3,,NO
+XTrend,https://thextrend.com/,rynat-trading-ltd,MERGED,EXACT_OR_SUBDOMAIN,2,,YES
+WWF,http://www.wise-wolves.finance/,wise-wolves-finance-ltd,MERGED,EXACT_OR_SUBDOMAIN,2,,YES
+MCPRIME,https://www.mc-prime.com/en/,mcprime,ADDED,NEW_PROFILE,3,,YES
+Alvexo,http://www.alvexo.com/,alvexo,ADDED,NEW_PROFILE,3,,YES
+TrioMarkets,http://www.triomarkets.eu,edr-financial-ltd,MERGED,EXACT_OR_SUBDOMAIN,2,,YES
+FXORO,https://orofintech.com/,fxoro,MERGED,EXACT_NAME_OR_LEGAL_ENTITY,3,,YES
+ONE ROYAL,https://www.oneroyalmalaysia.com/,oneroyal,MERGED,EXACT_NAME_OR_LEGAL_ENTITY,2,,YES
+RYNAT,http://www.rynattrading.com/,rynat-trading-ltd,MERGED,EXACT_OR_SUBDOMAIN,2,,YES
+Atlantic Securities,,atlantic-securities,ADDED,NEW_PROFILE,1,,YES
+ALPHA GOLD FUTURES,https://alphagoldfutures.com.kh,alpha-gold-futures,ADDED,NEW_PROFILE,1,,YES
+BLACKWELL GLOBAL,https://www.blackwellglobal.com/,blackwell-global,ADDED,NEW_PROFILE,2,,YES
+STMARKET,,stmarket,ADDED,NEW_PROFILE,1,,YES
+G-LINK,https://goldenfxlink.com/en-US/,g-link,ADDED,NEW_PROFILE,1,,YES
+AXION TRADE,https://axiontrade.net/en,axion-trade,ADDED,NEW_PROFILE,2,,YES
+XAUMERLION,https://xaumerlion.com.kh,xaumerlion,ADDED,NEW_PROFILE,1,,YES
+BroJets,http://brojets.com/,brojets,ADDED,NEW_PROFILE,1,,YES
+Y.A.I TRADING,,y-a-i-trading,ADDED,NEW_PROFILE,1,,YES
+BIC Markets,https://www.bicmarkets.com.kh/,bic-markets,ADDED,NEW_PROFILE,1,,YES
+TRIDENTPRO FUTURE,https://tridentprofuture.com.kh,tridentpro-future,ADDED,NEW_PROFILE,1,,YES
+QUANTFURY,https://quantfury.com/,quantfury,ADDED,NEW_PROFILE,3,,YES
+INFINOX,,infinox,ADDED,NEW_PROFILE,2,,YES
+ST Global Markets,https://stgmarkets.com/,st-global-markets,ADDED,NEW_PROFILE,1,,YES
+PALM CAPITAL,https://www.palmglobalcapital.com/en,palm-capital,ADDED,NEW_PROFILE,1,,YES
+FIXIO,https://fixiomarkets.com/en/home,fixio,ADDED,NEW_PROFILE,1,,YES
+Phillip Futures,,phillip-futures,ADDED,NEW_PROFILE,3,,YES
+AGRODANA FUTURES,,agrodana-futures,ADDED,NEW_PROFILE,3,,YES
+MIFX,http://www.mifx.com/,mifx,ADDED,NEW_PROFILE,3,,YES
+CFFOREX,https://www.cfforex.com/,cfforex,ADDED,NEW_PROFILE,3,,YES
+Inter Pan,http://www.interpanpasifikfutures.com,inter-pan,ADDED,NEW_PROFILE,3,,YES
+MENTARI MULIA,https://www.mentarimulia.co.id/,mentari-mulia,ADDED,NEW_PROFILE,3,,YES
+MIDTOU,https://www.midtou.com/,midtou,ADDED,NEW_PROFILE,2,,YES
+VICTORY INTERNATIONAL FUTURES,,victory-international-futures,ADDED,NEW_PROFILE,2,,YES
+HSB,https://www.hsb.co.id/,hsb,ADDED,NEW_PROFILE,2,,YES
+CGS International,https://www.cgsi.co.th,cgs-international,ADDED,NEW_PROFILE,3,,YES
+PasarFX,https://pasarfx.co.id/,pasarfx,ADDED,NEW_PROFILE,3,,YES
+MagnetFX,https://www.magnetfx.co.id/,magnetfx,ADDED,NEW_PROFILE,2,,YES
+JAVA,https://www.javafx.co.id/,java,ADDED,NEW_PROFILE,2,,YES
+DOO FINANCIAL,https://www.doofinancial.com/,doo-financial-doo-group-singapore,MERGED,EXACT_NAME_OR_LEGAL_ENTITY,4,,YES
+QuickPro,https://www.quickpro.co.id/,quickpro,ADDED,NEW_PROFILE,3,,YES
+RRFX,https://rrfx.co.id/,rrfx,ADDED,NEW_PROFILE,3,,YES
+trive invest,https://www.triveinvest.co.id/,trive-invest,ADDED,NEW_PROFILE,4,,YES
+First State Futures,https://www.fsf.co.id/,first-state-futures,ADDED,NEW_PROFILE,3,Autochartist,YES
+Surya,https://www.surya-am.com/,surya,ADDED,NEW_PROFILE,1,,YES
+Markets4you,https://www.markets4you.com/en/,markets4you,MERGED,EXACT_OR_SUBDOMAIN,1,,YES
+IFC Markets,https://www.trifcm.asia/,ifc-markets,ADDED,NEW_PROFILE,1,,YES
+FTD,https://www.ftdsystem.com/,ftd,ADDED,NEW_PROFILE,1,,YES
+FIBOGROUP,http://www.fibogroup.com/,fibogroup,ADDED,NEW_PROFILE,1,,YES
+ZITA PLUS,https://zitaplus.com,zita-plus,ADDED,NEW_PROFILE,1,,YES
+sgt. MARKETS,https://sgt.markets/,sgt-markets,ADDED,NEW_PROFILE,1,,YES
+CNS,http://www.cnsinvest.com/home.html,cns,ADDED,NEW_PROFILE,1,,YES
+Zooe,https://zooe.com,zooe,ADDED,NEW_PROFILE,1,,YES
+MFX-Trading,https://mfx.az/az,mfx-trading,ADDED,NEW_PROFILE,1,,YES
+Moomoo,,moomoo,ADDED,NEW_PROFILE,1,,YES
+uSMART,,usmart,ADDED,NEW_PROFILE,1,,YES
+ORIENT SECURITIES,,orient-securities,ADDED,NEW_PROFILE,1,,YES
+Blackrock,,blackrock,ADDED,NEW_PROFILE,1,,YES
+StoneX,,stonex,ADDED,NEW_PROFILE,1,,YES
+KGI,,kgi,ADDED,NEW_PROFILE,1,,YES
+Phillip Nova,,phillip-nova,ADDED,NEW_PROFILE,1,,YES
+OCBC,,ocbc,ADDED,NEW_PROFILE,1,,YES
+STARX CAPITAL MARKETS,,starx-capital-markets,ADDED,NEW_PROFILE,1,,YES
+Straits Financial,,straits-financial,ADDED,NEW_PROFILE,1,,YES
+PhillipCapital,,phillip-nova-phillip-metatrader-5,MERGED,EXACT_NAME_OR_LEGAL_ENTITY,1,,YES
+tickrs,,tickrs,ADDED,NEW_PROFILE,1,,YES
+Lunaro,,lunaro,ADDED,NEW_PROFILE,1,,YES
+ICM.com,,icm-com-uae,MERGED,EXACT_NAME_OR_LEGAL_ENTITY,1,,YES
+FOCUS Markets,,focus-markets,ADDED,NEW_PROFILE,2,,YES
+WISDOM,,wisdom,ADDED,NEW_PROFILE,1,,YES
+IMPERIAL,,imperial,ADDED,NEW_PROFILE,1,,YES
+FINSAI TRADE,,finsai-trade,ADDED,NEW_PROFILE,1,,YES
+ZENORA,,zenora,ADDED,NEW_PROFILE,1,,YES
+NewEra 365,,newera-365,ADDED,NEW_PROFILE,1,,YES
+InvidiaTrade,,invidiatrade,ADDED,NEW_PROFILE,1,,YES
+Bullsouq,,bullsouq,ADDED,NEW_PROFILE,1,,YES
+INTERTRADER,,intertrader,ADDED,NEW_PROFILE,2,,YES
+FXCG,,fxcg,ADDED,NEW_PROFILE,1,,YES
+Capital Markets Elite Group,,capital-markets-elite-group,ADDED,NEW_PROFILE,1,,YES
+TRADEVIEW MARKETS,,tradeview-markets,ADDED,NEW_PROFILE,1,,YES
+FTM BROKERS,,ftm-brokers,ADDED,NEW_PROFILE,1,,YES
+ForexBY,,forexby,ADDED,NEW_PROFILE,1,,YES
+FXPN,,fxpn,ADDED,NEW_PROFILE,1,,YES
+ForexClub,,forexclub,ADDED,NEW_PROFILE,1,,YES
+ROYAL CAPITAL,,royal-capital,ADDED,NEW_PROFILE,1,,YES
+BlackBull,,blackbull,ADDED,NEW_PROFILE,1,,YES
+Longbridge,,longbridge,ADDED,NEW_PROFILE,1,,YES
+TopWealth Trading,,topwealth-trading,ADDED,NEW_PROFILE,2,,YES
+CA Markets,,ca-markets,ADDED,NEW_PROFILE,2,,YES
+RockGlobal,,rockglobal,ADDED,NEW_PROFILE,1,,YES
+Astral,,astral,ADDED,NEW_PROFILE,1,,YES
+LLA Markets,,lla-markets,ADDED,NEW_PROFILE,1,,YES
+TradeHall,,tradehall,ADDED,NEW_PROFILE,1,,YES
+RALLYVILLE MARKETS,,rallyville-markets,ADDED,NEW_PROFILE,1,,YES
+Vatee,,vatee,ADDED,NEW_PROFILE,1,,YES
+DLSM,,dlsm,ADDED,NEW_PROFILE,1,,YES
+evest,,evest,MERGED,EXACT_NAME_OR_LEGAL_ENTITY,1,,YES
+JFD,,jfd,ADDED,NEW_PROFILE,1,,YES
+Juno Markets,,juno-markets,ADDED,NEW_PROFILE,1,,YES
+PRCBroker,,prcbroker,ADDED,NEW_PROFILE,1,,YES
+MDM,,mdm,ADDED,NEW_PROFILE,1,,YES
+XGLOBAL,,xglobal,ADDED,NEW_PROFILE,1,,YES
+LegacyFX,,legacyfx,ADDED,NEW_PROFILE,1,,YES
+Gerchik & Co,,gerchik-co,ADDED,NEW_PROFILE,1,,YES
+Autu,,autu,ADDED,NEW_PROFILE,1,,YES
+JMI Brokers,,jmi-brokers,ADDED,NEW_PROFILE,1,,YES
+DTT VAN LTD,,dtt-van-ltd,ADDED,NEW_PROFILE,1,,YES
+Market Equity,,market-equity,ADDED,NEW_PROFILE,1,,YES
+Radar Brokers,,radar-brokers,ADDED,NEW_PROFILE,1,,YES
+SMARTFX,,smartfx,ADDED,NEW_PROFILE,1,,YES
+Oriental Wealth Markets,,oriental-wealth-markets,ADDED,NEW_PROFILE,1,,YES
+ThreeTrader,,threetrader,ADDED,NEW_PROFILE,1,,YES
+GMTK Fintech,,gmtk-fintech,ADDED,NEW_PROFILE,1,,YES
+JMarkets,,jmarkets,ADDED,NEW_PROFILE,1,,YES
+CDO Markets,,cdo-markets,ADDED,NEW_PROFILE,1,,YES
+SUN LONG GMTK INTERNATIONAL,,sun-long-gmtk-international,ADDED,NEW_PROFILE,1,,YES
+TJM,,tjm,ADDED,NEW_PROFILE,1,,YES
+CI DIRECT INVESTING,,ci-direct-investing,ADDED,NEW_PROFILE,1,,YES
+cg/ Direct,,cg-direct,ADDED,NEW_PROFILE,1,,YES
+Questrade,,questrade,MERGED,EXACT_NAME_OR_LEGAL_ENTITY,1,,NO
+RBC,,rbc,ADDED,NEW_PROFILE,1,,YES
+RBC Securities,,rbc-securities,ADDED,NEW_PROFILE,1,,YES
+Odlum Brown,,odlum-brown,ADDED,NEW_PROFILE,1,,YES
+CANDEAL,,candeal,ADDED,NEW_PROFILE,1,,YES
+R.J.O'Brien,,r-j-o-brien,ADDED,NEW_PROFILE,1,,YES
+Jitneytrade,,jitneytrade,ADDED,NEW_PROFILE,1,,YES
+Argosy Securities,,argosy-securities,ADDED,NEW_PROFILE,1,,YES
+Ventum Financial,,ventum-financial,ADDED,NEW_PROFILE,1,,YES
+JonesTrading,,jonestrading,ADDED,NEW_PROFILE,1,,YES
+PIPWISE,,pipwise,ADDED,NEW_PROFILE,1,,YES
+GARNETTRADE,,garnettrade,ADDED,NEW_PROFILE,1,,YES
+xChief,,xchief,ADDED,NEW_PROFILE,1,,YES
+Murrentrade,,murrentrade,ADDED,NEW_PROFILE,1,,YES
+STP Trading,,stp-trading,ADDED,NEW_PROFILE,1,,YES
+IS6FX,,is6fx,ADDED,NEW_PROFILE,1,,YES
+FXNX,,fxnx,ADDED,NEW_PROFILE,1,,YES
+AMarkets,,amarkets,ADDED,NEW_PROFILE,1,,YES
+GINZO,,ginzo,ADDED,NEW_PROFILE,1,,YES
+DOMINION MARKETS,,dominion-markets,MERGED,EXACT_NAME_OR_LEGAL_ENTITY,1,,YES
+NPB MARKETS,,npb-markets,ADDED,NEW_PROFILE,1,,YES
+FELIX MARKETS,,felix-markets,ADDED,NEW_PROFILE,1,,YES
+METAGOLD,,metagold,ADDED,NEW_PROFILE,1,,YES
+Phyntex,,phyntex,ADDED,NEW_PROFILE,1,,YES
+Invistro,,invistro,ADDED,NEW_PROFILE,1,,YES
+WeGolden,,wegolden,ADDED,NEW_PROFILE,1,,YES
+WINGO MARKETS,,wingo-markets,ADDED,NEW_PROFILE,1,,YES
+YWO,,ywo,ADDED,NEW_PROFILE,1,,YES
+ELEV8,,elev8,ADDED,NEW_PROFILE,1,,YES
+eplanet,,eplanet,ADDED,NEW_PROFILE,1,,YES
+INZO,,inzo,ADDED,NEW_PROFILE,1,,YES
+LDN Global Markets,,ldn-global-markets,ADDED,NEW_PROFILE,1,,YES
+Valbury,,valbury,ADDED,NEW_PROFILE,2,,YES
+Dupoin,,dupoin,ADDED,NEW_PROFILE,3,,YES
+KVB,,kvb,ADDED,NEW_PROFILE,3,,YES
+FINEX,,finex,ADDED,NEW_PROFILE,2,,YES
+TPFx,,tpfx,ADDED,NEW_PROFILE,2,,YES
+DIDIMAX,,didimax,ADDED,NEW_PROFILE,2,,YES
+International Business Futures,,international-business-futures,ADDED,NEW_PROFILE,2,,YES
+maxco,,maxco,ADDED,NEW_PROFILE,2,,YES
+EsaFX,,esafx,ADDED,NEW_PROFILE,2,,YES
+MAHADANA,,mahadana,ADDED,NEW_PROFILE,2,,YES
+MRG MEGA BERJANGKA,,mrg-mega-berjangka,ADDED,NEW_PROFILE,2,,YES
+SFI,,sfi,ADDED,NEW_PROFILE,2,,YES
+PREMIER EQUITY FUTURES,,premier-equity-futures,ADDED,NEW_PROFILE,2,,YES
+PT. Gatra Mega Berjangka,,pt-gatra-mega-berjangka,ADDED,NEW_PROFILE,2,,YES
+ORBI TRADE BERJANGKA,,orbi-trade-berjangka,ADDED,NEW_PROFILE,2,,YES
+PG berjangka,,pg-berjangka,ADDED,NEW_PROFILE,2,,YES
+GENESIS,,genesis,ADDED,NEW_PROFILE,2,,YES
+BestProfit,,bestprofit,ADDED,NEW_PROFILE,2,,YES
+Menara Mas Futures,,menara-mas-futures,ADDED,NEW_PROFILE,2,,YES
+TRIDENT PRO FUTURES,,trident-pro-futures,ADDED,NEW_PROFILE,2,,YES
+United Asia Futures,,united-asia-futures,ADDED,NEW_PROFILE,2,,YES
+IDFX,,idfx,ADDED,NEW_PROFILE,2,,YES
+PanEn Kapital Berjangka,,panen-kapital-berjangka,ADDED,NEW_PROFILE,2,,YES
+INVETRA TEKNOLOGI BERJANGKA,,invetra-teknologi-berjangka,ADDED,NEW_PROFILE,2,,YES
+Langit Indonesia Berjangka,,langit-indonesia-berjangka,ADDED,NEW_PROFILE,2,,YES
+GLOBAL BUANA KARYA,,global-buana-karya,ADDED,NEW_PROFILE,1,,YES
+FirstState-Futures,,first-state-futures,MERGED,EXACT_NAME_OR_LEGAL_ENTITY,1,,YES
+Valetax,,valetax,ADDED,NEW_PROFILE,1,,YES
+Errante,,errante,ADDED,NEW_PROFILE,1,,YES
+BROCTAGON prime,,broctagon-prime,ADDED,NEW_PROFILE,1,,YES
+Renaissance Capital,,renaissance-capital,ADDED,NEW_PROFILE,1,,YES
+ROYAL TRUST FUTURES,,royal-trust-futures,ADDED,NEW_PROFILE,1,,YES
+ASIAPRO,,asiapro,ADDED,NEW_PROFILE,1,,YES
+HFX,,hfx,ADDED,NEW_PROFILE,1,,YES
+XS.com,,xs-com,ADDED,NEW_PROFILE,1,,YES
+AETRAM,,aetram,ADDED,NEW_PROFILE,1,,YES
+AURUM MARKETS,,aurum-markets,ADDED,NEW_PROFILE,1,,YES
+VARIANSE,,varianse,ADDED,NEW_PROFILE,1,,YES
+CapitalXtend,,capitalxtend,ADDED,NEW_PROFILE,1,,YES
+Amillex,,amillex,ADDED,NEW_PROFILE,1,,YES
+Wisuno,,wisuno,ADDED,NEW_PROFILE,1,,YES
+ZERO,,zero,ADDED,NEW_PROFILE,1,,YES
+Spec Markets,,spec-markets,ADDED,NEW_PROFILE,1,,YES
+MENACAPITAL,,mena-capital,MERGED,EXACT_NAME_OR_LEGAL_ENTITY,1,,YES
+GODO,,godo,ADDED,NEW_PROFILE,1,,YES
+Riyadex,,riyadex,ADDED,NEW_PROFILE,1,,YES
+Fortuna Markets,,fortuna-markets,ADDED,NEW_PROFILE,1,,YES
+Giraffe Markets,,giraffe-markets,ADDED,NEW_PROFILE,1,,YES
+RubyFX,,rubyfx,ADDED,NEW_PROFILE,1,,YES
+MBFX,,mbfx,ADDED,NEW_PROFILE,1,,YES
+ARFX,,arfx,ADDED,NEW_PROFILE,1,,YES
+Forexcitypro,,forexcitypro,ADDED,NEW_PROFILE,1,,YES
+FlipTrade Group,,fliptrade-group,ADDED,NEW_PROFILE,1,,YES
+Maxify,,maxify,ADDED,NEW_PROFILE,1,,YES
+TRADE FX,,trade-fx,ADDED,NEW_PROFILE,1,,YES
+POXPRIME,,poxprime,ADDED,NEW_PROFILE,1,,YES
+Born2trade,,born2trade,ADDED,NEW_PROFILE,1,,YES
+Celestial Trader,,celestial-trader,ADDED,NEW_PROFILE,1,,YES
+AMBITIOUS FINCORP,,ambitious-fincorp,ADDED,NEW_PROFILE,1,,YES
+Prima Capital,,prima-capital,ADDED,NEW_PROFILE,1,,YES
+brillant capital,,brillantcapital,MERGED,EXACT_NAME_OR_LEGAL_ENTITY,1,,YES
+VOLURR BROKERAGE,,volurr-brokerage,ADDED,NEW_PROFILE,1,,YES
+ATM CAPITAL,,atm-capital,MERGED,EXACT_NAME_OR_LEGAL_ENTITY,1,,YES
+SGFX,,sgfx,ADDED,NEW_PROFILE,1,,YES
+SEA GLOBAL,,sea-global,ADDED,NEW_PROFILE,1,,YES
+RADIANCE MARKETS,,radiance-markets,ADDED,NEW_PROFILE,1,,YES
+dragonflyfx,,dragonflyfx,ADDED,NEW_PROFILE,1,,YES
+BLUVOX,,bluvox,ADDED,NEW_PROFILE,1,,YES
+ByteFX,,bytefx,ADDED,NEW_PROFILE,1,,YES
+AKROS,,akros,ADDED,NEW_PROFILE,1,,YES
+EDMORA MARKETS,,edmora-markets,ADDED,NEW_PROFILE,1,,YES

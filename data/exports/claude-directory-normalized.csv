@@ -1,0 +1,376 @@
+broker_name,website,regulator_count,regulators,hq_country,founded_year,license_status,notes,website_enriched,research_tool_status,research_tool_vendors,research_tool_notes,research_tool_pages_checked
+ATFX,https://www.atfx.com/pt/,16,FCA|ASIC|CySEC|FSCA|FSA Seychelles|MFSA|FSMA|SERC|ASF|FMA|FSA Denmark|AFM|KNF|CNMV|FIN-FSA|FSC Mauritius,United Kingdom,2014,FSA: Offshore Regulation,"Institution | Platforms: MT4, MT5",YES,competitor,Trading Central,"Strong, unambiguous Trading Central integration referenced repeatedly in nav, tabs, and image filenames.",https://www.atfx.com/pt/
+Plus500,https://www.plus500.com,16,FCA|ASIC|CySEC|DFSA|FSA Seychelles|MFSA|ASF|SCB|FMA|FSA Denmark|AFM|MAS|KNF|CNMV|CIRO|BAPPEBTI,Israel,2008,Regulated,"Institutional, Retail | Platforms: Plus500 WebTrader, Plus500 Windows Trader, Plus500 mobile app",YES,none-found,,"No mentions of Trading Central, Autochartist, or Acuity Trading found in homepage markdown/rawHtml (text or hrefs).",https://www.plus500.com
+Axi,https://www.axi.com/int,12,FCA|ASIC|CySEC|DFSA|MFSA|ASF|FMA|FSA Denmark|AFM|KNF|FIN-FSA|CNMV,Australia,2007,Regulated,"Institutional, Retail | Platforms: Copy Trading App, MT4, MT4 WebTrader",YES,autochartist,Autochartist,"Strong, unambiguous Autochartist integration with dedicated tools page.",https://www.axi.com/int
+B2BROKER,https://b2broker.com/,10,CySEC|FSCA|DFSA|FSA Seychelles|MFSA|ASF|FMA|FSA Denmark|CNMV|FSC Mauritius,Cyprus,2017,FSA: Offshore Regulation,"multi-asset liquidity provider | Platforms: Prime XM, oneZero, cTrader, FIX API, Bridge for MT4/MT5",YES,none-found,,"No matches. B2Broker is a technology/liquidity provider itself, not a retail broker storefront, so a 'Research Tools' page is less applicable.",https://b2broker.com/
+CFI,https://en.cfi.trade/,14,FCA|CySEC|FSCA|FSA Seychelles|MFSA|FSMA|ASF|CBAR|FSA Denmark|AFM|VFSC|KNF|CNMV|FSC Mauritius,Mauritius,2016,FSA: Offshore Regulation; VFSC: Offshore Regulation,"Institutional, Retail | Platforms: MT4, MT5, Trading App, cTrader, Multi-Asset, TradingView",YES,competitor,Trading Central,Listed URL en.cfi.trade returned Cloudflare 1014 as expected per pilot notes; fallback cfi.trade/en worked and confirmed Trading Central integration.,"https://en.cfi.trade/ (blocked, Cloudflare error 1014)|https://cfi.trade/en (success, per pilot fallback)"
+EC markets,https://www.ecmarkets.com/,5,FCA|ASIC|FSCA|FSA Seychelles|FSC Mauritius,United Kingdom,2010,FSA: Offshore Regulation,"Institutional, Retail | Platforms: MT4, Mobile, Webtrader",YES,acuity,Acuity Trading,"AMBIGUOUS/LOW CONFIDENCE: only CSS class names containing 'acuity' were found (no visible text, no acuitytrading.com/acuity.trade domain reference, no 'Acuity Trading' text). Could indicate an Acuity Trading widget/download embedded on a specific landing page template, or could be an unrelated generic class name. Flagged per FIX #2 loose-recall instruction but needs manual verification (e.g., visiting the actual landing page referenced by 'hold-trade-lp').",https://www.ecmarkets.com/
+eToro,https://www.etoro.com/,16,FCA|ASIC|CySEC|FSA Seychelles|MFSA|FSMA|ASF|FMA|FSA Denmark|AFM|MAS|ADGM|FINRA|KNF|CNMV|FIN-FSA,United Kingdom,2007,FSA: Offshore Regulation,"Retail, Institutional | Platforms: eToro proprietary platform, MetaTrader 4",YES,none-found,,No matches found. eToro is largely a social/copy-trading platform; page is JS-heavy but rawHtml was still captured.,https://www.etoro.com/
+Exness,https://www.exness.com/a/11817674,12,FCA|CySEC|FSCA|FSA Seychelles|MFSA|FSMA|ASF|FMA|FSA Denmark|AFM|CNMV|FIN-FSA,Cyprus,2008,FSA: Offshore Regulation,"Market Making (MM) | Platforms: MT4, MT5, Exness Terminal, Exness Trade app",YES,none-found,,No matches found.,https://www.exness.com/a/11817674
+TRADE NATION,https://tradenation.com/,5,FCA|ASIC|FSCA|FSA Seychelles|SCB,United Kingdom,2014,FSA: Offshore Regulation; SCB: Offshore Regulation,"Retail, Institutional | Platforms: MT4, Trade Nation Platform, TN Trader, TradingView",YES,none-found,,No matches found.,https://tradenation.com/
+XM,https://www.xm.com,13,ASIC|CySEC|FSCA|DFSA|MFSA|FSMA|ASF|FMA|FSA Denmark|AFM|KNF|CNMV|FSC Belize,Cyprus,2009,Regulated,"Institutional, Retail | Platforms: MT4, MT5, XM App",YES,competitor,Trading Central,Confirmed via embedded i18n JSON strings on homepage (SEO descriptions + homepage card copy).,https://www.xm.com
+AvaTrade,https://www.avatrade.com,14,ASIC|CySEC|FSCA|MFSA|FSMA|ASF|BVI FSC|FMA|FSA Denmark|AFM|ADGM|CBI|KNF|CNMV,Ireland,2006,FCA: Offshore Regulation,"Forex, CFDs | Platforms: AvaTrade Mobile App, WebTrader, AvaSocial, AvaOptions, MT4, MT5, DupliTrade",YES,competitor,Trading Central,"Strong, repeated confirmation across homepage copy, nav, and footer.",https://www.avatrade.com
+capital.com,https://capital.com,12,FCA|ASIC|CySEC|MFSA|ASF|SCB|FMA|FSA Denmark|AFM|FIN-FSA|KNF|CNMV,Bahamas,2016,SCB: Offshore Regulation,"Institutional, Retail | Platforms: Mobile Apps, Desktop, TradingView, MT4",YES,none-found,,No matches found despite large page (very JS-heavy SPA); rawHtml was captured but no vendor references found.,https://capital.com
+DBG MARKETS,https://www.dbgmarketsglobal.com/,3,FCA|ASIC|FSCA,United Kingdom,2007,Regulated,"Institutional, Retail | Platforms: MT4, MT5",YES,competitor,Autochartist|Trading Central,"Both vendors confirmed with extensive dedicated homepage content (marketing copy embedded as translation JSON in rawHtml, not visible as plain markdown text).",https://www.dbgmarketsglobal.com/
+doto,https://doto.com/,10,CySEC|FSCA|FSA Seychelles|ASF|FMA|FSA Denmark|AFM|CNMV|FIN-FSA|FSC Mauritius,United Kingdom,2000,FSA: Offshore Regulation,"Broker | Platforms: Doto App, MT4, MT5",YES,competitor,Trading Central,"Confirmed via trust-badge logo image (filename + alt text), not a dedicated tools page - lighter-weight integration/partnership badge.",https://doto.com/
+easyMarkets,https://www.easymarkets.com/,11,ASIC|CySEC|FSA Seychelles|FSMA|ASF|BVI FSC|FMA|FSA Denmark|AFM|CNMV|FIN-FSA,Australia,2003,FSA: Offshore Regulation; FSC: Offshore Regulation,"Institutional, Retail | Platforms: easyMarkets Web/App, MT4, MT5, TradingView",YES,none-found,,DNS failure on listed URL confirmed per pilot; hyphenated fallback worked and no vendor mentions were found.,https://easy-markets.com/ (hyphenated fallback; www.easymarkets.com failed DNS resolution as expected per pilot notes)
+Finalto,https://www.finaltotrading.com/,12,FCA|ASIC|CySEC|MFSA|FSMA|ASF|BVI FSC|FMA|FSA Denmark|AFM|KNF|CNMV,United Kingdom,2014,FSC: Suspicious Clone,"Retail, Institutional | Platforms: Rolling spot FX, CFDs on Precious Metals, Base Metals, Single Stocks, Indices, Cryptocurrencies, NDFs, Commodities",YES,none-found,,No matches found (first attempt hit an MCP session-expiry error; retry succeeded with no matches).,https://www.finaltotrading.com/
+FOREX.com,https://www.forex.com/,12,FCA|ASIC|CySEC|MFSA|ASF|FMA|FSA Denmark|AFM|MAS|KNF|CIRO|CNMV,United States,2001,Regulated,"Retail, Institutional | Platforms: Web Trader, Mobile App, TradingView, MT4, MT5",YES,none-found,,No matches found.,https://www.forex.com/
+Fortrade,https://www.fortrade.com/,11,FCA|ASIC|CySEC|MFSA|ASF|FMA|FSA Denmark|AFM|CNMV|FIN-FSA|CIRO,Hong Kong,2013,NBRB: Irregular,"Retail, Institutional | Platforms: Fortrader, MT4",YES,none-found,,No matches found (first attempt hit an MCP session-expiry error; retry succeeded with no matches).,https://www.fortrade.com/
+FXCM,https://www.fxcm.com,11,FCA|ASIC|CySEC|MFSA|ASF|FMA|FSA Denmark|AFM|KNF|CNMV|FIN-FSA,United Kingdom,1999,Regulated,"Retail, Institutional | Platforms: Trading Station, TradingView Pro, MT4, Capitalise AI",YES,none-found,,No matches found.,https://www.fxcm.com
+FxPro,https://www.fxpro.com/,11,FCA|CySEC|FSA Seychelles|MFSA|FSMA|ASF|FSA Denmark|AFM|KNF|CNMV|FIN-FSA,United Kingdom,2006,FSA: Offshore Regulation,"Market Making MM, STP | Platforms: FxPro Mobile App, FxPro WebTrader, MT4, MT5, cTrader",YES,competitor,Trading Central,Confirmed via footer attribution superscript ('by Trading Central') on the trading-signals tool link.,https://www.fxpro.com/
+GO Markets,https://www.gomarkets.com/en/,11,ASIC|CySEC|FSA Seychelles|MFSA|ASF|FMA|FSA Denmark|AFM|KNF|CNMV|FIN-FSA,Australia,2006,FSA: Offshore Regulation,"Institutional, Retail | Platforms: MT4, MT5, WebTrader, cTrader, Mobile Trading",YES,none-found,,No matches found.,https://www.gomarkets.com/en/
+HFM,https://www.hfm.com/,11,FCA|FSCA|FSA Seychelles|MFSA|ASF|FMA|FSA Denmark|AFM|KNF|CNMV|FSC Mauritius,Cyprus,2010,FSA: Offshore Regulation,"Institutional, Retail | Platforms: MT4/5, HFM Trading App",YES,autochartist,Autochartist,Confirmed via dedicated Autochartist tools page linked from nav.,https://www.hfm.com/
+IC,https://www.icmarkets.sc/en/,11,ASIC|CySEC|FSA Seychelles|MFSA|ASF|FMA|FSA Denmark|AFM|KNF|CNMV|FIN-FSA,Seychelles,2007,FSA: Offshore Regulation,"Online forex and CFD brokerage | Platforms: MT4, MT5, cTrader",YES,competitor,Trading Central,Single but clear match: dedicated /trading-central page linked from homepage.,https://www.icmarkets.sc/en/
+IG,https://www.ig.com/en,4,FCA|ASIC|DFSA|MAS,United Kingdom,1974,Regulated,"Market Making | Platforms: L2 dealer, ProRealTime, MT4, TradingView",YES,none-found,,No matches found despite very large page capture (rawHtml ~1M+ chars).,https://www.ig.com/en
+InterStellar,https://www.fisg.com/,9,CySEC|FSCA|FSA Seychelles|FSMA|FMA|FSA Denmark|AFM|KNF|CNMV,Cyprus,2011,FSA: Offshore Regulation,"Forex and CFD Broker | Platforms: MT4, MT5",YES,none-found,,No matches found.,https://www.fisg.com/
+IronFX,https://www.ironfx.co.uk/en,13,FCA|CySEC|FSCA|MFSA|FSMA|ASF|BVI FSC|FMA|FSA Denmark|AFM|FIN-FSA|KNF|CNMV,Cyprus,2010,Regulated,"Institutional, Retail | Platforms: MetaTrader 4",YES,none-found,,No matches found.,https://www.ironfx.co.uk/en
+Mitrade,https://www.mitrade.com,11,ASIC|CySEC|FSCA|ASF|FMA|FSA Denmark|AFM|KNF|CNMV|FIN-FSA|FSC Mauritius,Australia,2010,Regulated,"Institutional, Retail | Platforms: Mitrade Mobile App, Desktop, WebTrader",YES,competitor,Trading Central,Confirmed via explicit 'Trusted Partner' image alt text naming Trading Central.,https://www.mitrade.com
+MONETA MARKETS,https://www.monetamarkets.com,5,FCA|FSCA|FSA Seychelles|FSRA SL|FSC Mauritius,United Kingdom,2012,FSA: Offshore Regulation,"Institutional, Retail | Platforms: MetaTrader 5, MetaTrader 4, AppTrader, PRO Trader",YES,none-found,,No matches found.,https://www.monetamarkets.com
+PU Prime,https://www.puprime.com/,4,ASIC|FSCA|FSA Seychelles|FSC Mauritius,Australia,2015,FSA: Offshore Regulation,"Institutional, Retail | Platforms: MT4, MT5, PU Web Trader, PU Prime App",YES,competitor,Autochartist|Trading Central,"Autochartist is live and prominent. Trading Central integration appears to have existed (dedicated /trading-central/ URL referenced) but the nav link is now HTML-commented-out, suggesting it was deprecated/disabled but the reference lingers in source - flagged per loose-recall instructions.",https://www.puprime.com/
+SBCFX,https://www.sbcfx.vip,3,ASIC|FSCA|FSA Seychelles,South Africa,2020,Regulated,"Institutional, Retail | Platforms: Forex, Precious Metals, Futures, Financial derivatives",YES,competitor,Trading Central,"Very strong integration: dedicated page, install instructions, and direct link to mt.tradingcentral.com domain.",https://www.sbcfx.vip
+STARTRADER,https://www.startrader.com,4,ASIC|FSCA|FSA Seychelles|FSC Mauritius,Australia,1997,FSA: Offshore Regulation,"Institutional, Retail | Platforms: MT4, MT5, Web Trader, STARTRADER APP, copy trade",YES,none-found,,No matches found.,https://www.startrader.com
+Tickmill,https://www.tickmill.com/,10,FCA|CySEC|FSCA|MFSA|ASF|FMA|FSA Denmark|AFM|KNF|CNMV,United Kingdom,2014,Regulated,"Retail, Institutional | Platforms: MT4, MT5, TradingView, Tickmill Trader",YES,acuity,Acuity Trading,"Strong, unambiguous Acuity Trading integration with dedicated tools page - explicit vendor name used, not just 'Acuity'.",https://www.tickmill.com/
+TRADING 212,https://www.trading212.com/en,11,FCA|ASIC|CySEC|MFSA|ASF|FMA|FSA Denmark|AFM|KNF|CNMV|FIN-FSA,United Kingdom,2006,FSC: Exceeded,"Retail, Institutional | Platforms: Trading 212 App, Trading 212 Web Platform",YES,none-found,,No matches found.,https://www.trading212.com/en
+VELOCITY TRADE,https://velocitytrade.com/,6,FCA|ASIC|FSCA|MAS|FSPR|CIRO,Australia,2007,Regulated,Institution | Platforms: Mobile app,YES,none-found,,No matches found.,https://velocitytrade.com/
+XS,https://xs.com/,3,CySEC|FSCA|FSA Seychelles,Australia,2021,FSA: Offshore Regulation,"Institution | Platforms: MT4, MT5, XS Web Trader, XS Trader Mobile App",YES,none-found,,No matches found.,https://xs.com/
+ACCM,https://accmfx.com/,4,FSCA|FSA Seychelles|ASIC|VFSC,Australia,2023,FSA: Offshore Regulation; VFSC: Offshore Regulation,Broker | Platforms: MT5,YES,competitor,Autochartist|Trading Central,"Both vendors confirmed - Autochartist in visible homepage marketing copy, Trading Central via footer link.",https://accmfx.com/
+ACY Securities,https://acy.com,2,ASIC|FSCA,Australia,2011,Regulated,"Retail, Institutional | Platforms: ACY Trading Platform, MT4/MT5",YES,none-found,,No matches found.,https://acy.com
+admiral,https://admiralmarkets.com/,10,FCA|FSA Seychelles|MFSA|FSMA|ASF|FMA|FSA Denmark|AFM|KNF|CNMV,Seychelles,2001,FSA: Offshore Regulation,"Market Making | Platforms: MT4/5, Trading App, Admirals Platform, StereoTrader",YES,none-found,,No matches found.,https://admiralmarkets.com/
+amana,https://amana.app/,11,CySEC|DFSA|MFSA|FSMA|ASF|FMA|FSA Denmark|AFM|CNMV|FIN-FSA|CMA (Lebanon),United Arab Emirates,2021,Regulated,"Retail | Platforms: amana App, amana Web, MT4, MT5",YES,none-found,,No matches found.,https://amana.app/
+AUS Global,https://www.ausglobaluk.com/,3,CySEC|FSCA|FSC Mauritius,Australia,2003,Regulated,"Online Brokerage | Platforms: MT4, MT5, cTrader",YES,competitor,Trading Central,"LOW CONFIDENCE / LIKELY DISABLED: the only Trading Central reference is inside an HTML comment (dead code), not a live link. Suggests a past or removed integration rather than a current one. Flagged per loose-recall instructions but should be treated as weak evidence.",https://www.ausglobaluk.com/
+AXPM,https://axpmprime.com,2,ASIC|FSCA,Australia,2019,Regulated,"Institutional, Retail | Platforms: MT4",YES,none-found,,No matches found.,https://axpmprime.com
+CMC MARKETS,https://www.cmcmarkets.com/en-sg/,4,FCA|ASIC|MAS|CIRO,Singapore,1989,Regulated,"Retail, Institutional | Platforms: MT4/5, CMC NextGen",YES,none-found,,No matches found (retried once after a session-expiry error on first attempt).,https://www.cmcmarkets.com/en-sg/
+ColmexPRO,https://www.colmexpro.com/,10,CySEC|FSCA|MFSA|FSMA|ASF|FMA|FSA Denmark|AFM|CNMV|FIN-FSA,Cyprus,2009,Regulated,"Market Maker (MM) | Platforms: Mobile App, Web Trader, MT4",YES,unscraped,,"Scrape failed: 'All scraping engines failed to retrieve content from this URL' (bot-blocking), consistent with pilot findings. Not retried further per instructions.",https://www.colmexpro.com/
+CPT Markets,https://cptmarkets.com,3,FCA|FSCA|FSC Belize,Belize,2016,FSC: Offshore Regulated,"Institutional, Retail | Platforms: MetaTrader 4, MetaTrader 5, cTrader",YES,none-found,,No matches found.,https://cptmarkets.com
+CXM,https://www.cxmtrading.com/en/,3,FCA|FSA Seychelles|FSC Mauritius,Saint Vincent and the Grenadines,2021,Regulated,Forex and CFD Broker | Platforms: MT4,YES,competitor,Trading Central,Confirmed via dedicated services/trading-central page linked from nav.,https://www.cxmtrading.com/en/
+ETO Markets,https://www.eto.group/english/index.html,3,ASIC|FSA Seychelles|FSC Mauritius,Seychelles,2013,Regulated,"Offshore Regulated | Platforms: MT4, MT5, ETO Markets CRM App",YES,none-found,,No matches found.,https://www.eto.group/english/index.html
+FP Markets,https://www.fpmarkets.com/en-sg/,10,ASIC|CySEC|MFSA|ASF|FMA|FSA Denmark|AFM|KNF|CNMV|FIN-FSA,Australia,2005,Regulated,"Institutional, Retail | Platforms: MT4/5, TradingView, cTrader, FP Markets Trading App",YES,acuity,Acuity Trading|Autochartist|Trading Central,"NOTABLE: all three vendors present simultaneously. The Acuity Trading link is a good example of FIX #1/#2 value - the visible nav label reads only 'Intelligence' with no visible 'Acuity' text; the vendor name is recoverable only from the href slug '/acuity-trading/', which a naive visible-text search would have missed entirely.",https://www.fpmarkets.com/en-sg/
+Fusion Markets,https://fusionmarkets.com,2,ASIC|FSA Seychelles,Australia,2010,FSA: Offshore Regulation,"Retail, Institutional | Platforms: MT4, MT5, cTrader, Fusion +, MAM/PAMM",YES,none-found,,No matches found.,https://fusionmarkets.com
+GBE brokers,https://gbebrokers.global/,10,CySEC|FSA Seychelles|MFSA|FSMA|ASF|FMA|FSA Denmark|AFM|KNF|CNMV,Seychelles,2014,Regulated,Forex and CFD broker | Platforms: MetaTrader 5,YES,none-found,,No matches found.,https://gbebrokers.global/
+GLOBAL FUTURES SERVICES,https://gfsfutures.com/,2,ASIC|FSCA,South Africa,2020,Regulated,"Institutional, Retail | Platforms: MetaTrader 4, MetaTrader 5",YES,none-found,,No matches found.,https://gfsfutures.com/
+GTCFX,https://www.gtcfx.com,4,FCA|ASIC|VFSC|FSC Mauritius,United Arab Emirates,2012,VFSC: Offshore Regulation,"Institutional, Retail | Platforms: MT4, MT5",YES,acuity,Acuity Trading|Autochartist,"Both Autochartist and Acuity Trading listed together as bullet-point features in embedded i18n content, not immediately visible as plain body text.",https://www.gtcfx.com
+HANTEC FINANCIAL,https://www.hantec.com/,3,ASIC|FSA Seychelles|VFSC,Vanuatu,1990,FSA: Offshore Regulation; VFSC: Offshore Regulation,"Institutional, Retail | Platforms: MT4, MT5",YES,competitor,Trading Central,"Confirmed via dedicated tools page. Note: distinct entity/site from 'HANTEC MARKETS' (hmarkets.com) in this same batch, which shows a different (Acuity) integration.",https://www.hantec.com/
+HYCM,http://henyep.com/,2,FCA|DFSA,United Kingdom,2006,CYSEC: Revoked; CIMA: Revoked,"Institutional, Retail | Platforms: MT4, MT5",YES,none-found,,"The listed URL (henyep.com) resolves to the Henyep Group parent-holding-company corporate page (Financial Services / Direct Investment / Property business lines), not an actual HYCM retail trading storefront with tools/research pages. No vendor mentions found on this corporate page; a proper HYCM check would likely need the actual trading brand site (e.g. hycm.com), which was not in scope per the given URL.",http://henyep.com/
+InteractiveBrokers,https://www.interactivebrokers.com,3,FCA|ASIC|CIRO,Hong Kong,1978,Regulated,"Retail, Institutional | Platforms: IBKR GlobalTrader, Client Portal, IBKR Desktop, IBKR Mobile, Trader Workstation, IBKR APIs",YES,none-found,,No matches found despite large page capture.,https://www.interactivebrokers.com
+LMAX GROUP,https://www.lmax.com/,10,FCA|CySEC|ASF|FMA|FSA Denmark|AFM|FSPR|KNF|CNMV|FIN-FSA,United Kingdom,2010,Regulated,"Retail, Institutional | Platforms: LMAX Global, MetaTrader4",YES,none-found,,"No matches found. LMAX is an institutional FX exchange/venue, less likely to carry retail research-tool integrations.",https://www.lmax.com/
+MACRO,https://www.macroglobalmarkets.com/home,3,ASIC|FSA Seychelles|FSPR,Australia,2018,FSA: Offshore Regulation,"Institutional, Retail | Platforms: MT4",YES,unscraped,,DNS resolution failed for www.macroglobalmarkets.com (domain could not be resolved). No fallback domain was provided for this broker; not retried further.,https://www.macroglobalmarkets.com/home
+NAGA,https://naga.com/,10,CySEC|FSA Seychelles|MFSA|ASF|FMA|FSA Denmark|AFM|KNF|CNMV|FIN-FSA,Cyprus,1996,FSA: Offshore Regulation,"Broker | Platforms: NAGA Web Trader, MetaTrader, Telegram Mini App",YES,competitor,Trading Central,"One of the strongest/most extensive Trading Central integrations found in this batch (20+ distinct mentions across hero, features, FAQ, and disclaimers).",https://naga.com/
+Neex,https://www.neex.com/,2,ASIC|FSCA,Australia,2000,Regulated,"Institutional, Retail | Platforms: MetaTrader 4, MetaTrader 5",YES,none-found,,No matches found.,https://www.neex.com/
+Orbex,https://www.orbex.com.cy/,11,CySEC|FSA Seychelles|MFSA|FSMA|ASF|FMA|FSA Denmark|AFM|KNF|CNMV|FSC Mauritius,Cyprus,2009,FSA: Offshore Regulation,Broker | Platforms: MT4,YES,none-found,,"No matches found. Note: page displays a business-closure notice ('Orbex Ltd has decided to close our doors in the EU... last effective day of business July 15th, 2025') - site may be a wind-down/legacy page with minimal remaining content.",https://www.orbex.com.cy/
+PGMarkets,https://www.pg-markets.com/en/,2,FSCA|FSA Seychelles,Australia,2015,FSA: Offshore Regulation,"Institutional, Retail | Platforms: MT4, MT5",YES,none-found,,No matches found.,https://www.pg-markets.com/en/
+PLOTIO,https://en.plotioglobal-group.com/,4,ASIC|FSA Seychelles|SCB|FSRA SL,Hong Kong,2019,SCB: Offshore Regulation; FSA: Offshore Regulation,"Institutional, Retail | Platforms: MT5, Plotio Global APP",YES,unscraped,,Page is geo-restricted: returned a 'Thank you for visiting... Plotio is currently not available in your country/region' blocking page instead of real homepage content. Could not access actual site content to check for vendor mentions.,https://en.plotioglobal-group.com/
+RoboMarkets,https://www.robomarkets.com.cy/,9,CySEC|FSA Seychelles|MFSA|ASF|FMA|FSA Denmark|AFM|KNF|CNMV,Cyprus,2012,FSA: Offshore Regulation,"European broker | Platforms: MetaTrader4, MetaTrader5, RWebTrader, RMobileTrader, R StocksTrader",YES,none-found,,No matches found.,https://www.robomarkets.com.cy/
+squaredfinancial,https://www.sqfin.com/,10,CySEC|FSA Seychelles|MFSA|ASF|FMA|FSA Denmark|AFM|KNF|CNMV|FIN-FSA,Seychelles,2022,FSA: Offshore Regulation,"Market Making | Platforms: Mobile App, MT4, MT5",YES,unscraped,,"Scrape failed: 'All scraping engines failed to retrieve content from this URL' (bot-blocking), consistent with pilot findings. Not retried further per instructions.",https://www.sqfin.com/
+Swissquote,https://www.swissquote.eu/,4,FCA|DFSA|MFSA|MAS,United Kingdom,1996,Regulated,"Retail, Institutional | Platforms: Mobile App, MT4, MT5, Money Managers",YES,none-found,,No matches found despite very large page capture (~1.2M chars rawHtml).,https://www.swissquote.eu/
+Taurex,https://taurex.asia/,2,FCA|FSA Seychelles,Seychelles,2017,Seychelles FSA: Offshore Regulation,"Institution | Platforms: MetaTrader 4, MetaTrader 5, Taurex App",YES,none-found,,No matches found.,https://taurex.asia/
+TMGM,https://www.tmgm.com,4,ASIC|FSA Seychelles|VFSC|FSC Mauritius,Australia,2013,VFSC: Offshore Regulation; FSA: Offshore Regulation,"Institutional, Retail | Platforms: MT4, MT5, TMGM App",YES,acuity,Acuity Trading|Trading Central,"NOTABLE FINDING: TMGM's site configuration strongly suggests a REBRAND from Trading Central to Acuity - the same internal key 'trading_central' now maps to display label 'Acuity' and URL '/acuity', while a separate 'trading_central_old' key preserves the legacy 'Trading Central' label and '/trading-central' URL. This is a clear example of the kind of evidence FIX #1 (Acuity Research Limited / 'provided by Acuity' phrasing) was designed to catch - the current live nav only shows 'Acuity' as visible text, with no visible 'Acuity Trading' full name, but the internal config data structure makes the Trading-Central-to-Acuity relationship explicit.",https://www.tmgm.com
+TradeQuo,https://www.tradequo.com/,2,FSCA|FSA Seychelles,South Africa,2020,FSA: Offshore Regulation,"Broker | Platforms: MT5, MT4, TradingView",YES,none-found,,No matches found.,https://www.tradequo.com/
+trust Capital,https://trustcapital.com/,10,CySEC|FSA Seychelles|ASF|FMA|FSA Denmark|AFM|KNF|CNMV|FIN-FSA|CMA (Lebanon),Seychelles,2003,CYSEC: Suspicious Clone; FSA: Offshore Regulation,"Forex, Financial Derivatives, Securities, Bonds | Platforms: MT4, MT5",YES,none-found,,No matches found (retried once after a 60s timeout on first attempt).,https://trustcapital.com/
+Ultima,https://www.ultimamarkets.com/,3,FCA|FSCA|FSC Mauritius,United Kingdom,2007,Regulated,"Institutional, Retail | Platforms: MT4",YES,competitor,Trading Central,Confirmed via dedicated /trading-central/ page linked repeatedly from nav.,https://www.ultimamarkets.com/
+VALUTRADES,http://www.valutrades.com/,2,FCA|FSA Seychelles,United Kingdom,2012,FSA: Offshore Regulation,"Broker | Platforms: MT4, MT5",YES,none-found,,No matches found.,http://www.valutrades.com/
+vantage,https://en.vantage-markets.com/,4,ASIC|FSCA|CIMA|VFSC,Australia,2009,CIMA: Offshore Regulation; VFSC: Offshore Regulation,"Institutional, Retail | Platforms: Vantage App, MT4, MT5, TradingView, ProTrader",YES,none-found,,No matches found despite large page capture.,https://en.vantage-markets.com/
+VT Markets,https://www.vtmarkets.com/,3,ASIC|FSCA|FSC Mauritius,Australia,2017,Regulated,"Institutional, Retail | Platforms: VT Markets App, MT5, MT4, TradingView, WebTrader",YES,none-found,,No matches found.,https://www.vtmarkets.com/
+Windsor Brokers,https://en.windsorbrokers.eu/,10,CySEC|FSA Seychelles|MFSA|FSMA|ASF|BVI FSC|FMA|FSA Denmark|AFM|FIN-FSA,Cyprus,1988,FSC: Offshore Regulation; FSA: Offshore Regulation,"Market Making | Platforms: MT4, WebTrader",YES,none-found,,No matches found despite large page capture.,https://en.windsorbrokers.eu/
+XTB,https://www.xtb.com/en,10,FCA|CySEC|MFSA|ICDX|FMA|FSA Denmark|BAPPEBTI|KNF|CNMV|FIN-FSA,United Kingdom,1995,Regulated,"Retail, Institutional | Platforms: Mobile, Desktop, Tablet",YES,none-found,,No matches found despite very large page capture (~1M chars rawHtml).,https://www.xtb.com/en
+ZFX,https://www.zfx.com/en/,2,FCA|FSA Seychelles,United Kingdom,2010,FSA: Offshore Regulation,"Broker | Platforms: MT4, ZFX Trader",YES,none-found,,No matches found despite very large page capture (~1.5M chars rawHtml).,https://www.zfx.com/en/
+Acetop,http://www.acetop.uk/,1,FCA,United Kingdom,2016,Regulated,Broker | Platforms: MT4,YES,none-found,,"No matches found. Small, simple site (Hugo-generated); no tools/research page in nav at all (About Us / Trading / Platform / Education / Legal only).",http://www.acetop.uk/
+ActivTrades,https://www.activtrades.mu/en,2,FCA|SCB,Mauritius,2001,SCB: Offshore Regulation,"Retail, Institutional | Platforms: MT4, MT5",YES,competitor,Trading Central,"One of the strongest/most extensive Trading Central integrations in the batch, including a full explanatory FAQ section about what Trading Central is (30+ mention instances).",https://www.activtrades.mu/en
+ADM,https://www.admis.com.sg/,1,FCA,Hong Kong,2010,Regulated,"Broker | Platforms: CQG, TT",YES,none-found,,No matches found.,https://www.admis.com.sg/
+Aegon Asset Management,https://www.aegonam.com/,1,FCA,United Kingdom,1988,Regulated,"Institution | Platforms: Fixed Income, Real Assets, Equities, Multi-asset & Solutions Platforms",YES,none-found,,"No matches found. Aegon Asset Management is an institutional asset manager, not a retail CFD/forex broker - research-tool integrations of this kind are less applicable to this business type.",https://www.aegonam.com/
+Afterprime,https://afterprime.com,7,FSA Seychelles|MFSA|ASF|AFM|KNF|CNMV|FIN-FSA,Seychelles,2018,FSA: Offshore Regulation,"Forex | Platforms: TradingView, MetaTrader 4, TraderEvolution, FIX API",YES,none-found,,No matches found.,https://afterprime.com
+AIMS,https://www.aimsfx.com/,2,ASIC|BAPPEBTI,Australia,2014,Regulated,"Institutional, Retail | Platforms: MT4, MT5",YES,unscraped,,Scrape returned HTTP 503 Service Unavailable / 'ERR_CONNECTION_RESET' - site appears to be down or actively blocking automated access at time of check.,https://www.aimsfx.com/
+AIMSCAP,https://aimscap.com,2,ASIC|SERC,Cambodia,,SERC: Exceeded,Broker | Platforms: MT4,YES,none-found,,No matches found.,https://aimscap.com
+Alchemy Markets,,9,FSA Seychelles|MFSA|FSMA|ASF|FMA|FSA Denmark|AFM|CNMV|FIN-FSA,Seychelles,,Unverified (not enriched),Basic regulator-table data only; brand detail page could not be reliably located.,NO,no-site,,,
+ATC BROKERS,https://atcbrokers.co.uk/,2,FCA|CIMA,United Kingdom,2005,CIMA: Offshore Regulation,"Institutional, Retail | Platforms: MT Pro, MT4, MT4 Mobile",YES,none-found,,No matches found.,https://atcbrokers.co.uk/
+BBH,https://www.bbh.com/en-us,1,FCA,United States,1995,FCA: Exceeded,Institution | Platforms: Asset management & advisory services,YES,none-found,,"No matches found. Brown Brothers Harriman is an institutional bank/custodian, not a retail forex/CFD broker - research-tool integrations of this kind are less applicable.",https://www.bbh.com/en-us
+BCR,https://au.thebcr.com/,1,ASIC,Australia,2008,Regulated,"Institutional, Retail | Platforms: MetaTrader 4, MetaTrader 5",YES,none-found,,No matches found.,https://au.thebcr.com/
+Blueberry,https://www.blueberrymarkets.com/,2,ASIC|FSC Mauritius,Australia,2016,Regulated,"Institutional, Retail | Platforms: MT4, MT5, WebTrader",YES,acuity,Acuity Trading,"MODERATE CONFIDENCE: uses bare 'Acuity' rather than the full 'Acuity Trading' name, so per the strict instruction this alone would be excluded as a false-positive risk. However, phrasing 'is supplied by Acuity' is a close variant of the FIX #1 pattern ('provided by Acuity'), and the context (market data supplier attribution on a trading site) strongly suggests this refers to Acuity Trading rather than an unrelated company. Flagged as a match per loose-recall/evidence-based instructions, but recommend manual confirmation given it never uses the full company name.",https://www.blueberrymarkets.com/
+CWG Markets,https://www.cwgplatform.com/,2,FSCA|VFSC,United Kingdom,2023,VFSC: Offshore Regulation,"Institutional, Retail | Platforms: CWG",YES,competitor,Autochartist|Trading Central,"Both vendors confirmed with substantive, named partnership descriptions (not just nav links).",https://www.cwgplatform.com/
+D prime,https://www.dooprime.com,3,CySEC|FMA|CIMA,Singapore,2014,VFSC: Offshore Regulation,"Institutional, Retail | Platforms: MT4, MT5, Doo Prime InTrade, TradingView",YES,competitor,Trading Central,Note: actual domain is dooprime.com (redirected/resolved from the given dooprime.com URL). Confirmed via dedicated /trading-central page.,https://www.dooprime.com
+darwinex,https://www.darwinex.com/,1,FCA,United Kingdom,2014,Regulated,"Broker | Platforms: MT4, MT5",YES,none-found,,No matches found.,https://www.darwinex.com/
+DecodeFX,https://decodefx.com/en/,2,ASIC|VFSC,Australia,2017,VFSC: Offshore Regulation,"Retail, Institutional | Platforms: DecodeFX App, MetaTrader 4, MetaTrader 5, Web platform",YES,competitor,Autochartist|Trading Central,Both vendors confirmed with dedicated academy/tools sub-pages and detailed marketing copy.,https://decodefx.com/en/
+EBC FINANCIAL GROUP,https://www.ebcfin.com/,3,FSCA|CIMA|FSC Mauritius,United Kingdom,1994,CIMA: Offshore Regulation,"Institution | Platforms: MT4, MT5",YES,unscraped,,Both scrape attempts redirected to an AWS S3 bucket URL (mkt-files-bucket.s3.ap-southeast-1.amazonaws.com/cn.html/) that returned HTTP 403 'AccessDenied' instead of the actual homepage. Could not access real page content; this looks like a geo/bot-detection redirect to a blocked static asset rather than the live site.,https://www.ebcfin.com/ (attempted twice)
+eurotrader,https://www.eurotrader.com/en/website-home,4,FSCA|CySEC|FIN-FSA|FSC Mauritius,Cyprus,2015,Regulated,"Broker | Platforms: MT4, MT5",YES,none-found,,No matches found.,https://www.eurotrader.com/en/website-home
+Fortune Prime Global,https://fortuneprime.com/,2,ASIC|VFSC,Australia,2011,VFSC: Offshore Regulation,"Institutional, Retail | Platforms: MT4 Margin WebTrader",YES,none-found,,No matches found despite very large page capture (~3M chars rawHtml).,https://fortuneprime.com/
+FREEDOM 24,https://en.freedom24.com/,9,CySEC|MFSA|FSMA|ASF|FMA|FSA Denmark|AFM|CNMV|FIN-FSA,Cyprus,2001,Regulated,"Retail, Institutional | Platforms: web platform, mobile app",YES,none-found,,No matches found.,https://en.freedom24.com/
+FXT,https://fxtrading.com/,2,ASIC|VFSC,Australia,2014,VFSC: Offshore Regulation,"Broker | Platforms: MT4, MT5, WebTrader",YES,competitor,Trading Central,Confirmed via nav sub-menu item with description copy.,https://fxtrading.com/
+GeGold,https://www.gegoldtrade.com/,1,FSA Seychelles,Hong Kong,2016,FSA: Offshore Regulation,Broker | Platforms: MT4,YES,none-found,,No matches found.,https://www.gegoldtrade.com/
+HANTEC MARKETS,https://hmarkets.com/,2,FCA|FSC Mauritius,United Kingdom,2014,Regulated,"Institutional, Retail | Platforms: Hantec Mobile, Hantec Social, MT4/MT5, Client Portal",YES,acuity,Acuity Trading,"VERY STRONG, high-confidence Acuity Trading integration - a live embedded 'AcuityAnalysisIQ' market-data/news widget with its own CDN domain (acuitycdn.azureedge.net) and news attribution 'By Acuity' visible on the homepage. This is exactly the kind of domain/widget evidence FIX #2 was designed to catch - the vendor's own CDN subdomain appears throughout image src attributes even though 'Acuity Trading' as a full company name is not spelled out verbatim (only 'Acuity' / 'acuity-widget' / 'AcuityAnalysisIQ' / 'acuitycdn'). Distinct from 'HANTEC FINANCIAL' (hantec.com) elsewhere in this batch, which instead shows a Trading Central integration - these appear to be two different sites/brands under the Hantec name.",https://hmarkets.com/
+Harmovest Capital,https://hamovest.com/,10,CySEC|MFSA|ASF|FMA|FSA Denmark|AFM|FSPR|MISA|KNF|CNMV,New Zealand,2026,Regulated,"Financial Services | Platforms: MetaTrader 4, MetaTrader 5",YES,none-found,,No matches found. Note: URL given was hamovest.com (note spelling differs slightly from 'Harmovest' in the broker name); page loaded successfully under that domain.,https://hamovest.com/
+iDealing.com,https://www.idealing.com,1,FCA,United Kingdom,1999,Regulated,"Broker | Platforms: iDealer Dashboard, iDealing App",YES,none-found,,UK stockbroker (equities/bonds/ISA). No vendor mentions in homepage text or HTML/hrefs.,https://www.idealing.com
+ISEC,https://is-wm.com/public/index.php,1,CySEC,Cyprus,2018,CYSEC: Exceeded,"Broker | Platforms: FX, derivatives, securities & bonds trading/advisory/asset mgmt",YES,none-found,,No vendor mentions found in homepage markdown/rawHtml/hrefs.,https://is-wm.com/public/index.php
+IUX,https://iux.com/en,2,FSCA|FSC Mauritius,Mauritius,2016,Regulated,"Institutional, Retail | Platforms: MetaTrader 5, MT5 WebTerminal, IUX Trade App",YES,none-found,,No vendor mentions found on homepage.,https://iux.com/en
+Jefferies,http://www.jefferies.com/,2,FCA|CIRO,United States,1996,Regulated,"Retail, Institutional",YES,none-found,,Large investment bank site; no vendor mentions found on homepage.,http://www.jefferies.com/
+KCM Trade,https://www.kcmtrade.com/,2,ASIC|FSC Mauritius,Mauritius,2016,Regulated,"Broker | Platforms: MT4, MT5",YES,none-found,,No vendor mentions found on homepage.,https://www.kcmtrade.com/
+Lirunex,https://lirunex.com/,9,CySEC|ASF|FMA|FSA Denmark|AFM|FIN-FSA|FSC Mauritius|KNF|CNMV,Cyprus,2022,Regulated,"Forex Broker | Platforms: MT4, MT5, Lirunex Trading App",YES,none-found,,No vendor mentions found on homepage.,https://lirunex.com/
+LTG,https://www.ltgmarkets.com/,2,FSA Seychelles|ASIC,Australia,2009,FSA: Offshore Regulation,"Broker | Platforms: PC, mobile app",YES,none-found,,No vendor mentions found on homepage.,https://www.ltgmarkets.com/
+M4Markets,https://www.m4markets.com/,4,DFSA|MFSA|KNF|FIN-FSA,Seychelles,2019,FSA: Offshore Regulation,"Market Maker (MM) | Platforms: MT4, MT5",YES,none-found,,No vendor mentions found on homepage.,https://www.m4markets.com/
+MAGIC COMPASS,https://www.magiccompass.com,9,CySEC|MFSA|FSMA|ASF|FMA|FSA Denmark|AFM|KNF|CNMV,Cyprus,2016,Regulated,"Foreign exchange, Financial derivatives, Securities, Bonds | Platforms: MetaTrader 4, MCtrader",YES,none-found,,No vendor mentions found on homepage.,https://www.magiccompass.com
+Make Capital,https://www.makecapital.com/,2,FSCA|FSC Mauritius,Cayman Islands,2010,Regulated,"Retail, Institutional | Platforms: MT4, MT5",YES,none-found,,No vendor mentions found on homepage.,https://www.makecapital.com/
+MEGA FUSION,https://www.mega-fusion.com/,2,FSCA|FSC Mauritius,Australia,2011,Regulated,"Institution | Platforms: MetaTrader 4, MetaTrader 5",YES,autochartist,Autochartist,"Homepage nav/research-education menu links directly to a dedicated Autochartist tools page (research-education/tools/autochartist), named explicitly in visible link text.",https://www.mega-fusion.com/
+MH Markets,http://tamrontech.com/,2,FSCA|FSC Mauritius,Australia,2021,SCA: Exceeded,"Institutional, Retail | Platforms: MT4, MT5",YES,unscraped,,"Provided URL (tamrontech.com) no longer belongs to MH Markets; it now resolves to an unrelated Vietnamese mobile-game company (TAMRON VIETNAM TECHNOLOGY CO., LTD). Could not evaluate the actual MH Markets broker site since no valid URL was reachable.",http://tamrontech.com/
+NCM,https://www.ncminvest.com/,1,FCA,Kuwait,1993,Regulated,Broker | Platforms: MT5,YES,none-found,,No vendor mentions found on homepage.,https://www.ncminvest.com/
+OEXN,https://www.oexn.global/,7,CySEC|MFSA|ASF|FMA|FSA Denmark|AFM|FSC Mauritius,Cyprus,2022,Regulated,"Market Maker | Platforms: MT4, MT5, OEXN Trader",YES,none-found,,"No vendor mentions found on homepage; footer nav includes Tools/Social Trading/Signals sections but none named Trading Central, Autochartist, or Acuity.",https://www.oexn.global/
+OFX,https://www.ofx.com/en-au/,1,ASIC,Australia,1998,Regulated,Broker | Platforms: Proprietary Web and Mobile App,YES,none-found,,"International money transfer service, not a CFD/trading-signals broker; no vendor mentions found.",https://www.ofx.com/en-au/
+OnsaFX,https://onsafx.com/,1,FSCA,South Africa,,Regulated,Financial derivatives,YES,none-found,,No vendor mentions found on homepage.,https://onsafx.com/
+OTSO Markets,https://www.otsomarkets.com,2,FSCA|ASIC,South Africa,,Regulated,Broker | Not yet transparency-certified on WikiLicense,YES,none-found,,No vendor mentions found on homepage.,https://www.otsomarkets.com
+quadcode markets,https://quadcodemarkets.com/,1,CySEC,Australia,2019,Regulated,"Retail, Institutional | Platforms: Quadcode Markets Mobile/Desktop/Web",YES,none-found,,No vendor mentions found on homepage.,https://quadcodemarkets.com/
+RKX,https://www.rkx.com/,2,FSCA|FSRA SL,Saint Lucia,2025,FSA: Offshore Regulation,Institution | Platforms: Meta Trader 4,YES,none-found,,No vendor mentions found on homepage.,https://www.rkx.com/
+RS Finance,https://rs-fin.com,1,FSA Seychelles,Saint Vincent and the Grenadines,2015,FSA: Offshore Regulation,"Institutional, Retail | Platforms: MT4, MT5",YES,competitor,Trading Central,"Clear, explicit Trading Central branding (registered trademark symbol) in main nav under Trading menu, with a dedicated page at /en/trading/trading-central/.","https://rs-fin.com|https://rs-fin.com/en/trading/trading-central/ (referenced in nav, not separately fetched)"
+SAXO,https://www.home.saxo/en-hk,2,FCA|MAS,Hong Kong,1992,Regulated,"Retail, Institutional | Platforms: SaxoTraderGo, SaxoTraderPRO, SaxoInvestor",YES,none-found,,No vendor mentions found on homepage.,https://www.home.saxo/en-hk
+Scope Markets,https://www.scopemarkets.com/en/,3,FSCA|MFSA|FSC Belize,Belize,2021,CYSEC: Unverified; FSCA: Unverified,"Forex Broker | Platforms: MT4, MT5",YES,unscraped,,Site returned HTTP 403 Forbidden (nginx) on both basic and stealth proxy attempts; could not retrieve content.,https://www.scopemarkets.com/en/
+Sigma,http://www.sigma-broking.com,1,DFSA,United Kingdom,2008,Regulated,"Retail, Institution | Platforms: MetaTrader 4, webTrader, mobile apps",YES,none-found,,No vendor mentions found on homepage.,http://www.sigma-broking.com
+SPREADEX,https://www.spreadex.com/financials/,1,FCA,United Kingdom,1999,Regulated,"Institutional, Retail | Platforms: Online platform, Mobile trading, TradingView",YES,none-found,,No vendor mentions found on homepage.,https://www.spreadex.com/financials/
+Tavira,http://tavira.group/,1,DFSA,United Kingdom,2005,Regulated,"Retail, Institution",YES,none-found,,Institutional brokerage/asset management site; no vendor mentions found on homepage.,http://tavira.group/
+TFIfx,https://tfifx.com/,10,CySEC|MFSA|FSMA|ASF|FMA|FSA Denmark|AFM|KNF|CNMV|FIN-FSA,Cyprus,2006,Regulated,"Forex trading, Forex agency, Financial derivatives trading, Financial derivatives agency | Platforms: MetaTrader 4",YES,none-found,,No vendor mentions found on homepage.,https://tfifx.com/
+tier1fx,https://www.tier1fx.com,9,CySEC|MFSA|FSMA|ASF|FMA|FSA Denmark|AFM|CNMV|FIN-FSA,Malta,2013,Regulated,"Retail, Institutional | Platforms: T1FX MT4, JForex, FORTEX 6, FIX API",YES,none-found,,No vendor mentions found on homepage.,https://www.tier1fx.com
+TIGER BROKERS,https://www.itiger.com/hk/en/,2,ASIC|FSPR,Hong Kong,2014,Regulated,"Institutional, Retail | Platforms: Tiger Trade",YES,none-found,,No vendor mentions found on homepage.,https://www.itiger.com/hk/en/
+TITAN FX,https://titanfx.com/,3,FSA Seychelles|VFSC|FSC Mauritius,Vanuatu,2014,FSA: Offshore Regulation; VFSC: Offshore Regulation,"Broker | Platforms: MT4, MT5",YES,none-found,,No vendor mentions found on homepage.,https://titanfx.com/
+TOPFX,https://www.topfx.com/en/,10,CySEC|MFSA|FSMA|ASF|FMA|FSA Denmark|AFM|KNF|CNMV|FIN-FSA,Cyprus,2019,Regulated,"Broker | Platforms: cTrader, MT4",YES,none-found,,No vendor mentions found on homepage.,https://www.topfx.com/en/
+Traders’ Hub,https://tradershub.ae,1,FSA Seychelles,United Arab Emirates,2022,FSA: Offshore Regulation,"Broker | Platforms: MT5, Trades' Hub",YES,acuity,Acuity Trading,Footer disclaimer references 'Acuity AI' (not verbatim 'Acuity Trading' or 'Acuity Research Limited') in context of trading-decision information — strongly implies use of Acuity Trading's AI/research product; flagged per loose-recall instructions though the exact entity name used is 'Acuity AI' rather than 'Acuity Trading'.,https://tradershub.ae
+traze,https://traze.com/,3,FSCA|JFX|BAPPEBTI,Seychelles,2004,Regulated,FCA-licensed | Platforms: MT4,YES,none-found,,No vendor mentions found on homepage.,https://traze.com/
+Trive,https://www.trive.com/int/,3,FSCA|BVI FSC|FSC Mauritius,The Virgin Islands,2013,FSC: Offshore Regulation,"Institutional, Retail | Platforms: MT4, MT5",YES,competitor,Trading Central,"Homepage nav and content link directly to a dedicated /int/trading-central page, explicit 'Trading Central' branding.",https://www.trive.com/int/
+uexo,https://uexo.com/,2,FSCA|FSC Mauritius,Mauritius,,Regulated,"Broker | Platforms: MT5, UEXO-Trader Web Platform",YES,acuity,Acuity Trading,Definitive Acuity Trading integration: explicit 'Powered by Acuity Trading' in structured data plus a live embedded AcuityWidgets research terminal widget on the homepage.,https://uexo.com/
+UIIC,http://www.uiic.co.uk,1,FCA,United Kingdom,1994,Regulated,Institution | Institutional & Retail insurance/investment services,YES,none-found,,No vendor mentions found on homepage.,http://www.uiic.co.uk
+VAHA,https://www.vahatrade.com,2,FSCA|FSRA SL,Saint Lucia,2018,Regulated,Financial Services,YES,none-found,,No vendor mentions found on homepage.,https://www.vahatrade.com
+WeTrade,https://www.wetrade.com/,1,FSA Seychelles,United Kingdom,2015,FSA: Offshore Regulation,"Institution | Platforms: MT4, WeTrade APP",YES,unscraped,,"Firecrawl could not retrieve the page after two attempts ('All scraping engines failed' — tried index, fire-engine chrome-cdp/stealth, pdf, document). Site may be blocking automated access or down.",https://www.wetrade.com/
+ZIFI Markets Ltd,https://www.zifimarketsltd.com/,2,FSCA|FSRA SL,Saint Lucia,,Regulated,Financial services,YES,none-found,,No vendor mentions found on homepage.,https://www.zifimarketsltd.com/
+markets.com,https://global.markets.com,14,MFSA|FSMA|ASF|FMA|FSA Denmark|AFM|CySEC|FSC Mauritius|ASIC|FCA|FSCA|KNF|CNMV|FIN-FSA,Saint Vincent and the Grenadines,2008,FSC Mauritius: Offshore Regulation; ASIC: Unverified; FCA: Unverified; FSCA: Unverified,"Broker | Platforms: Mobile App, Web, TradingView, MT4/5",YES,competitor,Trading Central,Main navigation includes a dedicated 'Trading Central' menu item linking to /trade/trading-central/ page.,https://global.markets.com
+ForexMart,https://theforexmart.com/,12,MFSA|FSMA|ASF|BVI FSC|FMA|FSA Denmark|AFM|CySEC|FCA|KNF|CNMV|FIN-FSA,Cyprus,2015,FCA: Suspicious Clone,Broker | Platforms: MT4,YES,none-found,,No vendor mentions found on homepage.,https://theforexmart.com/
+Earn,,8,MFSA|FSMA|FMA|FSA Denmark|AFM|KNF|CNMV|FIN-FSA,Cyprus,,Unverified (not enriched),Basic regulator-table data only; brand detail page could not be reliably located.,NO,no-site,,,
+Eurivex,http://eurivex.com/,4,MFSA|FSMA|CySEC|FIN-FSA,Cyprus,2009,Regulated,Broker | Platforms: Vienna MTF,YES,none-found,,No vendor mentions found on homepage.,http://eurivex.com/
+deriv,https://www.deriv.com,6,MFSA|BVI FSC|VFSC|CIMA|KNF|FIN-FSA,Malta,1996,VFSC: Offshore Regulation; FSC: Offshore Regulation; CIMA: Offshore Regulation,"Broker | Platforms: Deriv MT5, Deriv X, Deriv cTrader, Deriv Trader, Deriv Bot, Deriv GO, SmartTrader",YES,none-found,,"Very large SPA homepage (~4.9M chars rawHtml, mostly bundled JS); no vendor mentions found via full-text grep of markdown+rawHtml.",https://www.deriv.com
+Just2Trade,https://j2t.global/,4,FSMA|CySEC|KNF|FIN-FSA,Cyprus,2016,NFA: Exceeded; CBR: Suspicious Clone,"Broker | Platforms: MT4, MT5, CQG, Sterling Trader Pro",YES,competitor,Trading Central,"Multiple explicit Trading Central mentions: nav menu item, marketing copy, and an accounts-comparison table listing 'Trading Central News' and 'Trading Central Signals' as account features.",https://j2t.global/
+OLIVE TREE CAPITAL MARKETS,https://www.otcm.eu/,7,FSMA|ASF|FMA|AFM|CySEC|KNF|CNMV,Cyprus,2000,Regulated,Broker,YES,none-found,,Institutional CIF; has a 'Research' nav item under Services but no vendor (Trading Central/Autochartist/Acuity) named on homepage.,https://www.otcm.eu/
+GPB-Financial Services Limited,https://www.gpbfs.com.cy/,4,FSMA|CySEC|KNF|FIN-FSA,Cyprus,2009,Regulated,Broker,YES,none-found,,No vendor mentions found on homepage.,https://www.gpbfs.com.cy/
+FXOpen,https://www.fxopen.com/en,4,FSMA|CySEC|FCA|FIN-FSA,Cyprus,2007,Regulated,"Broker | Platforms: MT4, MT5, TickTrader, TradingView",YES,none-found,,No vendor mentions found on homepage.,https://www.fxopen.com/en
+MEGA EQUITY,https://www.megaequity.com/home,4,FSMA|CySEC|KNF|FIN-FSA,Cyprus,1999,Regulated,Broker,YES,none-found,,The /home URL given returned 404; retried base domain which loaded fine. No vendor mentions found.,https://www.megaequity.com/|https://www.megaequity.com/home (404)
+OMEGA FUNDS INVESTMENT,https://www.omegainvest.com.cy/,3,FSMA|CySEC|KNF,Cyprus,2008,Regulated,"Broker | Platforms: WTS (IB), OTS",YES,none-found,,No vendor mentions found on homepage.,https://www.omegainvest.com.cy/
+WISDOMPOINT CAPITAL,https://wisdompointcapital.com/,3,FSMA|CySEC|KNF,Cyprus,2012,Regulated,"Broker | Investment order reception/transmission/execution, safekeeping, credit, FX",YES,none-found,,No vendor mentions found on homepage.,https://wisdompointcapital.com/
+SKANESTAS,http://www.skanestas.com/,4,FSMA|CySEC|KNF|FIN-FSA,Cyprus,2015,Regulated,Broker | Portfolio management and brokerage services,YES,none-found,,No vendor mentions found on homepage.,http://www.skanestas.com/
+PURPLE TRADING,,3,FSMA|KNF|FIN-FSA,Cyprus,,Unverified (not enriched),Basic regulator-table data only; brand detail page could not be reliably located.,NO,no-site,,,
+Ronin Europe,https://ron.in/,2,FSMA|CySEC,Cyprus,2005,Regulated,Broker,YES,none-found,,No vendor mentions found on homepage.,https://ron.in/
+iFOREX Europe,https://www.iforex.eu,3,FSMA|CySEC|FIN-FSA,Cyprus,2009,Regulated,Broker | Web and mobile trading,YES,competitor,Trading Central,"Homepage footer explicitly lists Trading Central as a 'Featured partner' with its logo. Missed in original Phase 2 pass, likely because this section was added in a site redesign after that check ran (page modifiedTime is recent); re-verified not to be a geo-redirect artifact via paired US/DE proxy scrape.",https://www.iforex.eu
+Dragon Capital,https://dccl.com.cy,3,FSMA|CySEC|FIN-FSA,Cyprus,2006,Regulated,"Broker | Investment services, trading, advice, underwriting, custody, FX, derivatives",YES,none-found,,"Cyprus investment firm (Dragon Capital (Cyprus) Limited); page links to a 'RESEARCH PORTAL' at dragon-capital.com (its own parent company's research, not a third-party vendor). No Trading Central/Autochartist/Acuity mentions found.",https://dccl.com.cy
+T MARKETS,http://www.trademarkets.eu,3,FSMA|CySEC|FIN-FSA,Cyprus,2011,Regulated,Broker | Platforms: MT4,YES,none-found,,No vendor mentions found on homepage.,http://www.trademarkets.eu
+XTrend,https://thextrend.com/,2,FSMA|CySEC,Cyprus,2018,Regulated,Broker | Platforms: XTrend App (mobile),YES,none-found,,No vendor mentions found on homepage.,https://thextrend.com/
+WWF,http://www.wise-wolves.finance/,2,FSMA|CySEC,Cyprus,2016,Regulated,Broker | Institutional trading & investment instruments,YES,none-found,,No vendor mentions found on homepage.,http://www.wise-wolves.finance/
+MCPRIME,https://www.mc-prime.com/en/,3,FSMA|CySEC|FSC Mauritius,Mauritius,2024,Regulated,"Broker | Platforms: MC Prime App, MT4, MT5",YES,none-found,,No vendor mentions found on homepage.,https://www.mc-prime.com/en/
+Alvexo,http://www.alvexo.com/,3,FSMA|CySEC|FSA Seychelles,Seychelles,2015,FSA: Offshore Regulation,"Broker | Platforms: Alvexo WebTrader, mobile app (iOS/Android)",YES,unscraped,,DNS resolution failed for www.alvexo.com on repeated attempts (both http and https schemes) — domain does not appear to resolve currently. Could not evaluate.,http://www.alvexo.com/|https://www.alvexo.com/
+TrioMarkets,http://www.triomarkets.eu,2,FSMA|CySEC,Cyprus,,Regulated,Broker | Platforms: MT4,YES,none-found,,No vendor mentions found on homepage.,http://www.triomarkets.eu
+FXORO,https://orofintech.com/,3,FSMA|CySEC|FSA Seychelles,Seychelles,2022,FSA: Offshore Regulation,Broker | Platforms: MT4,YES,none-found,,No vendor mentions found on homepage. Note: FXORO's site (orofintech.com) appears to be a rebrand/successor domain.,https://orofintech.com/
+ONE ROYAL,https://www.oneroyalmalaysia.com/,2,FSMA|VFSC,United Kingdom,,VFSC: Unverified,Broker | WikiLicense flags this brand as lacking a verified forex license,YES,none-found,,No vendor mentions found on homepage.,https://www.oneroyalmalaysia.com/
+RYNAT,http://www.rynattrading.com/,2,FSMA|CySEC,Cyprus,2001,Regulated,"Broker | Platforms: XTrend app (mobile only, no MT4/MT5)",YES,none-found,,No vendor mentions found on homepage.,http://www.rynattrading.com/
+Atlantic Securities,,1,FSMA,Cyprus,,Unverified (not enriched),Basic regulator-table data only; brand detail page could not be reliably located.,NO,no-site,,,
+ALPHA GOLD FUTURES,https://alphagoldfutures.com.kh,1,SERC,Cambodia,2017,Regulated,Broker | Platforms: white-label MT4/MT5,YES,none-found,,No vendor mentions found on homepage.,https://alphagoldfutures.com.kh
+BLACKWELL GLOBAL,https://www.blackwellglobal.com/,2,SERC|SCB,Bahamas,2010,SCB: Offshore Regulation,Broker | Platforms: MT5,YES,none-found,,No vendor mentions found on homepage.,https://www.blackwellglobal.com/
+STMARKET,,1,SERC,United Kingdom,,Unverified (not enriched),Basic regulator-table data only; brand detail page could not be reliably located.,NO,no-site,,,
+G-LINK,https://goldenfxlink.com/en-US/,1,SERC,Cambodia,,Regulated,Broker | Platforms: MT4,YES,unscraped,,DNS resolution failed for goldenfxlink.com — domain does not appear to resolve currently. Could not evaluate.,https://goldenfxlink.com/en-US/
+AXION TRADE,https://axiontrade.net/en,2,SERC|FSA Seychelles,Seychelles,2020,FSA: Offshore Regulation,Broker | Platforms: MT4,YES,none-found,,No vendor mentions found on homepage.,https://axiontrade.net/en
+XAUMERLION,https://xaumerlion.com.kh,1,SERC,Cambodia,2021,Regulated,Broker | Platforms: MT4,YES,none-found,,No vendor mentions found on homepage.,https://xaumerlion.com.kh
+BroJets,http://brojets.com/,1,SERC,United States,2001,Regulated,"Broker | Platforms: MT4, MT5",YES,unscraped,,DNS resolution failed for brojets.com on repeated attempts — domain does not appear to resolve currently. Could not evaluate.,http://brojets.com/
+Y.A.I TRADING,,1,SERC,Cambodia,,Unverified (not enriched),Basic regulator-table data only; brand detail page could not be reliably located.,NO,no-site,,,
+BIC Markets,https://www.bicmarkets.com.kh/,1,SERC,Cambodia,2024,Regulated,Broker | Platforms: MT4,YES,none-found,,No vendor mentions found on homepage.,https://www.bicmarkets.com.kh/
+TRIDENTPRO FUTURE,https://tridentprofuture.com.kh,1,SERC,Cambodia,,Regulated,Broker | Financial derivatives trading,YES,none-found,,No vendor mentions found on homepage.,https://tridentprofuture.com.kh
+QUANTFURY,https://quantfury.com/,3,SCB|FCA|FINRA,Bahamas,2015,SCB: Offshore Regulation,Broker | Platforms: Smartphone trading app,YES,none-found,,quantfury.com redirected to a 'Quantfury Trading USA' early-access waitlist teaser page (SEC/FINRA/SIPC registered entity) rather than the main Quantfury app site; no vendor mentions found on the page that loaded.,https://quantfury.com/ (redirected to https://quantfuryusa.com/)
+INFINOX,,2,SCB|FCA,United Kingdom,2009,SCB: Offshore Regulation,"Broker | Platforms: MT4, MT5",YES,no-site,,,
+ST Global Markets,https://stgmarkets.com/,1,SCB,Bahamas,2022,SCB: Exceeded,"Broker | Platforms: MT5, Sterling, Tekion, DAS, Dynamics Trading, CQG, Silexx",YES,none-found,,No vendor mentions found on homepage.,https://stgmarkets.com/
+PALM CAPITAL,https://www.palmglobalcapital.com/en,1,SCB,Bahamas,2023,Regulated,Broker | Platforms: MT4,YES,none-found,,Page mentions generic 'Extensive research portal' as a marketing bullet but does not name any vendor. No Trading Central/Autochartist/Acuity mentions found.,https://www.palmglobalcapital.com/en
+FIXIO,https://fixiomarkets.com/en/home,1,SCB,Bahamas,2002,Regulated,"Broker | Platforms: cTrader, MT5, AdvanTrade",YES,none-found,,"Site now shows a Japanese-language notice that the CRM/client portal service has closed (as of Nov 19, 2025); no substantive homepage content or vendor mentions present.",https://fixiomarkets.com/en/home
+Phillip Futures,,3,ICDX|BAPPEBTI|JFX,Indonesia,,Unverified (not enriched),Basic regulator-table data only; brand detail page could not be reliably located.,NO,no-site,,,
+AGRODANA FUTURES,,3,ICDX|BAPPEBTI|JFX,Indonesia,,Unverified (not enriched),Basic regulator-table data only; brand detail page could not be reliably located.,NO,no-site,,,
+MIFX,http://www.mifx.com/,3,ICDX|BAPPEBTI|JFX,Indonesia,2000,Regulated,"Broker | Platforms: MT4, MT5",YES,none-found,,No vendor mentions found on homepage.,http://www.mifx.com/
+CFFOREX,https://www.cfforex.com/,3,ICDX|BAPPEBTI|JFX,Indonesia,2003,Regulated,Broker | Platforms: MT4,YES,none-found,,No vendor mentions found on homepage.,https://www.cfforex.com/
+Inter Pan,http://www.interpanpasifikfutures.com,3,ICDX|BAPPEBTI|JFX,Indonesia,,BAPPEBTI: Clone Firm; ICDX: Unverified,Broker | WikiLicense flags abnormal/unverifiable licensing for this platform,YES,none-found,,No vendor mentions found on homepage.,http://www.interpanpasifikfutures.com
+MENTARI MULIA,https://www.mentarimulia.co.id/,3,ICDX|BAPPEBTI|JFX,Indonesia,2018,Regulated,Broker | Platforms: MT4,YES,none-found,,No vendor mentions found on homepage.,https://www.mentarimulia.co.id/
+MIDTOU,https://www.midtou.com/,2,ICDX|BAPPEBTI,Indonesia,2005,Regulated,Broker | Platforms: MT4,YES,none-found,,No vendor mentions found on homepage.,https://www.midtou.com/
+VICTORY INTERNATIONAL FUTURES,,2,ICDX|BAPPEBTI,Indonesia,,Unverified (not enriched),Basic regulator-table data only; brand detail page could not be reliably located.,NO,no-site,,,
+HSB,https://www.hsb.co.id/,2,ICDX|BAPPEBTI,Indonesia,,Regulated,"Broker | Platforms: MT5, WebTrader, Mobile/Tablet App",YES,none-found,,No vendor mentions found on homepage.,https://www.hsb.co.id/
+CGS International,https://www.cgsi.co.th,3,ICDX|MAS|BAPPEBTI,Thailand,2018,Regulated,"Broker | Platforms: WebTrader, Mobile App",YES,none-found,,No vendor mentions found on homepage.,https://www.cgsi.co.th
+PasarFX,https://pasarfx.co.id/,3,ICDX|BAPPEBTI|JFX,Indonesia,,Regulated,Broker,YES,none-found,,No vendor mentions found on homepage.,https://pasarfx.co.id/
+MagnetFX,https://www.magnetfx.co.id/,2,ICDX|BAPPEBTI,Indonesia,2021,Regulated,Broker | Platforms: MT5,YES,none-found,,No vendor mentions found on homepage.,https://www.magnetfx.co.id/
+JAVA,https://www.javafx.co.id/,2,ICDX|BAPPEBTI,Indonesia,2016,Regulated,"Broker | Platforms: MT5, WebTrader",YES,none-found,,No vendor mentions found on homepage.,https://www.javafx.co.id/
+DOO FINANCIAL,https://www.doofinancial.com/,4,ICDX|ASIC|CySEC|BAPPEBTI,Hong Kong,2019,ASIC: Unverified; CYSEC: Unverified,"Broker | Platforms: MT5, InTrade",YES,none-found,,No vendor mentions found on homepage.,https://www.doofinancial.com/
+QuickPro,https://www.quickpro.co.id/,3,ICDX|BAPPEBTI|JFX,Indonesia,,Regulated,Broker,YES,none-found,,No vendor mentions found on homepage.,https://www.quickpro.co.id/
+RRFX,https://rrfx.co.id/,3,ICDX|BAPPEBTI|JFX,Indonesia,,Regulated,Broker | Not yet transparency-certified on WikiLicense,YES,none-found,,No vendor mentions found on homepage.,https://rrfx.co.id/
+trive invest,https://www.triveinvest.co.id/,4,ICDX|BAPPEBTI|JFX|ASIC,Indonesia,2022,ASIC: Unverified,Broker | Platforms: MT5,YES,none-found,,No vendor mentions found on homepage. (Distinct entity/site from 'Trive' int/ which showed a Trading Central match.),https://www.triveinvest.co.id/
+First State Futures,https://www.fsf.co.id/,3,ICDX|BAPPEBTI|JFX,Indonesia,2022,BAPPEBTI: Revoked; JFX: Suspicious Clone,"Broker | Platforms: JAFeTS NOW, MT4",YES,autochartist,Autochartist,"Clear Autochartist integration: homepage embeds live auto-generated technical analysis chart images served from component.autochartist.com, with a broker_id parameter (1019) tying the feed to this broker specifically. No visible 'Autochartist' brand text anywhere on the page — only discoverable via the image src domain (FIX #2 pattern).",https://www.fsf.co.id/
+Surya,https://www.surya-am.com/,1,ICDX,Indonesia,2000,Regulated,Broker | Platforms: MT4,YES,none-found,,No vendor mentions found on homepage.,https://www.surya-am.com/
+Markets4you,https://www.markets4you.com/en/,1,BVI FSC,British Virgin Islands,2007,FSC: Offshore Regulation,"Broker | Platforms: Markets4you, MT4/5",YES,none-found,,No vendor mentions found on homepage.,https://www.markets4you.com/en/
+IFC Markets,https://www.trifcm.asia/,1,BVI FSC,Turkey,2006,FSC: Suspicious Clone,"Broker | Platforms: NetTradeX, MT4, MT5 | WikiLicense flags its BVI FSC license as a Suspicious Clone",YES,unscraped,,The provided URL (trifcm.asia) no longer belongs to IFC Markets — it now resolves to a generic parked/link-farm 'Corporate Page' with dozens of unrelated .xyz/.shop redirect links. Could not evaluate the actual IFC Markets site since no valid URL was reachable.,https://www.trifcm.asia/
+FTD,https://www.ftdsystem.com/,1,BVI FSC,United Kingdom,2017,Regulated,Broker | Platforms: MT5,YES,none-found,,No vendor mentions found on homepage.,https://www.ftdsystem.com/
+FIBOGROUP,http://www.fibogroup.com/,1,BVI FSC,British Virgin Islands,1998,FSC: Offshore Regulation,"Broker | Platforms: MT4, MT5, cTrader",YES,none-found,,No vendor mentions found on homepage.,http://www.fibogroup.com/
+ZITA PLUS,https://zitaplus.com,1,BVI FSC,British Virgin Islands,2023,FSC: Offshore Regulation,Broker | Platforms: MT5,YES,none-found,,No vendor mentions found on homepage.,https://zitaplus.com
+sgt. MARKETS,https://sgt.markets/,1,BVI FSC,British Virgin Islands,2021,FSC: Offshore Regulation,"Broker | Platforms: MT4, MT5",YES,none-found,,Site currently shows a 'Get Ready — we are working on a major update' maintenance/coming-soon page (HTTP 503); no substantive content or vendor mentions present.,https://sgt.markets/
+CNS,http://www.cnsinvest.com/home.html,1,BVI FSC,British Virgin Islands,2011,Regulated,"Broker | FX, futures, derivatives, securities, bonds, options trading",YES,unscraped,,DNS resolution failed for www.cnsinvest.com on repeated attempts (both the /home.html path and base domain) — domain does not appear to resolve currently. Could not evaluate.,http://www.cnsinvest.com/home.html|https://www.cnsinvest.com/
+Zooe,https://zooe.com,1,BVI FSC,British Virgin Islands,,FSC: Offshore Regulation,Broker | Not yet transparency-certified on WikiLicense,YES,none-found,,No vendor mentions found on homepage.,https://zooe.com
+MFX-Trading,https://mfx.az/az,1,CBAR,Azerbaijan,,Regulated,Broker | Platforms: MT5,YES,none-found,,The /az path 404'd; retried base domain which loaded. No vendor mentions found.,https://mfx.az/az (404)|https://mfx.az/
+Moomoo,,1,MAS,Malaysia,,Unverified (not enriched),,NO,no-site,,,
+uSMART,,1,MAS,Hong Kong,,Unverified (not enriched),,NO,no-site,,,
+ORIENT SECURITIES,,1,MAS,China,,Unverified (not enriched),,NO,no-site,,,
+Blackrock,,1,MAS,Hong Kong,,Unverified (not enriched),,NO,no-site,,,
+StoneX,,1,MAS,United States,,Unverified (not enriched),,NO,no-site,,,
+KGI,,1,MAS,Singapore,,Unverified (not enriched),,NO,no-site,,,
+Phillip Nova,,1,MAS,Singapore,,Unverified (not enriched),,NO,no-site,,,
+OCBC,,1,MAS,Singapore,,Unverified (not enriched),,NO,no-site,,,
+STARX CAPITAL MARKETS,,1,MAS,Singapore,,Unverified (not enriched),,NO,no-site,,,
+Straits Financial,,1,MAS,Hong Kong,,Unverified (not enriched),,NO,no-site,,,
+PhillipCapital,,1,MAS,Singapore,,Unverified (not enriched),,NO,no-site,,,
+tickrs,,1,MAS,Singapore,,Unverified (not enriched),,NO,no-site,,,
+Lunaro,,1,ADGM,United Kingdom,,Unverified (not enriched),,NO,no-site,,,
+ICM.com,,1,ADGM,Mauritius,,Unverified (not enriched),,NO,no-site,,,
+FOCUS Markets,,2,FSRA SL|FSC Mauritius,Saint Lucia,,Unverified (not enriched),,NO,no-site,,,
+WISDOM,,1,FSRA SL,Saint Lucia,,Unverified (not enriched),,NO,no-site,,,
+IMPERIAL,,1,FSRA SL,Saint Lucia,,Unverified (not enriched),,NO,no-site,,,
+FINSAI TRADE,,1,FSRA SL,United Arab Emirates,,Unverified (not enriched),,NO,no-site,,,
+ZENORA,,1,FSRA SL,Australia,,Unverified (not enriched),,NO,no-site,,,
+NewEra 365,,1,FSRA SL,Saint Lucia,,Unverified (not enriched),,NO,no-site,,,
+InvidiaTrade,,1,FSRA SL,Saint Lucia,,Unverified (not enriched),,NO,no-site,,,
+Bullsouq,,1,FSRA SL,Saint Lucia,,Unverified (not enriched),,NO,no-site,,,
+INTERTRADER,,2,GFSC|FSC Mauritius,United Kingdom,,Unverified (not enriched),,NO,no-site,,,
+FXCG,,1,CIMA,Anguilla,,Unverified (not enriched),,NO,no-site,,,
+Capital Markets Elite Group,,1,CIMA,Saint Lucia,,Unverified (not enriched),,NO,no-site,,,
+TRADEVIEW MARKETS,,1,CIMA,Cayman Islands,,Unverified (not enriched),,NO,no-site,,,
+FTM BROKERS,,1,NBRB,Belarus,,Unverified (not enriched),,NO,no-site,,,
+ForexBY,,1,NBRB,Belarus,,Unverified (not enriched),,NO,no-site,,,
+FXPN,,1,NBRB,Belarus,,Unverified (not enriched),,NO,no-site,,,
+ForexClub,,1,NBRB,Saint Vincent and the Grenadines,,Unverified (not enriched),,NO,no-site,,,
+ROYAL CAPITAL,,1,FSPR,Hong Kong,,Unverified (not enriched),,NO,no-site,,,
+BlackBull,,1,FSPR,New Zealand,,Unverified (not enriched),,NO,no-site,,,
+Longbridge,,1,FSPR,Hong Kong,,Unverified (not enriched),,NO,no-site,,,
+TopWealth Trading,,2,FSPR|VFSC,Australia,,Unverified (not enriched),,NO,no-site,,,
+CA Markets,,2,FSPR|VFSC,Australia,,Unverified (not enriched),,NO,no-site,,,
+RockGlobal,,1,FSPR,Australia,,Unverified (not enriched),,NO,no-site,,,
+Astral,,1,FSPR,United Kingdom,,Unverified (not enriched),,NO,no-site,,,
+LLA Markets,,1,FSPR,New Zealand,,Unverified (not enriched),,NO,no-site,,,
+TradeHall,,1,FSPR,Saint Vincent and the Grenadines,,Unverified (not enriched),,NO,no-site,,,
+RALLYVILLE MARKETS,,1,VFSC,Australia,,Unverified (not enriched),,NO,no-site,,,
+Vatee,,1,VFSC,Australia,,Unverified (not enriched),,NO,no-site,,,
+DLSM,,1,VFSC,Vanuatu,,Unverified (not enriched),,NO,no-site,,,
+evest,,1,VFSC,United Kingdom,,Unverified (not enriched),,NO,no-site,,,
+JFD,,1,VFSC,Vanuatu,,Unverified (not enriched),,NO,no-site,,,
+Juno Markets,,1,VFSC,Vanuatu,,Unverified (not enriched),,NO,no-site,,,
+PRCBroker,,1,VFSC,Cyprus,,Unverified (not enriched),,NO,no-site,,,
+MDM,,1,VFSC,Australia,,Unverified (not enriched),,NO,no-site,,,
+XGLOBAL,,1,VFSC,Vanuatu,,Unverified (not enriched),,NO,no-site,,,
+LegacyFX,,1,VFSC,Cyprus,,Unverified (not enriched),,NO,no-site,,,
+Gerchik & Co,,1,VFSC,Vanuatu,,Unverified (not enriched),,NO,no-site,,,
+Autu,,1,VFSC,Vanuatu,,Unverified (not enriched),,NO,no-site,,,
+JMI Brokers,,1,VFSC,Vanuatu,,Unverified (not enriched),,NO,no-site,,,
+DTT VAN LTD,,1,VFSC,Vanuatu,,Unverified (not enriched),,NO,no-site,,,
+Market Equity,,1,VFSC,Vanuatu,,Unverified (not enriched),,NO,no-site,,,
+Radar Brokers,,1,VFSC,Vanuatu,,Unverified (not enriched),,NO,no-site,,,
+SMARTFX,,1,VFSC,Vanuatu,,Unverified (not enriched),,NO,no-site,,,
+Oriental Wealth Markets,,1,VFSC,Vanuatu,,Unverified (not enriched),,NO,no-site,,,
+ThreeTrader,,1,VFSC,Vanuatu,,Unverified (not enriched),,NO,no-site,,,
+GMTK Fintech,,1,VFSC,Comoros,,Unverified (not enriched),,NO,no-site,,,
+JMarkets,,1,VFSC,Vanuatu,,Unverified (not enriched),,NO,no-site,,,
+CDO Markets,,1,VFSC,Vanuatu,,Unverified (not enriched),,NO,no-site,,,
+SUN LONG GMTK INTERNATIONAL,,1,VFSC,Vanuatu,,Unverified (not enriched),,NO,no-site,,,
+TJM,,1,FINRA,United States,,Unverified (not enriched),,NO,no-site,,,
+CI DIRECT INVESTING,,1,CIRO,Canada,,Unverified (not enriched),,NO,no-site,,,
+cg/ Direct,,1,CIRO,Canada,,Unverified (not enriched),,NO,no-site,,,
+Questrade,,1,CIRO,Canada,,Unverified (not enriched),,NO,no-site,,,
+RBC,,1,CIRO,Canada,,Unverified (not enriched),,NO,no-site,,,
+RBC Securities,,1,CIRO,United States,,Unverified (not enriched),,NO,no-site,,,
+Odlum Brown,,1,CIRO,Canada,,Unverified (not enriched),,NO,no-site,,,
+CANDEAL,,1,CIRO,Canada,,Unverified (not enriched),,NO,no-site,,,
+R.J.O'Brien,,1,CIRO,Canada,,Unverified (not enriched),,NO,no-site,,,
+Jitneytrade,,1,CIRO,Canada,,Unverified (not enriched),,NO,no-site,,,
+Argosy Securities,,1,CIRO,Canada,,Unverified (not enriched),,NO,no-site,,,
+Ventum Financial,,1,CIRO,Canada,,Unverified (not enriched),,NO,no-site,,,
+JonesTrading,,1,CIRO,Canada,,Unverified (not enriched),,NO,no-site,,,
+PIPWISE,,1,MISA,Georgia,,Unverified (not enriched),,NO,no-site,,,
+GARNETTRADE,,1,MISA,Macedonia,,Unverified (not enriched),,NO,no-site,,,
+xChief,,1,MISA,Comoros,,Unverified (not enriched),,NO,no-site,,,
+Murrentrade,,1,MISA,Saint Vincent and the Grenadines,,Unverified (not enriched),,NO,no-site,,,
+STP Trading,,1,MISA,,,Unverified (not enriched),,NO,no-site,,,
+IS6FX,,1,MISA,Mauritius,,Unverified (not enriched),,NO,no-site,,,
+FXNX,,1,MISA,Saint Lucia,,Unverified (not enriched),,NO,no-site,,,
+AMarkets,,1,MISA,Saint Vincent and the Grenadines,,Unverified (not enriched),,NO,no-site,,,
+GINZO,,1,MISA,Comoros,,Unverified (not enriched),,NO,no-site,,,
+DOMINION MARKETS,,1,MISA,Mauritius,,Unverified (not enriched),,NO,no-site,,,
+NPB MARKETS,,1,MISA,Comoros,,Unverified (not enriched),,NO,no-site,,,
+FELIX MARKETS,,1,MISA,Australia,,Unverified (not enriched),,NO,no-site,,,
+METAGOLD,,1,MISA,Georgia,,Unverified (not enriched),,NO,no-site,,,
+Phyntex,,1,MISA,Comoros,,Unverified (not enriched),,NO,no-site,,,
+Invistro,,1,MISA,Comoros,,Unverified (not enriched),,NO,no-site,,,
+WeGolden,,1,MISA,South Africa,,Unverified (not enriched),,NO,no-site,,,
+WINGO MARKETS,,1,MISA,Comoros,,Unverified (not enriched),,NO,no-site,,,
+YWO,,1,MISA,Comoros,,Unverified (not enriched),,NO,no-site,,,
+ELEV8,,1,MISA,Comoros,,Unverified (not enriched),,NO,no-site,,,
+eplanet,,1,MISA,Comoros,,Unverified (not enriched),,NO,no-site,,,
+INZO,,1,MISA,Saint Vincent and the Grenadines,,Unverified (not enriched),,NO,no-site,,,
+LDN Global Markets,,1,MISA,Saint Vincent and the Grenadines,,Unverified (not enriched),,NO,no-site,,,
+Valbury,,2,BAPPEBTI|JFX,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+Dupoin,,3,BAPPEBTI|JFX|FSC Mauritius,United Kingdom,,Unverified (not enriched),,NO,no-site,,,
+KVB,,3,BAPPEBTI|JFX|FSC Mauritius,Comoros,,Unverified (not enriched),,NO,no-site,,,
+FINEX,,2,BAPPEBTI|JFX,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+TPFx,,2,BAPPEBTI|JFX,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+DIDIMAX,,2,BAPPEBTI|JFX,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+International Business Futures,,2,JFX|BAPPEBTI,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+maxco,,2,JFX|BAPPEBTI,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+EsaFX,,2,JFX|BAPPEBTI,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+MAHADANA,,2,JFX|BAPPEBTI,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+MRG MEGA BERJANGKA,,2,JFX|BAPPEBTI,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+SFI,,2,JFX|BAPPEBTI,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+PREMIER EQUITY FUTURES,,2,JFX|BAPPEBTI,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+PT. Gatra Mega Berjangka,,2,JFX|BAPPEBTI,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+ORBI TRADE BERJANGKA,,2,JFX|BAPPEBTI,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+PG berjangka,,2,JFX|BAPPEBTI,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+GENESIS,,2,JFX|BAPPEBTI,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+BestProfit,,2,JFX|BAPPEBTI,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+Menara Mas Futures,,2,JFX|BAPPEBTI,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+TRIDENT PRO FUTURES,,2,JFX|BAPPEBTI,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+United Asia Futures,,2,JFX|BAPPEBTI,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+IDFX,,2,JFX|BAPPEBTI,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+PanEn Kapital Berjangka,,2,JFX|BAPPEBTI,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+INVETRA TEKNOLOGI BERJANGKA,,2,JFX|BAPPEBTI,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+Langit Indonesia Berjangka,,2,JFX|BAPPEBTI,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+GLOBAL BUANA KARYA,,1,JFX,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+FirstState-Futures,,1,JFX,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+Valetax,,1,FSC Mauritius,Mauritius,,Unverified (not enriched),,NO,no-site,,,
+Errante,,1,KNF,Seychelles,,Unverified (not enriched),,NO,no-site,,,
+BROCTAGON prime,,1,FIN-FSA,Cyprus,,Unverified (not enriched),,NO,no-site,,,
+Renaissance Capital,,1,FIN-FSA,Cyprus,,Unverified (not enriched),,NO,no-site,,,
+ROYAL TRUST FUTURES,,1,BAPPEBTI,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+ASIAPRO,,1,BAPPEBTI,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+HFX,,1,BAPPEBTI,Indonesia,,Unverified (not enriched),,NO,no-site,,,
+XS.com,,1,FSC Mauritius,Australia,,Unverified (not enriched),,NO,no-site,,,
+AETRAM,,1,FSC Mauritius,United Arab Emirates,,Unverified (not enriched),,NO,no-site,,,
+AURUM MARKETS,,1,FSC Mauritius,Mauritius,,Unverified (not enriched),,NO,no-site,,,
+VARIANSE,,1,FSC Mauritius,United Kingdom,,Unverified (not enriched),,NO,no-site,,,
+CapitalXtend,,1,FSC Mauritius,Mauritius,,Unverified (not enriched),,NO,no-site,,,
+Amillex,,1,FSC Mauritius,Australia,,Unverified (not enriched),,NO,no-site,,,
+Wisuno,,1,FSC Mauritius,Seychelles,,Unverified (not enriched),,NO,no-site,,,
+ZERO,,1,FSC Mauritius,Saint Vincent and the Grenadines,,Unverified (not enriched),,NO,no-site,,,
+Spec Markets,,1,FSC Mauritius,Cyprus,,Unverified (not enriched),,NO,no-site,,,
+MENACAPITAL,,1,FSC Mauritius,Mauritius,,Unverified (not enriched),,NO,no-site,,,
+GODO,,1,FSC Mauritius,Mauritius,,Unverified (not enriched),,NO,no-site,,,
+Riyadex,,1,FSRA SL,South Africa,,Unverified (not enriched),,NO,no-site,,,
+Fortuna Markets,,1,FSRA SL,Saint Lucia,,Unverified (not enriched),,NO,no-site,,,
+Giraffe Markets,,1,FSRA SL,Mauritius,,Unverified (not enriched),,NO,no-site,,,
+RubyFX,,1,FSRA SL,Saint Lucia,,Unverified (not enriched),,NO,no-site,,,
+MBFX,,1,FSRA SL,Saint Lucia,,Unverified (not enriched),,NO,no-site,,,
+ARFX,,1,FSRA SL,Comoros,,Unverified (not enriched),,NO,no-site,,,
+Forexcitypro,,1,FSRA SL,Saint Lucia,,Unverified (not enriched),,NO,no-site,,,
+FlipTrade Group,,1,FSRA SL,Mauritius,,Unverified (not enriched),,NO,no-site,,,
+Maxify,,1,FSRA SL,Saint Lucia,,Unverified (not enriched),,NO,no-site,,,
+TRADE FX,,1,FSRA SL,Saint Lucia,,Unverified (not enriched),,NO,no-site,,,
+POXPRIME,,1,FSRA SL,Saint Lucia,,Unverified (not enriched),,NO,no-site,,,
+Born2trade,,1,FSRA SL,Mauritius,,Unverified (not enriched),,NO,no-site,,,
+Celestial Trader,,1,FSRA SL,Saint Lucia,,Unverified (not enriched),,NO,no-site,,,
+AMBITIOUS FINCORP,,1,FSRA SL,Mauritius,,Unverified (not enriched),,NO,no-site,,,
+Prima Capital,,1,FSRA SL,Mauritius,,Unverified (not enriched),,NO,no-site,,,
+brillant capital,,1,FSRA SL,Mauritius,,Unverified (not enriched),,NO,no-site,,,
+VOLURR BROKERAGE,,1,FSRA SL,Saint Lucia,,Unverified (not enriched),,NO,no-site,,,
+ATM CAPITAL,,1,FSRA SL,Mauritius,,Unverified (not enriched),,NO,no-site,,,
+SGFX,,1,FSRA SL,Saint Lucia,,Unverified (not enriched),,NO,no-site,,,
+SEA GLOBAL,,1,FSRA SL,Saint Lucia,,Unverified (not enriched),,NO,no-site,,,
+RADIANCE MARKETS,,1,FSRA SL,Saint Lucia,,Unverified (not enriched),,NO,no-site,,,
+dragonflyfx,,1,FSRA SL,South Africa,,Unverified (not enriched),,NO,no-site,,,
+BLUVOX,,1,FSRA SL,Saint Lucia,,Unverified (not enriched),,NO,no-site,,,
+ByteFX,,1,FSRA SL,Saint Lucia,,Unverified (not enriched),,NO,no-site,,,
+AKROS,,1,FSRA SL,Saint Lucia,,Unverified (not enriched),,NO,no-site,,,
+EDMORA MARKETS,,1,FSRA SL,Saint Lucia,,Unverified (not enriched),,NO,no-site,,,
