@@ -56,7 +56,7 @@ FCA_QUERIES = {
     "hantec-financial-hantec-markets-asia": ["Hantec Markets Limited"],
     "hycm": ["Henyep Capital Markets (UK) Limited", "HYCM Capital Markets (UK) Limited"],
     "ironfx": ["Notesco UK Limited"],
-    "moneta-markets": ["Moneta Markets"],
+    "moneta-markets": ["Moneta Markets Capital Ltd"],
     "vantage-vantage-markets": ["Vantage Global Prime LLP"],
 }
 
@@ -64,6 +64,7 @@ FCA_QUERIES = {
 # an unambiguous former/current brand name. They are matched only by exact name
 # to a regulator-owned register row.
 KNOWN_LEGAL_ENTITIES = {
+    "avatrade": ["D.T. Direct Investment Hub Ltd"],
     "cfi-financial-group": ["CFI International Ltd"],
     "fusion-markets": ["Gleneagle Asset Management Limited", "Gleneagle Securities (Aust) Pty Limited"],
     "fxcm": ["Stratos Trading Pty. Limited"],
@@ -71,6 +72,7 @@ KNOWN_LEGAL_ENTITIES = {
     "atfx": ["ATFX Global Markets (Cy) Ltd", "AT Global Markets (Australia) Pty Ltd", "AT Global Markets Intl Ltd"],
     "easymarkets": ["Easy Forex Trading Ltd", "EASYMARKETS PTY LTD"],
     "ironfx": ["Notesco Financial Services Ltd"],
+    "fortrade": ["FORT SECURITIES AUSTRALIA PTY. LTD."],
     "moneta-markets": ["Moneta Markets Trading Limited"],
 }
 

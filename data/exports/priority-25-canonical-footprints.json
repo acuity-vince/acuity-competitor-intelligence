@@ -1,0 +1,2406 @@
+{
+  "generated_at": "2026-09-04T11:45:40+00:00",
+  "scope": "PRIORITY_25",
+  "expansion_gate": {
+    "status": "HOLD",
+    "ready_profiles": 23,
+    "review_profiles": 2,
+    "profile_count": 25,
+    "criteria": [
+      "25 canonical footprints built",
+      "zero orphan official licences",
+      "zero duplicate official licences",
+      "zero unclassified or relationship-ambiguous core claims"
+    ],
+    "blocking_profiles": [
+      "fp-markets",
+      "windsor-brokers"
+    ]
+  },
+  "profiles": [
+    {
+      "slug": "activtrades",
+      "brand_name": "ActivTrades",
+      "priority_rank": 1,
+      "canonical_regulatory_footprint": {
+        "scope": "PRIORITY_25",
+        "readiness": "READY",
+        "legal_entities": [
+          {
+            "canonical_name": "Activtrades Plc",
+            "jurisdictions": [
+              "United Kingdom"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/434413",
+            "licenses": [
+              {
+                "regulator_code": "FCA",
+                "regulator_name": "Financial Conduct Authority",
+                "jurisdiction": "United Kingdom",
+                "license_number": "434413",
+                "license_type": "Financial Services Register firm",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "Activtrades Plc",
+                "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/434413",
+                "evidence_status": "OFFICIAL_API",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          }
+        ],
+        "regulator_claims": [
+          {
+            "regulator_code": "FCA",
+            "status": "VERIFIED_ACTIVE"
+          }
+        ],
+        "unresolved_claims": [],
+        "official_license_count": 1,
+        "last_verified": "2026-09-04T11:45:40+00:00"
+      }
+    },
+    {
+      "slug": "admiral-markets-admirals",
+      "brand_name": "Admiral Markets (Admirals)",
+      "priority_rank": 2,
+      "canonical_regulatory_footprint": {
+        "scope": "PRIORITY_25",
+        "readiness": "READY",
+        "legal_entities": [
+          {
+            "canonical_name": "Admiral Markets UK Ltd",
+            "jurisdictions": [
+              "United Kingdom"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/595450",
+            "licenses": [
+              {
+                "regulator_code": "FCA",
+                "regulator_name": "Financial Conduct Authority",
+                "jurisdiction": "United Kingdom",
+                "license_number": "595450",
+                "license_type": "Financial Services Register firm",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "Admiral Markets UK Ltd",
+                "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/595450",
+                "evidence_status": "OFFICIAL_API",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          }
+        ],
+        "regulator_claims": [
+          {
+            "regulator_code": "FCA",
+            "status": "VERIFIED_ACTIVE"
+          }
+        ],
+        "unresolved_claims": [],
+        "official_license_count": 1,
+        "last_verified": "2026-09-04T11:45:40+00:00"
+      }
+    },
+    {
+      "slug": "atfx",
+      "brand_name": "ATFX",
+      "priority_rank": 3,
+      "canonical_regulatory_footprint": {
+        "scope": "PRIORITY_25",
+        "readiness": "READY",
+        "legal_entities": [
+          {
+            "canonical_name": "ATFX Global Markets (Cy) Ltd",
+            "jurisdictions": [
+              "Cyprus"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://atfxgm.eu/en/",
+            "licenses": [
+              {
+                "regulator_code": "CySEC",
+                "regulator_name": "Cyprus Securities and Exchange Commission",
+                "jurisdiction": "Cyprus",
+                "license_number": "285/15",
+                "license_type": "Cyprus Investment Firm",
+                "status": "ACTIVE",
+                "license_date": "17/12/2015",
+                "legal_name": "ATFX Global Markets (Cy) Ltd",
+                "evidence_url": "https://atfxgm.eu/en/",
+                "evidence_status": "FETCHED",
+                "last_checked": "2026-09-04T11:45:08+00:00",
+                "source": "Official regulator registry"
+              }
+            ]
+          },
+          {
+            "canonical_name": "AT GLOBAL CAPITAL MARKETS AFRICA (PTY) LTD",
+            "jurisdictions": [
+              "South Africa"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+            "licenses": [
+              {
+                "regulator_code": "FSCA",
+                "regulator_name": "Financial Sector Conduct Authority",
+                "jurisdiction": "South Africa",
+                "license_number": "55142",
+                "license_type": "Authorised Financial Services Provider",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "AT GLOBAL CAPITAL MARKETS AFRICA (PTY) LTD",
+                "evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+                "evidence_status": "OFFICIAL_SEARCH_RESULT",
+                "source": "Official regulator registry",
+                "brand_mapping_basis": "ATFX-owned disclosure identifies the entity as authorised to operate under the ATFX brand",
+                "brand_mapping_url": "https://www.atfx.com/en-za/about-us/atfx-regulators",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "AT GLOBAL MARKETS (AUSTRALIA) PTY LTD",
+            "jurisdictions": [
+              "Australia"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
+            "licenses": [
+              {
+                "regulator_code": "ASIC",
+                "regulator_name": "Australian Securities and Investments Commission",
+                "jurisdiction": "Australia",
+                "license_number": "418036",
+                "license_type": "Australian Financial Services Licence",
+                "status": "ACTIVE",
+                "license_date": "02/05/2012",
+                "legal_name": "AT GLOBAL MARKETS (AUSTRALIA) PTY LTD",
+                "evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
+                "evidence_status": "OFFICIAL_DATASET",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "AT Global Markets Intl Ltd",
+            "jurisdictions": [
+              "Mauritius"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr",
+            "licenses": [
+              {
+                "regulator_code": "FSC Mauritius",
+                "regulator_name": "Financial Services Commission Mauritius",
+                "jurisdiction": "Mauritius",
+                "license_number": "",
+                "license_type": "SEC-2.1B Investment Dealer (Full Service Dealer excluding Underwriting)",
+                "status": "ACTIVE",
+                "license_date": "23/07/2018",
+                "legal_name": "AT Global Markets Intl Ltd",
+                "evidence_url": "https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr",
+                "evidence_status": "OFFICIAL_PUBLIC_REGISTER",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "AT GLOBAL MARKETS SA (PTY) LTD",
+            "jurisdictions": [
+              "South Africa"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+            "licenses": [
+              {
+                "regulator_code": "FSCA",
+                "regulator_name": "Financial Sector Conduct Authority",
+                "jurisdiction": "South Africa",
+                "license_number": "44816",
+                "license_type": "Authorised Financial Services Provider",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "AT GLOBAL MARKETS SA (PTY) LTD",
+                "evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+                "evidence_status": "OFFICIAL_SEARCH_RESULT",
+                "source": "Official regulator registry",
+                "brand_mapping_basis": "ATFX-owned disclosure identifies AT Global Markets SA and FSP 44816",
+                "brand_mapping_url": "https://www.atfx.com/en-za/about-us/atfx-regulators",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "AT Global Markets (UK) Limited",
+            "jurisdictions": [
+              "United Kingdom"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/760555",
+            "licenses": [
+              {
+                "regulator_code": "FCA",
+                "regulator_name": "Financial Conduct Authority",
+                "jurisdiction": "United Kingdom",
+                "license_number": "760555",
+                "license_type": "Financial Services Register firm",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "AT Global Markets (UK) Limited",
+                "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/760555",
+                "evidence_status": "OFFICIAL_API",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          }
+        ],
+        "regulator_claims": [
+          {
+            "regulator_code": "ASIC",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "CySEC",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FCA",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FSC Mauritius",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FSCA",
+            "status": "VERIFIED_ACTIVE"
+          }
+        ],
+        "unresolved_claims": [],
+        "official_license_count": 6,
+        "last_verified": "2026-09-04T11:45:40+00:00"
+      }
+    },
+    {
+      "slug": "avatrade",
+      "brand_name": "AvaTrade",
+      "priority_rank": 4,
+      "canonical_regulatory_footprint": {
+        "scope": "PRIORITY_25",
+        "readiness": "READY",
+        "legal_entities": [
+          {
+            "canonical_name": "AVA CAPITAL MARKETS AUSTRALIA PTY LTD",
+            "jurisdictions": [
+              "Australia"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
+            "licenses": [
+              {
+                "regulator_code": "ASIC",
+                "regulator_name": "Australian Securities and Investments Commission",
+                "jurisdiction": "Australia",
+                "license_number": "406684",
+                "license_type": "Australian Financial Services Licence",
+                "status": "ACTIVE",
+                "license_date": "09/11/2011",
+                "legal_name": "AVA CAPITAL MARKETS AUSTRALIA PTY LTD",
+                "evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
+                "evidence_status": "OFFICIAL_DATASET",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "AVA CAPITAL MARKETS (PTY) LTD",
+            "jurisdictions": [
+              "South Africa"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+            "licenses": [
+              {
+                "regulator_code": "FSCA",
+                "regulator_name": "Financial Sector Conduct Authority",
+                "jurisdiction": "South Africa",
+                "license_number": "45984",
+                "license_type": "Authorised Financial Services Provider",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "AVA CAPITAL MARKETS (PTY) LTD",
+                "evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+                "evidence_status": "OFFICIAL_SEARCH_RESULT",
+                "source": "Official regulator registry",
+                "brand_mapping_basis": "Official trading name matches the broker brand",
+                "brand_mapping_url": "",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "D.T. Direct Investment Hub Ltd",
+            "jurisdictions": [
+              "Cyprus"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://duplitrade.com/",
+            "licenses": [
+              {
+                "regulator_code": "CySEC",
+                "regulator_name": "Cyprus Securities and Exchange Commission",
+                "jurisdiction": "Cyprus",
+                "license_number": "347/17",
+                "license_type": "Cyprus Investment Firm",
+                "status": "ACTIVE",
+                "license_date": "11/12/2017",
+                "legal_name": "D.T. Direct Investment Hub Ltd",
+                "evidence_url": "https://duplitrade.com/",
+                "evidence_status": "FETCHED",
+                "last_checked": "2026-09-04T11:45:08+00:00",
+                "source": "Official regulator registry"
+              }
+            ]
+          }
+        ],
+        "regulator_claims": [
+          {
+            "regulator_code": "ASIC",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "CySEC",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FSCA",
+            "status": "VERIFIED_ACTIVE"
+          }
+        ],
+        "unresolved_claims": [],
+        "official_license_count": 3,
+        "last_verified": "2026-09-04T11:45:40+00:00"
+      }
+    },
+    {
+      "slug": "cfi-financial-group",
+      "brand_name": "CFI Financial Group",
+      "priority_rank": 5,
+      "canonical_regulatory_footprint": {
+        "scope": "PRIORITY_25",
+        "readiness": "READY",
+        "legal_entities": [
+          {
+            "canonical_name": "CFI FINANCIAL (PTY) LTD",
+            "jurisdictions": [
+              "South Africa"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+            "licenses": [
+              {
+                "regulator_code": "FSCA",
+                "regulator_name": "Financial Sector Conduct Authority",
+                "jurisdiction": "South Africa",
+                "license_number": "53711",
+                "license_type": "Authorised Financial Services Provider",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "CFI FINANCIAL (PTY) LTD",
+                "evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+                "evidence_status": "OFFICIAL_SEARCH_RESULT",
+                "source": "Official regulator registry",
+                "brand_mapping_basis": "Official FSP name contains the broker brand",
+                "brand_mapping_url": "",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "CFI International Ltd",
+            "jurisdictions": [
+              "Mauritius"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr",
+            "licenses": [
+              {
+                "regulator_code": "FSC Mauritius",
+                "regulator_name": "Financial Services Commission Mauritius",
+                "jurisdiction": "Mauritius",
+                "license_number": "",
+                "license_type": "SEC-2.1B Investment Dealer (Full Service Dealer excluding Underwriting)",
+                "status": "ACTIVE",
+                "license_date": "14/01/2019",
+                "legal_name": "CFI International Ltd",
+                "evidence_url": "https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr",
+                "evidence_status": "OFFICIAL_PUBLIC_REGISTER",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "Credit Financier Invest (CFI) Ltd",
+            "jurisdictions": [
+              "Cyprus"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://cfi.trade/en/cy",
+            "licenses": [
+              {
+                "regulator_code": "CySEC",
+                "regulator_name": "Cyprus Securities and Exchange Commission",
+                "jurisdiction": "Cyprus",
+                "license_number": "179/12",
+                "license_type": "Cyprus Investment Firm",
+                "status": "ACTIVE",
+                "license_date": "25/09/2012",
+                "legal_name": "Credit Financier Invest (CFI) Ltd",
+                "evidence_url": "https://cfi.trade/en/cy",
+                "evidence_status": "FETCHED",
+                "last_checked": "2026-09-04T11:45:08+00:00",
+                "source": "Official regulator registry"
+              }
+            ]
+          },
+          {
+            "canonical_name": "Credit Financier Invest Limited",
+            "jurisdictions": [
+              "United Kingdom"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/828955",
+            "licenses": [
+              {
+                "regulator_code": "FCA",
+                "regulator_name": "Financial Conduct Authority",
+                "jurisdiction": "United Kingdom",
+                "license_number": "828955",
+                "license_type": "Financial Services Register firm",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "Credit Financier Invest Limited",
+                "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/828955",
+                "evidence_status": "OFFICIAL_API",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          }
+        ],
+        "regulator_claims": [
+          {
+            "regulator_code": "CySEC",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FCA",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FSC Mauritius",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FSCA",
+            "status": "VERIFIED_ACTIVE"
+          }
+        ],
+        "unresolved_claims": [],
+        "official_license_count": 4,
+        "last_verified": "2026-09-04T11:45:40+00:00"
+      }
+    },
+    {
+      "slug": "easymarkets",
+      "brand_name": "easyMarkets",
+      "priority_rank": 6,
+      "canonical_regulatory_footprint": {
+        "scope": "PRIORITY_25",
+        "readiness": "READY",
+        "legal_entities": [
+          {
+            "canonical_name": "Easy Forex Trading Ltd",
+            "jurisdictions": [
+              "Cyprus"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "http://easy-forex.com",
+            "licenses": [
+              {
+                "regulator_code": "CySEC",
+                "regulator_name": "Cyprus Securities and Exchange Commission",
+                "jurisdiction": "Cyprus",
+                "license_number": "079/07",
+                "license_type": "Cyprus Investment Firm",
+                "status": "ACTIVE",
+                "license_date": "29/05/2007",
+                "legal_name": "Easy Forex Trading Ltd",
+                "evidence_url": "http://easy-forex.com",
+                "evidence_status": "FETCH_FAILED",
+                "last_checked": "2026-09-04T11:45:08+00:00",
+                "source": "Official regulator registry"
+              }
+            ]
+          },
+          {
+            "canonical_name": "EASYMARKETS PTY LTD",
+            "jurisdictions": [
+              "Australia"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
+            "licenses": [
+              {
+                "regulator_code": "ASIC",
+                "regulator_name": "Australian Securities and Investments Commission",
+                "jurisdiction": "Australia",
+                "license_number": "246566",
+                "license_type": "Australian Financial Services Licence",
+                "status": "ACTIVE",
+                "license_date": "26/03/2004",
+                "legal_name": "EASYMARKETS PTY LTD",
+                "evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
+                "evidence_status": "OFFICIAL_DATASET",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          }
+        ],
+        "regulator_claims": [
+          {
+            "regulator_code": "ASIC",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "CySEC",
+            "status": "VERIFIED_ACTIVE"
+          }
+        ],
+        "unresolved_claims": [],
+        "official_license_count": 2,
+        "last_verified": "2026-09-04T11:45:40+00:00"
+      }
+    },
+    {
+      "slug": "etoro",
+      "brand_name": "eToro",
+      "priority_rank": 7,
+      "canonical_regulatory_footprint": {
+        "scope": "PRIORITY_25",
+        "readiness": "READY",
+        "legal_entities": [
+          {
+            "canonical_name": "ETORO AUS CAPITAL LIMITED",
+            "jurisdictions": [
+              "Australia"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
+            "licenses": [
+              {
+                "regulator_code": "ASIC",
+                "regulator_name": "Australian Securities and Investments Commission",
+                "jurisdiction": "Australia",
+                "license_number": "491139",
+                "license_type": "Australian Financial Services Licence",
+                "status": "ACTIVE",
+                "license_date": "04/09/2017",
+                "legal_name": "ETORO AUS CAPITAL LIMITED",
+                "evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
+                "evidence_status": "OFFICIAL_DATASET",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "Etoro (Europe) Ltd",
+            "jurisdictions": [
+              "Cyprus"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://www.etoro.com/",
+            "licenses": [
+              {
+                "regulator_code": "CySEC",
+                "regulator_name": "Cyprus Securities and Exchange Commission",
+                "jurisdiction": "Cyprus",
+                "license_number": "109/10",
+                "license_type": "Cyprus Investment Firm",
+                "status": "ACTIVE",
+                "license_date": "14/01/2010",
+                "legal_name": "Etoro (Europe) Ltd",
+                "evidence_url": "https://www.etoro.com/",
+                "evidence_status": "FETCHED",
+                "last_checked": "2026-09-04T11:45:08+00:00",
+                "source": "Official regulator registry"
+              }
+            ]
+          },
+          {
+            "canonical_name": "ETORO (UK) LIMITED",
+            "jurisdictions": [
+              "United Kingdom"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/583263",
+            "licenses": [
+              {
+                "regulator_code": "FCA",
+                "regulator_name": "Financial Conduct Authority",
+                "jurisdiction": "United Kingdom",
+                "license_number": "583263",
+                "license_type": "Financial Services Register firm",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "ETORO (UK) LIMITED",
+                "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/583263",
+                "evidence_status": "OFFICIAL_API",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          }
+        ],
+        "regulator_claims": [
+          {
+            "regulator_code": "ASIC",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "CySEC",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FCA",
+            "status": "VERIFIED_ACTIVE"
+          }
+        ],
+        "unresolved_claims": [],
+        "official_license_count": 3,
+        "last_verified": "2026-09-04T11:45:40+00:00"
+      }
+    },
+    {
+      "slug": "exness",
+      "brand_name": "Exness",
+      "priority_rank": 8,
+      "canonical_regulatory_footprint": {
+        "scope": "PRIORITY_25",
+        "readiness": "READY",
+        "legal_entities": [
+          {
+            "canonical_name": "Exness (Cy) Ltd",
+            "jurisdictions": [
+              "Cyprus"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://www.exness.eu/",
+            "licenses": [
+              {
+                "regulator_code": "CySEC",
+                "regulator_name": "Cyprus Securities and Exchange Commission",
+                "jurisdiction": "Cyprus",
+                "license_number": "178/12",
+                "license_type": "Cyprus Investment Firm",
+                "status": "ACTIVE",
+                "license_date": "05/09/2012",
+                "legal_name": "Exness (Cy) Ltd",
+                "evidence_url": "https://www.exness.eu/",
+                "evidence_status": "FETCHED",
+                "last_checked": "2026-09-04T11:45:08+00:00",
+                "source": "Official regulator registry"
+              }
+            ]
+          },
+          {
+            "canonical_name": "Exness (MU) Ltd",
+            "jurisdictions": [
+              "Mauritius"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "The broker-owned regulation page maps the Exness brand and licence number to the same legal entity returned by the official register.",
+            "mapping_evidence_url": "https://www.exness.com/regulation/",
+            "licenses": [
+              {
+                "regulator_code": "FSC Mauritius",
+                "regulator_name": "Financial Services Commission Mauritius",
+                "jurisdiction": "Mauritius",
+                "license_number": "GB20025294",
+                "license_type": "SEC-2.1B Investment Dealer (Full Service Dealer excluding Underwriting)",
+                "status": "ACTIVE",
+                "license_date": "07/12/2020",
+                "legal_name": "Exness (MU) Ltd",
+                "evidence_url": "https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr",
+                "mapping_evidence_url": "https://www.exness.com/regulation/",
+                "mapping_basis": "The broker-owned regulation page maps the Exness brand and licence number to the same legal entity returned by the official register.",
+                "mapping_confidence": "HIGH",
+                "source": "Official regulator registry",
+                "evidence_status": "OFFICIAL_PUBLIC_REGISTER",
+                "last_checked": "2026-09-04T11:45:40+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "Exness (UK) Ltd",
+            "jurisdictions": [
+              "United Kingdom"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/730729",
+            "licenses": [
+              {
+                "regulator_code": "FCA",
+                "regulator_name": "Financial Conduct Authority",
+                "jurisdiction": "United Kingdom",
+                "license_number": "730729",
+                "license_type": "Financial Services Register firm",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "Exness (UK) Ltd",
+                "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/730729",
+                "evidence_status": "OFFICIAL_API",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "EXNESS ZA (PTY) LTD",
+            "jurisdictions": [
+              "South Africa"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+            "licenses": [
+              {
+                "regulator_code": "FSCA",
+                "regulator_name": "Financial Sector Conduct Authority",
+                "jurisdiction": "South Africa",
+                "license_number": "51024",
+                "license_type": "Authorised Financial Services Provider",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "EXNESS ZA (PTY) LTD",
+                "evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+                "evidence_status": "OFFICIAL_SEARCH_RESULT",
+                "source": "Official regulator registry",
+                "brand_mapping_basis": "Official FSP and trading names match the broker brand",
+                "brand_mapping_url": "",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          }
+        ],
+        "regulator_claims": [
+          {
+            "regulator_code": "CySEC",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FCA",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FSC Mauritius",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FSCA",
+            "status": "VERIFIED_ACTIVE"
+          }
+        ],
+        "unresolved_claims": [],
+        "official_license_count": 4,
+        "last_verified": "2026-09-04T11:45:40+00:00"
+      }
+    },
+    {
+      "slug": "fortrade",
+      "brand_name": "Fortrade",
+      "priority_rank": 9,
+      "canonical_regulatory_footprint": {
+        "scope": "PRIORITY_25",
+        "readiness": "READY",
+        "legal_entities": [
+          {
+            "canonical_name": "Fortrade Cyprus Ltd",
+            "jurisdictions": [
+              "Cyprus"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://www.fortrade.com/",
+            "licenses": [
+              {
+                "regulator_code": "CySEC",
+                "regulator_name": "Cyprus Securities and Exchange Commission",
+                "jurisdiction": "Cyprus",
+                "license_number": "385/20",
+                "license_type": "Cyprus Investment Firm",
+                "status": "ACTIVE",
+                "license_date": "09/03/2020",
+                "legal_name": "Fortrade Cyprus Ltd",
+                "evidence_url": "https://www.fortrade.com/",
+                "evidence_status": "FETCHED",
+                "last_checked": "2026-09-04T11:45:08+00:00",
+                "source": "Official regulator registry"
+              }
+            ]
+          },
+          {
+            "canonical_name": "Fortrade Limited",
+            "jurisdictions": [
+              "United Kingdom"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/609970",
+            "licenses": [
+              {
+                "regulator_code": "FCA",
+                "regulator_name": "Financial Conduct Authority",
+                "jurisdiction": "United Kingdom",
+                "license_number": "609970",
+                "license_type": "Financial Services Register firm",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "Fortrade Limited",
+                "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/609970",
+                "evidence_status": "OFFICIAL_API",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "FORT SECURITIES AUSTRALIA PTY. LTD.",
+            "jurisdictions": [
+              "Australia"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
+            "licenses": [
+              {
+                "regulator_code": "ASIC",
+                "regulator_name": "Australian Securities and Investments Commission",
+                "jurisdiction": "Australia",
+                "license_number": "493520",
+                "license_type": "Australian Financial Services Licence",
+                "status": "ACTIVE",
+                "license_date": "06/02/2019",
+                "legal_name": "FORT SECURITIES AUSTRALIA PTY. LTD.",
+                "evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
+                "evidence_status": "OFFICIAL_DATASET",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          }
+        ],
+        "regulator_claims": [
+          {
+            "regulator_code": "ASIC",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "CySEC",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FCA",
+            "status": "VERIFIED_ACTIVE"
+          }
+        ],
+        "unresolved_claims": [],
+        "official_license_count": 3,
+        "last_verified": "2026-09-04T11:45:40+00:00"
+      }
+    },
+    {
+      "slug": "fp-markets",
+      "brand_name": "FP Markets",
+      "priority_rank": 10,
+      "canonical_regulatory_footprint": {
+        "scope": "PRIORITY_25",
+        "readiness": "REVIEW",
+        "legal_entities": [
+          {
+            "canonical_name": "First Prudential Markets Ltd",
+            "jurisdictions": [
+              "Cyprus"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://fpmarkets.eu/",
+            "licenses": [
+              {
+                "regulator_code": "CySEC",
+                "regulator_name": "Cyprus Securities and Exchange Commission",
+                "jurisdiction": "Cyprus",
+                "license_number": "371/18",
+                "license_type": "Cyprus Investment Firm",
+                "status": "ACTIVE",
+                "license_date": "19/11/2018",
+                "legal_name": "First Prudential Markets Ltd",
+                "evidence_url": "https://fpmarkets.eu/",
+                "evidence_status": "FETCHED",
+                "last_checked": "2026-09-04T11:45:08+00:00",
+                "source": "Official regulator registry"
+              }
+            ]
+          },
+          {
+            "canonical_name": "FIRST PRUDENTIAL MARKETS PTY LTD",
+            "jurisdictions": [
+              "Australia"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
+            "licenses": [
+              {
+                "regulator_code": "ASIC",
+                "regulator_name": "Australian Securities and Investments Commission",
+                "jurisdiction": "Australia",
+                "license_number": "286354",
+                "license_type": "Australian Financial Services Licence",
+                "status": "ACTIVE",
+                "license_date": "31/05/2005",
+                "legal_name": "FIRST PRUDENTIAL MARKETS PTY LTD",
+                "evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
+                "evidence_status": "OFFICIAL_DATASET",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "FP MARKETS (PTY) LTD",
+            "jurisdictions": [
+              "South Africa"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+            "licenses": [
+              {
+                "regulator_code": "FSCA",
+                "regulator_name": "Financial Sector Conduct Authority",
+                "jurisdiction": "South Africa",
+                "license_number": "50926",
+                "license_type": "Authorised Financial Services Provider",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "FP MARKETS (PTY) LTD",
+                "evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+                "evidence_status": "OFFICIAL_SEARCH_RESULT",
+                "source": "Official regulator registry",
+                "brand_mapping_basis": "Official FSP name matches the broker brand",
+                "brand_mapping_url": "",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          }
+        ],
+        "regulator_claims": [
+          {
+            "regulator_code": "ASIC",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "CySEC",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FSC Mauritius",
+            "status": "CURRENT_REGISTER_NO_RESULT",
+            "evidence_url": "https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr",
+            "mapping_evidence_url": "https://www.fpmarkets.com/fp-markets-group/",
+            "note": "FP Markets discloses FP Markets Ltd and licence GB21026264, but the live FSC name search returned no current result for FP Markets on 2026-09-04."
+          },
+          {
+            "regulator_code": "FSCA",
+            "status": "VERIFIED_ACTIVE"
+          }
+        ],
+        "unresolved_claims": [
+          {
+            "regulator_code": "FSC Mauritius",
+            "status": "CURRENT_REGISTER_NO_RESULT",
+            "evidence_url": "https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr",
+            "mapping_evidence_url": "https://www.fpmarkets.com/fp-markets-group/",
+            "note": "FP Markets discloses FP Markets Ltd and licence GB21026264, but the live FSC name search returned no current result for FP Markets on 2026-09-04."
+          }
+        ],
+        "official_license_count": 3,
+        "last_verified": "2026-09-04T11:45:40+00:00"
+      }
+    },
+    {
+      "slug": "fusion-markets",
+      "brand_name": "Fusion Markets",
+      "priority_rank": 11,
+      "canonical_regulatory_footprint": {
+        "scope": "PRIORITY_25",
+        "readiness": "READY",
+        "legal_entities": [
+          {
+            "canonical_name": "Fusion Markets EU Ltd",
+            "jurisdictions": [
+              "Cyprus"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://fusionmarkets.com",
+            "licenses": [
+              {
+                "regulator_code": "CySEC",
+                "regulator_name": "Cyprus Securities and Exchange Commission",
+                "jurisdiction": "Cyprus",
+                "license_number": "444/24",
+                "license_type": "Cyprus Investment Firm",
+                "status": "ACTIVE",
+                "license_date": "29/04/2024",
+                "legal_name": "Fusion Markets EU Ltd",
+                "evidence_url": "https://fusionmarkets.com",
+                "evidence_status": "FETCHED",
+                "last_checked": "2026-09-04T11:45:08+00:00",
+                "source": "Official regulator registry"
+              }
+            ]
+          },
+          {
+            "canonical_name": "GLENEAGLE ASSET MANAGEMENT LIMITED",
+            "jurisdictions": [
+              "Australia"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
+            "licenses": [
+              {
+                "regulator_code": "ASIC",
+                "regulator_name": "Australian Securities and Investments Commission",
+                "jurisdiction": "Australia",
+                "license_number": "226199",
+                "license_type": "Australian Financial Services Licence",
+                "status": "ACTIVE",
+                "license_date": "11/08/2004",
+                "legal_name": "GLENEAGLE ASSET MANAGEMENT LIMITED",
+                "evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
+                "evidence_status": "OFFICIAL_DATASET",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "GLENEAGLE SECURITIES (AUST) PTY LIMITED",
+            "jurisdictions": [
+              "Australia"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
+            "licenses": [
+              {
+                "regulator_code": "ASIC",
+                "regulator_name": "Australian Securities and Investments Commission",
+                "jurisdiction": "Australia",
+                "license_number": "337985",
+                "license_type": "Australian Financial Services Licence",
+                "status": "ACTIVE",
+                "license_date": "31/08/2009",
+                "legal_name": "GLENEAGLE SECURITIES (AUST) PTY LIMITED",
+                "evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
+                "evidence_status": "OFFICIAL_DATASET",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          }
+        ],
+        "regulator_claims": [
+          {
+            "regulator_code": "ASIC",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "CySEC",
+            "status": "VERIFIED_ACTIVE"
+          }
+        ],
+        "unresolved_claims": [],
+        "official_license_count": 3,
+        "last_verified": "2026-09-04T11:45:40+00:00"
+      }
+    },
+    {
+      "slug": "fxcm",
+      "brand_name": "FXCM",
+      "priority_rank": 12,
+      "canonical_regulatory_footprint": {
+        "scope": "PRIORITY_25",
+        "readiness": "READY",
+        "legal_entities": [
+          {
+            "canonical_name": "Stratos Europe Ltd (ex FXCM EU LTD)",
+            "jurisdictions": [
+              "Cyprus"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://www.fxcm.com/eu/",
+            "licenses": [
+              {
+                "regulator_code": "CySEC",
+                "regulator_name": "Cyprus Securities and Exchange Commission",
+                "jurisdiction": "Cyprus",
+                "license_number": "392/20",
+                "license_type": "Cyprus Investment Firm",
+                "status": "ACTIVE",
+                "license_date": "23/11/2020",
+                "legal_name": "Stratos Europe Ltd (ex FXCM EU LTD)",
+                "evidence_url": "https://www.fxcm.com/eu/",
+                "evidence_status": "FETCHED",
+                "last_checked": "2026-09-04T11:45:08+00:00",
+                "source": "Official regulator registry"
+              }
+            ]
+          },
+          {
+            "canonical_name": "Stratos Markets Limited",
+            "jurisdictions": [
+              "United Kingdom"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/217689",
+            "licenses": [
+              {
+                "regulator_code": "FCA",
+                "regulator_name": "Financial Conduct Authority",
+                "jurisdiction": "United Kingdom",
+                "license_number": "217689",
+                "license_type": "Financial Services Register firm",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "Stratos Markets Limited",
+                "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/217689",
+                "evidence_status": "OFFICIAL_API",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "STRATOS SOUTH AFRICA (PTY) LTD",
+            "jurisdictions": [
+              "South Africa"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+            "licenses": [
+              {
+                "regulator_code": "FSCA",
+                "regulator_name": "Financial Sector Conduct Authority",
+                "jurisdiction": "South Africa",
+                "license_number": "46534",
+                "license_type": "Authorised Financial Services Provider",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "STRATOS SOUTH AFRICA (PTY) LTD",
+                "evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+                "evidence_status": "OFFICIAL_SEARCH_RESULT",
+                "source": "Official regulator registry",
+                "brand_mapping_basis": "FXCM-owned disclosure identifies Stratos South Africa and FSP 46534",
+                "brand_mapping_url": "https://www.fxcm.com/za/about-fxcm/international-sites-offices/",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "STRATOS TRADING PTY. LIMITED",
+            "jurisdictions": [
+              "Australia"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
+            "licenses": [
+              {
+                "regulator_code": "ASIC",
+                "regulator_name": "Australian Securities and Investments Commission",
+                "jurisdiction": "Australia",
+                "license_number": "309763",
+                "license_type": "Australian Financial Services Licence",
+                "status": "ACTIVE",
+                "license_date": "15/05/2007",
+                "legal_name": "STRATOS TRADING PTY. LIMITED",
+                "evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
+                "evidence_status": "OFFICIAL_DATASET",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          }
+        ],
+        "regulator_claims": [
+          {
+            "regulator_code": "ASIC",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "CySEC",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FCA",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FSCA",
+            "status": "VERIFIED_ACTIVE"
+          }
+        ],
+        "unresolved_claims": [],
+        "official_license_count": 4,
+        "last_verified": "2026-09-04T11:45:40+00:00"
+      }
+    },
+    {
+      "slug": "fxpro",
+      "brand_name": "FxPro",
+      "priority_rank": 13,
+      "canonical_regulatory_footprint": {
+        "scope": "PRIORITY_25",
+        "readiness": "READY",
+        "legal_entities": [
+          {
+            "canonical_name": "FXPRO Financial Services Ltd",
+            "jurisdictions": [
+              "Cyprus"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://www.fxpro-thailand.com/",
+            "licenses": [
+              {
+                "regulator_code": "CySEC",
+                "regulator_name": "Cyprus Securities and Exchange Commission",
+                "jurisdiction": "Cyprus",
+                "license_number": "078/07",
+                "license_type": "Cyprus Investment Firm",
+                "status": "ACTIVE",
+                "license_date": "05/03/2007",
+                "legal_name": "FXPRO Financial Services Ltd",
+                "evidence_url": "https://www.fxpro-thailand.com/",
+                "evidence_status": "FETCHED",
+                "last_checked": "2026-09-04T11:45:08+00:00",
+                "source": "Official regulator registry"
+              }
+            ]
+          },
+          {
+            "canonical_name": "FXPRO UK Limited",
+            "jurisdictions": [
+              "United Kingdom"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/509956",
+            "licenses": [
+              {
+                "regulator_code": "FCA",
+                "regulator_name": "Financial Conduct Authority",
+                "jurisdiction": "United Kingdom",
+                "license_number": "509956",
+                "license_type": "Financial Services Register firm",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "FXPRO UK Limited",
+                "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/509956",
+                "evidence_status": "OFFICIAL_API",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          }
+        ],
+        "regulator_claims": [
+          {
+            "regulator_code": "CySEC",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FCA",
+            "status": "VERIFIED_ACTIVE"
+          }
+        ],
+        "unresolved_claims": [],
+        "official_license_count": 2,
+        "last_verified": "2026-09-04T11:45:40+00:00"
+      }
+    },
+    {
+      "slug": "hantec-financial-hantec-markets-asia",
+      "brand_name": "Hantec Financial (Hantec Markets Asia)",
+      "priority_rank": 14,
+      "canonical_regulatory_footprint": {
+        "scope": "PRIORITY_25",
+        "readiness": "READY",
+        "legal_entities": [
+          {
+            "canonical_name": "HANTEC MARKETS (AUSTRALIA) PTY LIMITED",
+            "jurisdictions": [
+              "Australia"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
+            "licenses": [
+              {
+                "regulator_code": "ASIC",
+                "regulator_name": "Australian Securities and Investments Commission",
+                "jurisdiction": "Australia",
+                "license_number": "326907",
+                "license_type": "Australian Financial Services Licence",
+                "status": "ACTIVE",
+                "license_date": "27/08/2008",
+                "legal_name": "HANTEC MARKETS (AUSTRALIA) PTY LIMITED",
+                "evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
+                "evidence_status": "OFFICIAL_DATASET",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "Hantec Markets Limited",
+            "jurisdictions": [
+              "United Kingdom",
+              "Mauritius"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/502635",
+            "licenses": [
+              {
+                "regulator_code": "FCA",
+                "regulator_name": "Financial Conduct Authority",
+                "jurisdiction": "United Kingdom",
+                "license_number": "502635",
+                "license_type": "Financial Services Register firm",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "Hantec Markets Limited",
+                "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/502635",
+                "evidence_status": "OFFICIAL_API",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              },
+              {
+                "regulator_code": "FSC Mauritius",
+                "regulator_name": "Financial Services Commission Mauritius",
+                "jurisdiction": "Mauritius",
+                "license_number": "C114013940",
+                "license_type": "SEC-2.1B Investment Dealer (Full Service Dealer excluding Underwriting)",
+                "status": "ACTIVE",
+                "license_date": "23/03/2017",
+                "legal_name": "Hantec Markets Limited",
+                "evidence_url": "https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr",
+                "mapping_evidence_url": "https://hmarkets.com/terms/hantec-policies/",
+                "mapping_basis": "The broker-owned policy page maps Hantec Markets to the same legal entity and licence number returned by the official register.",
+                "mapping_confidence": "HIGH",
+                "source": "Official regulator registry",
+                "evidence_status": "OFFICIAL_PUBLIC_REGISTER",
+                "last_checked": "2026-09-04T11:45:40+00:00"
+              }
+            ]
+          }
+        ],
+        "regulator_claims": [
+          {
+            "regulator_code": "ASIC",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FCA",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FSC Mauritius",
+            "status": "VERIFIED_ACTIVE"
+          }
+        ],
+        "unresolved_claims": [],
+        "official_license_count": 3,
+        "last_verified": "2026-09-04T11:45:40+00:00"
+      }
+    },
+    {
+      "slug": "hycm",
+      "brand_name": "HYCM",
+      "priority_rank": 15,
+      "canonical_regulatory_footprint": {
+        "scope": "PRIORITY_25",
+        "readiness": "READY",
+        "legal_entities": [
+          {
+            "canonical_name": "HYCM CAPITAL MARKETS (UK) LIMITED",
+            "jurisdictions": [
+              "United Kingdom"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/186171",
+            "licenses": [
+              {
+                "regulator_code": "FCA",
+                "regulator_name": "Financial Conduct Authority",
+                "jurisdiction": "United Kingdom",
+                "license_number": "186171",
+                "license_type": "Financial Services Register firm",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "HYCM CAPITAL MARKETS (UK) LIMITED",
+                "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/186171",
+                "evidence_status": "OFFICIAL_API",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          }
+        ],
+        "regulator_claims": [
+          {
+            "regulator_code": "CySEC",
+            "status": "VERIFIED_HISTORICAL",
+            "legal_name": "HYCM (Europe) Ltd",
+            "license_number": "259/14",
+            "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/",
+            "note": "The official CySEC dataset classifies this licence as voluntarily cancelled; it must not be presented as a current active licence."
+          },
+          {
+            "regulator_code": "FCA",
+            "status": "VERIFIED_ACTIVE"
+          }
+        ],
+        "unresolved_claims": [],
+        "official_license_count": 1,
+        "last_verified": "2026-09-04T11:45:40+00:00"
+      }
+    },
+    {
+      "slug": "ironfx",
+      "brand_name": "IronFX",
+      "priority_rank": 16,
+      "canonical_regulatory_footprint": {
+        "scope": "PRIORITY_25",
+        "readiness": "READY",
+        "legal_entities": [
+          {
+            "canonical_name": "Notesco Financial Services Ltd",
+            "jurisdictions": [
+              "Cyprus"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://www.fxlift.eu/",
+            "licenses": [
+              {
+                "regulator_code": "CySEC",
+                "regulator_name": "Cyprus Securities and Exchange Commission",
+                "jurisdiction": "Cyprus",
+                "license_number": "125/10",
+                "license_type": "Cyprus Investment Firm",
+                "status": "ACTIVE",
+                "license_date": "16/11/2010",
+                "legal_name": "Notesco Financial Services Ltd",
+                "evidence_url": "https://www.fxlift.eu/",
+                "evidence_status": "FETCHED",
+                "last_checked": "2026-09-04T11:45:08+00:00",
+                "source": "Official regulator registry"
+              }
+            ]
+          },
+          {
+            "canonical_name": "NOTESCO SA (PTY) LTD",
+            "jurisdictions": [
+              "South Africa"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+            "licenses": [
+              {
+                "regulator_code": "FSCA",
+                "regulator_name": "Financial Sector Conduct Authority",
+                "jurisdiction": "South Africa",
+                "license_number": "45276",
+                "license_type": "Authorised Financial Services Provider",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "NOTESCO SA (PTY) LTD",
+                "evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+                "evidence_status": "OFFICIAL_SEARCH_RESULT",
+                "source": "Official regulator registry",
+                "brand_mapping_basis": "Official trading name matches the broker brand",
+                "brand_mapping_url": "",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "NOTESCO UK LIMITED",
+            "jurisdictions": [
+              "United Kingdom"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/585561",
+            "licenses": [
+              {
+                "regulator_code": "FCA",
+                "regulator_name": "Financial Conduct Authority",
+                "jurisdiction": "United Kingdom",
+                "license_number": "585561",
+                "license_type": "Financial Services Register firm",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "NOTESCO UK LIMITED",
+                "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/585561",
+                "evidence_status": "OFFICIAL_API",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          }
+        ],
+        "regulator_claims": [
+          {
+            "regulator_code": "CySEC",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FCA",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FSCA",
+            "status": "VERIFIED_ACTIVE"
+          }
+        ],
+        "unresolved_claims": [],
+        "official_license_count": 3,
+        "last_verified": "2026-09-04T11:45:40+00:00"
+      }
+    },
+    {
+      "slug": "markets-com",
+      "brand_name": "Markets.com",
+      "priority_rank": 17,
+      "canonical_regulatory_footprint": {
+        "scope": "PRIORITY_25",
+        "readiness": "READY",
+        "legal_entities": [
+          {
+            "canonical_name": "Finalto Financial Services Limited",
+            "jurisdictions": [
+              "United Kingdom"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/481853",
+            "licenses": [
+              {
+                "regulator_code": "FCA",
+                "regulator_name": "Financial Conduct Authority",
+                "jurisdiction": "United Kingdom",
+                "license_number": "481853",
+                "license_type": "Financial Services Register firm",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "Finalto Financial Services Limited",
+                "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/481853",
+                "evidence_status": "OFFICIAL_API",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "MARKETS SOUTH AFRICA (PTY) LTD",
+            "jurisdictions": [
+              "South Africa"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+            "licenses": [
+              {
+                "regulator_code": "FSCA",
+                "regulator_name": "Financial Sector Conduct Authority",
+                "jurisdiction": "South Africa",
+                "license_number": "46860",
+                "license_type": "Authorised Financial Services Provider",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "MARKETS SOUTH AFRICA (PTY) LTD",
+                "evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+                "evidence_status": "OFFICIAL_SEARCH_RESULT",
+                "source": "Official regulator registry",
+                "brand_mapping_basis": "Official FSP name matches the broker brand",
+                "brand_mapping_url": "",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "Safecap Investments Ltd",
+            "jurisdictions": [
+              "Cyprus"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://www.markets.com/en/",
+            "licenses": [
+              {
+                "regulator_code": "CySEC",
+                "regulator_name": "Cyprus Securities and Exchange Commission",
+                "jurisdiction": "Cyprus",
+                "license_number": "092/08",
+                "license_type": "Cyprus Investment Firm",
+                "status": "ACTIVE",
+                "license_date": "28/07/2008",
+                "legal_name": "Safecap Investments Ltd",
+                "evidence_url": "https://www.markets.com/en/",
+                "evidence_status": "FETCHED",
+                "last_checked": "2026-09-04T11:45:08+00:00",
+                "source": "Official regulator registry"
+              }
+            ]
+          }
+        ],
+        "regulator_claims": [
+          {
+            "regulator_code": "ASIC",
+            "status": "NOT_CURRENTLY_CLAIMED",
+            "evidence_url": "https://www.markets.com/about/our-group/",
+            "note": "The current Markets.com group page lists FSCA, CySEC, and SVG entities, not ASIC. The directory claim is retained as historical source data but excluded from the current canonical footprint."
+          },
+          {
+            "regulator_code": "CySEC",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FCA",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FSC Mauritius",
+            "status": "NOT_CURRENTLY_CLAIMED",
+            "evidence_url": "https://www.markets.com/about/our-group/",
+            "note": "The current Markets.com group page lists FSCA, CySEC, and SVG entities, not Mauritius FSC."
+          },
+          {
+            "regulator_code": "FSCA",
+            "status": "VERIFIED_ACTIVE"
+          }
+        ],
+        "unresolved_claims": [],
+        "official_license_count": 3,
+        "last_verified": "2026-09-04T11:45:40+00:00"
+      }
+    },
+    {
+      "slug": "moneta-markets",
+      "brand_name": "Moneta Markets",
+      "priority_rank": 18,
+      "canonical_regulatory_footprint": {
+        "scope": "PRIORITY_25",
+        "readiness": "READY",
+        "legal_entities": [
+          {
+            "canonical_name": "MONETA MARKETS CAPITAL LTD",
+            "jurisdictions": [
+              "United Kingdom"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/613381",
+            "licenses": [
+              {
+                "regulator_code": "FCA",
+                "regulator_name": "Financial Conduct Authority",
+                "jurisdiction": "United Kingdom",
+                "license_number": "613381",
+                "license_type": "Financial Services Register firm",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "MONETA MARKETS CAPITAL LTD",
+                "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/613381",
+                "evidence_status": "OFFICIAL_API",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "MONETA MARKETS (PTY) LTD",
+            "jurisdictions": [
+              "South Africa"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+            "licenses": [
+              {
+                "regulator_code": "FSCA",
+                "regulator_name": "Financial Sector Conduct Authority",
+                "jurisdiction": "South Africa",
+                "license_number": "47490",
+                "license_type": "Authorised Financial Services Provider",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "MONETA MARKETS (PTY) LTD",
+                "evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+                "evidence_status": "OFFICIAL_SEARCH_RESULT",
+                "source": "Official regulator registry",
+                "brand_mapping_basis": "Official FSP name matches the broker brand",
+                "brand_mapping_url": "",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "Moneta Markets Trading Limited",
+            "jurisdictions": [
+              "Mauritius"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr",
+            "licenses": [
+              {
+                "regulator_code": "FSC Mauritius",
+                "regulator_name": "Financial Services Commission Mauritius",
+                "jurisdiction": "Mauritius",
+                "license_number": "",
+                "license_type": "SEC-2.1B Investment Dealer (Full Service Dealer excluding Underwriting)",
+                "status": "ACTIVE",
+                "license_date": "29/07/2024",
+                "legal_name": "Moneta Markets Trading Limited",
+                "evidence_url": "https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr",
+                "evidence_status": "OFFICIAL_PUBLIC_REGISTER",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          }
+        ],
+        "regulator_claims": [
+          {
+            "regulator_code": "FCA",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FSC Mauritius",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FSCA",
+            "status": "VERIFIED_ACTIVE"
+          }
+        ],
+        "unresolved_claims": [],
+        "official_license_count": 3,
+        "last_verified": "2026-09-04T11:45:40+00:00"
+      }
+    },
+    {
+      "slug": "naga",
+      "brand_name": "NAGA",
+      "priority_rank": 19,
+      "canonical_regulatory_footprint": {
+        "scope": "PRIORITY_25",
+        "readiness": "READY",
+        "legal_entities": [
+          {
+            "canonical_name": "Naga Markets Europe Ltd",
+            "jurisdictions": [
+              "Cyprus"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://naga.com/eu",
+            "licenses": [
+              {
+                "regulator_code": "CySEC",
+                "regulator_name": "Cyprus Securities and Exchange Commission",
+                "jurisdiction": "Cyprus",
+                "license_number": "204/13",
+                "license_type": "Cyprus Investment Firm",
+                "status": "ACTIVE",
+                "license_date": "20/06/2013",
+                "legal_name": "Naga Markets Europe Ltd",
+                "evidence_url": "https://naga.com/eu",
+                "evidence_status": "FETCHED",
+                "last_checked": "2026-09-04T11:45:08+00:00",
+                "source": "Official regulator registry"
+              }
+            ]
+          }
+        ],
+        "regulator_claims": [
+          {
+            "regulator_code": "CySEC",
+            "status": "VERIFIED_ACTIVE"
+          }
+        ],
+        "unresolved_claims": [],
+        "official_license_count": 1,
+        "last_verified": "2026-09-04T11:45:40+00:00"
+      }
+    },
+    {
+      "slug": "vantage-vantage-markets",
+      "brand_name": "Vantage (Vantage Markets)",
+      "priority_rank": 20,
+      "canonical_regulatory_footprint": {
+        "scope": "PRIORITY_25",
+        "readiness": "READY",
+        "legal_entities": [
+          {
+            "canonical_name": "Vantage Global Prime LLP",
+            "jurisdictions": [
+              "United Kingdom"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/590299",
+            "licenses": [
+              {
+                "regulator_code": "FCA",
+                "regulator_name": "Financial Conduct Authority",
+                "jurisdiction": "United Kingdom",
+                "license_number": "590299",
+                "license_type": "Financial Services Register firm",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "Vantage Global Prime LLP",
+                "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/590299",
+                "evidence_status": "OFFICIAL_API",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "VANTAGE GLOBAL PRIME PTY LTD",
+            "jurisdictions": [
+              "Australia"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
+            "licenses": [
+              {
+                "regulator_code": "ASIC",
+                "regulator_name": "Australian Securities and Investments Commission",
+                "jurisdiction": "Australia",
+                "license_number": "428901",
+                "license_type": "Australian Financial Services Licence",
+                "status": "ACTIVE",
+                "license_date": "21/12/2012",
+                "legal_name": "VANTAGE GLOBAL PRIME PTY LTD",
+                "evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
+                "evidence_status": "OFFICIAL_DATASET",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "VANTAGE MARKETS (PTY) LTD",
+            "jurisdictions": [
+              "South Africa"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+            "licenses": [
+              {
+                "regulator_code": "FSCA",
+                "regulator_name": "Financial Sector Conduct Authority",
+                "jurisdiction": "South Africa",
+                "license_number": "51268",
+                "license_type": "Authorised Financial Services Provider",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "VANTAGE MARKETS (PTY) LTD",
+                "evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+                "evidence_status": "OFFICIAL_SEARCH_RESULT",
+                "source": "Official regulator registry",
+                "brand_mapping_basis": "Official FSP name matches the broker brand",
+                "brand_mapping_url": "",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          }
+        ],
+        "regulator_claims": [
+          {
+            "regulator_code": "ASIC",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FCA",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FSCA",
+            "status": "VERIFIED_ACTIVE"
+          }
+        ],
+        "unresolved_claims": [],
+        "official_license_count": 3,
+        "last_verified": "2026-09-04T11:45:40+00:00"
+      }
+    },
+    {
+      "slug": "vt-markets",
+      "brand_name": "VT Markets",
+      "priority_rank": 21,
+      "canonical_regulatory_footprint": {
+        "scope": "PRIORITY_25",
+        "readiness": "READY",
+        "legal_entities": [
+          {
+            "canonical_name": "VANTAGE GLOBAL PRIME PTY LTD",
+            "jurisdictions": [
+              "Australia"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
+            "licenses": [
+              {
+                "regulator_code": "ASIC",
+                "regulator_name": "Australian Securities and Investments Commission",
+                "jurisdiction": "Australia",
+                "license_number": "428901",
+                "license_type": "Australian Financial Services Licence",
+                "status": "ACTIVE",
+                "license_date": "21/12/2012",
+                "legal_name": "VANTAGE GLOBAL PRIME PTY LTD",
+                "evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
+                "evidence_status": "OFFICIAL_DATASET",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "VT Markets Limited",
+            "jurisdictions": [
+              "Mauritius"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr",
+            "licenses": [
+              {
+                "regulator_code": "FSC Mauritius",
+                "regulator_name": "Financial Services Commission Mauritius",
+                "jurisdiction": "Mauritius",
+                "license_number": "",
+                "license_type": "SEC-2.1B Investment Dealer (Full Service Dealer excluding Underwriting)",
+                "status": "ACTIVE",
+                "license_date": "23/10/2023",
+                "legal_name": "VT Markets Limited",
+                "evidence_url": "https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr",
+                "evidence_status": "OFFICIAL_PUBLIC_REGISTER",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "VT MARKETS (PTY) LTD",
+            "jurisdictions": [
+              "South Africa"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+            "licenses": [
+              {
+                "regulator_code": "FSCA",
+                "regulator_name": "Financial Sector Conduct Authority",
+                "jurisdiction": "South Africa",
+                "license_number": "50865",
+                "license_type": "Authorised Financial Services Provider",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "VT MARKETS (PTY) LTD",
+                "evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+                "evidence_status": "OFFICIAL_SEARCH_RESULT",
+                "source": "Official regulator registry",
+                "brand_mapping_basis": "Official FSP name matches the broker brand",
+                "brand_mapping_url": "",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          }
+        ],
+        "regulator_claims": [
+          {
+            "regulator_code": "ASIC",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FSC Mauritius",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FSCA",
+            "status": "VERIFIED_ACTIVE"
+          }
+        ],
+        "unresolved_claims": [],
+        "official_license_count": 3,
+        "last_verified": "2026-09-04T11:45:40+00:00"
+      }
+    },
+    {
+      "slug": "doto-europe-ltd-ex-vasby-capital-markets-ltd",
+      "brand_name": "Doto Europe Ltd (Ex Vasby Capital Markets Ltd)",
+      "priority_rank": 22,
+      "canonical_regulatory_footprint": {
+        "scope": "PRIORITY_25",
+        "readiness": "READY",
+        "legal_entities": [
+          {
+            "canonical_name": "Doto Europe Ltd (Ex Vasby Capital Markets Ltd)",
+            "jurisdictions": [
+              "Cyprus"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://doto.com",
+            "licenses": [
+              {
+                "regulator_code": "CySEC",
+                "regulator_name": "Cyprus Securities and Exchange Commission",
+                "jurisdiction": "Cyprus",
+                "license_number": "399/21",
+                "license_type": "Cyprus Investment Firm",
+                "status": "ACTIVE",
+                "license_date": "12/04/2021",
+                "legal_name": "Doto Europe Ltd (Ex Vasby Capital Markets Ltd)",
+                "evidence_url": "https://doto.com",
+                "evidence_status": "FETCHED",
+                "last_checked": "2026-09-04T11:45:08+00:00",
+                "source": "Official regulator registry"
+              }
+            ]
+          },
+          {
+            "canonical_name": "DOTO Global Ltd",
+            "jurisdictions": [
+              "Mauritius"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "The broker-owned regulation page maps Doto to the same legal entity and licence number returned by the official register.",
+            "mapping_evidence_url": "https://doto.com/regulation/",
+            "licenses": [
+              {
+                "regulator_code": "FSC Mauritius",
+                "regulator_name": "Financial Services Commission Mauritius",
+                "jurisdiction": "Mauritius",
+                "license_number": "C119023978",
+                "license_type": "SEC-2.1B Investment Dealer (Full Service Dealer excluding Underwriting)",
+                "status": "ACTIVE",
+                "license_date": "22/11/2019",
+                "legal_name": "DOTO Global Ltd",
+                "evidence_url": "https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr",
+                "mapping_evidence_url": "https://doto.com/regulation/",
+                "mapping_basis": "The broker-owned regulation page maps Doto to the same legal entity and licence number returned by the official register.",
+                "mapping_confidence": "HIGH",
+                "source": "Official regulator registry",
+                "evidence_status": "OFFICIAL_PUBLIC_REGISTER",
+                "last_checked": "2026-09-04T11:45:40+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "DOTO SOUTH AFRICA (PTY) LTD",
+            "jurisdictions": [
+              "South Africa"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+            "licenses": [
+              {
+                "regulator_code": "FSCA",
+                "regulator_name": "Financial Sector Conduct Authority",
+                "jurisdiction": "South Africa",
+                "license_number": "50451",
+                "license_type": "Authorised Financial Services Provider",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "DOTO SOUTH AFRICA (PTY) LTD",
+                "evidence_url": "https://www2.fsca.co.za/Fais/Search_FSP.htm",
+                "evidence_status": "OFFICIAL_SEARCH_RESULT",
+                "source": "Official regulator registry",
+                "brand_mapping_basis": "Official FSP name matches the broker brand",
+                "brand_mapping_url": "",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          }
+        ],
+        "regulator_claims": [
+          {
+            "regulator_code": "CySEC",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FSC Mauritius",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FSCA",
+            "status": "VERIFIED_ACTIVE"
+          }
+        ],
+        "unresolved_claims": [],
+        "official_license_count": 3,
+        "last_verified": "2026-09-04T11:45:40+00:00"
+      }
+    },
+    {
+      "slug": "plus500",
+      "brand_name": "Plus500",
+      "priority_rank": 23,
+      "canonical_regulatory_footprint": {
+        "scope": "PRIORITY_25",
+        "readiness": "READY",
+        "legal_entities": [
+          {
+            "canonical_name": "PLUS500AU PTY. LTD.",
+            "jurisdictions": [
+              "Australia"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
+            "licenses": [
+              {
+                "regulator_code": "ASIC",
+                "regulator_name": "Australian Securities and Investments Commission",
+                "jurisdiction": "Australia",
+                "license_number": "417727",
+                "license_type": "Australian Financial Services Licence",
+                "status": "ACTIVE",
+                "license_date": "09/10/2012",
+                "legal_name": "PLUS500AU PTY. LTD.",
+                "evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
+                "evidence_status": "OFFICIAL_DATASET",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          },
+          {
+            "canonical_name": "Plus500CY Ltd",
+            "jurisdictions": [
+              "Cyprus"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://www.plus500.com/ar-ae/",
+            "licenses": [
+              {
+                "regulator_code": "CySEC",
+                "regulator_name": "Cyprus Securities and Exchange Commission",
+                "jurisdiction": "Cyprus",
+                "license_number": "250/14",
+                "license_type": "Cyprus Investment Firm",
+                "status": "ACTIVE",
+                "license_date": "10/10/2014",
+                "legal_name": "Plus500CY Ltd",
+                "evidence_url": "https://www.plus500.com/ar-ae/",
+                "evidence_status": "FETCHED",
+                "last_checked": "2026-09-04T11:45:08+00:00",
+                "source": "Official regulator registry"
+              }
+            ]
+          },
+          {
+            "canonical_name": "Plus500UK Ltd",
+            "jurisdictions": [
+              "United Kingdom"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/509909",
+            "licenses": [
+              {
+                "regulator_code": "FCA",
+                "regulator_name": "Financial Conduct Authority",
+                "jurisdiction": "United Kingdom",
+                "license_number": "509909",
+                "license_type": "Financial Services Register firm",
+                "status": "ACTIVE",
+                "license_date": "",
+                "legal_name": "Plus500UK Ltd",
+                "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/509909",
+                "evidence_status": "OFFICIAL_API",
+                "source": "Official regulator registry",
+                "last_checked": "2026-09-04T11:45:08+00:00"
+              }
+            ]
+          }
+        ],
+        "regulator_claims": [
+          {
+            "regulator_code": "ASIC",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "CySEC",
+            "status": "VERIFIED_ACTIVE"
+          },
+          {
+            "regulator_code": "FCA",
+            "status": "VERIFIED_ACTIVE"
+          }
+        ],
+        "unresolved_claims": [],
+        "official_license_count": 3,
+        "last_verified": "2026-09-04T11:45:40+00:00"
+      }
+    },
+    {
+      "slug": "just2trade",
+      "brand_name": "Just2Trade",
+      "priority_rank": 24,
+      "canonical_regulatory_footprint": {
+        "scope": "PRIORITY_25",
+        "readiness": "READY",
+        "legal_entities": [
+          {
+            "canonical_name": "J2T Services Ltd (ex Lime Trading (CY) Ltd)",
+            "jurisdictions": [
+              "Cyprus"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "Exact legal entity match in an official regulator source.",
+            "mapping_evidence_url": "https://j2t.com",
+            "licenses": [
+              {
+                "regulator_code": "CySEC",
+                "regulator_name": "Cyprus Securities and Exchange Commission",
+                "jurisdiction": "Cyprus",
+                "license_number": "281/15",
+                "license_type": "Cyprus Investment Firm",
+                "status": "ACTIVE",
+                "license_date": "25/09/2015",
+                "legal_name": "J2T Services Ltd (ex Lime Trading (CY) Ltd)",
+                "evidence_url": "https://j2t.com",
+                "evidence_status": "FETCHED",
+                "last_checked": "2026-09-04T11:45:08+00:00",
+                "source": "Official regulator registry"
+              }
+            ]
+          }
+        ],
+        "regulator_claims": [
+          {
+            "regulator_code": "CySEC",
+            "status": "VERIFIED_ACTIVE"
+          }
+        ],
+        "unresolved_claims": [],
+        "official_license_count": 1,
+        "last_verified": "2026-09-04T11:45:40+00:00"
+      }
+    },
+    {
+      "slug": "windsor-brokers",
+      "brand_name": "Windsor Brokers",
+      "priority_rank": 25,
+      "canonical_regulatory_footprint": {
+        "scope": "PRIORITY_25",
+        "readiness": "REVIEW",
+        "legal_entities": [],
+        "regulator_claims": [
+          {
+            "regulator_code": "CySEC",
+            "status": "RELATIONSHIP_UNRESOLVED",
+            "legal_name": "WB Trade EU Ltd",
+            "license_number": "030/04",
+            "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/37569/",
+            "mapping_evidence_url": "https://windsorbrokers.com/knowledge-base/about-windsor-brokers/what-type-of-broker-is-windsor-brokers/",
+            "note": "CySEC confirms WB Trade EU Ltd licence 030/04, but the current sources reviewed do not establish a sufficiently direct Windsor Brokers brand-to-entity relationship."
+          }
+        ],
+        "unresolved_claims": [
+          {
+            "regulator_code": "CySEC",
+            "status": "RELATIONSHIP_UNRESOLVED",
+            "legal_name": "WB Trade EU Ltd",
+            "license_number": "030/04",
+            "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/37569/",
+            "mapping_evidence_url": "https://windsorbrokers.com/knowledge-base/about-windsor-brokers/what-type-of-broker-is-windsor-brokers/",
+            "note": "CySEC confirms WB Trade EU Ltd licence 030/04, but the current sources reviewed do not establish a sufficiently direct Windsor Brokers brand-to-entity relationship."
+          }
+        ],
+        "official_license_count": 0,
+        "last_verified": "2026-09-04T11:45:40+00:00"
+      }
+    }
+  ]
+}

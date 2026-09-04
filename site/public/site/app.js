@@ -18,7 +18,11 @@ const elements = {
 const escapeHtml = (value) => String(value || "").replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;");
 const formatNumber = (value) => new Intl.NumberFormat("en-GB").format(value);
 const tradingCentral = (profile) => profile.vendor_relationships?.find((item) => item.vendor === "Trading Central");
-const regulatorCodes = (profile) => profile.regulators?.map((item) => item.code).filter(Boolean) || [];
+const canonicalFootprint = (profile) => profile.canonical_regulatory_footprint;
+const canonicalLicenses = (profile) => canonicalFootprint(profile)?.legal_entities?.flatMap((entity) => entity.licenses || []) || [];
+const regulatorCodes = (profile) => canonicalFootprint(profile)
+  ? unique(canonicalFootprint(profile).regulator_claims?.filter((item) => item.status === "VERIFIED_ACTIVE").map((item) => item.regulator_code) || [])
+  : profile.regulators?.map((item) => item.code).filter(Boolean) || [];
 const profileConfidence = (profile) => tradingCentral(profile)?.confidence || profile.classification_confidence || "LOW";
 const verificationStatus = (profile) => profile.verification?.status || "NOT_REVIEWED";
 const unique = (values) => [...new Set(values.filter(Boolean))];
@@ -84,7 +88,7 @@ function applyFilters() {
     if (state.vendorStatus && !(row.vendor_relationships || []).some((item) => item.status === state.vendorStatus)) return false;
     if (needle) {
       const haystack = [row.brand_name, row.broker_group, ...(row.aliases || []), row.company_type, row.sales_relevance, row.primary_domain, row.primary_market,
-        ...regulatorCodes(row), verificationStatus(row), ...(row.verification?.verified_regulators || []), ...(row.verification?.unresolved_regulators || []), ...(row.licenses || []).flatMap((item) => [item.legal_name, item.license_number, item.jurisdiction]),
+        ...regulatorCodes(row), verificationStatus(row), ...(row.verification?.verified_regulators || []), ...(row.verification?.unresolved_regulators || []), ...(canonicalLicenses(row).length ? canonicalLicenses(row) : (row.licenses || [])).flatMap((item) => [item.legal_name, item.license_number, item.jurisdiction]),
         ...(row.vendor_relationships || []).flatMap((item) => [item.vendor, item.status, item.products?.join(" "), item.summary])].join(" ").toLowerCase();
       if (!haystack.includes(needle)) return false;
     }
@@ -156,8 +160,9 @@ function detailField(label, value, link = "") {
 }
 
 function licenseCards(profile) {
-  if (!profile.licenses?.length) return '<p class="empty-note">No regulatory licences are linked yet. This profile remains in the enrichment queue.</p>';
-  return profile.licenses.map((item) => `<article class="record-card ${item.source === "Official regulator registry" ? "official-record" : "reported-record"}"><div><span class="regulator-badge ${item.regulator_code === "FCA" ? "fca" : ""}">${escapeHtml(item.regulator_code || item.regulator_name)}</span><strong>${escapeHtml(item.legal_name || "Reported broker relationship")}</strong></div>
+  const licenses = canonicalLicenses(profile).length ? canonicalLicenses(profile) : profile.licenses || [];
+  if (!licenses.length) return '<p class="empty-note">No official regulatory licences are linked yet. This profile remains in the resolution queue.</p>';
+  return licenses.map((item) => `<article class="record-card ${item.source === "Official regulator registry" ? "official-record" : "reported-record"}"><div><span class="regulator-badge ${item.regulator_code === "FCA" ? "fca" : ""}">${escapeHtml(item.regulator_code || item.regulator_name)}</span><strong>${escapeHtml(item.legal_name || "Reported broker relationship")}</strong></div>
     <p>${escapeHtml(item.license_number ? `Licence ${item.license_number}` : item.license_type)} · ${escapeHtml(item.status || "Status unavailable")} · ${item.source === "Official regulator registry" ? "Official regulator record" : "Directory reported"}</p>
     ${item.evidence_url ? `<a href="${escapeHtml(item.evidence_url)}" target="_blank" rel="noreferrer">View source ↗</a>` : ""}</article>`).join("");
 }
@@ -167,8 +172,11 @@ function verificationPanel(profile) {
   if (verification.scope !== "PRIORITY_25") return '<p class="empty-note">This profile is outside the current Priority 25 verification pilot.</p>';
   const verified = verification.verified_regulators || [];
   const unresolved = verification.unresolved_regulators || [];
+  const footprint = canonicalFootprint(profile);
+  const claimRows = footprint?.regulator_claims?.map((claim) => `<div><span>${escapeHtml(claim.regulator_code)}</span><strong>${escapeHtml(claim.status.replaceAll("_", " ").toLowerCase())}</strong></div>`).join("") || "";
   return `<div class="verification-summary"><div>${verificationBadge(profile, false)}</div><p>Official evidence confirms <strong>${verified.length}</strong> of <strong>${verification.reported_regulators?.length || 0}</strong> core regulator claims in this pilot.</p>
     <div class="verification-groups"><div><span>Officially verified</span><strong>${verified.length ? escapeHtml(verified.join(" · ")) : "None yet"}</strong></div><div><span>Still unresolved</span><strong>${unresolved.length ? escapeHtml(unresolved.join(" · ")) : "None"}</strong></div></div>
+    ${footprint ? `<p class="verification-note">Canonical footprint: ${escapeHtml(footprint.readiness.toLowerCase())} · ${footprint.legal_entities.length} mapped legal entities · ${footprint.official_license_count} official licences.</p><div class="verification-groups">${claimRows}</div>` : ""}
     ${verification.notes?.length ? `<p class="verification-note">${escapeHtml(verification.notes.join(" "))}</p>` : ""}</div>`;
 }
 
@@ -198,7 +206,7 @@ function openDetails(row, updateHash = true) {
     <p class="identity-note">${escapeHtml(row.company_type_reason || row.identity_note)}</p></section>
     <section class="detail-section"><h4>Regulatory verification <span>${escapeHtml(verificationStatus(row).replaceAll("_", " ").toLowerCase())}</span></h4>${verificationPanel(row)}</section>
     <section class="detail-section"><h4>Research technology <span>${row.vendor_relationships?.length || 0} relationships</span></h4><div class="vendor-list">${relationshipCards(row)}</div></section>
-    <section class="detail-section"><h4>Regulatory footprint <span>${row.licenses?.length || 0} records</span></h4><div class="record-list">${licenseCards(row)}</div></section>
+    <section class="detail-section"><h4>Canonical regulatory footprint <span>${canonicalLicenses(row).length || row.licenses?.length || 0} records</span></h4><div class="record-list">${licenseCards(row)}</div></section>
     <section class="detail-section"><h4>Domains <span>${row.domains?.length || 0}</span></h4><div class="tag-list">${row.domains?.length ? row.domains.map((item) => `<a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.domain)} ↗</a>`).join("") : '<span class="empty-note">No domains linked.</span>'}</div></section>
     <section class="detail-section enrichment-section"><h4>Leadership &amp; offices</h4><div class="enrichment-grid"><div><span>CEO / CMO / decision-makers</span><strong>${row.people?.length ? `${row.people.length} contacts` : "Next enrichment pass"}</strong></div><div><span>Office locations</span><strong>${row.offices?.length ? escapeHtml(row.offices.map((item) => item.city ? `${item.city}, ${item.country}` : item.country).join(" · ")) : "Next enrichment pass"}</strong></div></div></section>`;
   if (!elements.dialog.open) elements.dialog.showModal();
@@ -216,7 +224,7 @@ function exportCurrentView() {
     priority_rank: row.priority_rank || "", brand_name: row.brand_name, company_type: row.company_type, sales_relevance: row.sales_relevance, primary_domain: row.primary_domain, forex_broker: row.forex_broker,
     research_tools: row.vendor_relationships?.map((item) => item.vendor).join("; ") || "", trading_central_status: tool?.status || "",
     trading_central_confidence: tool?.confidence_score ?? "", regulators: regulatorCodes(row).join("; "), verified_regulators: row.verification?.verified_regulators?.join("; ") || "", unresolved_regulators: row.verification?.unresolved_regulators?.join("; ") || "", verification_status: verificationStatus(row),
-    license_numbers: unique(row.licenses?.map((item) => item.license_number) || []).join("; "), primary_market: row.primary_market,
+    license_numbers: unique((canonicalLicenses(row).length ? canonicalLicenses(row) : row.licenses || []).map((item) => item.license_number)).join("; "), primary_market: row.primary_market,
     identity_status: row.identity_status, needs_review: row.needs_review, last_checked: row.last_checked,
   }; });
   const quote = (value) => `"${String(value ?? "").replaceAll('"', '""')}"`;

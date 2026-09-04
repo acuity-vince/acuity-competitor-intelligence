@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T13:48:51+00:00",
+  "generated_at": "2026-09-04T11:45:08+00:00",
   "scope": "PRIORITY_25",
   "profiles": [
     {
@@ -27,11 +27,11 @@
           "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/434413",
           "evidence_status": "OFFICIAL_API",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         }
       ],
       "notes": [],
-      "last_verified": "2026-09-03T13:48:51+00:00"
+      "last_verified": "2026-09-04T11:45:08+00:00"
     },
     {
       "slug": "admiral-markets-admirals",
@@ -58,11 +58,11 @@
           "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/595450",
           "evidence_status": "OFFICIAL_API",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         }
       ],
       "notes": [],
-      "last_verified": "2026-09-03T13:48:51+00:00"
+      "last_verified": "2026-09-04T11:45:08+00:00"
     },
     {
       "slug": "atfx",
@@ -97,7 +97,7 @@
           "evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
           "evidence_status": "OFFICIAL_DATASET",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         },
         {
           "regulator_code": "CySEC",
@@ -110,7 +110,7 @@
           "legal_name": "ATFX Global Markets (Cy) Ltd",
           "evidence_url": "https://atfxgm.eu/en/",
           "evidence_status": "FETCHED",
-          "last_checked": "2026-09-03T13:48:51+00:00",
+          "last_checked": "2026-09-04T11:45:08+00:00",
           "source": "Official regulator registry"
         },
         {
@@ -125,7 +125,7 @@
           "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/760555",
           "evidence_status": "OFFICIAL_API",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         },
         {
           "regulator_code": "FSC Mauritius",
@@ -139,7 +139,7 @@
           "evidence_url": "https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr",
           "evidence_status": "OFFICIAL_PUBLIC_REGISTER",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         },
         {
           "regulator_code": "FSCA",
@@ -155,7 +155,7 @@
           "source": "Official regulator registry",
           "brand_mapping_basis": "ATFX-owned disclosure identifies the entity as authorised to operate under the ATFX brand",
           "brand_mapping_url": "https://www.atfx.com/en-za/about-us/atfx-regulators",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         },
         {
           "regulator_code": "FSCA",
@@ -171,17 +171,17 @@
           "source": "Official regulator registry",
           "brand_mapping_basis": "ATFX-owned disclosure identifies AT Global Markets SA and FSP 44816",
           "brand_mapping_url": "https://www.atfx.com/en-za/about-us/atfx-regulators",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         }
       ],
       "notes": [],
-      "last_verified": "2026-09-03T13:48:51+00:00"
+      "last_verified": "2026-09-04T11:45:08+00:00"
     },
     {
       "slug": "avatrade",
       "brand_name": "AvaTrade",
       "priority_rank": 4,
-      "status": "PARTIAL",
+      "status": "VERIFIED",
       "reported_regulators": [
         "ASIC",
         "CySEC",
@@ -189,11 +189,10 @@
       ],
       "verified_regulators": [
         "ASIC",
+        "CySEC",
         "FSCA"
       ],
-      "unresolved_regulators": [
-        "CySEC"
-      ],
+      "unresolved_regulators": [],
       "official_licenses": [
         {
           "regulator_code": "ASIC",
@@ -207,7 +206,21 @@
           "evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
           "evidence_status": "OFFICIAL_DATASET",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
+        },
+        {
+          "regulator_code": "CySEC",
+          "regulator_name": "Cyprus Securities and Exchange Commission",
+          "jurisdiction": "Cyprus",
+          "license_number": "347/17",
+          "license_type": "Cyprus Investment Firm",
+          "status": "ACTIVE",
+          "license_date": "11/12/2017",
+          "legal_name": "D.T. Direct Investment Hub Ltd",
+          "evidence_url": "https://duplitrade.com/",
+          "evidence_status": "FETCHED",
+          "last_checked": "2026-09-04T11:45:08+00:00",
+          "source": "Official regulator registry"
         },
         {
           "regulator_code": "FSCA",
@@ -223,13 +236,11 @@
           "source": "Official regulator registry",
           "brand_mapping_basis": "Official trading name matches the broker brand",
           "brand_mapping_url": "",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         }
       ],
-      "notes": [
-        "Unresolved means directory-reported, not disproven."
-      ],
-      "last_verified": "2026-09-03T13:48:51+00:00"
+      "notes": [],
+      "last_verified": "2026-09-04T11:45:08+00:00"
     },
     {
       "slug": "cfi-financial-group",
@@ -261,7 +272,7 @@
           "legal_name": "Credit Financier Invest (CFI) Ltd",
           "evidence_url": "https://cfi.trade/en/cy",
           "evidence_status": "FETCHED",
-          "last_checked": "2026-09-03T13:48:51+00:00",
+          "last_checked": "2026-09-04T11:45:08+00:00",
           "source": "Official regulator registry"
         },
         {
@@ -276,7 +287,7 @@
           "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/828955",
           "evidence_status": "OFFICIAL_API",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         },
         {
           "regulator_code": "FSC Mauritius",
@@ -290,7 +301,7 @@
           "evidence_url": "https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr",
           "evidence_status": "OFFICIAL_PUBLIC_REGISTER",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         },
         {
           "regulator_code": "FSCA",
@@ -306,11 +317,11 @@
           "source": "Official regulator registry",
           "brand_mapping_basis": "Official FSP name contains the broker brand",
           "brand_mapping_url": "",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         }
       ],
       "notes": [],
-      "last_verified": "2026-09-03T13:48:51+00:00"
+      "last_verified": "2026-09-04T11:45:08+00:00"
     },
     {
       "slug": "easymarkets",
@@ -339,7 +350,7 @@
           "evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
           "evidence_status": "OFFICIAL_DATASET",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         },
         {
           "regulator_code": "CySEC",
@@ -352,12 +363,12 @@
           "legal_name": "Easy Forex Trading Ltd",
           "evidence_url": "http://easy-forex.com",
           "evidence_status": "FETCH_FAILED",
-          "last_checked": "2026-09-03T13:48:51+00:00",
+          "last_checked": "2026-09-04T11:45:08+00:00",
           "source": "Official regulator registry"
         }
       ],
       "notes": [],
-      "last_verified": "2026-09-03T13:48:51+00:00"
+      "last_verified": "2026-09-04T11:45:08+00:00"
     },
     {
       "slug": "etoro",
@@ -388,7 +399,7 @@
           "evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
           "evidence_status": "OFFICIAL_DATASET",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         },
         {
           "regulator_code": "CySEC",
@@ -401,7 +412,7 @@
           "legal_name": "Etoro (Europe) Ltd",
           "evidence_url": "https://www.etoro.com/",
           "evidence_status": "FETCHED",
-          "last_checked": "2026-09-03T13:48:51+00:00",
+          "last_checked": "2026-09-04T11:45:08+00:00",
           "source": "Official regulator registry"
         },
         {
@@ -416,11 +427,11 @@
           "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/583263",
           "evidence_status": "OFFICIAL_API",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         }
       ],
       "notes": [],
-      "last_verified": "2026-09-03T13:48:51+00:00"
+      "last_verified": "2026-09-04T11:45:08+00:00"
     },
     {
       "slug": "exness",
@@ -453,7 +464,7 @@
           "legal_name": "Exness (Cy) Ltd",
           "evidence_url": "https://www.exness.eu/",
           "evidence_status": "FETCHED",
-          "last_checked": "2026-09-03T13:48:51+00:00",
+          "last_checked": "2026-09-04T11:45:08+00:00",
           "source": "Official regulator registry"
         },
         {
@@ -468,7 +479,7 @@
           "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/730729",
           "evidence_status": "OFFICIAL_API",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         },
         {
           "regulator_code": "FSCA",
@@ -484,32 +495,45 @@
           "source": "Official regulator registry",
           "brand_mapping_basis": "Official FSP and trading names match the broker brand",
           "brand_mapping_url": "",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         }
       ],
       "notes": [
         "Unresolved means directory-reported, not disproven."
       ],
-      "last_verified": "2026-09-03T13:48:51+00:00"
+      "last_verified": "2026-09-04T11:45:08+00:00"
     },
     {
       "slug": "fortrade",
       "brand_name": "Fortrade",
       "priority_rank": 9,
-      "status": "PARTIAL",
+      "status": "VERIFIED",
       "reported_regulators": [
         "ASIC",
         "CySEC",
         "FCA"
       ],
       "verified_regulators": [
+        "ASIC",
         "CySEC",
         "FCA"
       ],
-      "unresolved_regulators": [
-        "ASIC"
-      ],
+      "unresolved_regulators": [],
       "official_licenses": [
+        {
+          "regulator_code": "ASIC",
+          "regulator_name": "Australian Securities and Investments Commission",
+          "jurisdiction": "Australia",
+          "license_number": "493520",
+          "license_type": "Australian Financial Services Licence",
+          "status": "ACTIVE",
+          "license_date": "06/02/2019",
+          "legal_name": "FORT SECURITIES AUSTRALIA PTY. LTD.",
+          "evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
+          "evidence_status": "OFFICIAL_DATASET",
+          "source": "Official regulator registry",
+          "last_checked": "2026-09-04T11:45:08+00:00"
+        },
         {
           "regulator_code": "CySEC",
           "regulator_name": "Cyprus Securities and Exchange Commission",
@@ -521,7 +545,7 @@
           "legal_name": "Fortrade Cyprus Ltd",
           "evidence_url": "https://www.fortrade.com/",
           "evidence_status": "FETCHED",
-          "last_checked": "2026-09-03T13:48:51+00:00",
+          "last_checked": "2026-09-04T11:45:08+00:00",
           "source": "Official regulator registry"
         },
         {
@@ -536,13 +560,11 @@
           "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/609970",
           "evidence_status": "OFFICIAL_API",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         }
       ],
-      "notes": [
-        "Unresolved means directory-reported, not disproven."
-      ],
-      "last_verified": "2026-09-03T13:48:51+00:00"
+      "notes": [],
+      "last_verified": "2026-09-04T11:45:08+00:00"
     },
     {
       "slug": "fp-markets",
@@ -576,7 +598,7 @@
           "evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
           "evidence_status": "OFFICIAL_DATASET",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         },
         {
           "regulator_code": "CySEC",
@@ -589,7 +611,7 @@
           "legal_name": "First Prudential Markets Ltd",
           "evidence_url": "https://fpmarkets.eu/",
           "evidence_status": "FETCHED",
-          "last_checked": "2026-09-03T13:48:51+00:00",
+          "last_checked": "2026-09-04T11:45:08+00:00",
           "source": "Official regulator registry"
         },
         {
@@ -606,13 +628,13 @@
           "source": "Official regulator registry",
           "brand_mapping_basis": "Official FSP name matches the broker brand",
           "brand_mapping_url": "",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         }
       ],
       "notes": [
         "Unresolved means directory-reported, not disproven."
       ],
-      "last_verified": "2026-09-03T13:48:51+00:00"
+      "last_verified": "2026-09-04T11:45:08+00:00"
     },
     {
       "slug": "fusion-markets",
@@ -641,7 +663,7 @@
           "evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
           "evidence_status": "OFFICIAL_DATASET",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         },
         {
           "regulator_code": "ASIC",
@@ -655,7 +677,7 @@
           "evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
           "evidence_status": "OFFICIAL_DATASET",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         },
         {
           "regulator_code": "CySEC",
@@ -668,12 +690,12 @@
           "legal_name": "Fusion Markets EU Ltd",
           "evidence_url": "https://fusionmarkets.com",
           "evidence_status": "FETCHED",
-          "last_checked": "2026-09-03T13:48:51+00:00",
+          "last_checked": "2026-09-04T11:45:08+00:00",
           "source": "Official regulator registry"
         }
       ],
       "notes": [],
-      "last_verified": "2026-09-03T13:48:51+00:00"
+      "last_verified": "2026-09-04T11:45:08+00:00"
     },
     {
       "slug": "fxcm",
@@ -706,7 +728,7 @@
           "evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
           "evidence_status": "OFFICIAL_DATASET",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         },
         {
           "regulator_code": "CySEC",
@@ -719,7 +741,7 @@
           "legal_name": "Stratos Europe Ltd (ex FXCM EU LTD)",
           "evidence_url": "https://www.fxcm.com/eu/",
           "evidence_status": "FETCHED",
-          "last_checked": "2026-09-03T13:48:51+00:00",
+          "last_checked": "2026-09-04T11:45:08+00:00",
           "source": "Official regulator registry"
         },
         {
@@ -734,7 +756,7 @@
           "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/217689",
           "evidence_status": "OFFICIAL_API",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         },
         {
           "regulator_code": "FSCA",
@@ -750,11 +772,11 @@
           "source": "Official regulator registry",
           "brand_mapping_basis": "FXCM-owned disclosure identifies Stratos South Africa and FSP 46534",
           "brand_mapping_url": "https://www.fxcm.com/za/about-fxcm/international-sites-offices/",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         }
       ],
       "notes": [],
-      "last_verified": "2026-09-03T13:48:51+00:00"
+      "last_verified": "2026-09-04T11:45:08+00:00"
     },
     {
       "slug": "fxpro",
@@ -782,7 +804,7 @@
           "legal_name": "FXPRO Financial Services Ltd",
           "evidence_url": "https://www.fxpro-thailand.com/",
           "evidence_status": "FETCHED",
-          "last_checked": "2026-09-03T13:48:51+00:00",
+          "last_checked": "2026-09-04T11:45:08+00:00",
           "source": "Official regulator registry"
         },
         {
@@ -797,11 +819,11 @@
           "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/509956",
           "evidence_status": "OFFICIAL_API",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         }
       ],
       "notes": [],
-      "last_verified": "2026-09-03T13:48:51+00:00"
+      "last_verified": "2026-09-04T11:45:08+00:00"
     },
     {
       "slug": "hantec-financial-hantec-markets-asia",
@@ -833,7 +855,7 @@
           "evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
           "evidence_status": "OFFICIAL_DATASET",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         },
         {
           "regulator_code": "FCA",
@@ -847,13 +869,13 @@
           "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/502635",
           "evidence_status": "OFFICIAL_API",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         }
       ],
       "notes": [
         "Unresolved means directory-reported, not disproven."
       ],
-      "last_verified": "2026-09-03T13:48:51+00:00"
+      "last_verified": "2026-09-04T11:45:08+00:00"
     },
     {
       "slug": "hycm",
@@ -883,13 +905,13 @@
           "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/186171",
           "evidence_status": "OFFICIAL_API",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         }
       ],
       "notes": [
         "Unresolved means directory-reported, not disproven."
       ],
-      "last_verified": "2026-09-03T13:48:51+00:00"
+      "last_verified": "2026-09-04T11:45:08+00:00"
     },
     {
       "slug": "ironfx",
@@ -919,7 +941,7 @@
           "legal_name": "Notesco Financial Services Ltd",
           "evidence_url": "https://www.fxlift.eu/",
           "evidence_status": "FETCHED",
-          "last_checked": "2026-09-03T13:48:51+00:00",
+          "last_checked": "2026-09-04T11:45:08+00:00",
           "source": "Official regulator registry"
         },
         {
@@ -934,7 +956,7 @@
           "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/585561",
           "evidence_status": "OFFICIAL_API",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         },
         {
           "regulator_code": "FSCA",
@@ -950,11 +972,11 @@
           "source": "Official regulator registry",
           "brand_mapping_basis": "Official trading name matches the broker brand",
           "brand_mapping_url": "",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         }
       ],
       "notes": [],
-      "last_verified": "2026-09-03T13:48:51+00:00"
+      "last_verified": "2026-09-04T11:45:08+00:00"
     },
     {
       "slug": "markets-com",
@@ -989,7 +1011,7 @@
           "legal_name": "Safecap Investments Ltd",
           "evidence_url": "https://www.markets.com/en/",
           "evidence_status": "FETCHED",
-          "last_checked": "2026-09-03T13:48:51+00:00",
+          "last_checked": "2026-09-04T11:45:08+00:00",
           "source": "Official regulator registry"
         },
         {
@@ -1004,7 +1026,7 @@
           "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/481853",
           "evidence_status": "OFFICIAL_API",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         },
         {
           "regulator_code": "FSCA",
@@ -1020,32 +1042,45 @@
           "source": "Official regulator registry",
           "brand_mapping_basis": "Official FSP name matches the broker brand",
           "brand_mapping_url": "",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         }
       ],
       "notes": [
         "Unresolved means directory-reported, not disproven."
       ],
-      "last_verified": "2026-09-03T13:48:51+00:00"
+      "last_verified": "2026-09-04T11:45:08+00:00"
     },
     {
       "slug": "moneta-markets",
       "brand_name": "Moneta Markets",
       "priority_rank": 18,
-      "status": "PARTIAL",
+      "status": "VERIFIED",
       "reported_regulators": [
         "FCA",
         "FSC Mauritius",
         "FSCA"
       ],
       "verified_regulators": [
+        "FCA",
         "FSC Mauritius",
         "FSCA"
       ],
-      "unresolved_regulators": [
-        "FCA"
-      ],
+      "unresolved_regulators": [],
       "official_licenses": [
+        {
+          "regulator_code": "FCA",
+          "regulator_name": "Financial Conduct Authority",
+          "jurisdiction": "United Kingdom",
+          "license_number": "613381",
+          "license_type": "Financial Services Register firm",
+          "status": "ACTIVE",
+          "license_date": "",
+          "legal_name": "MONETA MARKETS CAPITAL LTD",
+          "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/613381",
+          "evidence_status": "OFFICIAL_API",
+          "source": "Official regulator registry",
+          "last_checked": "2026-09-04T11:45:08+00:00"
+        },
         {
           "regulator_code": "FSC Mauritius",
           "regulator_name": "Financial Services Commission Mauritius",
@@ -1058,7 +1093,7 @@
           "evidence_url": "https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr",
           "evidence_status": "OFFICIAL_PUBLIC_REGISTER",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         },
         {
           "regulator_code": "FSCA",
@@ -1074,13 +1109,11 @@
           "source": "Official regulator registry",
           "brand_mapping_basis": "Official FSP name matches the broker brand",
           "brand_mapping_url": "",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         }
       ],
-      "notes": [
-        "Unresolved means directory-reported, not disproven."
-      ],
-      "last_verified": "2026-09-03T13:48:51+00:00"
+      "notes": [],
+      "last_verified": "2026-09-04T11:45:08+00:00"
     },
     {
       "slug": "naga",
@@ -1106,12 +1139,12 @@
           "legal_name": "Naga Markets Europe Ltd",
           "evidence_url": "https://naga.com/eu",
           "evidence_status": "FETCHED",
-          "last_checked": "2026-09-03T13:48:51+00:00",
+          "last_checked": "2026-09-04T11:45:08+00:00",
           "source": "Official regulator registry"
         }
       ],
       "notes": [],
-      "last_verified": "2026-09-03T13:48:51+00:00"
+      "last_verified": "2026-09-04T11:45:08+00:00"
     },
     {
       "slug": "vantage-vantage-markets",
@@ -1142,7 +1175,7 @@
           "evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
           "evidence_status": "OFFICIAL_DATASET",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         },
         {
           "regulator_code": "FCA",
@@ -1156,7 +1189,7 @@
           "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/590299",
           "evidence_status": "OFFICIAL_API",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         },
         {
           "regulator_code": "FSCA",
@@ -1172,11 +1205,11 @@
           "source": "Official regulator registry",
           "brand_mapping_basis": "Official FSP name matches the broker brand",
           "brand_mapping_url": "",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         }
       ],
       "notes": [],
-      "last_verified": "2026-09-03T13:48:51+00:00"
+      "last_verified": "2026-09-04T11:45:08+00:00"
     },
     {
       "slug": "vt-markets",
@@ -1207,7 +1240,7 @@
           "evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
           "evidence_status": "OFFICIAL_DATASET",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         },
         {
           "regulator_code": "FSC Mauritius",
@@ -1221,7 +1254,7 @@
           "evidence_url": "https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr",
           "evidence_status": "OFFICIAL_PUBLIC_REGISTER",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         },
         {
           "regulator_code": "FSCA",
@@ -1237,11 +1270,11 @@
           "source": "Official regulator registry",
           "brand_mapping_basis": "Official FSP name matches the broker brand",
           "brand_mapping_url": "",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         }
       ],
       "notes": [],
-      "last_verified": "2026-09-03T13:48:51+00:00"
+      "last_verified": "2026-09-04T11:45:08+00:00"
     },
     {
       "slug": "doto-europe-ltd-ex-vasby-capital-markets-ltd",
@@ -1272,7 +1305,7 @@
           "legal_name": "Doto Europe Ltd (Ex Vasby Capital Markets Ltd)",
           "evidence_url": "https://doto.com",
           "evidence_status": "FETCHED",
-          "last_checked": "2026-09-03T13:48:51+00:00",
+          "last_checked": "2026-09-04T11:45:08+00:00",
           "source": "Official regulator registry"
         },
         {
@@ -1289,13 +1322,13 @@
           "source": "Official regulator registry",
           "brand_mapping_basis": "Official FSP name matches the broker brand",
           "brand_mapping_url": "",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         }
       ],
       "notes": [
         "Unresolved means directory-reported, not disproven."
       ],
-      "last_verified": "2026-09-03T13:48:51+00:00"
+      "last_verified": "2026-09-04T11:45:08+00:00"
     },
     {
       "slug": "plus500",
@@ -1326,7 +1359,7 @@
           "evidence_url": "https://data.gov.au/data/dataset/asic-afs-licensee",
           "evidence_status": "OFFICIAL_DATASET",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         },
         {
           "regulator_code": "CySEC",
@@ -1339,7 +1372,7 @@
           "legal_name": "Plus500CY Ltd",
           "evidence_url": "https://www.plus500.com/ar-ae/",
           "evidence_status": "FETCHED",
-          "last_checked": "2026-09-03T13:48:51+00:00",
+          "last_checked": "2026-09-04T11:45:08+00:00",
           "source": "Official regulator registry"
         },
         {
@@ -1354,11 +1387,11 @@
           "evidence_url": "https://register.fca.org.uk/services/V0.1/Firm/509909",
           "evidence_status": "OFFICIAL_API",
           "source": "Official regulator registry",
-          "last_checked": "2026-09-03T13:48:51+00:00"
+          "last_checked": "2026-09-04T11:45:08+00:00"
         }
       ],
       "notes": [],
-      "last_verified": "2026-09-03T13:48:51+00:00"
+      "last_verified": "2026-09-04T11:45:08+00:00"
     },
     {
       "slug": "just2trade",
@@ -1384,12 +1417,12 @@
           "legal_name": "J2T Services Ltd (ex Lime Trading (CY) Ltd)",
           "evidence_url": "https://j2t.com",
           "evidence_status": "FETCHED",
-          "last_checked": "2026-09-03T13:48:51+00:00",
+          "last_checked": "2026-09-04T11:45:08+00:00",
           "source": "Official regulator registry"
         }
       ],
       "notes": [],
-      "last_verified": "2026-09-03T13:48:51+00:00"
+      "last_verified": "2026-09-04T11:45:08+00:00"
     },
     {
       "slug": "windsor-brokers",
@@ -1407,7 +1440,7 @@
       "notes": [
         "Unresolved means directory-reported, not disproven."
       ],
-      "last_verified": "2026-09-03T13:48:51+00:00"
+      "last_verified": "2026-09-04T11:45:08+00:00"
     }
   ]
 }

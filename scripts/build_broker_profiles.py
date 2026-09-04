@@ -277,6 +277,7 @@ def main() -> None:
     parser.add_argument("--identity-audit-output", type=Path)
     parser.add_argument("--identity-merge-output", type=Path)
     parser.add_argument("--priority-verification", type=Path)
+    parser.add_argument("--entity-resolution", type=Path)
     args = parser.parse_args()
 
     tc_rows = read_csv(args.trading_central)
@@ -284,9 +285,13 @@ def main() -> None:
     brokerchooser_rows = read_csv(args.brokerchooser) if args.brokerchooser and args.brokerchooser.exists() else []
     directory_rows = read_csv(args.directory) if args.directory and args.directory.exists() else []
     verification_profiles = {}
+    entity_resolution_profiles = {}
     if args.priority_verification and args.priority_verification.exists():
         verification_payload = json.loads(args.priority_verification.read_text(encoding="utf-8"))
         verification_profiles = {item["slug"]: item for item in verification_payload.get("profiles", [])}
+    if args.entity_resolution and args.entity_resolution.exists():
+        entity_resolution_payload = json.loads(args.entity_resolution.read_text(encoding="utf-8"))
+        entity_resolution_profiles = {item["slug"]: item for item in entity_resolution_payload.get("profiles", [])}
 
     profiles: list[dict] = []
     used_slugs: set[str] = set()
@@ -585,6 +590,9 @@ def main() -> None:
                 "notes": ["This profile is outside the current Priority 25 verification pilot."],
                 "last_verified": "",
             }
+        entity_resolution = entity_resolution_profiles.get(profile["slug"])
+        if entity_resolution:
+            profile["canonical_regulatory_footprint"] = entity_resolution["canonical_regulatory_footprint"]
         regulators: dict[str, dict] = {}
         for item in profile["licenses"]:
             code = item["regulator_code"] or item["regulator_name"]

@@ -1,0 +1,94 @@
+{
+  "as_of": "2026-09-04",
+  "scope": "PRIORITY_25",
+  "official_records": [
+    {
+      "slug": "exness",
+      "regulator_code": "FSC Mauritius",
+      "regulator_name": "Financial Services Commission Mauritius",
+      "jurisdiction": "Mauritius",
+      "license_number": "GB20025294",
+      "license_type": "SEC-2.1B Investment Dealer (Full Service Dealer excluding Underwriting)",
+      "status": "ACTIVE",
+      "license_date": "07/12/2020",
+      "legal_name": "Exness (MU) Ltd",
+      "evidence_url": "https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr",
+      "mapping_evidence_url": "https://www.exness.com/regulation/",
+      "mapping_basis": "The broker-owned regulation page maps the Exness brand and licence number to the same legal entity returned by the official register.",
+      "mapping_confidence": "HIGH"
+    },
+    {
+      "slug": "hantec-financial-hantec-markets-asia",
+      "regulator_code": "FSC Mauritius",
+      "regulator_name": "Financial Services Commission Mauritius",
+      "jurisdiction": "Mauritius",
+      "license_number": "C114013940",
+      "license_type": "SEC-2.1B Investment Dealer (Full Service Dealer excluding Underwriting)",
+      "status": "ACTIVE",
+      "license_date": "23/03/2017",
+      "legal_name": "Hantec Markets Limited",
+      "evidence_url": "https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr",
+      "mapping_evidence_url": "https://hmarkets.com/terms/hantec-policies/",
+      "mapping_basis": "The broker-owned policy page maps Hantec Markets to the same legal entity and licence number returned by the official register.",
+      "mapping_confidence": "HIGH"
+    },
+    {
+      "slug": "doto-europe-ltd-ex-vasby-capital-markets-ltd",
+      "regulator_code": "FSC Mauritius",
+      "regulator_name": "Financial Services Commission Mauritius",
+      "jurisdiction": "Mauritius",
+      "license_number": "C119023978",
+      "license_type": "SEC-2.1B Investment Dealer (Full Service Dealer excluding Underwriting)",
+      "status": "ACTIVE",
+      "license_date": "22/11/2019",
+      "legal_name": "DOTO Global Ltd",
+      "evidence_url": "https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr",
+      "mapping_evidence_url": "https://doto.com/regulation/",
+      "mapping_basis": "The broker-owned regulation page maps Doto to the same legal entity and licence number returned by the official register.",
+      "mapping_confidence": "HIGH"
+    }
+  ],
+  "claim_resolutions": [
+    {
+      "slug": "hycm",
+      "regulator_code": "CySEC",
+      "classification": "VERIFIED_HISTORICAL",
+      "legal_name": "HYCM (Europe) Ltd",
+      "license_number": "259/14",
+      "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/",
+      "note": "The official CySEC dataset classifies this licence as voluntarily cancelled; it must not be presented as a current active licence."
+    },
+    {
+      "slug": "markets-com",
+      "regulator_code": "ASIC",
+      "classification": "NOT_CURRENTLY_CLAIMED",
+      "evidence_url": "https://www.markets.com/about/our-group/",
+      "note": "The current Markets.com group page lists FSCA, CySEC, and SVG entities, not ASIC. The directory claim is retained as historical source data but excluded from the current canonical footprint."
+    },
+    {
+      "slug": "markets-com",
+      "regulator_code": "FSC Mauritius",
+      "classification": "NOT_CURRENTLY_CLAIMED",
+      "evidence_url": "https://www.markets.com/about/our-group/",
+      "note": "The current Markets.com group page lists FSCA, CySEC, and SVG entities, not Mauritius FSC."
+    },
+    {
+      "slug": "fp-markets",
+      "regulator_code": "FSC Mauritius",
+      "classification": "CURRENT_REGISTER_NO_RESULT",
+      "evidence_url": "https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr",
+      "mapping_evidence_url": "https://www.fpmarkets.com/fp-markets-group/",
+      "note": "FP Markets discloses FP Markets Ltd and licence GB21026264, but the live FSC name search returned no current result for FP Markets on 2026-09-04."
+    },
+    {
+      "slug": "windsor-brokers",
+      "regulator_code": "CySEC",
+      "classification": "RELATIONSHIP_UNRESOLVED",
+      "legal_name": "WB Trade EU Ltd",
+      "license_number": "030/04",
+      "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/37569/",
+      "mapping_evidence_url": "https://windsorbrokers.com/knowledge-base/about-windsor-brokers/what-type-of-broker-is-windsor-brokers/",
+      "note": "CySEC confirms WB Trade EU Ltd licence 030/04, but the current sources reviewed do not establish a sufficiently direct Windsor Brokers brand-to-entity relationship."
+    }
+  ]
+}
