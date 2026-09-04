@@ -645,7 +645,10 @@ def main() -> None:
         "profiles": profiles,
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    compact_payload = json.dumps(payload, ensure_ascii=False, separators=(",", ":"))
+    args.output.write_text(compact_payload, encoding="utf-8")
+    browser_data_path = args.output.with_name("brokers-data.js")
+    browser_data_path.write_text(f"window.__ACUITY_BROKER_DATA__={compact_payload};\n", encoding="utf-8")
 
     args.normalized_output.parent.mkdir(parents=True, exist_ok=True)
     with args.normalized_output.open("w", encoding="utf-8", newline="") as handle:

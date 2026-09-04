@@ -260,9 +260,14 @@ window.addEventListener("hashchange", () => { const slug = location.hash.startsW
 
 async function initialise() {
   try {
-    const response = await fetch("./data/brokers.json", { cache: "no-store" });
-    if (!response.ok) throw new Error(`Profile request failed: ${response.status}`);
-    const payload = await response.json(); state.rows = payload.profiles || [];
+    let payload = window.__ACUITY_BROKER_DATA__;
+    if (!payload) {
+      const response = await fetch("/site/data/brokers.json", { cache: "no-store", credentials: "same-origin" });
+      if (!response.ok) throw new Error(`Profile request failed: ${response.status}`);
+      payload = await response.json();
+    }
+    state.rows = payload.profiles || [];
+    delete window.__ACUITY_BROKER_DATA__;
     setMetrics(payload.generated_at); populateRegulators(); populateCompanyTypes(); applyFilters();
     if (location.hash.startsWith("#broker=")) { const profile = state.rows.find((row) => row.slug === decodeURIComponent(location.hash.slice(8))); if (profile) openDetails(profile, false); }
   } catch (error) {
