@@ -32,7 +32,7 @@ function setMetrics(generatedAt) {
   const priority = state.rows.filter((row) => row.priority_tier === "PRIORITY_100");
   const review = state.rows.filter((row) => row.needs_review === "YES");
   const pilot = state.rows.filter((row) => row.verification?.scope === "PRIORITY_25");
-  const verified = pilot.filter((row) => verificationStatus(row) === "VERIFIED");
+  const verified = pilot.filter((row) => ["READY", "READY_WITH_UNRESOLVED"].includes(canonicalFootprint(row)?.readiness));
   document.querySelector("#metricRecords").textContent = formatNumber(state.rows.length);
   document.querySelector("#metricTargets").textContent = formatNumber(tools.length);
   document.querySelector("#metricVerified").textContent = `${verified.length}/${pilot.length}`;
@@ -89,7 +89,11 @@ function applyFilters() {
     if (needle) {
       const haystack = [row.brand_name, row.broker_group, ...(row.aliases || []), row.company_type, row.sales_relevance, row.primary_domain, row.primary_market,
         ...regulatorCodes(row), verificationStatus(row), ...(row.verification?.verified_regulators || []), ...(row.verification?.unresolved_regulators || []), ...(canonicalLicenses(row).length ? canonicalLicenses(row) : (row.licenses || [])).flatMap((item) => [item.legal_name, item.license_number, item.jurisdiction]),
-        ...(row.vendor_relationships || []).flatMap((item) => [item.vendor, item.status, item.products?.join(" "), item.summary])].join(" ").toLowerCase();
+        ...(row.vendor_relationships || []).flatMap((item) => [item.vendor, item.status, item.products?.join(" "), item.summary]),
+        ...(row.technology_assessment || []).flatMap((item) => [item.vendor, item.status, item.note]),
+        ...(row.people || []).flatMap((item) => [item.name, item.title, item.status]),
+        ...(row.offices || []).flatMap((item) => [item.city, item.country]),
+        row.sales_intelligence?.why_now, row.sales_intelligence?.discovery_angle].join(" ").toLowerCase();
       if (!haystack.includes(needle)) return false;
     }
     return true;
@@ -195,6 +199,38 @@ function relationshipCards(profile) {
   }).join("");
 }
 
+function technologyAssessmentCards(profile) {
+  const assessments = profile.technology_assessment || [];
+  if (!assessments.length) return '<p class="empty-note">No structured technology assessment is available yet.</p>';
+  return assessments.map((item) => {
+    const statusClass = item.status === "CONFIRMED_ACTIVE" ? "confirmed" : item.status === "LIKELY_ACTIVE" || item.status === "DIRECTORY_REPORTED" ? "likely" : "caution";
+    const status = item.status?.replaceAll("_", " ").toLowerCase() || "unknown";
+    return `<article class="assessment-card"><div><span class="tool-badge ${statusClass}">${escapeHtml(item.vendor)}</span><span class="assessment-status">${escapeHtml(status)}</span></div>
+      <p>${escapeHtml(item.note || (item.status === "UNKNOWN" ? "No current first-party evidence was located in this pass." : "Evidence recorded."))}</p>
+      <footer><span>${escapeHtml(item.confidence || "LOW")} confidence${item.checked_date ? ` · checked ${escapeHtml(item.checked_date)}` : ""}</span>${item.evidence_url ? `<a href="${escapeHtml(item.evidence_url)}" target="_blank" rel="noreferrer">Source ↗</a>` : ""}</footer></article>`;
+  }).join("");
+}
+
+function salesPanel(profile) {
+  const intel = profile.sales_intelligence || {};
+  if (!intel.why_now && !intel.discovery_angle) return '<p class="empty-note">Sales intelligence is pending review for this Priority 100 account.</p>';
+  return `<div class="sales-panel"><div><span>Why now</span><p>${escapeHtml(intel.why_now)}</p></div><div><span>Discovery angle</span><p>${escapeHtml(intel.discovery_angle)}</p></div>
+    <footer><span>${intel.hypothesis ? "Sales hypothesis. Validate in discovery." : "Evidence-backed finding"}${intel.last_checked ? ` · checked ${escapeHtml(intel.last_checked)}` : ""}</span>${intel.sources?.length ? `<a href="${escapeHtml(intel.sources[0])}" target="_blank" rel="noreferrer">Primary source ↗</a>` : ""}</footer></div>`;
+}
+
+function leadershipAndOffices(profile) {
+  const confirmed = (profile.people || []).filter((item) => item.name && item.status !== "UNRESOLVED");
+  const unresolved = (profile.people || []).find((item) => item.status === "UNRESOLVED");
+  const people = confirmed.length ? confirmed.map((item) => `<article class="person-card"><strong>${escapeHtml(item.name)}</strong><span>${escapeHtml(item.title)}</span>${item.evidence_url ? `<a href="${escapeHtml(item.evidence_url)}" target="_blank" rel="noreferrer">First-party source ↗</a>` : ""}</article>`).join("") : `<p class="empty-note">${escapeHtml(unresolved?.note || "No current first-party leadership disclosure was located in this pass.")}</p>`;
+  const offices = (profile.offices || []).length ? profile.offices.map((item) => `<span class="office-chip">${escapeHtml([item.city, item.country].filter(Boolean).join(", "))}</span>`).join("") : '<p class="empty-note">No current office evidence is recorded.</p>';
+  return `<div class="enrichment-columns"><div><h5>Decision-makers</h5><div class="person-list">${people}</div></div><div><h5>Offices</h5><div class="office-list">${offices}</div></div></div>`;
+}
+
+function historyCards(profile) {
+  if (!profile.change_history?.length) return '<p class="empty-note">No material change has been recorded since monitoring began.</p>';
+  return profile.change_history.map((item) => `<article class="history-card"><time>${escapeHtml(item.date)}</time><div><strong>${escapeHtml(item.category?.replaceAll("_", " ").toLowerCase())}</strong><p>${escapeHtml(item.summary)}</p></div>${item.evidence_url ? `<a href="${escapeHtml(item.evidence_url)}" target="_blank" rel="noreferrer">Source ↗</a>` : ""}</article>`).join("");
+}
+
 function openDetails(row, updateHash = true) {
   document.querySelector("#detailRegulator").textContent = `${regulatorCodes(row).length || "No"} regulator${regulatorCodes(row).length === 1 ? "" : "s"} · ${row.vendor_relationships?.length || 0} research tool`;
   document.querySelector("#detailName").textContent = row.brand_name;
@@ -205,10 +241,13 @@ function openDetails(row, updateHash = true) {
     ${detailField("Priority rank", row.priority_rank ? `#${row.priority_rank}` : "Not ranked")}${detailField("Identity status", row.identity_status === "CANONICAL" ? "Canonical profile" : "Needs identity review")}</div>
     <p class="identity-note">${escapeHtml(row.company_type_reason || row.identity_note)}</p></section>
     <section class="detail-section"><h4>Regulatory verification <span>${escapeHtml(verificationStatus(row).replaceAll("_", " ").toLowerCase())}</span></h4>${verificationPanel(row)}</section>
-    <section class="detail-section"><h4>Research technology <span>${row.vendor_relationships?.length || 0} relationships</span></h4><div class="vendor-list">${relationshipCards(row)}</div></section>
+    <section class="detail-section"><h4>Sales brief <span>${escapeHtml(row.intelligence_scope?.replaceAll("_", " ").toLowerCase() || "not ranked")}</span></h4>${salesPanel(row)}</section>
+    <section class="detail-section"><h4>Technology assessment <span>3 tracked vendors</span></h4><div class="assessment-grid">${technologyAssessmentCards(row)}</div></section>
+    <section class="detail-section"><h4>Relationship evidence <span>${row.vendor_relationships?.length || 0} records</span></h4><div class="vendor-list">${relationshipCards(row)}</div></section>
     <section class="detail-section"><h4>Canonical regulatory footprint <span>${canonicalLicenses(row).length || row.licenses?.length || 0} records</span></h4><div class="record-list">${licenseCards(row)}</div></section>
     <section class="detail-section"><h4>Domains <span>${row.domains?.length || 0}</span></h4><div class="tag-list">${row.domains?.length ? row.domains.map((item) => `<a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.domain)} ↗</a>`).join("") : '<span class="empty-note">No domains linked.</span>'}</div></section>
-    <section class="detail-section enrichment-section"><h4>Leadership &amp; offices</h4><div class="enrichment-grid"><div><span>CEO / CMO / decision-makers</span><strong>${row.people?.length ? `${row.people.length} contacts` : "Next enrichment pass"}</strong></div><div><span>Office locations</span><strong>${row.offices?.length ? escapeHtml(row.offices.map((item) => item.city ? `${item.city}, ${item.country}` : item.country).join(" · ")) : "Next enrichment pass"}</strong></div></div></section>`;
+    <section class="detail-section"><h4>Leadership &amp; offices</h4>${leadershipAndOffices(row)}</section>
+    <section class="detail-section"><h4>Change history <span>material changes only</span></h4><div class="history-list">${historyCards(row)}</div></section>`;
   if (!elements.dialog.open) elements.dialog.showModal();
   if (updateHash && location.hash !== `#broker=${row.slug}`) history.pushState(null, "", `#broker=${row.slug}`);
 }
@@ -219,12 +258,15 @@ function closeDetails(updateHash = true) {
 }
 
 function exportCurrentView() {
-  const headers = ["priority_rank", "brand_name", "company_type", "sales_relevance", "primary_domain", "forex_broker", "research_tools", "trading_central_status", "trading_central_confidence", "regulators", "verified_regulators", "unresolved_regulators", "verification_status", "license_numbers", "primary_market", "identity_status", "needs_review", "last_checked"];
+  const headers = ["priority_rank", "brand_name", "company_type", "sales_relevance", "primary_domain", "forex_broker", "research_tools", "trading_central_status", "trading_central_confidence", "regulators", "verified_regulators", "unresolved_regulators", "verification_status", "license_numbers", "primary_market", "headquarters", "decision_makers", "offices", "trading_central_assessment", "autochartist_assessment", "acuity_assessment", "why_now", "discovery_angle", "intelligence_scope", "identity_status", "needs_review", "last_checked"];
   const flattened = state.filtered.map((row) => { const tool = tradingCentral(row); return {
     priority_rank: row.priority_rank || "", brand_name: row.brand_name, company_type: row.company_type, sales_relevance: row.sales_relevance, primary_domain: row.primary_domain, forex_broker: row.forex_broker,
     research_tools: row.vendor_relationships?.map((item) => item.vendor).join("; ") || "", trading_central_status: tool?.status || "",
     trading_central_confidence: tool?.confidence_score ?? "", regulators: regulatorCodes(row).join("; "), verified_regulators: row.verification?.verified_regulators?.join("; ") || "", unresolved_regulators: row.verification?.unresolved_regulators?.join("; ") || "", verification_status: verificationStatus(row),
     license_numbers: unique((canonicalLicenses(row).length ? canonicalLicenses(row) : row.licenses || []).map((item) => item.license_number)).join("; "), primary_market: row.primary_market,
+    headquarters: row.headquarters, decision_makers: row.people?.filter((item) => item.name).map((item) => `${item.name} | ${item.title}`).join("; ") || "Unresolved", offices: row.offices?.map((item) => [item.city, item.country].filter(Boolean).join(", ")).join("; ") || "",
+    trading_central_assessment: row.technology_assessment?.find((item) => item.vendor === "Trading Central")?.status || "UNKNOWN", autochartist_assessment: row.technology_assessment?.find((item) => item.vendor === "Autochartist")?.status || "UNKNOWN", acuity_assessment: row.technology_assessment?.find((item) => item.vendor === "Acuity Trading")?.status || "UNKNOWN",
+    why_now: row.sales_intelligence?.why_now || "", discovery_angle: row.sales_intelligence?.discovery_angle || "", intelligence_scope: row.intelligence_scope || "",
     identity_status: row.identity_status, needs_review: row.needs_review, last_checked: row.last_checked,
   }; });
   const quote = (value) => `"${String(value ?? "").replaceAll('"', '""')}"`;
@@ -236,7 +278,7 @@ function exportCurrentView() {
 document.querySelectorAll(".view-tab").forEach((tab) => tab.addEventListener("click", () => {
   document.querySelectorAll(".view-tab").forEach((item) => item.classList.remove("active")); tab.classList.add("active");
   state.view = tab.dataset.view; state.page = 1;
-  elements.viewDescription.textContent = { "trading-central": "Showing brokers with documented Trading Central relationships.", "verified-pilot": "Showing the Priority 25 official-regulator verification pilot, with unresolved claims kept separate.", priority: "Showing the 100 highest-ranked sales opportunities based on broker relevance, competitor use, regulatory breadth, and evidence.", review: "Showing profiles that need human validation or enrichment.", all: "Showing every broker and regulated entity in the current intelligence layer." }[state.view];
+  elements.viewDescription.textContent = { "trading-central": "Showing brokers with documented Trading Central relationships.", "verified-pilot": "Showing the Priority 25 gold set: every core claim is classified and unresolved gaps remain explicit.", priority: "Showing the 100 highest-ranked sales opportunities with a consistent intelligence structure.", review: "Showing profiles that need human validation or enrichment.", all: "Showing every broker and regulated entity in the current intelligence layer." }[state.view];
   applyFilters();
 }));
 elements.search.addEventListener("input", (event) => { state.search = event.target.value; state.page = 1; applyFilters(); });

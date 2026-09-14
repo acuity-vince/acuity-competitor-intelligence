@@ -165,8 +165,8 @@ tbody tr { transition: background .12s ease; }
 .detail-section + .detail-section { margin-top: 28px; padding-top: 24px; border-top: 1px solid var(--line); }
 .detail-section h4 { display: flex; align-items: center; justify-content: space-between; margin: 0 0 15px; font: 700 15px/1.2 "Manrope", sans-serif; }
 .detail-section h4 > span { color: #7f9099; font: 600 11px/1 "DM Sans", sans-serif; }
-.detail-field a, .record-card a, .vendor-card a, .tag-list a { color: var(--teal-dark); text-decoration: none; }
-.detail-field a:hover, .record-card a:hover, .vendor-card a:hover, .tag-list a:hover { text-decoration: underline; }
+.detail-field a, .record-card a, .vendor-card a, .tag-list a, .assessment-card a, .sales-panel a, .person-card a, .history-card a { color: var(--teal-dark); text-decoration: none; }
+.detail-field a:hover, .record-card a:hover, .vendor-card a:hover, .tag-list a:hover, .assessment-card a:hover, .sales-panel a:hover, .person-card a:hover, .history-card a:hover { text-decoration: underline; }
 .identity-note { margin: 18px 0 0; padding: 12px 14px; background: #f7fafb; border-left: 3px solid #9eb3bd; color: #5d727d; line-height: 1.5; }
 .vendor-card { padding: 18px; background: #f5faf9; border: 1px solid #dcebe8; border-left: 3px solid var(--teal); }
 .vendor-list { display: grid; gap: 10px; }
@@ -202,6 +202,29 @@ tbody tr { transition: background .12s ease; }
 .enrichment-grid span, .enrichment-grid strong { display: block; }
 .enrichment-grid span { margin-bottom: 5px; color: #7d8e97; font-size: 11px; }
 .enrichment-grid strong { color: var(--navy); }
+.assessment-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 9px; }
+.assessment-card { min-width: 0; padding: 14px; border: 1px solid #dfe7ea; background: #fafcfc; }
+.assessment-card > div { display: flex; align-items: center; justify-content: space-between; gap: 7px; }
+.assessment-status { color: #74868f; font-size: 10px; text-transform: capitalize; }
+.assessment-card p { min-height: 55px; margin: 12px 0; color: #526873; font-size: 12px; line-height: 1.45; white-space: normal; }
+.assessment-card footer, .sales-panel footer { display: flex; align-items: center; justify-content: space-between; gap: 10px; color: #7b8c95; font-size: 10px; }
+.sales-panel { padding: 18px; border: 1px solid #d9e7e5; border-left: 3px solid var(--teal); background: #f6fbfa; }
+.sales-panel > div + div { margin-top: 15px; padding-top: 15px; border-top: 1px solid #dce9e7; }
+.sales-panel > div > span, .enrichment-columns h5 { color: var(--teal-dark); font-size: 10px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; }
+.sales-panel p { margin: 6px 0 0; color: #405965; line-height: 1.55; white-space: normal; }
+.sales-panel footer { margin-top: 16px; padding-top: 13px; border-top: 1px solid #dce9e7; }
+.enrichment-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.enrichment-columns h5 { margin: 0 0 9px; }
+.person-list, .office-list, .history-list { display: grid; gap: 8px; }
+.person-card { display: grid; gap: 3px; padding: 12px 13px; border: 1px solid #e0e7ea; background: var(--soft); }
+.person-card span { color: #5d727d; font-size: 12px; }
+.person-card a { margin-top: 3px; font-size: 11px; }
+.office-list { display: flex; flex-wrap: wrap; }
+.office-chip { padding: 8px 10px; background: #eef5f7; border: 1px solid #dce7eb; color: #435d6a; font-size: 12px; }
+.history-card { display: grid; grid-template-columns: 82px minmax(0, 1fr) auto; gap: 12px; align-items: start; padding: 13px 14px; border: 1px solid #e0e7ea; background: #fafcfc; }
+.history-card time { color: #7b8c95; font-size: 11px; }
+.history-card strong { text-transform: capitalize; }
+.history-card p { margin: 4px 0 0; color: #526873; line-height: 1.45; white-space: normal; }
 
 @media (max-width: 980px) {
   .metrics { grid-template-columns: 1fr 1fr; }
@@ -224,7 +247,8 @@ tbody tr { transition: background .12s ease; }
   select { min-width: 100%; width: 100%; }
   .result-strip { align-items: flex-start; flex-direction: column; gap: 3px; }
   .detail-grid { grid-template-columns: 1fr; }
-  .vendor-card dl, .enrichment-grid, .verification-groups { grid-template-columns: 1fr; }
+  .vendor-card dl, .enrichment-grid, .verification-groups, .assessment-grid, .enrichment-columns { grid-template-columns: 1fr; }
   .record-card { grid-template-columns: 1fr; }
   .record-card > a { grid-column: 1; grid-row: auto; }
+  .history-card { grid-template-columns: 1fr; }
 }

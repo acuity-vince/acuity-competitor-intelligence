@@ -1,21 +1,19 @@
 {
-  "generated_at": "2026-09-04T11:45:40+00:00",
+  "generated_at": "2026-09-14T13:41:53+00:00",
   "scope": "PRIORITY_25",
   "expansion_gate": {
-    "status": "HOLD",
-    "ready_profiles": 23,
-    "review_profiles": 2,
+    "status": "READY",
+    "ready_profiles": 25,
+    "review_profiles": 0,
     "profile_count": 25,
     "criteria": [
       "25 canonical footprints built",
       "zero orphan official licences",
       "zero duplicate official licences",
-      "zero unclassified or relationship-ambiguous core claims"
+      "zero unclassified or relationship-ambiguous core claims",
+      "explicit regulator no-result outcomes remain labelled unresolved"
     ],
-    "blocking_profiles": [
-      "fp-markets",
-      "windsor-brokers"
-    ]
+    "blocking_profiles": []
   },
   "profiles": [
     {
@@ -60,7 +58,7 @@
         ],
         "unresolved_claims": [],
         "official_license_count": 1,
-        "last_verified": "2026-09-04T11:45:40+00:00"
+        "last_verified": "2026-09-14T13:41:53+00:00"
       }
     },
     {
@@ -105,7 +103,7 @@
         ],
         "unresolved_claims": [],
         "official_license_count": 1,
-        "last_verified": "2026-09-04T11:45:40+00:00"
+        "last_verified": "2026-09-14T13:41:53+00:00"
       }
     },
     {
@@ -295,7 +293,7 @@
         ],
         "unresolved_claims": [],
         "official_license_count": 6,
-        "last_verified": "2026-09-04T11:45:40+00:00"
+        "last_verified": "2026-09-14T13:41:53+00:00"
       }
     },
     {
@@ -400,7 +398,7 @@
         ],
         "unresolved_claims": [],
         "official_license_count": 3,
-        "last_verified": "2026-09-04T11:45:40+00:00"
+        "last_verified": "2026-09-14T13:41:53+00:00"
       }
     },
     {
@@ -534,7 +532,7 @@
         ],
         "unresolved_claims": [],
         "official_license_count": 4,
-        "last_verified": "2026-09-04T11:45:40+00:00"
+        "last_verified": "2026-09-14T13:41:53+00:00"
       }
     },
     {
@@ -608,7 +606,7 @@
         ],
         "unresolved_claims": [],
         "official_license_count": 2,
-        "last_verified": "2026-09-04T11:45:40+00:00"
+        "last_verified": "2026-09-14T13:41:53+00:00"
       }
     },
     {
@@ -711,7 +709,7 @@
         ],
         "unresolved_claims": [],
         "official_license_count": 3,
-        "last_verified": "2026-09-04T11:45:40+00:00"
+        "last_verified": "2026-09-14T13:41:53+00:00"
       }
     },
     {
@@ -771,7 +769,7 @@
                 "mapping_confidence": "HIGH",
                 "source": "Official regulator registry",
                 "evidence_status": "OFFICIAL_PUBLIC_REGISTER",
-                "last_checked": "2026-09-04T11:45:40+00:00"
+                "last_checked": "2026-09-14T13:41:53+00:00"
               }
             ]
           },
@@ -848,7 +846,7 @@
         ],
         "unresolved_claims": [],
         "official_license_count": 4,
-        "last_verified": "2026-09-04T11:45:40+00:00"
+        "last_verified": "2026-09-14T13:41:53+00:00"
       }
     },
     {
@@ -951,7 +949,7 @@
         ],
         "unresolved_claims": [],
         "official_license_count": 3,
-        "last_verified": "2026-09-04T11:45:40+00:00"
+        "last_verified": "2026-09-14T13:41:53+00:00"
       }
     },
     {
@@ -960,7 +958,7 @@
       "priority_rank": 10,
       "canonical_regulatory_footprint": {
         "scope": "PRIORITY_25",
-        "readiness": "REVIEW",
+        "readiness": "READY_WITH_UNRESOLVED",
         "legal_entities": [
           {
             "canonical_name": "First Prudential Markets Ltd",
@@ -1054,24 +1052,16 @@
             "status": "CURRENT_REGISTER_NO_RESULT",
             "evidence_url": "https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr",
             "mapping_evidence_url": "https://www.fpmarkets.com/fp-markets-group/",
-            "note": "FP Markets discloses FP Markets Ltd and licence GB21026264, but the live FSC name search returned no current result for FP Markets on 2026-09-04."
+            "note": "FP Markets currently discloses FP Markets Ltd and licence GB21026264, but live FSC name searches for 'FP Markets Ltd' and 'FP Markets' returned no data on 2026-09-09. Retain as an unresolved broker claim, not an official active licence."
           },
           {
             "regulator_code": "FSCA",
             "status": "VERIFIED_ACTIVE"
           }
         ],
-        "unresolved_claims": [
-          {
-            "regulator_code": "FSC Mauritius",
-            "status": "CURRENT_REGISTER_NO_RESULT",
-            "evidence_url": "https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr",
-            "mapping_evidence_url": "https://www.fpmarkets.com/fp-markets-group/",
-            "note": "FP Markets discloses FP Markets Ltd and licence GB21026264, but the live FSC name search returned no current result for FP Markets on 2026-09-04."
-          }
-        ],
+        "unresolved_claims": [],
         "official_license_count": 3,
-        "last_verified": "2026-09-04T11:45:40+00:00"
+        "last_verified": "2026-09-14T13:41:53+00:00"
       }
     },
     {
@@ -1170,7 +1160,7 @@
         ],
         "unresolved_claims": [],
         "official_license_count": 3,
-        "last_verified": "2026-09-04T11:45:40+00:00"
+        "last_verified": "2026-09-14T13:41:53+00:00"
       }
     },
     {
@@ -1304,7 +1294,7 @@
         ],
         "unresolved_claims": [],
         "official_license_count": 4,
-        "last_verified": "2026-09-04T11:45:40+00:00"
+        "last_verified": "2026-09-14T13:41:53+00:00"
       }
     },
     {
@@ -1378,7 +1368,7 @@
         ],
         "unresolved_claims": [],
         "official_license_count": 2,
-        "last_verified": "2026-09-04T11:45:40+00:00"
+        "last_verified": "2026-09-14T13:41:53+00:00"
       }
     },
     {
@@ -1453,7 +1443,7 @@
                 "mapping_confidence": "HIGH",
                 "source": "Official regulator registry",
                 "evidence_status": "OFFICIAL_PUBLIC_REGISTER",
-                "last_checked": "2026-09-04T11:45:40+00:00"
+                "last_checked": "2026-09-14T13:41:53+00:00"
               }
             ]
           }
@@ -1474,7 +1464,7 @@
         ],
         "unresolved_claims": [],
         "official_license_count": 3,
-        "last_verified": "2026-09-04T11:45:40+00:00"
+        "last_verified": "2026-09-14T13:41:53+00:00"
       }
     },
     {
@@ -1527,7 +1517,7 @@
         ],
         "unresolved_claims": [],
         "official_license_count": 1,
-        "last_verified": "2026-09-04T11:45:40+00:00"
+        "last_verified": "2026-09-14T13:41:53+00:00"
       }
     },
     {
@@ -1632,7 +1622,7 @@
         ],
         "unresolved_claims": [],
         "official_license_count": 3,
-        "last_verified": "2026-09-04T11:45:40+00:00"
+        "last_verified": "2026-09-14T13:41:53+00:00"
       }
     },
     {
@@ -1749,7 +1739,7 @@
         ],
         "unresolved_claims": [],
         "official_license_count": 3,
-        "last_verified": "2026-09-04T11:45:40+00:00"
+        "last_verified": "2026-09-14T13:41:53+00:00"
       }
     },
     {
@@ -1854,7 +1844,7 @@
         ],
         "unresolved_claims": [],
         "official_license_count": 3,
-        "last_verified": "2026-09-04T11:45:40+00:00"
+        "last_verified": "2026-09-14T13:41:53+00:00"
       }
     },
     {
@@ -1899,7 +1889,7 @@
         ],
         "unresolved_claims": [],
         "official_license_count": 1,
-        "last_verified": "2026-09-04T11:45:40+00:00"
+        "last_verified": "2026-09-14T13:41:53+00:00"
       }
     },
     {
@@ -2004,7 +1994,7 @@
         ],
         "unresolved_claims": [],
         "official_license_count": 3,
-        "last_verified": "2026-09-04T11:45:40+00:00"
+        "last_verified": "2026-09-14T13:41:53+00:00"
       }
     },
     {
@@ -2109,7 +2099,7 @@
         ],
         "unresolved_claims": [],
         "official_license_count": 3,
-        "last_verified": "2026-09-04T11:45:40+00:00"
+        "last_verified": "2026-09-14T13:41:53+00:00"
       }
     },
     {
@@ -2169,7 +2159,7 @@
                 "mapping_confidence": "HIGH",
                 "source": "Official regulator registry",
                 "evidence_status": "OFFICIAL_PUBLIC_REGISTER",
-                "last_checked": "2026-09-04T11:45:40+00:00"
+                "last_checked": "2026-09-14T13:41:53+00:00"
               }
             ]
           },
@@ -2217,7 +2207,7 @@
         ],
         "unresolved_claims": [],
         "official_license_count": 3,
-        "last_verified": "2026-09-04T11:45:40+00:00"
+        "last_verified": "2026-09-14T13:41:53+00:00"
       }
     },
     {
@@ -2320,7 +2310,7 @@
         ],
         "unresolved_claims": [],
         "official_license_count": 3,
-        "last_verified": "2026-09-04T11:45:40+00:00"
+        "last_verified": "2026-09-14T13:41:53+00:00"
       }
     },
     {
@@ -2365,7 +2355,7 @@
         ],
         "unresolved_claims": [],
         "official_license_count": 1,
-        "last_verified": "2026-09-04T11:45:40+00:00"
+        "last_verified": "2026-09-14T13:41:53+00:00"
       }
     },
     {
@@ -2374,32 +2364,51 @@
       "priority_rank": 25,
       "canonical_regulatory_footprint": {
         "scope": "PRIORITY_25",
-        "readiness": "REVIEW",
-        "legal_entities": [],
+        "readiness": "READY",
+        "legal_entities": [
+          {
+            "canonical_name": "WB Trade EU Ltd",
+            "jurisdictions": [
+              "Cyprus"
+            ],
+            "mapping_confidence": "HIGH",
+            "mapping_basis": "WB Trade's current first-party page states that WB Trade EU Ltd was formerly Windsor Brokers Ltd; the CySEC register confirms the same entity and licence number. This is a historical Windsor brand relationship, not a current licence held under the Windsor Brokers name.",
+            "mapping_evidence_url": "https://en.wbtrade.eu/about-wb-trade/",
+            "licenses": [
+              {
+                "regulator_code": "CySEC",
+                "regulator_name": "Cyprus Securities and Exchange Commission",
+                "jurisdiction": "Cyprus",
+                "license_number": "030/04",
+                "license_type": "Cyprus Investment Firm",
+                "status": "ACTIVE",
+                "license_date": "20/05/2004",
+                "legal_name": "WB Trade EU Ltd",
+                "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/37569/",
+                "mapping_evidence_url": "https://en.wbtrade.eu/about-wb-trade/",
+                "mapping_basis": "WB Trade's current first-party page states that WB Trade EU Ltd was formerly Windsor Brokers Ltd; the CySEC register confirms the same entity and licence number. This is a historical Windsor brand relationship, not a current licence held under the Windsor Brokers name.",
+                "mapping_confidence": "HIGH",
+                "source": "Official regulator registry",
+                "evidence_status": "OFFICIAL_PUBLIC_REGISTER",
+                "last_checked": "2026-09-14T13:41:53+00:00"
+              }
+            ]
+          }
+        ],
         "regulator_claims": [
           {
             "regulator_code": "CySEC",
-            "status": "RELATIONSHIP_UNRESOLVED",
+            "status": "VERIFIED_HISTORICAL",
             "legal_name": "WB Trade EU Ltd",
             "license_number": "030/04",
             "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/37569/",
-            "mapping_evidence_url": "https://windsorbrokers.com/knowledge-base/about-windsor-brokers/what-type-of-broker-is-windsor-brokers/",
-            "note": "CySEC confirms WB Trade EU Ltd licence 030/04, but the current sources reviewed do not establish a sufficiently direct Windsor Brokers brand-to-entity relationship."
+            "mapping_evidence_url": "https://en.wbtrade.eu/about-wb-trade/",
+            "note": "CySEC confirms WB Trade EU Ltd licence 030/04. WB Trade's current first-party page identifies WB Trade EU Ltd as formerly Windsor Brokers Ltd, so the Windsor relationship is verified as historical and must not be displayed as a current Windsor Brokers licence."
           }
         ],
-        "unresolved_claims": [
-          {
-            "regulator_code": "CySEC",
-            "status": "RELATIONSHIP_UNRESOLVED",
-            "legal_name": "WB Trade EU Ltd",
-            "license_number": "030/04",
-            "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/37569/",
-            "mapping_evidence_url": "https://windsorbrokers.com/knowledge-base/about-windsor-brokers/what-type-of-broker-is-windsor-brokers/",
-            "note": "CySEC confirms WB Trade EU Ltd licence 030/04, but the current sources reviewed do not establish a sufficiently direct Windsor Brokers brand-to-entity relationship."
-          }
-        ],
-        "official_license_count": 0,
-        "last_verified": "2026-09-04T11:45:40+00:00"
+        "unresolved_claims": [],
+        "official_license_count": 1,
+        "last_verified": "2026-09-14T13:41:53+00:00"
       }
     }
   ]

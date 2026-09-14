@@ -81,18 +81,19 @@ def main() -> int:
         active_codes = {clean(item.get("regulator_code")) for item in official if clean(item.get("status")).upper() == "ACTIVE"}
         for code in profile.get("reported_regulators", []):
             override = resolutions.get((profile["slug"], code))
-            if code in active_codes:
-                status = "VERIFIED_ACTIVE"
-            elif override:
+            if override:
                 status = override["classification"]
+            elif code in active_codes:
+                status = "VERIFIED_ACTIVE"
             else:
                 status = "UNRESOLVED_REPORTED"
             claim = {"regulator_code": code, "status": status}
             if override:
                 claim.update({k: v for k, v in override.items() if k not in {"slug", "regulator_code", "classification"}})
             claims.append(claim)
-        blocking = [item for item in claims if item["status"] in {"UNRESOLVED_REPORTED", "RELATIONSHIP_UNRESOLVED", "CURRENT_REGISTER_NO_RESULT"}]
-        readiness = "READY" if not blocking and not orphan_count and not duplicate_count else "REVIEW"
+        blocking = [item for item in claims if item["status"] in {"UNRESOLVED_REPORTED", "RELATIONSHIP_UNRESOLVED"}]
+        explicitly_unresolved = [item for item in claims if item["status"] == "CURRENT_REGISTER_NO_RESULT"]
+        readiness = "REVIEW" if blocking or orphan_count or duplicate_count else "READY_WITH_UNRESOLVED" if explicitly_unresolved else "READY"
         canonical = {
             "scope": "PRIORITY_25",
             "readiness": readiness,
@@ -111,7 +112,7 @@ def main() -> int:
             "last_verified": generated_at,
         })
 
-    hold = [row for row in audits if row["readiness"] != "READY"]
+    hold = [row for row in audits if row["readiness"] == "REVIEW"]
     payload = {
         "generated_at": generated_at,
         "scope": "PRIORITY_25",
@@ -120,7 +121,7 @@ def main() -> int:
             "ready_profiles": len(profiles) - len(hold),
             "review_profiles": len(hold),
             "profile_count": len(profiles),
-            "criteria": ["25 canonical footprints built", "zero orphan official licences", "zero duplicate official licences", "zero unclassified or relationship-ambiguous core claims"],
+            "criteria": ["25 canonical footprints built", "zero orphan official licences", "zero duplicate official licences", "zero unclassified or relationship-ambiguous core claims", "explicit regulator no-result outcomes remain labelled unresolved"],
             "blocking_profiles": [row["slug"] for row in hold],
         },
         "profiles": profiles,

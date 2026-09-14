@@ -1,26 +1,26 @@
 ﻿priority_rank,brand_name,slug,readiness,legal_entity_count,official_license_count,orphan_official_licenses,duplicate_official_licenses,blocking_claims,last_verified
-1,ActivTrades,activtrades,READY,1,1,0,0,,2026-09-04T11:45:40+00:00
-2,Admiral Markets (Admirals),admiral-markets-admirals,READY,1,1,0,0,,2026-09-04T11:45:40+00:00
-3,ATFX,atfx,READY,6,6,0,0,,2026-09-04T11:45:40+00:00
-4,AvaTrade,avatrade,READY,3,3,0,0,,2026-09-04T11:45:40+00:00
-5,CFI Financial Group,cfi-financial-group,READY,4,4,0,0,,2026-09-04T11:45:40+00:00
-6,easyMarkets,easymarkets,READY,2,2,0,0,,2026-09-04T11:45:40+00:00
-7,eToro,etoro,READY,3,3,0,0,,2026-09-04T11:45:40+00:00
-8,Exness,exness,READY,4,4,0,0,,2026-09-04T11:45:40+00:00
-9,Fortrade,fortrade,READY,3,3,0,0,,2026-09-04T11:45:40+00:00
-10,FP Markets,fp-markets,REVIEW,3,3,0,0,FSC Mauritius:CURRENT_REGISTER_NO_RESULT,2026-09-04T11:45:40+00:00
-11,Fusion Markets,fusion-markets,READY,3,3,0,0,,2026-09-04T11:45:40+00:00
-12,FXCM,fxcm,READY,4,4,0,0,,2026-09-04T11:45:40+00:00
-13,FxPro,fxpro,READY,2,2,0,0,,2026-09-04T11:45:40+00:00
-14,Hantec Financial (Hantec Markets Asia),hantec-financial-hantec-markets-asia,READY,2,3,0,0,,2026-09-04T11:45:40+00:00
-15,HYCM,hycm,READY,1,1,0,0,,2026-09-04T11:45:40+00:00
-16,IronFX,ironfx,READY,3,3,0,0,,2026-09-04T11:45:40+00:00
-17,Markets.com,markets-com,READY,3,3,0,0,,2026-09-04T11:45:40+00:00
-18,Moneta Markets,moneta-markets,READY,3,3,0,0,,2026-09-04T11:45:40+00:00
-19,NAGA,naga,READY,1,1,0,0,,2026-09-04T11:45:40+00:00
-20,Vantage (Vantage Markets),vantage-vantage-markets,READY,3,3,0,0,,2026-09-04T11:45:40+00:00
-21,VT Markets,vt-markets,READY,3,3,0,0,,2026-09-04T11:45:40+00:00
-22,Doto Europe Ltd (Ex Vasby Capital Markets Ltd),doto-europe-ltd-ex-vasby-capital-markets-ltd,READY,3,3,0,0,,2026-09-04T11:45:40+00:00
-23,Plus500,plus500,READY,3,3,0,0,,2026-09-04T11:45:40+00:00
-24,Just2Trade,just2trade,READY,1,1,0,0,,2026-09-04T11:45:40+00:00
-25,Windsor Brokers,windsor-brokers,REVIEW,0,0,0,0,CySEC:RELATIONSHIP_UNRESOLVED,2026-09-04T11:45:40+00:00
+1,ActivTrades,activtrades,READY,1,1,0,0,,2026-09-14T13:41:53+00:00
+2,Admiral Markets (Admirals),admiral-markets-admirals,READY,1,1,0,0,,2026-09-14T13:41:53+00:00
+3,ATFX,atfx,READY,6,6,0,0,,2026-09-14T13:41:53+00:00
+4,AvaTrade,avatrade,READY,3,3,0,0,,2026-09-14T13:41:53+00:00
+5,CFI Financial Group,cfi-financial-group,READY,4,4,0,0,,2026-09-14T13:41:53+00:00
+6,easyMarkets,easymarkets,READY,2,2,0,0,,2026-09-14T13:41:53+00:00
+7,eToro,etoro,READY,3,3,0,0,,2026-09-14T13:41:53+00:00
+8,Exness,exness,READY,4,4,0,0,,2026-09-14T13:41:53+00:00
+9,Fortrade,fortrade,READY,3,3,0,0,,2026-09-14T13:41:53+00:00
+10,FP Markets,fp-markets,READY_WITH_UNRESOLVED,3,3,0,0,,2026-09-14T13:41:53+00:00
+11,Fusion Markets,fusion-markets,READY,3,3,0,0,,2026-09-14T13:41:53+00:00
+12,FXCM,fxcm,READY,4,4,0,0,,2026-09-14T13:41:53+00:00
+13,FxPro,fxpro,READY,2,2,0,0,,2026-09-14T13:41:53+00:00
+14,Hantec Financial (Hantec Markets Asia),hantec-financial-hantec-markets-asia,READY,2,3,0,0,,2026-09-14T13:41:53+00:00
+15,HYCM,hycm,READY,1,1,0,0,,2026-09-14T13:41:53+00:00
+16,IronFX,ironfx,READY,3,3,0,0,,2026-09-14T13:41:53+00:00
+17,Markets.com,markets-com,READY,3,3,0,0,,2026-09-14T13:41:53+00:00
+18,Moneta Markets,moneta-markets,READY,3,3,0,0,,2026-09-14T13:41:53+00:00
+19,NAGA,naga,READY,1,1,0,0,,2026-09-14T13:41:53+00:00
+20,Vantage (Vantage Markets),vantage-vantage-markets,READY,3,3,0,0,,2026-09-14T13:41:53+00:00
+21,VT Markets,vt-markets,READY,3,3,0,0,,2026-09-14T13:41:53+00:00
+22,Doto Europe Ltd (Ex Vasby Capital Markets Ltd),doto-europe-ltd-ex-vasby-capital-markets-ltd,READY,3,3,0,0,,2026-09-14T13:41:53+00:00
+23,Plus500,plus500,READY,3,3,0,0,,2026-09-14T13:41:53+00:00
+24,Just2Trade,just2trade,READY,1,1,0,0,,2026-09-14T13:41:53+00:00
+25,Windsor Brokers,windsor-brokers,READY,1,1,0,0,,2026-09-14T13:41:53+00:00

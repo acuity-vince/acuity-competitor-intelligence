@@ -1,0 +1,1646 @@
+{
+  "generated_at": "2026-09-14",
+  "methodology": "First-party and official sources; unresolved fields remain explicit; sales angles are hypotheses.",
+  "profiles": [
+    {
+      "priority_rank": 1,
+      "slug": "admiral-markets-admirals",
+      "brand_name": "Admiral Markets (Admirals)",
+      "status": "EVIDENCE_BACKED",
+      "last_checked": "2026-09-14",
+      "hypothesis": true,
+      "headquarters": {
+        "city": "Tallinn",
+        "country": "Estonia",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "evidence_url": "https://www.admiralmarkets.com",
+        "checked_date": "2026-09-14"
+      },
+      "offices": [
+        {
+          "city": "Tallinn",
+          "country": "Estonia",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.admiralmarkets.com",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "people": [
+        {
+          "name": "",
+          "title": "CEO / senior commercial leader",
+          "role_type": "LEADERSHIP",
+          "status": "UNRESOLVED",
+          "confidence": "LOW",
+          "evidence_url": "",
+          "checked_date": "2026-09-14",
+          "note": "No current first-party leadership disclosure was located in this pass."
+        }
+      ],
+      "technology_assessment": [
+        {
+          "vendor": "Trading Central",
+          "status": "CONFIRMED_ACTIVE",
+          "confidence": "HIGH",
+          "evidence_url": "https://admiralmarkets.com/start-trading/account-types",
+          "checked_date": "2026-09-14",
+          "note": "Admirals' own account-types page describes a Trading Central application for automated chart-pattern opportunity search; Finance Magnates (2019) independently reported Admiral Markets adding Trading Central's Technical Insight and Featured Ideas to MetaTrader 4/5 Supreme Edition."
+        }
+      ],
+      "why_now": "Admiral Markets (Admirals) currently documents Trading Central. The account is competitive today, so check the next review date and weak coverage areas.",
+      "discovery_angle": "Ask how Admiral Markets (Admirals) measures use of its current research tools. Then confirm the date and owner of the next vendor review.",
+      "sources": [
+        "https://admiralmarkets.com/start-trading/account-types"
+      ],
+      "change_history": []
+    },
+    {
+      "priority_rank": 2,
+      "slug": "atfx",
+      "brand_name": "ATFX",
+      "status": "EVIDENCE_BACKED",
+      "last_checked": "2026-09-14",
+      "hypothesis": true,
+      "headquarters": {
+        "city": "London",
+        "country": "United Kingdom",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "evidence_url": "https://www.atfx.com",
+        "checked_date": "2026-09-14"
+      },
+      "offices": [
+        {
+          "city": "London",
+          "country": "United Kingdom",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.atfx.com",
+          "checked_date": "2026-09-14"
+        },
+        {
+          "city": "Limassol",
+          "country": "Cyprus",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.atfx.com",
+          "checked_date": "2026-09-14"
+        },
+        {
+          "city": "Dubai",
+          "country": "United Arab Emirates",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.atfx.com",
+          "checked_date": "2026-09-14"
+        },
+        {
+          "city": "Johannesburg",
+          "country": "South Africa",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.atfx.com",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "people": [
+        {
+          "name": "Joe Li",
+          "title": "Chairman",
+          "role_type": "LEADERSHIP",
+          "status": "CONFIRMED_CURRENT",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.atfx.com/en/about-us/company-news/atfx-chairman-joe-li-message-2025-stronger-2026",
+          "checked_date": "2026-09-14"
+        },
+        {
+          "name": "Dany Mawas",
+          "title": "Chief Executive Officer, Africa",
+          "role_type": "LEADERSHIP",
+          "status": "CONFIRMED_CURRENT",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.atfx.com/en/about-us/company-news/atfx-deepens-regional-expansion-with-appointment-of-dany-mawas-as-ceo-africa",
+          "checked_date": "2026-09-14"
+        },
+        {
+          "name": "Siju Daniel",
+          "title": "Chief Commercial Officer",
+          "role_type": "LEADERSHIP",
+          "status": "CONFIRMED_CURRENT",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.atfx.com/en/about-us/company-news/atfx-deepens-regional-expansion-with-appointment-of-dany-mawas-as-ceo-africa",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "technology_assessment": [
+        {
+          "vendor": "Trading Central",
+          "status": "CONFIRMED_ACTIVE",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.atfx.com/en/education-and-tools/trading-central",
+          "checked_date": "2026-09-14",
+          "note": "ATFX runs a dedicated 'Trading Central' education-and-tools page stating it 'has partnered with Trading Central', with a downloadable MT4/MT5 analysis-indicators package."
+        }
+      ],
+      "why_now": "ATFX appointed Dany Mawas as CEO for Africa while expanding regional leadership.",
+      "discovery_angle": "Ask how the Africa leadership team will measure trader use of research tools, and who owns the next vendor review.",
+      "sources": [
+        "https://www.atfx.com/en/about-us/company-news/atfx-chairman-joe-li-message-2025-stronger-2026",
+        "https://www.atfx.com/en/about-us/company-news/atfx-deepens-regional-expansion-with-appointment-of-dany-mawas-as-ceo-africa",
+        "https://www.atfx.com/en/education-and-tools/trading-central"
+      ],
+      "change_history": [
+        {
+          "date": "2026-05-25",
+          "category": "LEADERSHIP",
+          "summary": "ATFX appointed Dany Mawas as CEO for Africa while expanding regional leadership.",
+          "evidence_url": "https://www.atfx.com/en/about-us/company-news/atfx-deepens-regional-expansion-with-appointment-of-dany-mawas-as-ceo-africa"
+        }
+      ]
+    },
+    {
+      "priority_rank": 3,
+      "slug": "avatrade",
+      "brand_name": "AvaTrade",
+      "status": "EVIDENCE_BACKED",
+      "last_checked": "2026-09-14",
+      "hypothesis": true,
+      "headquarters": {
+        "city": "Dublin",
+        "country": "Ireland",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "evidence_url": "https://www.avatrade.com",
+        "checked_date": "2026-09-14"
+      },
+      "offices": [
+        {
+          "city": "Dublin",
+          "country": "Ireland",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.avatrade.com",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "people": [
+        {
+          "name": "Dáire Ferguson",
+          "title": "Chief Executive Officer",
+          "role_type": "LEADERSHIP",
+          "status": "CONFIRMED_CURRENT",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.avatrade.com/about-avatrade/management",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "technology_assessment": [
+        {
+          "vendor": "Trading Central",
+          "status": "CONFIRMED_ACTIVE",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.avatrade.com/trading-info/trading-central",
+          "checked_date": "2026-09-14",
+          "note": "AvaTrade runs a dedicated 'Trading Central' page describing access across WebTrader, the AvaTrade App, and the Alpha Generation plug-in for MT4/MT5, at no additional cost."
+        }
+      ],
+      "why_now": "Current evidence shows Trading Central at AvaTrade. A focused first call should test renewal timing and the case for a complementary feed.",
+      "discovery_angle": "Use AvaTrade's current vendor evidence in the first call. Confirm whether the immediate need is better coverage or a replacement.",
+      "sources": [
+        "https://www.avatrade.com/about-avatrade/management",
+        "https://www.avatrade.com/trading-info/trading-central"
+      ],
+      "change_history": []
+    },
+    {
+      "priority_rank": 4,
+      "slug": "cfi-financial-group",
+      "brand_name": "CFI Financial Group",
+      "status": "EVIDENCE_BACKED",
+      "last_checked": "2026-09-14",
+      "hypothesis": true,
+      "headquarters": {
+        "city": "Beirut",
+        "country": "Lebanon",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "evidence_url": "https://www.cfi.trade",
+        "checked_date": "2026-09-14"
+      },
+      "offices": [
+        {
+          "city": "Beirut",
+          "country": "Lebanon",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.cfi.trade",
+          "checked_date": "2026-09-14"
+        },
+        {
+          "city": "Dubai",
+          "country": "United Arab Emirates",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.cfi.trade",
+          "checked_date": "2026-09-14"
+        },
+        {
+          "city": "London",
+          "country": "United Kingdom",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.cfi.trade",
+          "checked_date": "2026-09-14"
+        },
+        {
+          "city": "Larnaca",
+          "country": "Cyprus",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.cfi.trade",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "people": [
+        {
+          "name": "Ziad Melhem",
+          "title": "Chief Executive Officer",
+          "role_type": "LEADERSHIP",
+          "status": "CONFIRMED_CURRENT",
+          "confidence": "HIGH",
+          "evidence_url": "https://cfi.trade/en/bh/company/leadership",
+          "checked_date": "2026-09-14"
+        },
+        {
+          "name": "Omar Khaled",
+          "title": "Chief Marketing Officer",
+          "role_type": "LEADERSHIP",
+          "status": "CONFIRMED_CURRENT",
+          "confidence": "HIGH",
+          "evidence_url": "https://cfi.trade/en/bh/company/leadership",
+          "checked_date": "2026-09-14"
+        },
+        {
+          "name": "Ahmad Khatib",
+          "title": "Chief Business Development Officer",
+          "role_type": "LEADERSHIP",
+          "status": "CONFIRMED_CURRENT",
+          "confidence": "HIGH",
+          "evidence_url": "https://cfi.trade/en/bh/company/leadership",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "technology_assessment": [
+        {
+          "vendor": "Trading Central",
+          "status": "CONFIRMED_ACTIVE",
+          "confidence": "HIGH",
+          "evidence_url": "https://cfi.trade/en/tools/trading-central",
+          "checked_date": "2026-09-14",
+          "note": "CFI's own tools page describes Trading Central as providing 'actionable trade ideas and expert analysis' across technical, fundamental, news and economic analysis categories."
+        }
+      ],
+      "why_now": "CFI appointed Federico Cirulli as chairman as the group entered a new growth phase.",
+      "discovery_angle": "Ask whether the growth plan includes a research-stack review, then route the conversation through the named commercial or marketing owner.",
+      "sources": [
+        "https://cfi.trade/en/bh/company/leadership",
+        "https://cfi.trade/en/tools/trading-central",
+        "https://cfi.trade/en/vu/company/media-center/cfi-appoints-federico-cirulli-as-chairman-as-group-enters-next-phase-of-growth"
+      ],
+      "change_history": [
+        {
+          "date": "2026-09-02",
+          "category": "LEADERSHIP",
+          "summary": "CFI appointed Federico Cirulli as chairman as the group entered a new growth phase.",
+          "evidence_url": "https://cfi.trade/en/vu/company/media-center/cfi-appoints-federico-cirulli-as-chairman-as-group-enters-next-phase-of-growth"
+        }
+      ]
+    },
+    {
+      "priority_rank": 5,
+      "slug": "easymarkets",
+      "brand_name": "easyMarkets",
+      "status": "EVIDENCE_BACKED",
+      "last_checked": "2026-09-14",
+      "hypothesis": true,
+      "headquarters": {
+        "city": "Limassol",
+        "country": "Cyprus",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "evidence_url": "https://www.easymarkets.com",
+        "checked_date": "2026-09-14"
+      },
+      "offices": [
+        {
+          "city": "Limassol",
+          "country": "Cyprus",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.easymarkets.com",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "people": [
+        {
+          "name": "Nikos Antoniades",
+          "title": "Chief Executive Officer",
+          "role_type": "LEADERSHIP",
+          "status": "CONFIRMED_CURRENT",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.easymarkets.com/eu/why-us/",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "technology_assessment": [
+        {
+          "vendor": "Trading Central",
+          "status": "CONFIRMED_ACTIVE",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.easy-markets.com/eu/learn-centre/understanding-analysis/how-to-use-trading-central/",
+          "checked_date": "2026-09-14",
+          "note": "easyMarkets' own learn-centre page explains 'How to Use Trading Central', describing signals used by investors to develop strategies and technical-analysis skills."
+        }
+      ],
+      "why_now": "easyMarkets currently documents Trading Central. The account is competitive today, so check the next review date and weak coverage areas.",
+      "discovery_angle": "Ask how easyMarkets measures use of its current research tools. Then confirm the date and owner of the next vendor review.",
+      "sources": [
+        "https://www.easy-markets.com/eu/learn-centre/understanding-analysis/how-to-use-trading-central/",
+        "https://www.easymarkets.com/eu/why-us/"
+      ],
+      "change_history": []
+    },
+    {
+      "priority_rank": 6,
+      "slug": "etoro",
+      "brand_name": "eToro",
+      "status": "EVIDENCE_BACKED",
+      "last_checked": "2026-09-14",
+      "hypothesis": true,
+      "headquarters": {
+        "city": "London",
+        "country": "United Kingdom",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "evidence_url": "https://www.etoro.com",
+        "checked_date": "2026-09-14"
+      },
+      "offices": [
+        {
+          "city": "London",
+          "country": "United Kingdom",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.etoro.com",
+          "checked_date": "2026-09-14"
+        },
+        {
+          "city": "Tel Aviv",
+          "country": "Israel",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.etoro.com",
+          "checked_date": "2026-09-14"
+        },
+        {
+          "city": "Limassol",
+          "country": "Cyprus",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.etoro.com",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "people": [
+        {
+          "name": "Yoni Assia",
+          "title": "Co-founder and Chief Executive Officer",
+          "role_type": "LEADERSHIP",
+          "status": "CONFIRMED_CURRENT",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.etoro.com/en-us/about/team/",
+          "checked_date": "2026-09-14"
+        },
+        {
+          "name": "Nir Szmulewicz",
+          "title": "Chief Marketing Officer",
+          "role_type": "LEADERSHIP",
+          "status": "CONFIRMED_CURRENT",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.etoro.com/en-us/about/team/",
+          "checked_date": "2026-09-14"
+        },
+        {
+          "name": "Tuval Chomut",
+          "title": "Chief Solutions Officer",
+          "role_type": "LEADERSHIP",
+          "status": "CONFIRMED_CURRENT",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.etoro.com/en-us/about/team/",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "technology_assessment": [
+        {
+          "vendor": "Trading Central",
+          "status": "CONFIRMED_ACTIVE",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.etoro.com/posts/90632800-9498-11ec-8080-80001edd82ed",
+          "checked_date": "2026-09-14",
+          "note": "eToro's own posts describe Trading Central as an award-winning financial research portal; a Spanish-language post confirms 'Trading Central en Español' is also offered. ForexBrokers.com notes access is limited to eToro Club members."
+        }
+      ],
+      "why_now": "eToro announced an AI app ecosystem, creating a timely opening around differentiated intelligence delivery.",
+      "discovery_angle": "Ask how the AI app ecosystem will source external market intelligence and how eToro will measure its use.",
+      "sources": [
+        "https://www.etoro.com/about/media-center/",
+        "https://www.etoro.com/en-us/about/team/",
+        "https://www.etoro.com/posts/90632800-9498-11ec-8080-80001edd82ed"
+      ],
+      "change_history": [
+        {
+          "date": "2026-04-14",
+          "category": "PRODUCT",
+          "summary": "eToro announced an AI app ecosystem, creating a timely opening around differentiated intelligence delivery.",
+          "evidence_url": "https://www.etoro.com/about/media-center/"
+        }
+      ]
+    },
+    {
+      "priority_rank": 7,
+      "slug": "exness",
+      "brand_name": "Exness",
+      "status": "EVIDENCE_BACKED",
+      "last_checked": "2026-09-14",
+      "hypothesis": true,
+      "headquarters": {
+        "city": "Limassol",
+        "country": "Cyprus",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "evidence_url": "https://www.exness.com",
+        "checked_date": "2026-09-14"
+      },
+      "offices": [
+        {
+          "city": "Limassol",
+          "country": "Cyprus",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.exness.com",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "people": [
+        {
+          "name": "Petr Valov",
+          "title": "Founder and Chief Executive Officer",
+          "role_type": "LEADERSHIP",
+          "status": "CONFIRMED_CURRENT",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.exness.com/about-us/",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "technology_assessment": [
+        {
+          "vendor": "Trading Central",
+          "status": "CONFIRMED_ACTIVE",
+          "confidence": "HIGH",
+          "evidence_url": "https://insights.exness.com/en/deep-dives/trading-signals",
+          "checked_date": "2026-09-14",
+          "note": "Exness's own Insights site states new traders access technical analysis tools 'through our partnership with Trading Central', available in the Exness personal area and Exness Trade app."
+        }
+      ],
+      "why_now": "Current evidence shows Trading Central at Exness. A focused first call should test renewal timing and the case for a complementary feed.",
+      "discovery_angle": "Use Exness's current vendor evidence in the first call. Confirm whether the immediate need is better coverage or a replacement.",
+      "sources": [
+        "https://insights.exness.com/en/deep-dives/trading-signals",
+        "https://www.exness.com/about-us/"
+      ],
+      "change_history": []
+    },
+    {
+      "priority_rank": 8,
+      "slug": "fortrade",
+      "brand_name": "Fortrade",
+      "status": "EVIDENCE_BACKED",
+      "last_checked": "2026-09-14",
+      "hypothesis": true,
+      "headquarters": {
+        "city": "London",
+        "country": "United Kingdom",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "evidence_url": "https://www.fortrade.com",
+        "checked_date": "2026-09-14"
+      },
+      "offices": [
+        {
+          "city": "London",
+          "country": "United Kingdom",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.fortrade.com",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "people": [
+        {
+          "name": "",
+          "title": "CEO / senior commercial leader",
+          "role_type": "LEADERSHIP",
+          "status": "UNRESOLVED",
+          "confidence": "LOW",
+          "evidence_url": "",
+          "checked_date": "2026-09-14",
+          "note": "No current first-party leadership disclosure was located in this pass."
+        }
+      ],
+      "technology_assessment": [
+        {
+          "vendor": "Trading Central",
+          "status": "CONFIRMED_ACTIVE",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.fortrade.com/be-professional-iframe/",
+          "checked_date": "2026-09-14",
+          "note": "Fortrade lists 'Trading Central Analysis' as a standing resource nav item (alongside FAQs, Market News, Market Commentary) and its blog describes Trading Central as 'a real-time research powerhouse' available on Android, iOS, web and desktop."
+        }
+      ],
+      "why_now": "Broker-owned evidence confirms Trading Central in Fortrade's current research stack. Ask about renewal timing and gaps in trader engagement.",
+      "discovery_angle": "Start with ASIC, CySEC, FCA. Who owns research-tool adoption at Fortrade, and what would trigger a vendor review?",
+      "sources": [
+        "https://www.fortrade.com/be-professional-iframe/"
+      ],
+      "change_history": []
+    },
+    {
+      "priority_rank": 9,
+      "slug": "fp-markets",
+      "brand_name": "FP Markets",
+      "status": "EVIDENCE_BACKED",
+      "last_checked": "2026-09-14",
+      "hypothesis": true,
+      "headquarters": {
+        "city": "Sydney",
+        "country": "Australia",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "evidence_url": "https://www.fpmarkets.com",
+        "checked_date": "2026-09-14"
+      },
+      "offices": [
+        {
+          "city": "Sydney",
+          "country": "Australia",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.fpmarkets.com",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "people": [
+        {
+          "name": "",
+          "title": "CEO / senior commercial leader",
+          "role_type": "LEADERSHIP",
+          "status": "UNRESOLVED",
+          "confidence": "LOW",
+          "evidence_url": "",
+          "checked_date": "2026-09-14",
+          "note": "No current first-party leadership disclosure was located in this pass."
+        }
+      ],
+      "technology_assessment": [
+        {
+          "vendor": "Trading Central",
+          "status": "CONFIRMED_ACTIVE",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.fpmarkets.com/trading-central/",
+          "checked_date": "2026-09-14",
+          "note": "FP Markets' own dedicated Trading Central page states the tools are integrated through its Client Portal, covering an economic calendar, Market Buzz news/sentiment analytics, Technical Views, and daily newsletters."
+        },
+        {
+          "vendor": "Acuity Trading",
+          "status": "DIRECTORY_REPORTED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.fpmarkets.com/en-sg/",
+          "checked_date": "2026-09-14",
+          "note": "NOTABLE: all three vendors present simultaneously. The Acuity Trading link is a good example of FIX #1/#2 value - the visible nav label reads only 'Intelligence' with no visible 'Acuity' text; the vendor name is recoverable only from the href slug '/acuity-trading/', which a naive visible-text search would have missed entirely."
+        },
+        {
+          "vendor": "Autochartist",
+          "status": "DIRECTORY_REPORTED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.fpmarkets.com/en-sg/",
+          "checked_date": "2026-09-14",
+          "note": "NOTABLE: all three vendors present simultaneously. The Acuity Trading link is a good example of FIX #1/#2 value - the visible nav label reads only 'Intelligence' with no visible 'Acuity' text; the vendor name is recoverable only from the href slug '/acuity-trading/', which a naive visible-text search would have missed entirely."
+        }
+      ],
+      "why_now": "FP Markets reports Mauritius licence GB21026264, but exact-name searches of the FSC Mauritius register returned no result on 9 September 2026.",
+      "discovery_angle": "Start with the entity mismatch. Ask the compliance or partnership owner to confirm the Mauritius entity before treating the account as fully resolved.",
+      "sources": [
+        "https://www.fpmarkets.com/en-sg/",
+        "https://www.fpmarkets.com/trading-central/",
+        "https://www.fscmauritius.org/en/supervision/register-of-licensees"
+      ],
+      "change_history": [
+        {
+          "date": "2026-09-09",
+          "category": "REGULATORY",
+          "summary": "FP Markets reports Mauritius licence GB21026264, but exact-name searches of the FSC Mauritius register returned no result on 9 September 2026.",
+          "evidence_url": "https://www.fscmauritius.org/en/supervision/register-of-licensees"
+        }
+      ]
+    },
+    {
+      "priority_rank": 10,
+      "slug": "fxcm",
+      "brand_name": "FXCM",
+      "status": "EVIDENCE_BACKED",
+      "last_checked": "2026-09-14",
+      "hypothesis": true,
+      "headquarters": {
+        "city": "London",
+        "country": "United Kingdom",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "evidence_url": "https://www.fxcm.com",
+        "checked_date": "2026-09-14"
+      },
+      "offices": [
+        {
+          "city": "London",
+          "country": "United Kingdom",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.fxcm.com",
+          "checked_date": "2026-09-14"
+        },
+        {
+          "city": "Limassol",
+          "country": "Cyprus",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.fxcm.com",
+          "checked_date": "2026-09-14"
+        },
+        {
+          "city": "Johannesburg",
+          "country": "South Africa",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.fxcm.com",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "people": [
+        {
+          "name": "Brendan Callan",
+          "title": "Chief Executive Officer",
+          "role_type": "LEADERSHIP",
+          "status": "CONFIRMED_CURRENT",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.fxcm.com/uk/about-fxcm/executive-team/",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "technology_assessment": [
+        {
+          "vendor": "Trading Central",
+          "status": "CONFIRMED_ACTIVE",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.financemagnates.com/forex/products/fxcm-enhances-its-ts-web-terminal-with-trading-central/",
+          "checked_date": "2026-09-14",
+          "note": "Finance Magnates (2019) reported that FXCM enhanced its Trading Station Web 2.0 HTML5 terminal with Trading Central, giving clients access to daily newsletters and expert views; ForexBrokers.com's 2026 review corroborates ongoing Trading Central availability."
+        }
+      ],
+      "why_now": "FXCM's current stack includes Trading Central. Verify who owns its performance and whether the team has an active review window.",
+      "discovery_angle": "Find the commercial owner for research across ASIC, CySEC, FCA. Ask where FXCM's current feed loses trader attention.",
+      "sources": [
+        "https://www.financemagnates.com/forex/products/fxcm-enhances-its-ts-web-terminal-with-trading-central/",
+        "https://www.fxcm.com/uk/about-fxcm/executive-team/"
+      ],
+      "change_history": []
+    },
+    {
+      "priority_rank": 11,
+      "slug": "fxpro",
+      "brand_name": "FxPro",
+      "status": "EVIDENCE_BACKED",
+      "last_checked": "2026-09-14",
+      "hypothesis": true,
+      "headquarters": {
+        "city": "Limassol",
+        "country": "Cyprus",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "evidence_url": "https://www.fxpro.com",
+        "checked_date": "2026-09-14"
+      },
+      "offices": [
+        {
+          "city": "Limassol",
+          "country": "Cyprus",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.fxpro.com",
+          "checked_date": "2026-09-14"
+        },
+        {
+          "city": "London",
+          "country": "United Kingdom",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.fxpro.com",
+          "checked_date": "2026-09-14"
+        },
+        {
+          "city": "Monaco",
+          "country": "Monaco",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.fxpro.com",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "people": [
+        {
+          "name": "Charalambos Psimolophitis",
+          "title": "Chief Executive Officer",
+          "role_type": "LEADERSHIP",
+          "status": "CONFIRMED_CURRENT",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.fxpro.com/about",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "technology_assessment": [
+        {
+          "vendor": "Trading Central",
+          "status": "CONFIRMED_ACTIVE",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.fxpro.com/trading-tools/trading-signals",
+          "checked_date": "2026-09-14",
+          "note": "FxPro's own trading-tools page offers free access to 'Trading Central's expert trading insights' for Forex, Stocks, Commodities and Indices."
+        }
+      ],
+      "why_now": "Current evidence shows Trading Central at FxPro. A focused first call should test renewal timing and the case for a complementary feed.",
+      "discovery_angle": "Use FxPro's current vendor evidence in the first call. Confirm whether the immediate need is better coverage or a replacement.",
+      "sources": [
+        "https://www.fxpro.com/about",
+        "https://www.fxpro.com/trading-tools/trading-signals"
+      ],
+      "change_history": []
+    },
+    {
+      "priority_rank": 12,
+      "slug": "hantec-financial-hantec-markets-asia",
+      "brand_name": "Hantec Financial (Hantec Markets Asia)",
+      "status": "EVIDENCE_BACKED",
+      "last_checked": "2026-09-14",
+      "hypothesis": true,
+      "headquarters": {
+        "city": "London",
+        "country": "United Kingdom",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "evidence_url": "https://www.hantec.com",
+        "checked_date": "2026-09-14"
+      },
+      "offices": [
+        {
+          "city": "London",
+          "country": "United Kingdom",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.hantec.com",
+          "checked_date": "2026-09-14"
+        },
+        {
+          "city": "Dubai",
+          "country": "United Arab Emirates",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.hantec.com",
+          "checked_date": "2026-09-14"
+        },
+        {
+          "city": "Hong Kong",
+          "country": "Hong Kong",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.hantec.com",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "people": [
+        {
+          "name": "",
+          "title": "CEO / senior commercial leader",
+          "role_type": "LEADERSHIP",
+          "status": "UNRESOLVED",
+          "confidence": "LOW",
+          "evidence_url": "",
+          "checked_date": "2026-09-14",
+          "note": "No current first-party leadership disclosure was located in this pass."
+        }
+      ],
+      "technology_assessment": [
+        {
+          "vendor": "Trading Central",
+          "status": "CONFIRMED_ACTIVE",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.hantec.com/af/en/analytics/trading-tools/trading-central.html",
+          "checked_date": "2026-09-14",
+          "note": "Hantec's Asia-localized trading-tools page runs a dedicated Trading Central section describing investment research, technical analysis and trading signals."
+        },
+        {
+          "vendor": "Acuity Trading",
+          "status": "DIRECTORY_REPORTED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://hmarkets.com/",
+          "checked_date": "2026-09-14",
+          "note": "VERY STRONG, high-confidence Acuity Trading integration - a live embedded 'AcuityAnalysisIQ' market-data/news widget with its own CDN domain (acuitycdn.azureedge.net) and news attribution 'By Acuity' visible on the homepage. This is exactly the kind of domain/widget evidence FIX #2 was designed to catch - the vendor's own CDN subdomain appears throughout image src attributes even though 'Acuity Trading' as a full company name is not spelled out verbatim (only 'Acuity' / 'acuity-widget' / 'AcuityAnalysisIQ' / 'acuitycdn'). Distinct from 'HANTEC FINANCIAL' (hantec.com) elsewhere in this batch, which instead shows a Trading Central integration - these appear to be two different sites/brands under the Hantec name."
+        }
+      ],
+      "why_now": "Broker-owned evidence confirms Trading Central in Hantec Financial (Hantec Markets Asia)'s current research stack. Ask about renewal timing and gaps in trader engagement.",
+      "discovery_angle": "Start with ASIC, FCA, FSC Mauritius. Who owns research-tool adoption at Hantec Financial (Hantec Markets Asia), and what would trigger a vendor review?",
+      "sources": [
+        "https://hmarkets.com/",
+        "https://www.hantec.com/af/en/analytics/trading-tools/trading-central.html"
+      ],
+      "change_history": []
+    },
+    {
+      "priority_rank": 13,
+      "slug": "hycm",
+      "brand_name": "HYCM",
+      "status": "EVIDENCE_BACKED",
+      "last_checked": "2026-09-14",
+      "hypothesis": true,
+      "headquarters": {
+        "city": "London",
+        "country": "United Kingdom",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "evidence_url": "https://www.hycm.com",
+        "checked_date": "2026-09-14"
+      },
+      "offices": [
+        {
+          "city": "London",
+          "country": "United Kingdom",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.hycm.com",
+          "checked_date": "2026-09-14"
+        },
+        {
+          "city": "Limassol",
+          "country": "Cyprus",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.hycm.com",
+          "checked_date": "2026-09-14"
+        },
+        {
+          "city": "Dubai",
+          "country": "United Arab Emirates",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.hycm.com",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "people": [
+        {
+          "name": "",
+          "title": "CEO / senior commercial leader",
+          "role_type": "LEADERSHIP",
+          "status": "UNRESOLVED",
+          "confidence": "LOW",
+          "evidence_url": "",
+          "checked_date": "2026-09-14",
+          "note": "No current first-party leadership disclosure was located in this pass."
+        }
+      ],
+      "technology_assessment": [
+        {
+          "vendor": "Trading Central",
+          "status": "CONFIRMED_ACTIVE",
+          "confidence": "HIGH",
+          "evidence_url": "https://help.hycm.com/hc/en-us/articles/360000366945-Trading-Central-Trading-Tools",
+          "checked_date": "2026-09-14",
+          "note": "HYCM runs dedicated help-center articles on installing and using Trading Central, and its awards page states it provides 'free life-time access to Trading Central'."
+        }
+      ],
+      "why_now": "HYCM currently documents Trading Central. The account is competitive today, so check the next review date and weak coverage areas.",
+      "discovery_angle": "Ask how HYCM measures use of its current research tools. Then confirm the date and owner of the next vendor review.",
+      "sources": [
+        "https://help.hycm.com/hc/en-us/articles/360000366945-Trading-Central-Trading-Tools"
+      ],
+      "change_history": []
+    },
+    {
+      "priority_rank": 14,
+      "slug": "ironfx",
+      "brand_name": "IronFX",
+      "status": "EVIDENCE_BACKED",
+      "last_checked": "2026-09-14",
+      "hypothesis": true,
+      "headquarters": {
+        "city": "Limassol",
+        "country": "Cyprus",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "evidence_url": "https://www.ironfx.com",
+        "checked_date": "2026-09-14"
+      },
+      "offices": [
+        {
+          "city": "Limassol",
+          "country": "Cyprus",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.ironfx.com",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "people": [
+        {
+          "name": "",
+          "title": "CEO / senior commercial leader",
+          "role_type": "LEADERSHIP",
+          "status": "UNRESOLVED",
+          "confidence": "LOW",
+          "evidence_url": "",
+          "checked_date": "2026-09-14",
+          "note": "No current first-party leadership disclosure was located in this pass."
+        }
+      ],
+      "technology_assessment": [
+        {
+          "vendor": "Trading Central",
+          "status": "CONFIRMED_ACTIVE",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.ironfx.com/en/trading/centrals-technical-analysis",
+          "checked_date": "2026-09-14",
+          "note": "IronFX runs at least three dedicated Trading Central pages (overview, Technical Analysis, Featured Ideas) plus references it in broker-education articles describing Market Buzz and AI insights."
+        }
+      ],
+      "why_now": "IronFX's current stack includes Trading Central. Verify who owns its performance and whether the team has an active review window.",
+      "discovery_angle": "Find the commercial owner for research across CySEC, FCA, FSCA. Ask where IronFX's current feed loses trader attention.",
+      "sources": [
+        "https://www.ironfx.com/en/trading/centrals-technical-analysis"
+      ],
+      "change_history": []
+    },
+    {
+      "priority_rank": 15,
+      "slug": "markets-com",
+      "brand_name": "Markets.com",
+      "status": "EVIDENCE_BACKED",
+      "last_checked": "2026-09-14",
+      "hypothesis": true,
+      "headquarters": {
+        "city": "London",
+        "country": "United Kingdom",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "evidence_url": "https://www.markets.com",
+        "checked_date": "2026-09-14"
+      },
+      "offices": [
+        {
+          "city": "London",
+          "country": "United Kingdom",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.markets.com",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "people": [
+        {
+          "name": "",
+          "title": "CEO / senior commercial leader",
+          "role_type": "LEADERSHIP",
+          "status": "UNRESOLVED",
+          "confidence": "LOW",
+          "evidence_url": "",
+          "checked_date": "2026-09-14",
+          "note": "No current first-party leadership disclosure was located in this pass."
+        }
+      ],
+      "technology_assessment": [
+        {
+          "vendor": "Trading Central",
+          "status": "UNKNOWN",
+          "confidence": "LOW",
+          "evidence_url": "https://www.markets.com/trading-tools/trading-central/",
+          "checked_date": "2026-09-14",
+          "note": "The previously reported broker-owned product URL returned HTTP 404 in the monitoring baseline; current use remains unconfirmed."
+        }
+      ],
+      "why_now": "Markets.com has 3 verified regulator relationships. Current use of Trading Central, Autochartist and Acuity is unconfirmed, so the first job is to establish the stack.",
+      "discovery_angle": "Ask which research feeds are live at Markets.com today and who owns their performance.",
+      "sources": [
+        "https://www.markets.com/trading-tools/trading-central/"
+      ],
+      "change_history": []
+    },
+    {
+      "priority_rank": 16,
+      "slug": "moneta-markets",
+      "brand_name": "Moneta Markets",
+      "status": "EVIDENCE_BACKED",
+      "last_checked": "2026-09-14",
+      "hypothesis": true,
+      "headquarters": {
+        "city": "Sydney",
+        "country": "Australia",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "evidence_url": "https://www.monetamarkets.com",
+        "checked_date": "2026-09-14"
+      },
+      "offices": [
+        {
+          "city": "Sydney",
+          "country": "Australia",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.monetamarkets.com",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "people": [
+        {
+          "name": "",
+          "title": "CEO / senior commercial leader",
+          "role_type": "LEADERSHIP",
+          "status": "UNRESOLVED",
+          "confidence": "LOW",
+          "evidence_url": "",
+          "checked_date": "2026-09-14",
+          "note": "No current first-party leadership disclosure was located in this pass."
+        }
+      ],
+      "technology_assessment": [
+        {
+          "vendor": "Trading Central",
+          "status": "CONFIRMED_ACTIVE",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.monetamarkets.com/featured-ideas/",
+          "checked_date": "2026-09-14",
+          "note": "Moneta Markets runs dedicated own-site pages for Trading Central's Featured Ideas and AI Market Buzz, plus a broader trading-tools hub covering signals, sentiment, and technical analysis."
+        },
+        {
+          "vendor": "Autochartist",
+          "status": "CONFIRMED_ACTIVE",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.monetamarkets.com/trading-tools/autochartist/",
+          "checked_date": "2026-09-14",
+          "note": "Current broker-owned product page located in this pass."
+        }
+      ],
+      "why_now": "Broker-owned evidence confirms Trading Central and Autochartist in Moneta Markets's current research stack. Ask about renewal timing and gaps in trader engagement.",
+      "discovery_angle": "Start with FCA, FSC Mauritius, FSCA. Who owns research-tool adoption at Moneta Markets, and what would trigger a vendor review?",
+      "sources": [
+        "https://www.monetamarkets.com/featured-ideas/",
+        "https://www.monetamarkets.com/trading-tools/autochartist/"
+      ],
+      "change_history": []
+    },
+    {
+      "priority_rank": 17,
+      "slug": "naga",
+      "brand_name": "NAGA",
+      "status": "EVIDENCE_BACKED",
+      "last_checked": "2026-09-14",
+      "hypothesis": true,
+      "headquarters": {
+        "city": "Hamburg",
+        "country": "Germany",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "evidence_url": "https://www.naga.com",
+        "checked_date": "2026-09-14"
+      },
+      "offices": [
+        {
+          "city": "Hamburg",
+          "country": "Germany",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.naga.com",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "people": [
+        {
+          "name": "",
+          "title": "CEO / senior commercial leader",
+          "role_type": "LEADERSHIP",
+          "status": "UNRESOLVED",
+          "confidence": "LOW",
+          "evidence_url": "",
+          "checked_date": "2026-09-14",
+          "note": "No current first-party leadership disclosure was located in this pass."
+        }
+      ],
+      "technology_assessment": [
+        {
+          "vendor": "Trading Central",
+          "status": "CONFIRMED_ACTIVE",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://naga.com/lat/academy/senales-de-trading",
+          "checked_date": "2026-09-14",
+          "note": "NAGA's own Spanish-language trading-signals academy article names Trading Central as one of its featured signal-provider options, describing it as suited to traders wanting independent technical analysis and structured market research."
+        }
+      ],
+      "why_now": "NAGA currently documents Trading Central. The account is competitive today, so check the next review date and weak coverage areas.",
+      "discovery_angle": "Ask how NAGA measures use of its current research tools. Then confirm the date and owner of the next vendor review.",
+      "sources": [
+        "https://naga.com/lat/academy/senales-de-trading"
+      ],
+      "change_history": []
+    },
+    {
+      "priority_rank": 18,
+      "slug": "vantage-vantage-markets",
+      "brand_name": "Vantage (Vantage Markets)",
+      "status": "EVIDENCE_BACKED",
+      "last_checked": "2026-09-14",
+      "hypothesis": true,
+      "headquarters": {
+        "city": "Sydney",
+        "country": "Australia",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "evidence_url": "https://www.vantagemarkets.com",
+        "checked_date": "2026-09-14"
+      },
+      "offices": [
+        {
+          "city": "Sydney",
+          "country": "Australia",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.vantagemarkets.com",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "people": [
+        {
+          "name": "",
+          "title": "CEO / senior commercial leader",
+          "role_type": "LEADERSHIP",
+          "status": "UNRESOLVED",
+          "confidence": "LOW",
+          "evidence_url": "",
+          "checked_date": "2026-09-14",
+          "note": "No current first-party leadership disclosure was located in this pass."
+        }
+      ],
+      "technology_assessment": [
+        {
+          "vendor": "Trading Central",
+          "status": "CONFIRMED_ACTIVE",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.vantagemarkets.com/about/our-partners",
+          "checked_date": "2026-09-14",
+          "note": "Vantage's own partners page describes Trading Central as serving 'over 100 financial institutions across 30+ countries', and runs dedicated Trading Central signal-promotion pages across multiple regional sites (ES, LATAM, AU)."
+        },
+        {
+          "vendor": "Autochartist",
+          "status": "CONFIRMED_ACTIVE",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.vantagemarkets.com/trading-tools/autochartist/",
+          "checked_date": "2026-09-14",
+          "note": "Current broker-owned product page located in this pass."
+        }
+      ],
+      "why_now": "Vantage (Vantage Markets)'s current stack includes Trading Central and Autochartist. Verify who owns its performance and whether the team has an active review window.",
+      "discovery_angle": "Find the commercial owner for research across ASIC, FCA, FSCA. Ask where Vantage (Vantage Markets)'s current feed loses trader attention.",
+      "sources": [
+        "https://www.vantagemarkets.com/about/our-partners",
+        "https://www.vantagemarkets.com/trading-tools/autochartist/"
+      ],
+      "change_history": []
+    },
+    {
+      "priority_rank": 19,
+      "slug": "fusion-markets",
+      "brand_name": "Fusion Markets",
+      "status": "EVIDENCE_BACKED",
+      "last_checked": "2026-09-14",
+      "hypothesis": true,
+      "headquarters": {
+        "city": "Melbourne",
+        "country": "Australia",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "evidence_url": "https://www.fusionmarkets.com",
+        "checked_date": "2026-09-14"
+      },
+      "offices": [
+        {
+          "city": "Melbourne",
+          "country": "Australia",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.fusionmarkets.com",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "people": [
+        {
+          "name": "",
+          "title": "CEO / senior commercial leader",
+          "role_type": "LEADERSHIP",
+          "status": "UNRESOLVED",
+          "confidence": "LOW",
+          "evidence_url": "",
+          "checked_date": "2026-09-14",
+          "note": "No current first-party leadership disclosure was located in this pass."
+        }
+      ],
+      "technology_assessment": [
+        {
+          "vendor": "Trading Central",
+          "status": "CONFIRMED_ACTIVE",
+          "confidence": "HIGH",
+          "evidence_url": "https://fusionmarkets.com.au/posts/our-top-five-most-used-tools",
+          "checked_date": "2026-09-14",
+          "note": "Fusion Markets' own blog names 'Analyst Views by Trading Central' as its #1 most-used trading tool, downloadable as an MT4 desktop indicator, alongside Technical Insight for deeper analysis."
+        }
+      ],
+      "why_now": "Current evidence shows Trading Central at Fusion Markets. A focused first call should test renewal timing and the case for a complementary feed.",
+      "discovery_angle": "Use Fusion Markets's current vendor evidence in the first call. Confirm whether the immediate need is better coverage or a replacement.",
+      "sources": [
+        "https://fusionmarkets.com.au/posts/our-top-five-most-used-tools"
+      ],
+      "change_history": []
+    },
+    {
+      "priority_rank": 20,
+      "slug": "vt-markets",
+      "brand_name": "VT Markets",
+      "status": "EVIDENCE_BACKED",
+      "last_checked": "2026-09-14",
+      "hypothesis": true,
+      "headquarters": {
+        "city": "",
+        "country": "Australia",
+        "status": "DIRECTORY_REPORTED",
+        "confidence": "LOW",
+        "evidence_url": "https://www.vtmarkets.com",
+        "checked_date": "2026-09-14"
+      },
+      "offices": [
+        {
+          "city": "",
+          "country": "Australia",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.vtmarkets.com",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "people": [
+        {
+          "name": "",
+          "title": "CEO / senior commercial leader",
+          "role_type": "LEADERSHIP",
+          "status": "UNRESOLVED",
+          "confidence": "LOW",
+          "evidence_url": "",
+          "checked_date": "2026-09-14",
+          "note": "No current first-party leadership disclosure was located in this pass."
+        }
+      ],
+      "technology_assessment": [
+        {
+          "vendor": "Trading Central",
+          "status": "CONFIRMED_ACTIVE",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.vtmarkets.com/faq/why-vt-markets-is-the-best-forex-trading-app/",
+          "checked_date": "2026-09-14",
+          "note": "VT Markets' own FAQ page states its mobile app provides 'market analysis powered by Trading Central', giving access to technical views on major forex pairs."
+        }
+      ],
+      "why_now": "Broker-owned evidence confirms Trading Central in VT Markets's current research stack. Ask about renewal timing and gaps in trader engagement.",
+      "discovery_angle": "Start with ASIC, FSC Mauritius, FSCA. Who owns research-tool adoption at VT Markets, and what would trigger a vendor review?",
+      "sources": [
+        "https://www.vtmarkets.com/faq/why-vt-markets-is-the-best-forex-trading-app/"
+      ],
+      "change_history": []
+    },
+    {
+      "priority_rank": 21,
+      "slug": "doto-europe-ltd-ex-vasby-capital-markets-ltd",
+      "brand_name": "Doto Europe Ltd (Ex Vasby Capital Markets Ltd)",
+      "status": "EVIDENCE_BACKED",
+      "last_checked": "2026-09-14",
+      "hypothesis": true,
+      "headquarters": {
+        "city": "",
+        "country": "United Kingdom",
+        "status": "DIRECTORY_REPORTED",
+        "confidence": "LOW",
+        "evidence_url": "https://doto.com",
+        "checked_date": "2026-09-14"
+      },
+      "offices": [
+        {
+          "city": "",
+          "country": "United Kingdom",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://doto.com",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "people": [
+        {
+          "name": "",
+          "title": "CEO / senior commercial leader",
+          "role_type": "LEADERSHIP",
+          "status": "UNRESOLVED",
+          "confidence": "LOW",
+          "evidence_url": "",
+          "checked_date": "2026-09-14",
+          "note": "No current first-party leadership disclosure was located in this pass."
+        }
+      ],
+      "technology_assessment": [
+        {
+          "vendor": "Trading Central",
+          "status": "DIRECTORY_REPORTED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://doto.com/",
+          "checked_date": "2026-09-14",
+          "note": "Confirmed via trust-badge logo image (filename + alt text), not a dedicated tools page - lighter-weight integration/partnership badge."
+        }
+      ],
+      "why_now": "Doto Europe Ltd (Ex Vasby Capital Markets Ltd) has 3 verified regulator relationships. Current use of Trading Central, Autochartist and Acuity is unconfirmed, so the first job is to establish the stack.",
+      "discovery_angle": "Ask which research feeds are live at Doto Europe Ltd (Ex Vasby Capital Markets Ltd) today and who owns their performance.",
+      "sources": [
+        "https://doto.com/"
+      ],
+      "change_history": []
+    },
+    {
+      "priority_rank": 22,
+      "slug": "plus500",
+      "brand_name": "Plus500",
+      "status": "EVIDENCE_BACKED",
+      "last_checked": "2026-09-14",
+      "hypothesis": true,
+      "headquarters": {
+        "city": "",
+        "country": "Israel",
+        "status": "DIRECTORY_REPORTED",
+        "confidence": "LOW",
+        "evidence_url": "https://www.plus500.com",
+        "checked_date": "2026-09-14"
+      },
+      "offices": [
+        {
+          "city": "",
+          "country": "Israel",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.plus500.com",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "people": [
+        {
+          "name": "David Zruia",
+          "title": "Chief Executive Officer",
+          "role_type": "LEADERSHIP",
+          "status": "CONFIRMED_CURRENT",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.plus500.com/investors/corporate-governance/board-of-directors",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "technology_assessment": [
+        {
+          "vendor": "Trading Central",
+          "status": "UNKNOWN",
+          "confidence": "LOW",
+          "evidence_url": "https://www.forexbrokers.com/guides/trading-central-brokers",
+          "checked_date": "2026-09-14",
+          "note": "ForexBrokers.com's list explicitly limits Plus500's Trading Central association to 'Media Trends data only', i.e. a narrower content feed rather than the full technical/fundamental product suite."
+        }
+      ],
+      "why_now": "Plus500 has 3 verified regulator relationships. Current use of Trading Central, Autochartist and Acuity is unconfirmed, so the first job is to establish the stack.",
+      "discovery_angle": "Ask which research feeds are live at Plus500 today and who owns their performance.",
+      "sources": [
+        "https://www.forexbrokers.com/guides/trading-central-brokers",
+        "https://www.plus500.com/investors/corporate-governance/board-of-directors"
+      ],
+      "change_history": []
+    },
+    {
+      "priority_rank": 23,
+      "slug": "activtrades",
+      "brand_name": "ActivTrades",
+      "status": "EVIDENCE_BACKED",
+      "last_checked": "2026-09-14",
+      "hypothesis": true,
+      "headquarters": {
+        "city": "London",
+        "country": "United Kingdom",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "evidence_url": "https://www.activtrades.com",
+        "checked_date": "2026-09-14"
+      },
+      "offices": [
+        {
+          "city": "London",
+          "country": "United Kingdom",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.activtrades.com",
+          "checked_date": "2026-09-14"
+        },
+        {
+          "city": "Nassau",
+          "country": "The Bahamas",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.activtrades.com",
+          "checked_date": "2026-09-14"
+        },
+        {
+          "city": "Lisbon",
+          "country": "Portugal",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.activtrades.com",
+          "checked_date": "2026-09-14"
+        },
+        {
+          "city": "Port Louis",
+          "country": "Mauritius",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.activtrades.com",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "people": [
+        {
+          "name": "Alex Pusco",
+          "title": "Chief Executive Officer",
+          "role_type": "LEADERSHIP",
+          "status": "CONFIRMED_CURRENT",
+          "confidence": "HIGH",
+          "evidence_url": "https://partners.activtrades.com/en/about-us",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "technology_assessment": [
+        {
+          "vendor": "Trading Central",
+          "status": "CONFIRMED_ACTIVE",
+          "confidence": "HIGH",
+          "evidence_url": "https://www.activtrades.com/en/tradingcentral",
+          "checked_date": "2026-09-14",
+          "note": "ActivTrades' own dedicated Trading Central page describes 'Technical Views®' trading plans for MT4/MT5 and Market Buzz; Forex Peace Army's review corroborates a $1,000 minimum-deposit tier for full plugin access with in-platform access via ActivTrader."
+        }
+      ],
+      "why_now": "Current evidence shows Trading Central at ActivTrades. A focused first call should test renewal timing and the case for a complementary feed.",
+      "discovery_angle": "Use ActivTrades's current vendor evidence in the first call. Confirm whether the immediate need is better coverage or a replacement.",
+      "sources": [
+        "https://partners.activtrades.com/en/about-us",
+        "https://www.activtrades.com/en/tradingcentral"
+      ],
+      "change_history": []
+    },
+    {
+      "priority_rank": 24,
+      "slug": "just2trade",
+      "brand_name": "Just2Trade",
+      "status": "EVIDENCE_BACKED",
+      "last_checked": "2026-09-14",
+      "hypothesis": true,
+      "headquarters": {
+        "city": "",
+        "country": "Cyprus",
+        "status": "DIRECTORY_REPORTED",
+        "confidence": "LOW",
+        "evidence_url": "https://www.j2t.com",
+        "checked_date": "2026-09-14"
+      },
+      "offices": [
+        {
+          "city": "",
+          "country": "Cyprus",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.j2t.com",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "people": [
+        {
+          "name": "",
+          "title": "CEO / senior commercial leader",
+          "role_type": "LEADERSHIP",
+          "status": "UNRESOLVED",
+          "confidence": "LOW",
+          "evidence_url": "",
+          "checked_date": "2026-09-14",
+          "note": "No current first-party leadership disclosure was located in this pass."
+        }
+      ],
+      "technology_assessment": [
+        {
+          "vendor": "Trading Central",
+          "status": "LIKELY_ACTIVE",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.brokersome.com/forex-brokers/trading-central",
+          "checked_date": "2026-09-14",
+          "note": "brokersome.com's dedicated Trading Central broker directory lists Just2Trade as offering Trading Central."
+        }
+      ],
+      "why_now": "Broker-owned evidence confirms Trading Central in Just2Trade's current research stack. Ask about renewal timing and gaps in trader engagement.",
+      "discovery_angle": "Start with CySEC. Who owns research-tool adoption at Just2Trade, and what would trigger a vendor review?",
+      "sources": [
+        "https://www.brokersome.com/forex-brokers/trading-central"
+      ],
+      "change_history": []
+    },
+    {
+      "priority_rank": 25,
+      "slug": "windsor-brokers",
+      "brand_name": "Windsor Brokers",
+      "status": "EVIDENCE_BACKED",
+      "last_checked": "2026-09-14",
+      "hypothesis": true,
+      "headquarters": {
+        "city": "",
+        "country": "Cyprus",
+        "status": "DIRECTORY_REPORTED",
+        "confidence": "LOW",
+        "evidence_url": "https://www.windsorbrokers.com",
+        "checked_date": "2026-09-14"
+      },
+      "offices": [
+        {
+          "city": "",
+          "country": "Cyprus",
+          "status": "CONFIRMED",
+          "confidence": "MEDIUM",
+          "evidence_url": "https://www.windsorbrokers.com",
+          "checked_date": "2026-09-14"
+        }
+      ],
+      "people": [
+        {
+          "name": "",
+          "title": "CEO / senior commercial leader",
+          "role_type": "LEADERSHIP",
+          "status": "UNRESOLVED",
+          "confidence": "LOW",
+          "evidence_url": "",
+          "checked_date": "2026-09-14",
+          "note": "No current first-party leadership disclosure was located in this pass."
+        }
+      ],
+      "technology_assessment": [
+        {
+          "vendor": "Trading Central",
+          "status": "CONFIRMED_ACTIVE",
+          "confidence": "HIGH",
+          "evidence_url": "https://windsorbrokers.com/tools/trading-central/",
+          "checked_date": "2026-09-14",
+          "note": "Windsor Brokers' own dedicated Trading Central tools page (with a July-2025-dated image asset) describes real-time insights combining technology and expert market commentary."
+        }
+      ],
+      "why_now": "CySEC licence 030/04 is active under WB Trade EU Ltd, formerly Windsor Brokers Ltd. The record is a historical Windsor relationship rather than a current Windsor licence.",
+      "discovery_angle": "Confirm the current commercial owner at WB Trade before discussing research technology. The Windsor brand mapping is historical.",
+      "sources": [
+        "https://windsorbrokers.com/tools/trading-central/",
+        "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/37569/"
+      ],
+      "change_history": [
+        {
+          "date": "2026-09-14",
+          "category": "REGULATORY",
+          "summary": "CySEC licence 030/04 is active under WB Trade EU Ltd, formerly Windsor Brokers Ltd. The record is a historical Windsor relationship rather than a current Windsor licence.",
+          "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/37569/"
+        }
+      ]
+    }
+  ]
+}

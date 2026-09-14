@@ -46,6 +46,21 @@
       "mapping_evidence_url": "https://doto.com/regulation/",
       "mapping_basis": "The broker-owned regulation page maps Doto to the same legal entity and licence number returned by the official register.",
       "mapping_confidence": "HIGH"
+    },
+    {
+      "slug": "windsor-brokers",
+      "regulator_code": "CySEC",
+      "regulator_name": "Cyprus Securities and Exchange Commission",
+      "jurisdiction": "Cyprus",
+      "license_number": "030/04",
+      "license_type": "Cyprus Investment Firm",
+      "status": "ACTIVE",
+      "license_date": "20/05/2004",
+      "legal_name": "WB Trade EU Ltd",
+      "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/37569/",
+      "mapping_evidence_url": "https://en.wbtrade.eu/about-wb-trade/",
+      "mapping_basis": "WB Trade's current first-party page states that WB Trade EU Ltd was formerly Windsor Brokers Ltd; the CySEC register confirms the same entity and licence number. This is a historical Windsor brand relationship, not a current licence held under the Windsor Brokers name.",
+      "mapping_confidence": "HIGH"
     }
   ],
   "claim_resolutions": [
@@ -78,17 +93,17 @@
       "classification": "CURRENT_REGISTER_NO_RESULT",
       "evidence_url": "https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr",
       "mapping_evidence_url": "https://www.fpmarkets.com/fp-markets-group/",
-      "note": "FP Markets discloses FP Markets Ltd and licence GB21026264, but the live FSC name search returned no current result for FP Markets on 2026-09-04."
+      "note": "FP Markets currently discloses FP Markets Ltd and licence GB21026264, but live FSC name searches for 'FP Markets Ltd' and 'FP Markets' returned no data on 2026-09-09. Retain as an unresolved broker claim, not an official active licence."
     },
     {
       "slug": "windsor-brokers",
       "regulator_code": "CySEC",
-      "classification": "RELATIONSHIP_UNRESOLVED",
+      "classification": "VERIFIED_HISTORICAL",
       "legal_name": "WB Trade EU Ltd",
       "license_number": "030/04",
       "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/37569/",
-      "mapping_evidence_url": "https://windsorbrokers.com/knowledge-base/about-windsor-brokers/what-type-of-broker-is-windsor-brokers/",
-      "note": "CySEC confirms WB Trade EU Ltd licence 030/04, but the current sources reviewed do not establish a sufficiently direct Windsor Brokers brand-to-entity relationship."
+      "mapping_evidence_url": "https://en.wbtrade.eu/about-wb-trade/",
+      "note": "CySEC confirms WB Trade EU Ltd licence 030/04. WB Trade's current first-party page identifies WB Trade EU Ltd as formerly Windsor Brokers Ltd, so the Windsor relationship is verified as historical and must not be displayed as a current Windsor Brokers licence."
     }
   ]
 }

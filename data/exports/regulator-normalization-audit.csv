@@ -1,0 +1,465 @@
+﻿action,profile_slug,brand_name,source_value,canonical_value,license_number,evidence_url
+NORMALIZED_REGULATOR_NAME,activtrades,ActivTrades,Financial Conduct Authority (FCA),FCA,,https://brokerchooser.com/broker-reviews/activtrades-review
+NORMALIZED_REGULATOR_NAME,activtrades,ActivTrades,The Securities Commission of the Bahamas,SCB,,https://brokerchooser.com/broker-reviews/activtrades-review
+NORMALIZED_REGULATOR_NAME,activtrades,ActivTrades,FCA,FCA,,https://www.activtrades.mu/en
+NORMALIZED_REGULATOR_NAME,activtrades,ActivTrades,SCB,SCB,,https://www.activtrades.mu/en
+MERGED_REGULATOR_DUPLICATE,activtrades,ActivTrades,FCA,FCA,,https://www.activtrades.mu/en
+MERGED_REGULATOR_DUPLICATE,activtrades,ActivTrades,SCB,SCB,,https://www.activtrades.mu/en
+NORMALIZED_REGULATOR_NAME,admiral-markets-admirals,Admiral Markets (Admirals),FCA,FCA,,https://admiralmarkets.com/
+NORMALIZED_REGULATOR_NAME,admiral-markets-admirals,Admiral Markets (Admirals),FSA Seychelles,FSA Seychelles,,https://admiralmarkets.com/
+NORMALIZED_REGULATOR_NAME,atfx,ATFX,FCA,FCA,,https://www.atfx.com/pt/
+NORMALIZED_REGULATOR_NAME,atfx,ATFX,ASIC,ASIC,,https://www.atfx.com/pt/
+NORMALIZED_REGULATOR_NAME,atfx,ATFX,CySEC,CySEC,,https://www.atfx.com/pt/
+NORMALIZED_REGULATOR_NAME,atfx,ATFX,FSCA,FSCA,,https://www.atfx.com/pt/
+NORMALIZED_REGULATOR_NAME,atfx,ATFX,FSA Seychelles,FSA Seychelles,,https://www.atfx.com/pt/
+NORMALIZED_REGULATOR_NAME,atfx,ATFX,FSC Mauritius,FSC Mauritius,,https://www.atfx.com/pt/
+NORMALIZED_REGULATOR_NAME,avatrade,AvaTrade,Abu Dhabi Global Market Authorities Financial Services Regulatory Authority (ADGM – FSRA),ADGM,,https://brokerchooser.com/broker-reviews/avatrade-review
+NORMALIZED_REGULATOR_NAME,avatrade,AvaTrade,Australian Securities and Investments Commission (ASIC),ASIC,,https://brokerchooser.com/broker-reviews/avatrade-review
+NORMALIZED_REGULATOR_NAME,avatrade,AvaTrade,Financial Sector Conduct Authority (FSCA),FSCA,,https://brokerchooser.com/broker-reviews/avatrade-review
+NORMALIZED_REGULATOR_NAME,avatrade,AvaTrade,ASIC,ASIC,,https://www.avatrade.com
+NORMALIZED_REGULATOR_NAME,avatrade,AvaTrade,CySEC,CySEC,,https://www.avatrade.com
+NORMALIZED_REGULATOR_NAME,avatrade,AvaTrade,FSCA,FSCA,,https://www.avatrade.com
+NORMALIZED_REGULATOR_NAME,avatrade,AvaTrade,ADGM,ADGM,,https://www.avatrade.com
+MERGED_REGULATOR_DUPLICATE,avatrade,AvaTrade,ASIC,ASIC,,https://www.avatrade.com
+MERGED_REGULATOR_DUPLICATE,avatrade,AvaTrade,FSCA,FSCA,,https://www.avatrade.com
+MERGED_REGULATOR_DUPLICATE,avatrade,AvaTrade,ADGM,ADGM,,https://www.avatrade.com
+NORMALIZED_REGULATOR_NAME,cfi-financial-group,CFI Financial Group,FCA,FCA,,https://en.cfi.trade/
+NORMALIZED_REGULATOR_NAME,cfi-financial-group,CFI Financial Group,FSCA,FSCA,,https://en.cfi.trade/
+NORMALIZED_REGULATOR_NAME,cfi-financial-group,CFI Financial Group,FSA Seychelles,FSA Seychelles,,https://en.cfi.trade/
+NORMALIZED_REGULATOR_NAME,cfi-financial-group,CFI Financial Group,FSC Mauritius,FSC Mauritius,,https://en.cfi.trade/
+NORMALIZED_REGULATOR_NAME,charles-schwab,Charles Schwab,Commodity Futures Trading Commission (CFTC),CFTC,,https://brokerchooser.com/broker-reviews/charles-schwab-review
+NORMALIZED_REGULATOR_NAME,charles-schwab,Charles Schwab,Financial Industry Regulatory Authority (FINRA),FINRA,,https://brokerchooser.com/broker-reviews/charles-schwab-review
+NORMALIZED_REGULATOR_NAME,charles-schwab,Charles Schwab,Hong Kong Securities and Futures Commission,SFC,,https://brokerchooser.com/broker-reviews/charles-schwab-review
+NORMALIZED_REGULATOR_NAME,charles-schwab,Charles Schwab,Monetary Authority of Singapore (MAS),MAS,,https://brokerchooser.com/broker-reviews/charles-schwab-review
+NORMALIZED_REGULATOR_NAME,charles-schwab,Charles Schwab,Securities and Exchange Commission (SEC),SEC,,https://brokerchooser.com/broker-reviews/charles-schwab-review
+NORMALIZED_REGULATOR_NAME,city-index,City Index,Financial Conduct Authority (FCA),FCA,,https://brokerchooser.com/broker-reviews/city-index-review
+NORMALIZED_REGULATOR_NAME,cmc-markets,CMC Markets,Australian Securities and Investments Commission,ASIC,,https://brokerchooser.com/broker-reviews/cmc-markets-review
+NORMALIZED_REGULATOR_NAME,cmc-markets,CMC Markets,Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin),BaFin,,https://brokerchooser.com/broker-reviews/cmc-markets-review
+NORMALIZED_REGULATOR_NAME,cmc-markets,CMC Markets,Canadian Investment Regulatory Organization (CIRO),CIRO,,https://brokerchooser.com/broker-reviews/cmc-markets-review
+NORMALIZED_REGULATOR_NAME,cmc-markets,CMC Markets,Dubai Financial Services Authority,DFSA,,https://brokerchooser.com/broker-reviews/cmc-markets-review
+NORMALIZED_REGULATOR_NAME,cmc-markets,CMC Markets,Financial Conduct Authority,FCA,,https://brokerchooser.com/broker-reviews/cmc-markets-review
+NORMALIZED_REGULATOR_NAME,cmc-markets,CMC Markets,Monetary Authority of Singapore,MAS,,https://brokerchooser.com/broker-reviews/cmc-markets-review
+NORMALIZED_REGULATOR_NAME,cmc-markets,CMC Markets,FCA,FCA,,https://www.cmcmarkets.com/en-sg/
+NORMALIZED_REGULATOR_NAME,cmc-markets,CMC Markets,ASIC,ASIC,,https://www.cmcmarkets.com/en-sg/
+NORMALIZED_REGULATOR_NAME,cmc-markets,CMC Markets,MAS,MAS,,https://www.cmcmarkets.com/en-sg/
+NORMALIZED_REGULATOR_NAME,cmc-markets,CMC Markets,CIRO,CIRO,,https://www.cmcmarkets.com/en-sg/
+MERGED_REGULATOR_DUPLICATE,cmc-markets,CMC Markets,FCA,FCA,,https://www.cmcmarkets.com/en-sg/
+MERGED_REGULATOR_DUPLICATE,cmc-markets,CMC Markets,ASIC,ASIC,,https://www.cmcmarkets.com/en-sg/
+MERGED_REGULATOR_DUPLICATE,cmc-markets,CMC Markets,MAS,MAS,,https://www.cmcmarkets.com/en-sg/
+MERGED_REGULATOR_DUPLICATE,cmc-markets,CMC Markets,CIRO,CIRO,,https://www.cmcmarkets.com/en-sg/
+NORMALIZED_REGULATOR_NAME,doo-financial-doo-group-singapore,"Doo Financial (Doo Group, Singapore)",ASIC,ASIC,,https://www.doofinancial.com/
+NORMALIZED_REGULATOR_NAME,doo-financial-doo-group-singapore,"Doo Financial (Doo Group, Singapore)",CySEC,CySEC,,https://www.doofinancial.com/
+NORMALIZED_REGULATOR_NAME,doo-prime,Doo Prime,CySEC,CySEC,,https://www.dooprime.com
+NORMALIZED_REGULATOR_NAME,easymarkets,easyMarkets,ASIC,ASIC,,https://www.easymarkets.com/
+NORMALIZED_REGULATOR_NAME,easymarkets,easyMarkets,CySEC,CySEC,,https://www.easymarkets.com/
+NORMALIZED_REGULATOR_NAME,easymarkets,easyMarkets,FSA Seychelles,FSA Seychelles,,https://www.easymarkets.com/
+NORMALIZED_REGULATOR_NAME,ebc-financial-group,EBC Financial Group,FSCA,FSCA,,https://www.ebcfin.com/
+NORMALIZED_REGULATOR_NAME,ebc-financial-group,EBC Financial Group,FSC Mauritius,FSC Mauritius,,https://www.ebcfin.com/
+NORMALIZED_REGULATOR_NAME,etoro,eToro,Australian Securities and Investments Commission (ASIC),ASIC,,https://brokerchooser.com/broker-reviews/etoro-review
+NORMALIZED_REGULATOR_NAME,etoro,eToro,Cyprus Securities and Exchange Commission (CySEC),CySEC,,https://brokerchooser.com/broker-reviews/etoro-review
+NORMALIZED_REGULATOR_NAME,etoro,eToro,Financial Conduct Authority (FCA),FCA,,https://brokerchooser.com/broker-reviews/etoro-review
+NORMALIZED_REGULATOR_NAME,etoro,eToro,FCA,FCA,,https://www.etoro.com/
+NORMALIZED_REGULATOR_NAME,etoro,eToro,ASIC,ASIC,,https://www.etoro.com/
+NORMALIZED_REGULATOR_NAME,etoro,eToro,FSA Seychelles,FSA Seychelles,,https://www.etoro.com/
+NORMALIZED_REGULATOR_NAME,etoro,eToro,MAS,MAS,,https://www.etoro.com/
+NORMALIZED_REGULATOR_NAME,etoro,eToro,ADGM,ADGM,,https://www.etoro.com/
+NORMALIZED_REGULATOR_NAME,etoro,eToro,FINRA,FINRA,,https://www.etoro.com/
+MERGED_REGULATOR_DUPLICATE,etoro,eToro,FCA,FCA,,https://www.etoro.com/
+MERGED_REGULATOR_DUPLICATE,etoro,eToro,ASIC,ASIC,,https://www.etoro.com/
+NORMALIZED_REGULATOR_NAME,eurotrader,Eurotrader,FSCA,FSCA,,https://www.eurotrader.com/en/website-home
+NORMALIZED_REGULATOR_NAME,eurotrader,Eurotrader,CySEC,CySEC,,https://www.eurotrader.com/en/website-home
+NORMALIZED_REGULATOR_NAME,eurotrader,Eurotrader,FSC Mauritius,FSC Mauritius,,https://www.eurotrader.com/en/website-home
+NORMALIZED_REGULATOR_NAME,exness,Exness,Cyprus Securities and Exchange Commission (CySEC),CySEC,,https://brokerchooser.com/broker-reviews/exness-review
+NORMALIZED_REGULATOR_NAME,exness,Exness,Financial Conduct Authority (FCA),FCA,,https://brokerchooser.com/broker-reviews/exness-review
+NORMALIZED_REGULATOR_NAME,exness,Exness,Financial Sector Conduct Authority (FSCA),FSCA,,https://brokerchooser.com/broker-reviews/exness-review
+NORMALIZED_REGULATOR_NAME,exness,Exness,Financial Services Authority of Seychelles (FSA),FSA Seychelles,,https://brokerchooser.com/broker-reviews/exness-review
+NORMALIZED_REGULATOR_NAME,exness,Exness,Mauritius Financial Services Commission (FSC),FSC Mauritius,,https://brokerchooser.com/broker-reviews/exness-review
+NORMALIZED_REGULATOR_NAME,exness,Exness,FCA,FCA,,https://www.exness.com/a/11817674
+NORMALIZED_REGULATOR_NAME,exness,Exness,CySEC,CySEC,,https://www.exness.com/a/11817674
+NORMALIZED_REGULATOR_NAME,exness,Exness,FSCA,FSCA,,https://www.exness.com/a/11817674
+NORMALIZED_REGULATOR_NAME,exness,Exness,FSA Seychelles,FSA Seychelles,,https://www.exness.com/a/11817674
+MERGED_REGULATOR_DUPLICATE,exness,Exness,FCA,FCA,,https://www.exness.com/a/11817674
+MERGED_REGULATOR_DUPLICATE,exness,Exness,CySEC,CySEC,,https://www.exness.com/a/11817674
+MERGED_REGULATOR_DUPLICATE,exness,Exness,FSCA,FSCA,,https://www.exness.com/a/11817674
+MERGED_REGULATOR_DUPLICATE,exness,Exness,FSA Seychelles,FSA Seychelles,,https://www.exness.com/a/11817674
+NORMALIZED_REGULATOR_NAME,forex-com,FOREX.com,FCA,FCA,,https://www.forex.com/
+NORMALIZED_REGULATOR_NAME,forex-com,FOREX.com,ASIC,ASIC,,https://www.forex.com/
+NORMALIZED_REGULATOR_NAME,forex-com,FOREX.com,MAS,MAS,,https://www.forex.com/
+NORMALIZED_REGULATOR_NAME,forex-com,FOREX.com,CIRO,CIRO,,https://www.forex.com/
+NORMALIZED_REGULATOR_NAME,fortrade,Fortrade,FCA,FCA,,https://www.fortrade.com/
+NORMALIZED_REGULATOR_NAME,fortrade,Fortrade,ASIC,ASIC,,https://www.fortrade.com/
+NORMALIZED_REGULATOR_NAME,fortrade,Fortrade,CIRO,CIRO,,https://www.fortrade.com/
+NORMALIZED_REGULATOR_NAME,fp-markets,FP Markets,Australian Securities and Investments Commission (ASIC),ASIC,,https://brokerchooser.com/broker-reviews/fp-markets-review
+NORMALIZED_REGULATOR_NAME,fp-markets,FP Markets,Cyprus Securities and Exchange Commission (CySEC),CySEC,,https://brokerchooser.com/broker-reviews/fp-markets-review
+NORMALIZED_REGULATOR_NAME,fp-markets,FP Markets,Financial Sector Conduct Authority (South Africa),FSCA,,https://brokerchooser.com/broker-reviews/fp-markets-review
+NORMALIZED_REGULATOR_NAME,fp-markets,FP Markets,ASIC,ASIC,,https://www.fpmarkets.com/en-sg/
+MERGED_REGULATOR_DUPLICATE,fp-markets,FP Markets,ASIC,ASIC,,https://www.fpmarkets.com/en-sg/
+NORMALIZED_REGULATOR_NAME,fusion-markets,Fusion Markets,Australian Securities and Investments Commission (ASIC),ASIC,,https://brokerchooser.com/broker-reviews/fusion-markets-review
+NORMALIZED_REGULATOR_NAME,fusion-markets,Fusion Markets,Financial Services Authority of Seychelles (FSA),FSA Seychelles,,https://brokerchooser.com/broker-reviews/fusion-markets-review
+NORMALIZED_REGULATOR_NAME,fusion-markets,Fusion Markets,ASIC,ASIC,,https://fusionmarkets.com
+NORMALIZED_REGULATOR_NAME,fusion-markets,Fusion Markets,FSA Seychelles,FSA Seychelles,,https://fusionmarkets.com
+MERGED_REGULATOR_DUPLICATE,fusion-markets,Fusion Markets,ASIC,ASIC,,https://fusionmarkets.com
+MERGED_REGULATOR_DUPLICATE,fusion-markets,Fusion Markets,FSA Seychelles,FSA Seychelles,,https://fusionmarkets.com
+NORMALIZED_REGULATOR_NAME,fxcm,FXCM,ASIC,ASIC,,https://brokerchooser.com/broker-reviews/fxcm-review
+NORMALIZED_REGULATOR_NAME,fxcm,FXCM,CySEC,CySEC,,https://brokerchooser.com/broker-reviews/fxcm-review
+NORMALIZED_REGULATOR_NAME,fxcm,FXCM,FCA,FCA,,https://brokerchooser.com/broker-reviews/fxcm-review
+NORMALIZED_REGULATOR_NAME,fxcm,FXCM,FSCA,FSCA,,https://brokerchooser.com/broker-reviews/fxcm-review
+NORMALIZED_REGULATOR_NAME,fxoro,FXORO,CySEC,CySEC,,https://orofintech.com/
+NORMALIZED_REGULATOR_NAME,fxoro,FXORO,FSA Seychelles,FSA Seychelles,,https://orofintech.com/
+NORMALIZED_REGULATOR_NAME,fxpro,FxPro,FCA,FCA,,https://www.fxpro.com/
+NORMALIZED_REGULATOR_NAME,fxpro,FxPro,FSA Seychelles,FSA Seychelles,,https://www.fxpro.com/
+NORMALIZED_REGULATOR_NAME,fxtrading-com-fxt,FXTRADING.com (FXT),ASIC,ASIC,,https://fxtrading.com/
+NORMALIZED_REGULATOR_NAME,hantec-financial-hantec-markets-asia,Hantec Financial (Hantec Markets Asia),Australian Securities and Investments Commission (ASIC),ASIC,,https://brokerchooser.com/broker-reviews/hantec-markets-review
+NORMALIZED_REGULATOR_NAME,hantec-financial-hantec-markets-asia,Hantec Financial (Hantec Markets Asia),Financial Conduct Authority (FCA),FCA,,https://brokerchooser.com/broker-reviews/hantec-markets-review
+NORMALIZED_REGULATOR_NAME,hantec-financial-hantec-markets-asia,Hantec Financial (Hantec Markets Asia),Mauritius Financial Services Commission (FSC),FSC Mauritius,,https://brokerchooser.com/broker-reviews/hantec-markets-review
+NORMALIZED_REGULATOR_NAME,hantec-financial-hantec-markets-asia,Hantec Financial (Hantec Markets Asia),ASIC,ASIC,,https://www.hantec.com/
+NORMALIZED_REGULATOR_NAME,hantec-financial-hantec-markets-asia,Hantec Financial (Hantec Markets Asia),FSA Seychelles,FSA Seychelles,,https://www.hantec.com/
+NORMALIZED_REGULATOR_NAME,hantec-financial-hantec-markets-asia,Hantec Financial (Hantec Markets Asia),FCA,FCA,,https://hmarkets.com/
+NORMALIZED_REGULATOR_NAME,hantec-financial-hantec-markets-asia,Hantec Financial (Hantec Markets Asia),FSC Mauritius,FSC Mauritius,,https://hmarkets.com/
+MERGED_REGULATOR_DUPLICATE,hantec-financial-hantec-markets-asia,Hantec Financial (Hantec Markets Asia),ASIC,ASIC,,https://www.hantec.com/
+MERGED_REGULATOR_DUPLICATE,hantec-financial-hantec-markets-asia,Hantec Financial (Hantec Markets Asia),FCA,FCA,,https://hmarkets.com/
+MERGED_REGULATOR_DUPLICATE,hantec-financial-hantec-markets-asia,Hantec Financial (Hantec Markets Asia),FSC Mauritius,FSC Mauritius,,https://hmarkets.com/
+NORMALIZED_REGULATOR_NAME,hycm,HYCM,Cyprus Securities and Exchange Commission (Cysec),CySEC,,https://brokerchooser.com/broker-reviews/hycm-review
+NORMALIZED_REGULATOR_NAME,hycm,HYCM,Dubai Financial Services Authority (DFSA),DFSA,,https://brokerchooser.com/broker-reviews/hycm-review
+NORMALIZED_REGULATOR_NAME,hycm,HYCM,Financial Conduct Authority (FCA),FCA,,https://brokerchooser.com/broker-reviews/hycm-review
+NORMALIZED_REGULATOR_NAME,hycm,HYCM,FCA,FCA,,http://henyep.com/
+NORMALIZED_REGULATOR_NAME,hycm,HYCM,DFSA,DFSA,,http://henyep.com/
+MERGED_REGULATOR_DUPLICATE,hycm,HYCM,FCA,FCA,,http://henyep.com/
+MERGED_REGULATOR_DUPLICATE,hycm,HYCM,DFSA,DFSA,,http://henyep.com/
+NORMALIZED_REGULATOR_NAME,ic-markets,IC Markets,Australian Securities and Investments Commission (ASIC),ASIC,,https://brokerchooser.com/broker-reviews/ic-markets-review
+NORMALIZED_REGULATOR_NAME,ic-markets,IC Markets,Seychelles Financial Supervisory Authority (FSA),FSA Seychelles,,https://brokerchooser.com/broker-reviews/ic-markets-review
+NORMALIZED_REGULATOR_NAME,icm-com-uae,ICM.com (UAE),ADGM,ADGM,,
+NORMALIZED_REGULATOR_NAME,ig,IG,Australian Securities and Investment Commission (ASIC),ASIC,,https://brokerchooser.com/broker-reviews/ig-review
+NORMALIZED_REGULATOR_NAME,ig,IG,Commodity Futures Trading Commission (CFTC),CFTC,,https://brokerchooser.com/broker-reviews/ig-review
+NORMALIZED_REGULATOR_NAME,ig,IG,Dubai Financial Services Authority (DFSA),DFSA,,https://brokerchooser.com/broker-reviews/ig-review
+NORMALIZED_REGULATOR_NAME,ig,IG,Federal Financial Supervisory Authority (BaFin),BaFin,,https://brokerchooser.com/broker-reviews/ig-review
+NORMALIZED_REGULATOR_NAME,ig,IG,Financial Conduct Authority (FCA),FCA,,https://brokerchooser.com/broker-reviews/ig-review
+NORMALIZED_REGULATOR_NAME,ig,IG,Financial Sector Conduct Authority (FSCA),FSCA,,https://brokerchooser.com/broker-reviews/ig-review
+NORMALIZED_REGULATOR_NAME,ig,IG,Monetary Authority of Singapore (MAS),MAS,,https://brokerchooser.com/broker-reviews/ig-review
+NORMALIZED_REGULATOR_NAME,ig,IG,National Futures Association (NFA),NFA,,https://brokerchooser.com/broker-reviews/ig-review
+NORMALIZED_REGULATOR_NAME,ig,IG,FCA,FCA,,https://www.ig.com/en
+NORMALIZED_REGULATOR_NAME,ig,IG,ASIC,ASIC,,https://www.ig.com/en
+NORMALIZED_REGULATOR_NAME,ig,IG,DFSA,DFSA,,https://www.ig.com/en
+NORMALIZED_REGULATOR_NAME,ig,IG,MAS,MAS,,https://www.ig.com/en
+MERGED_REGULATOR_DUPLICATE,ig,IG,FCA,FCA,,https://www.ig.com/en
+MERGED_REGULATOR_DUPLICATE,ig,IG,ASIC,ASIC,,https://www.ig.com/en
+MERGED_REGULATOR_DUPLICATE,ig,IG,DFSA,DFSA,,https://www.ig.com/en
+MERGED_REGULATOR_DUPLICATE,ig,IG,MAS,MAS,,https://www.ig.com/en
+NORMALIZED_REGULATOR_NAME,interactive-brokers,Interactive Brokers,FCA,FCA,,https://www.interactivebrokers.com
+NORMALIZED_REGULATOR_NAME,interactive-brokers,Interactive Brokers,ASIC,ASIC,,https://www.interactivebrokers.com
+NORMALIZED_REGULATOR_NAME,interactive-brokers,Interactive Brokers,CIRO,CIRO,,https://www.interactivebrokers.com
+NORMALIZED_REGULATOR_NAME,ironfx,IronFX,FCA,FCA,,https://www.ironfx.co.uk/en
+NORMALIZED_REGULATOR_NAME,ironfx,IronFX,CySEC,CySEC,,https://www.ironfx.co.uk/en
+NORMALIZED_REGULATOR_NAME,ironfx,IronFX,FSCA,FSCA,,https://www.ironfx.co.uk/en
+NORMALIZED_REGULATOR_NAME,markets-com,Markets.com,Cyprus Securities and Exchange Commission (CySEC),CySEC,,https://brokerchooser.com/broker-reviews/marketsx-review
+NORMALIZED_REGULATOR_NAME,markets-com,Markets.com,Financial Sector Conduct Authority (FSCA),FSCA,,https://brokerchooser.com/broker-reviews/marketsx-review
+NORMALIZED_REGULATOR_NAME,markets-com,Markets.com,FSC Mauritius,FSC Mauritius,,https://global.markets.com
+NORMALIZED_REGULATOR_NAME,markets-com,Markets.com,ASIC,ASIC,,https://global.markets.com
+NORMALIZED_REGULATOR_NAME,markets-com,Markets.com,FCA,FCA,,https://global.markets.com
+NORMALIZED_REGULATOR_NAME,markets-com,Markets.com,FSCA,FSCA,,https://global.markets.com
+MERGED_REGULATOR_DUPLICATE,markets-com,Markets.com,FSCA,FSCA,,https://global.markets.com
+NORMALIZED_REGULATOR_NAME,merrill-edge-bank-of-america,Merrill Edge (Bank of America),Financial Industry Regulatory Authority (FINRA),FINRA,,https://brokerchooser.com/broker-reviews/merrill-edge-review
+NORMALIZED_REGULATOR_NAME,merrill-edge-bank-of-america,Merrill Edge (Bank of America),Securities and Exchange Commission (SEC),SEC,,https://brokerchooser.com/broker-reviews/merrill-edge-review
+NORMALIZED_REGULATOR_NAME,moneta-markets,Moneta Markets,Financial Conduct Authority (FCA),FCA,,https://brokerchooser.com/broker-reviews/moneta-markets-review
+NORMALIZED_REGULATOR_NAME,moneta-markets,Moneta Markets,Financial Sector Conduct Authority (FSCA),FSCA,,https://brokerchooser.com/broker-reviews/moneta-markets-review
+NORMALIZED_REGULATOR_NAME,moneta-markets,Moneta Markets,FCA,FCA,,https://www.monetamarkets.com
+NORMALIZED_REGULATOR_NAME,moneta-markets,Moneta Markets,FSCA,FSCA,,https://www.monetamarkets.com
+NORMALIZED_REGULATOR_NAME,moneta-markets,Moneta Markets,FSA Seychelles,FSA Seychelles,,https://www.monetamarkets.com
+NORMALIZED_REGULATOR_NAME,moneta-markets,Moneta Markets,FSC Mauritius,FSC Mauritius,,https://www.monetamarkets.com
+MERGED_REGULATOR_DUPLICATE,moneta-markets,Moneta Markets,FCA,FCA,,https://www.monetamarkets.com
+MERGED_REGULATOR_DUPLICATE,moneta-markets,Moneta Markets,FSCA,FSCA,,https://www.monetamarkets.com
+NORMALIZED_REGULATOR_NAME,naga,NAGA,FSA Seychelles,FSA Seychelles,,https://naga.com/
+NORMALIZED_REGULATOR_NAME,phillip-nova-phillip-metatrader-5,Phillip Nova / Phillip MetaTrader 5,MAS,MAS,,
+NORMALIZED_REGULATOR_NAME,plus500,Plus500,FCA,FCA,,https://www.plus500.com
+NORMALIZED_REGULATOR_NAME,plus500,Plus500,ASIC,ASIC,,https://www.plus500.com
+NORMALIZED_REGULATOR_NAME,plus500,Plus500,DFSA,DFSA,,https://www.plus500.com
+NORMALIZED_REGULATOR_NAME,plus500,Plus500,FSA Seychelles,FSA Seychelles,,https://www.plus500.com
+NORMALIZED_REGULATOR_NAME,plus500,Plus500,SCB,SCB,,https://www.plus500.com
+NORMALIZED_REGULATOR_NAME,plus500,Plus500,MAS,MAS,,https://www.plus500.com
+NORMALIZED_REGULATOR_NAME,plus500,Plus500,CIRO,CIRO,,https://www.plus500.com
+NORMALIZED_REGULATOR_NAME,questrade,Questrade,Canadian Investment Regulatory Organization (CIRO),CIRO,,https://brokerchooser.com/broker-reviews/questrade-review
+NORMALIZED_REGULATOR_NAME,questrade,Questrade,CIRO,CIRO,,
+MERGED_REGULATOR_DUPLICATE,questrade,Questrade,CIRO,CIRO,,
+NORMALIZED_REGULATOR_NAME,saxo-banque-france,Saxo Banque (France),FCA,FCA,,https://www.home.saxo/en-hk
+NORMALIZED_REGULATOR_NAME,saxo-banque-france,Saxo Banque (France),MAS,MAS,,https://www.home.saxo/en-hk
+NORMALIZED_REGULATOR_NAME,swissquote,Swissquote,Dubai Financial Services Authority (DFSA),DFSA,,https://brokerchooser.com/broker-reviews/swissquote-review
+NORMALIZED_REGULATOR_NAME,swissquote,Swissquote,Financial Conduct Authority,FCA,,https://brokerchooser.com/broker-reviews/swissquote-review
+NORMALIZED_REGULATOR_NAME,swissquote,Swissquote,Financial Sector Conduct Authority (FSCA),FSCA,,https://brokerchooser.com/broker-reviews/swissquote-review
+NORMALIZED_REGULATOR_NAME,swissquote,Swissquote,Hong Kong Securities and Futures Commission (SFC),SFC,,https://brokerchooser.com/broker-reviews/swissquote-review
+NORMALIZED_REGULATOR_NAME,swissquote,Swissquote,Monetary Authority of Singapore (MAS),MAS,,https://brokerchooser.com/broker-reviews/swissquote-review
+NORMALIZED_REGULATOR_NAME,swissquote,Swissquote,Swiss Financial Market Supervisory Authority (FINMA),FINMA,,https://brokerchooser.com/broker-reviews/swissquote-review
+NORMALIZED_REGULATOR_NAME,swissquote,Swissquote,FCA,FCA,,https://www.swissquote.eu/
+NORMALIZED_REGULATOR_NAME,swissquote,Swissquote,DFSA,DFSA,,https://www.swissquote.eu/
+NORMALIZED_REGULATOR_NAME,swissquote,Swissquote,MAS,MAS,,https://www.swissquote.eu/
+MERGED_REGULATOR_DUPLICATE,swissquote,Swissquote,FCA,FCA,,https://www.swissquote.eu/
+MERGED_REGULATOR_DUPLICATE,swissquote,Swissquote,DFSA,DFSA,,https://www.swissquote.eu/
+MERGED_REGULATOR_DUPLICATE,swissquote,Swissquote,MAS,MAS,,https://www.swissquote.eu/
+NORMALIZED_REGULATOR_NAME,taurex,Taurex,FCA,FCA,,https://taurex.asia/
+NORMALIZED_REGULATOR_NAME,taurex,Taurex,FSA Seychelles,FSA Seychelles,,https://taurex.asia/
+NORMALIZED_REGULATOR_NAME,titan-fx,Titan FX,FSA Seychelles,FSA Seychelles,,https://titanfx.com/
+NORMALIZED_REGULATOR_NAME,titan-fx,Titan FX,FSC Mauritius,FSC Mauritius,,https://titanfx.com/
+NORMALIZED_REGULATOR_NAME,tmgm,TMGM,ASIC,ASIC,,https://www.tmgm.com
+NORMALIZED_REGULATOR_NAME,tmgm,TMGM,FSA Seychelles,FSA Seychelles,,https://www.tmgm.com
+NORMALIZED_REGULATOR_NAME,tmgm,TMGM,FSC Mauritius,FSC Mauritius,,https://www.tmgm.com
+NORMALIZED_REGULATOR_NAME,ultima-markets,Ultima Markets,FCA,FCA,,https://www.ultimamarkets.com/
+NORMALIZED_REGULATOR_NAME,ultima-markets,Ultima Markets,FSCA,FSCA,,https://www.ultimamarkets.com/
+NORMALIZED_REGULATOR_NAME,ultima-markets,Ultima Markets,FSC Mauritius,FSC Mauritius,,https://www.ultimamarkets.com/
+NORMALIZED_REGULATOR_NAME,vantage-vantage-markets,Vantage (Vantage Markets),Australian Securities and Investment Commission (ASIC),ASIC,,https://brokerchooser.com/broker-reviews/vantage-markets-review
+NORMALIZED_REGULATOR_NAME,vantage-vantage-markets,Vantage (Vantage Markets),Financial Conduct Authority (FCA),FCA,,https://brokerchooser.com/broker-reviews/vantage-markets-review
+NORMALIZED_REGULATOR_NAME,vantage-vantage-markets,Vantage (Vantage Markets),ASIC,ASIC,,https://en.vantage-markets.com/
+NORMALIZED_REGULATOR_NAME,vantage-vantage-markets,Vantage (Vantage Markets),FSCA,FSCA,,https://en.vantage-markets.com/
+MERGED_REGULATOR_DUPLICATE,vantage-vantage-markets,Vantage (Vantage Markets),ASIC,ASIC,,https://en.vantage-markets.com/
+NORMALIZED_REGULATOR_NAME,vt-markets,VT Markets,Australian Securities and Investments Commission (ASIC),ASIC,,https://brokerchooser.com/broker-reviews/vt-markets-review
+NORMALIZED_REGULATOR_NAME,vt-markets,VT Markets,Mauritius Financial Services Commission (FSC),FSC Mauritius,,https://brokerchooser.com/broker-reviews/vt-markets-review
+NORMALIZED_REGULATOR_NAME,vt-markets,VT Markets,ASIC,ASIC,,https://www.vtmarkets.com/
+NORMALIZED_REGULATOR_NAME,vt-markets,VT Markets,FSCA,FSCA,,https://www.vtmarkets.com/
+NORMALIZED_REGULATOR_NAME,vt-markets,VT Markets,FSC Mauritius,FSC Mauritius,,https://www.vtmarkets.com/
+MERGED_REGULATOR_DUPLICATE,vt-markets,VT Markets,ASIC,ASIC,,https://www.vtmarkets.com/
+MERGED_REGULATOR_DUPLICATE,vt-markets,VT Markets,FSC Mauritius,FSC Mauritius,,https://www.vtmarkets.com/
+NORMALIZED_REGULATOR_NAME,windsor-brokers,Windsor Brokers,CySEC,CySEC,,https://en.windsorbrokers.eu/
+NORMALIZED_REGULATOR_NAME,windsor-brokers,Windsor Brokers,FSA Seychelles,FSA Seychelles,,https://en.windsorbrokers.eu/
+NORMALIZED_REGULATOR_NAME,xm-group,XM Group,ASIC,ASIC,,https://www.xm.com
+NORMALIZED_REGULATOR_NAME,xm-group,XM Group,FSCA,FSCA,,https://www.xm.com
+NORMALIZED_REGULATOR_NAME,xm-group,XM Group,DFSA,DFSA,,https://www.xm.com
+NORMALIZED_REGULATOR_NAME,colmex-pro-ltd,Colmex Pro Ltd,FSCA,FSCA,,https://www.colmexpro.com/
+NORMALIZED_REGULATOR_NAME,doto-europe-ltd-ex-vasby-capital-markets-ltd,Doto Europe Ltd (Ex Vasby Capital Markets Ltd),FSCA,FSCA,,https://doto.com/
+NORMALIZED_REGULATOR_NAME,doto-europe-ltd-ex-vasby-capital-markets-ltd,Doto Europe Ltd (Ex Vasby Capital Markets Ltd),FSA Seychelles,FSA Seychelles,,https://doto.com/
+NORMALIZED_REGULATOR_NAME,doto-europe-ltd-ex-vasby-capital-markets-ltd,Doto Europe Ltd (Ex Vasby Capital Markets Ltd),FSC Mauritius,FSC Mauritius,,https://doto.com/
+NORMALIZED_REGULATOR_NAME,eto-markets,ETO Markets,ASIC,ASIC,,https://www.eto.group/english/index.html
+NORMALIZED_REGULATOR_NAME,eto-markets,ETO Markets,FSA Seychelles,FSA Seychelles,,https://www.eto.group/english/index.html
+NORMALIZED_REGULATOR_NAME,fxopen-eu-ltd,FXOpen EU Ltd,FCA,FCA,,https://www.fxopen.com/en
+NORMALIZED_REGULATOR_NAME,go-markets-ltd-ex-galactus-ltd,Go Markets Ltd (ex Galactus Ltd),ASIC,ASIC,,https://www.gomarkets.com/en/
+NORMALIZED_REGULATOR_NAME,go-markets-ltd-ex-galactus-ltd,Go Markets Ltd (ex Galactus Ltd),FSA Seychelles,FSA Seychelles,,https://www.gomarkets.com/en/
+NORMALIZED_REGULATOR_NAME,lmax-broker-europe-ltd,LMAX Broker Europe Ltd,FCA,FCA,,https://www.lmax.com/
+NORMALIZED_REGULATOR_NAME,robomarkets-ltd,Robomarkets Ltd,FSA Seychelles,FSA Seychelles,,https://www.robomarkets.com.cy/
+NORMALIZED_REGULATOR_NAME,tickmill-europe-ltd,Tickmill Europe Ltd,FCA,FCA,,https://www.tickmill.com/
+NORMALIZED_REGULATOR_NAME,tickmill-europe-ltd,Tickmill Europe Ltd,FSCA,FSCA,,https://www.tickmill.com/
+NORMALIZED_REGULATOR_NAME,trading-212-markets-ltd,Trading 212 Markets Ltd,FCA,FCA,,https://www.trading212.com/en
+NORMALIZED_REGULATOR_NAME,trading-212-markets-ltd,Trading 212 Markets Ltd,ASIC,ASIC,,https://www.trading212.com/en
+NORMALIZED_REGULATOR_NAME,xtb-ltd,XTB Ltd,FCA,FCA,,https://www.xtb.com/en
+NORMALIZED_REGULATOR_NAME,axi,Axi,FCA,FCA,,https://www.axi.com/int
+NORMALIZED_REGULATOR_NAME,axi,Axi,ASIC,ASIC,,https://www.axi.com/int
+NORMALIZED_REGULATOR_NAME,axi,Axi,CySEC,CySEC,,https://www.axi.com/int
+NORMALIZED_REGULATOR_NAME,axi,Axi,DFSA,DFSA,,https://www.axi.com/int
+NORMALIZED_REGULATOR_NAME,b2broker,B2BROKER,CySEC,CySEC,,https://b2broker.com/
+NORMALIZED_REGULATOR_NAME,b2broker,B2BROKER,FSCA,FSCA,,https://b2broker.com/
+NORMALIZED_REGULATOR_NAME,b2broker,B2BROKER,DFSA,DFSA,,https://b2broker.com/
+NORMALIZED_REGULATOR_NAME,b2broker,B2BROKER,FSA Seychelles,FSA Seychelles,,https://b2broker.com/
+NORMALIZED_REGULATOR_NAME,b2broker,B2BROKER,FSC Mauritius,FSC Mauritius,,https://b2broker.com/
+NORMALIZED_REGULATOR_NAME,ec-markets,EC markets,FCA,FCA,,https://www.ecmarkets.com/
+NORMALIZED_REGULATOR_NAME,ec-markets,EC markets,ASIC,ASIC,,https://www.ecmarkets.com/
+NORMALIZED_REGULATOR_NAME,ec-markets,EC markets,FSCA,FSCA,,https://www.ecmarkets.com/
+NORMALIZED_REGULATOR_NAME,ec-markets,EC markets,FSA Seychelles,FSA Seychelles,,https://www.ecmarkets.com/
+NORMALIZED_REGULATOR_NAME,ec-markets,EC markets,FSC Mauritius,FSC Mauritius,,https://www.ecmarkets.com/
+NORMALIZED_REGULATOR_NAME,trade-nation,TRADE NATION,FCA,FCA,,https://tradenation.com/
+NORMALIZED_REGULATOR_NAME,trade-nation,TRADE NATION,ASIC,ASIC,,https://tradenation.com/
+NORMALIZED_REGULATOR_NAME,trade-nation,TRADE NATION,FSCA,FSCA,,https://tradenation.com/
+NORMALIZED_REGULATOR_NAME,trade-nation,TRADE NATION,FSA Seychelles,FSA Seychelles,,https://tradenation.com/
+NORMALIZED_REGULATOR_NAME,trade-nation,TRADE NATION,SCB,SCB,,https://tradenation.com/
+NORMALIZED_REGULATOR_NAME,capital-com,capital.com,FCA,FCA,,https://capital.com
+NORMALIZED_REGULATOR_NAME,capital-com,capital.com,ASIC,ASIC,,https://capital.com
+NORMALIZED_REGULATOR_NAME,capital-com,capital.com,CySEC,CySEC,,https://capital.com
+NORMALIZED_REGULATOR_NAME,capital-com,capital.com,SCB,SCB,,https://capital.com
+NORMALIZED_REGULATOR_NAME,dbg-markets,DBG MARKETS,FCA,FCA,,https://www.dbgmarketsglobal.com/
+NORMALIZED_REGULATOR_NAME,dbg-markets,DBG MARKETS,ASIC,ASIC,,https://www.dbgmarketsglobal.com/
+NORMALIZED_REGULATOR_NAME,dbg-markets,DBG MARKETS,FSCA,FSCA,,https://www.dbgmarketsglobal.com/
+NORMALIZED_REGULATOR_NAME,finalto,Finalto,FCA,FCA,,https://www.finaltotrading.com/
+NORMALIZED_REGULATOR_NAME,finalto,Finalto,ASIC,ASIC,,https://www.finaltotrading.com/
+NORMALIZED_REGULATOR_NAME,finalto,Finalto,CySEC,CySEC,,https://www.finaltotrading.com/
+NORMALIZED_REGULATOR_NAME,hfm,HFM,FCA,FCA,,https://www.hfm.com/
+NORMALIZED_REGULATOR_NAME,hfm,HFM,FSCA,FSCA,,https://www.hfm.com/
+NORMALIZED_REGULATOR_NAME,hfm,HFM,FSA Seychelles,FSA Seychelles,,https://www.hfm.com/
+NORMALIZED_REGULATOR_NAME,hfm,HFM,FSC Mauritius,FSC Mauritius,,https://www.hfm.com/
+NORMALIZED_REGULATOR_NAME,ic,IC,ASIC,ASIC,,https://www.icmarkets.sc/en/
+NORMALIZED_REGULATOR_NAME,ic,IC,CySEC,CySEC,,https://www.icmarkets.sc/en/
+NORMALIZED_REGULATOR_NAME,ic,IC,FSA Seychelles,FSA Seychelles,,https://www.icmarkets.sc/en/
+NORMALIZED_REGULATOR_NAME,interstellar,InterStellar,CySEC,CySEC,,https://www.fisg.com/
+NORMALIZED_REGULATOR_NAME,interstellar,InterStellar,FSCA,FSCA,,https://www.fisg.com/
+NORMALIZED_REGULATOR_NAME,interstellar,InterStellar,FSA Seychelles,FSA Seychelles,,https://www.fisg.com/
+NORMALIZED_REGULATOR_NAME,mitrade,Mitrade,ASIC,ASIC,,https://www.mitrade.com
+NORMALIZED_REGULATOR_NAME,mitrade,Mitrade,CySEC,CySEC,,https://www.mitrade.com
+NORMALIZED_REGULATOR_NAME,mitrade,Mitrade,FSCA,FSCA,,https://www.mitrade.com
+NORMALIZED_REGULATOR_NAME,mitrade,Mitrade,FSC Mauritius,FSC Mauritius,,https://www.mitrade.com
+NORMALIZED_REGULATOR_NAME,pu-prime,PU Prime,ASIC,ASIC,,https://www.puprime.com/
+NORMALIZED_REGULATOR_NAME,pu-prime,PU Prime,FSCA,FSCA,,https://www.puprime.com/
+NORMALIZED_REGULATOR_NAME,pu-prime,PU Prime,FSA Seychelles,FSA Seychelles,,https://www.puprime.com/
+NORMALIZED_REGULATOR_NAME,pu-prime,PU Prime,FSC Mauritius,FSC Mauritius,,https://www.puprime.com/
+NORMALIZED_REGULATOR_NAME,sbcfx,SBCFX,ASIC,ASIC,,https://www.sbcfx.vip
+NORMALIZED_REGULATOR_NAME,sbcfx,SBCFX,FSCA,FSCA,,https://www.sbcfx.vip
+NORMALIZED_REGULATOR_NAME,sbcfx,SBCFX,FSA Seychelles,FSA Seychelles,,https://www.sbcfx.vip
+NORMALIZED_REGULATOR_NAME,startrader,STARTRADER,ASIC,ASIC,,https://www.startrader.com
+NORMALIZED_REGULATOR_NAME,startrader,STARTRADER,FSCA,FSCA,,https://www.startrader.com
+NORMALIZED_REGULATOR_NAME,startrader,STARTRADER,FSA Seychelles,FSA Seychelles,,https://www.startrader.com
+NORMALIZED_REGULATOR_NAME,startrader,STARTRADER,FSC Mauritius,FSC Mauritius,,https://www.startrader.com
+NORMALIZED_REGULATOR_NAME,velocity-trade,VELOCITY TRADE,FCA,FCA,,https://velocitytrade.com/
+NORMALIZED_REGULATOR_NAME,velocity-trade,VELOCITY TRADE,ASIC,ASIC,,https://velocitytrade.com/
+NORMALIZED_REGULATOR_NAME,velocity-trade,VELOCITY TRADE,FSCA,FSCA,,https://velocitytrade.com/
+NORMALIZED_REGULATOR_NAME,velocity-trade,VELOCITY TRADE,MAS,MAS,,https://velocitytrade.com/
+NORMALIZED_REGULATOR_NAME,velocity-trade,VELOCITY TRADE,CIRO,CIRO,,https://velocitytrade.com/
+NORMALIZED_REGULATOR_NAME,xs,XS,CySEC,CySEC,,https://xs.com/
+NORMALIZED_REGULATOR_NAME,xs,XS,FSCA,FSCA,,https://xs.com/
+NORMALIZED_REGULATOR_NAME,xs,XS,FSA Seychelles,FSA Seychelles,,https://xs.com/
+NORMALIZED_REGULATOR_NAME,accm,ACCM,FSCA,FSCA,,https://accmfx.com/
+NORMALIZED_REGULATOR_NAME,accm,ACCM,FSA Seychelles,FSA Seychelles,,https://accmfx.com/
+NORMALIZED_REGULATOR_NAME,accm,ACCM,ASIC,ASIC,,https://accmfx.com/
+NORMALIZED_REGULATOR_NAME,acy-securities,ACY Securities,ASIC,ASIC,,https://acy.com
+NORMALIZED_REGULATOR_NAME,acy-securities,ACY Securities,FSCA,FSCA,,https://acy.com
+NORMALIZED_REGULATOR_NAME,amana,amana,CySEC,CySEC,,https://amana.app/
+NORMALIZED_REGULATOR_NAME,amana,amana,DFSA,DFSA,,https://amana.app/
+NORMALIZED_REGULATOR_NAME,aus-global,AUS Global,CySEC,CySEC,,https://www.ausglobaluk.com/
+NORMALIZED_REGULATOR_NAME,aus-global,AUS Global,FSCA,FSCA,,https://www.ausglobaluk.com/
+NORMALIZED_REGULATOR_NAME,aus-global,AUS Global,FSC Mauritius,FSC Mauritius,,https://www.ausglobaluk.com/
+NORMALIZED_REGULATOR_NAME,axpm,AXPM,ASIC,ASIC,,https://axpmprime.com
+NORMALIZED_REGULATOR_NAME,axpm,AXPM,FSCA,FSCA,,https://axpmprime.com
+NORMALIZED_REGULATOR_NAME,cpt-markets,CPT Markets,FCA,FCA,,https://cptmarkets.com
+NORMALIZED_REGULATOR_NAME,cpt-markets,CPT Markets,FSCA,FSCA,,https://cptmarkets.com
+NORMALIZED_REGULATOR_NAME,cxm-2,CXM,FCA,FCA,,https://www.cxmtrading.com/en/
+NORMALIZED_REGULATOR_NAME,cxm-2,CXM,FSA Seychelles,FSA Seychelles,,https://www.cxmtrading.com/en/
+NORMALIZED_REGULATOR_NAME,cxm-2,CXM,FSC Mauritius,FSC Mauritius,,https://www.cxmtrading.com/en/
+NORMALIZED_REGULATOR_NAME,gbe-brokers,GBE brokers,CySEC,CySEC,,https://gbebrokers.global/
+NORMALIZED_REGULATOR_NAME,gbe-brokers,GBE brokers,FSA Seychelles,FSA Seychelles,,https://gbebrokers.global/
+NORMALIZED_REGULATOR_NAME,global-futures-services,GLOBAL FUTURES SERVICES,ASIC,ASIC,,https://gfsfutures.com/
+NORMALIZED_REGULATOR_NAME,global-futures-services,GLOBAL FUTURES SERVICES,FSCA,FSCA,,https://gfsfutures.com/
+NORMALIZED_REGULATOR_NAME,gtcfx,GTCFX,FCA,FCA,,https://www.gtcfx.com
+NORMALIZED_REGULATOR_NAME,gtcfx,GTCFX,ASIC,ASIC,,https://www.gtcfx.com
+NORMALIZED_REGULATOR_NAME,gtcfx,GTCFX,FSC Mauritius,FSC Mauritius,,https://www.gtcfx.com
+NORMALIZED_REGULATOR_NAME,macro,MACRO,ASIC,ASIC,,https://www.macroglobalmarkets.com/home
+NORMALIZED_REGULATOR_NAME,macro,MACRO,FSA Seychelles,FSA Seychelles,,https://www.macroglobalmarkets.com/home
+NORMALIZED_REGULATOR_NAME,neex,Neex,ASIC,ASIC,,https://www.neex.com/
+NORMALIZED_REGULATOR_NAME,neex,Neex,FSCA,FSCA,,https://www.neex.com/
+NORMALIZED_REGULATOR_NAME,orbex-2,Orbex,CySEC,CySEC,,https://www.orbex.com.cy/
+NORMALIZED_REGULATOR_NAME,orbex-2,Orbex,FSA Seychelles,FSA Seychelles,,https://www.orbex.com.cy/
+NORMALIZED_REGULATOR_NAME,orbex-2,Orbex,FSC Mauritius,FSC Mauritius,,https://www.orbex.com.cy/
+NORMALIZED_REGULATOR_NAME,pgmarkets,PGMarkets,FSCA,FSCA,,https://www.pg-markets.com/en/
+NORMALIZED_REGULATOR_NAME,pgmarkets,PGMarkets,FSA Seychelles,FSA Seychelles,,https://www.pg-markets.com/en/
+NORMALIZED_REGULATOR_NAME,plotio,PLOTIO,ASIC,ASIC,,https://en.plotioglobal-group.com/
+NORMALIZED_REGULATOR_NAME,plotio,PLOTIO,FSA Seychelles,FSA Seychelles,,https://en.plotioglobal-group.com/
+NORMALIZED_REGULATOR_NAME,plotio,PLOTIO,SCB,SCB,,https://en.plotioglobal-group.com/
+NORMALIZED_REGULATOR_NAME,squaredfinancial,squaredfinancial,CySEC,CySEC,,https://www.sqfin.com/
+NORMALIZED_REGULATOR_NAME,squaredfinancial,squaredfinancial,FSA Seychelles,FSA Seychelles,,https://www.sqfin.com/
+NORMALIZED_REGULATOR_NAME,tradequo,TradeQuo,FSCA,FSCA,,https://www.tradequo.com/
+NORMALIZED_REGULATOR_NAME,tradequo,TradeQuo,FSA Seychelles,FSA Seychelles,,https://www.tradequo.com/
+NORMALIZED_REGULATOR_NAME,trust-capital,trust Capital,CySEC,CySEC,,https://trustcapital.com/
+NORMALIZED_REGULATOR_NAME,trust-capital,trust Capital,FSA Seychelles,FSA Seychelles,,https://trustcapital.com/
+NORMALIZED_REGULATOR_NAME,valutrades,VALUTRADES,FCA,FCA,,http://www.valutrades.com/
+NORMALIZED_REGULATOR_NAME,valutrades,VALUTRADES,FSA Seychelles,FSA Seychelles,,http://www.valutrades.com/
+NORMALIZED_REGULATOR_NAME,zfx,ZFX,FCA,FCA,,https://www.zfx.com/en/
+NORMALIZED_REGULATOR_NAME,zfx,ZFX,FSA Seychelles,FSA Seychelles,,https://www.zfx.com/en/
+NORMALIZED_REGULATOR_NAME,acetop,Acetop,FCA,FCA,,http://www.acetop.uk/
+NORMALIZED_REGULATOR_NAME,adm,ADM,FCA,FCA,,https://www.admis.com.sg/
+NORMALIZED_REGULATOR_NAME,aegon-asset-management,Aegon Asset Management,FCA,FCA,,https://www.aegonam.com/
+NORMALIZED_REGULATOR_NAME,afterprime,Afterprime,FSA Seychelles,FSA Seychelles,,https://afterprime.com
+NORMALIZED_REGULATOR_NAME,aims,AIMS,ASIC,ASIC,,https://www.aimsfx.com/
+NORMALIZED_REGULATOR_NAME,aimscap,AIMSCAP,ASIC,ASIC,,https://aimscap.com
+NORMALIZED_REGULATOR_NAME,alchemy-markets,Alchemy Markets,FSA Seychelles,FSA Seychelles,,
+NORMALIZED_REGULATOR_NAME,atc-brokers,ATC BROKERS,FCA,FCA,,https://atcbrokers.co.uk/
+NORMALIZED_REGULATOR_NAME,bbh,BBH,FCA,FCA,,https://www.bbh.com/en-us
+NORMALIZED_REGULATOR_NAME,bcr,BCR,ASIC,ASIC,,https://au.thebcr.com/
+NORMALIZED_REGULATOR_NAME,blueberry,Blueberry,ASIC,ASIC,,https://www.blueberrymarkets.com/
+NORMALIZED_REGULATOR_NAME,blueberry,Blueberry,FSC Mauritius,FSC Mauritius,,https://www.blueberrymarkets.com/
+NORMALIZED_REGULATOR_NAME,cwg-markets,CWG Markets,FSCA,FSCA,,https://www.cwgplatform.com/
+NORMALIZED_REGULATOR_NAME,darwinex,darwinex,FCA,FCA,,https://www.darwinex.com/
+NORMALIZED_REGULATOR_NAME,decodefx,DecodeFX,ASIC,ASIC,,https://decodefx.com/en/
+NORMALIZED_REGULATOR_NAME,fortune-prime-global,Fortune Prime Global,ASIC,ASIC,,https://fortuneprime.com/
+NORMALIZED_REGULATOR_NAME,gegold,GeGold,FSA Seychelles,FSA Seychelles,,https://www.gegoldtrade.com/
+NORMALIZED_REGULATOR_NAME,harmovest-capital,Harmovest Capital,CySEC,CySEC,,https://hamovest.com/
+NORMALIZED_REGULATOR_NAME,idealing-com,iDealing.com,FCA,FCA,,https://www.idealing.com
+NORMALIZED_REGULATOR_NAME,iux,IUX,FSCA,FSCA,,https://iux.com/en
+NORMALIZED_REGULATOR_NAME,iux,IUX,FSC Mauritius,FSC Mauritius,,https://iux.com/en
+NORMALIZED_REGULATOR_NAME,jefferies,Jefferies,FCA,FCA,,http://www.jefferies.com/
+NORMALIZED_REGULATOR_NAME,jefferies,Jefferies,CIRO,CIRO,,http://www.jefferies.com/
+NORMALIZED_REGULATOR_NAME,kcm-trade,KCM Trade,ASIC,ASIC,,https://www.kcmtrade.com/
+NORMALIZED_REGULATOR_NAME,kcm-trade,KCM Trade,FSC Mauritius,FSC Mauritius,,https://www.kcmtrade.com/
+NORMALIZED_REGULATOR_NAME,lirunex,Lirunex,CySEC,CySEC,,https://lirunex.com/
+NORMALIZED_REGULATOR_NAME,lirunex,Lirunex,FSC Mauritius,FSC Mauritius,,https://lirunex.com/
+NORMALIZED_REGULATOR_NAME,ltg,LTG,FSA Seychelles,FSA Seychelles,,https://www.ltgmarkets.com/
+NORMALIZED_REGULATOR_NAME,ltg,LTG,ASIC,ASIC,,https://www.ltgmarkets.com/
+NORMALIZED_REGULATOR_NAME,m4markets,M4Markets,DFSA,DFSA,,https://www.m4markets.com/
+NORMALIZED_REGULATOR_NAME,make-capital,Make Capital,FSCA,FSCA,,https://www.makecapital.com/
+NORMALIZED_REGULATOR_NAME,make-capital,Make Capital,FSC Mauritius,FSC Mauritius,,https://www.makecapital.com/
+NORMALIZED_REGULATOR_NAME,mega-fusion,MEGA FUSION,FSCA,FSCA,,https://www.mega-fusion.com/
+NORMALIZED_REGULATOR_NAME,mega-fusion,MEGA FUSION,FSC Mauritius,FSC Mauritius,,https://www.mega-fusion.com/
+NORMALIZED_REGULATOR_NAME,mh-markets,MH Markets,FSCA,FSCA,,http://tamrontech.com/
+NORMALIZED_REGULATOR_NAME,mh-markets,MH Markets,FSC Mauritius,FSC Mauritius,,http://tamrontech.com/
+NORMALIZED_REGULATOR_NAME,ncm,NCM,FCA,FCA,,https://www.ncminvest.com/
+NORMALIZED_REGULATOR_NAME,oexn,OEXN,CySEC,CySEC,,https://www.oexn.global/
+NORMALIZED_REGULATOR_NAME,oexn,OEXN,FSC Mauritius,FSC Mauritius,,https://www.oexn.global/
+NORMALIZED_REGULATOR_NAME,ofx,OFX,ASIC,ASIC,,https://www.ofx.com/en-au/
+NORMALIZED_REGULATOR_NAME,onsafx,OnsaFX,FSCA,FSCA,,https://onsafx.com/
+NORMALIZED_REGULATOR_NAME,otso-markets,OTSO Markets,FSCA,FSCA,,https://www.otsomarkets.com
+NORMALIZED_REGULATOR_NAME,otso-markets,OTSO Markets,ASIC,ASIC,,https://www.otsomarkets.com
+NORMALIZED_REGULATOR_NAME,rkx,RKX,FSCA,FSCA,,https://www.rkx.com/
+NORMALIZED_REGULATOR_NAME,rs-finance,RS Finance,FSA Seychelles,FSA Seychelles,,https://rs-fin.com
+NORMALIZED_REGULATOR_NAME,scope-markets,Scope Markets,FSCA,FSCA,,https://www.scopemarkets.com/en/
+NORMALIZED_REGULATOR_NAME,sigma,Sigma,DFSA,DFSA,,http://www.sigma-broking.com
+NORMALIZED_REGULATOR_NAME,spreadex,SPREADEX,FCA,FCA,,https://www.spreadex.com/financials/
+NORMALIZED_REGULATOR_NAME,tavira,Tavira,DFSA,DFSA,,http://tavira.group/
+NORMALIZED_REGULATOR_NAME,tier1fx,tier1fx,CySEC,CySEC,,https://www.tier1fx.com
+NORMALIZED_REGULATOR_NAME,tiger-brokers,TIGER BROKERS,ASIC,ASIC,,https://www.itiger.com/hk/en/
+NORMALIZED_REGULATOR_NAME,traders-hub,Traders’ Hub,FSA Seychelles,FSA Seychelles,,https://tradershub.ae
+NORMALIZED_REGULATOR_NAME,traze,traze,FSCA,FSCA,,https://traze.com/
+NORMALIZED_REGULATOR_NAME,trive,Trive,FSCA,FSCA,,https://www.trive.com/int/
+NORMALIZED_REGULATOR_NAME,trive,Trive,FSC Mauritius,FSC Mauritius,,https://www.trive.com/int/
+NORMALIZED_REGULATOR_NAME,uexo,uexo,FSCA,FSCA,,https://uexo.com/
+NORMALIZED_REGULATOR_NAME,uexo,uexo,FSC Mauritius,FSC Mauritius,,https://uexo.com/
+NORMALIZED_REGULATOR_NAME,uiic,UIIC,FCA,FCA,,http://www.uiic.co.uk
+NORMALIZED_REGULATOR_NAME,vaha,VAHA,FSCA,FSCA,,https://www.vahatrade.com
+NORMALIZED_REGULATOR_NAME,wetrade,WeTrade,FSA Seychelles,FSA Seychelles,,https://www.wetrade.com/
+NORMALIZED_REGULATOR_NAME,zifi-markets-ltd,ZIFI Markets Ltd,FSCA,FSCA,,https://www.zifimarketsltd.com/
+NORMALIZED_REGULATOR_NAME,forexmart,ForexMart,CySEC,CySEC,,https://theforexmart.com/
+NORMALIZED_REGULATOR_NAME,forexmart,ForexMart,FCA,FCA,,https://theforexmart.com/
+NORMALIZED_REGULATOR_NAME,mcprime,MCPRIME,CySEC,CySEC,,https://www.mc-prime.com/en/
+NORMALIZED_REGULATOR_NAME,mcprime,MCPRIME,FSC Mauritius,FSC Mauritius,,https://www.mc-prime.com/en/
+NORMALIZED_REGULATOR_NAME,alvexo,Alvexo,CySEC,CySEC,,http://www.alvexo.com/
+NORMALIZED_REGULATOR_NAME,alvexo,Alvexo,FSA Seychelles,FSA Seychelles,,http://www.alvexo.com/
+NORMALIZED_REGULATOR_NAME,blackwell-global,BLACKWELL GLOBAL,SCB,SCB,,https://www.blackwellglobal.com/
+NORMALIZED_REGULATOR_NAME,axion-trade,AXION TRADE,FSA Seychelles,FSA Seychelles,,https://axiontrade.net/en
+NORMALIZED_REGULATOR_NAME,quantfury,QUANTFURY,SCB,SCB,,https://quantfury.com/
+NORMALIZED_REGULATOR_NAME,quantfury,QUANTFURY,FCA,FCA,,https://quantfury.com/
+NORMALIZED_REGULATOR_NAME,quantfury,QUANTFURY,FINRA,FINRA,,https://quantfury.com/
+NORMALIZED_REGULATOR_NAME,infinox,INFINOX,SCB,SCB,,
+NORMALIZED_REGULATOR_NAME,infinox,INFINOX,FCA,FCA,,
+NORMALIZED_REGULATOR_NAME,st-global-markets,ST Global Markets,SCB,SCB,,https://stgmarkets.com/
+NORMALIZED_REGULATOR_NAME,palm-capital,PALM CAPITAL,SCB,SCB,,https://www.palmglobalcapital.com/en
+NORMALIZED_REGULATOR_NAME,fixio,FIXIO,SCB,SCB,,https://fixiomarkets.com/en/home
+NORMALIZED_REGULATOR_NAME,cgs-international,CGS International,MAS,MAS,,https://www.cgsi.co.th
+NORMALIZED_REGULATOR_NAME,trive-invest,trive invest,ASIC,ASIC,,https://www.triveinvest.co.id/
+NORMALIZED_REGULATOR_NAME,moomoo,Moomoo,MAS,MAS,,
+NORMALIZED_REGULATOR_NAME,usmart,uSMART,MAS,MAS,,
+NORMALIZED_REGULATOR_NAME,orient-securities,ORIENT SECURITIES,MAS,MAS,,
+NORMALIZED_REGULATOR_NAME,blackrock,Blackrock,MAS,MAS,,
+NORMALIZED_REGULATOR_NAME,stonex,StoneX,MAS,MAS,,
+NORMALIZED_REGULATOR_NAME,kgi,KGI,MAS,MAS,,
+NORMALIZED_REGULATOR_NAME,phillip-nova,Phillip Nova,MAS,MAS,,
+NORMALIZED_REGULATOR_NAME,ocbc,OCBC,MAS,MAS,,
+NORMALIZED_REGULATOR_NAME,starx-capital-markets,STARX CAPITAL MARKETS,MAS,MAS,,
+NORMALIZED_REGULATOR_NAME,straits-financial,Straits Financial,MAS,MAS,,
+NORMALIZED_REGULATOR_NAME,tickrs,tickrs,MAS,MAS,,
+NORMALIZED_REGULATOR_NAME,lunaro,Lunaro,ADGM,ADGM,,
+NORMALIZED_REGULATOR_NAME,focus-markets,FOCUS Markets,FSC Mauritius,FSC Mauritius,,
+NORMALIZED_REGULATOR_NAME,intertrader,INTERTRADER,FSC Mauritius,FSC Mauritius,,
+NORMALIZED_REGULATOR_NAME,tjm,TJM,FINRA,FINRA,,
+NORMALIZED_REGULATOR_NAME,ci-direct-investing,CI DIRECT INVESTING,CIRO,CIRO,,
+NORMALIZED_REGULATOR_NAME,cg-direct,cg/ Direct,CIRO,CIRO,,
+NORMALIZED_REGULATOR_NAME,rbc,RBC,CIRO,CIRO,,
+NORMALIZED_REGULATOR_NAME,rbc-securities,RBC Securities,CIRO,CIRO,,
+NORMALIZED_REGULATOR_NAME,odlum-brown,Odlum Brown,CIRO,CIRO,,
+NORMALIZED_REGULATOR_NAME,candeal,CANDEAL,CIRO,CIRO,,
+NORMALIZED_REGULATOR_NAME,r-j-o-brien,R.J.O'Brien,CIRO,CIRO,,
+NORMALIZED_REGULATOR_NAME,jitneytrade,Jitneytrade,CIRO,CIRO,,
+NORMALIZED_REGULATOR_NAME,argosy-securities,Argosy Securities,CIRO,CIRO,,
+NORMALIZED_REGULATOR_NAME,ventum-financial,Ventum Financial,CIRO,CIRO,,
+NORMALIZED_REGULATOR_NAME,jonestrading,JonesTrading,CIRO,CIRO,,
+NORMALIZED_REGULATOR_NAME,dupoin,Dupoin,FSC Mauritius,FSC Mauritius,,
+NORMALIZED_REGULATOR_NAME,kvb,KVB,FSC Mauritius,FSC Mauritius,,
+NORMALIZED_REGULATOR_NAME,valetax,Valetax,FSC Mauritius,FSC Mauritius,,
+NORMALIZED_REGULATOR_NAME,xs-com,XS.com,FSC Mauritius,FSC Mauritius,,
+NORMALIZED_REGULATOR_NAME,aetram,AETRAM,FSC Mauritius,FSC Mauritius,,
+NORMALIZED_REGULATOR_NAME,aurum-markets,AURUM MARKETS,FSC Mauritius,FSC Mauritius,,
+NORMALIZED_REGULATOR_NAME,varianse,VARIANSE,FSC Mauritius,FSC Mauritius,,
+NORMALIZED_REGULATOR_NAME,capitalxtend,CapitalXtend,FSC Mauritius,FSC Mauritius,,
+NORMALIZED_REGULATOR_NAME,amillex,Amillex,FSC Mauritius,FSC Mauritius,,
+NORMALIZED_REGULATOR_NAME,wisuno,Wisuno,FSC Mauritius,FSC Mauritius,,
+NORMALIZED_REGULATOR_NAME,zero,ZERO,FSC Mauritius,FSC Mauritius,,
+NORMALIZED_REGULATOR_NAME,spec-markets,Spec Markets,FSC Mauritius,FSC Mauritius,,
+NORMALIZED_REGULATOR_NAME,godo,GODO,FSC Mauritius,FSC Mauritius,,

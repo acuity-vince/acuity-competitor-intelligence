@@ -24,6 +24,58 @@ def norm_name(value: str | None) -> str:
     return re.sub(r"[^a-z0-9]", "", value)
 
 
+REGULATOR_ALIASES = {
+    "adgm": ("ADGM", "Financial Services Regulatory Authority of Abu Dhabi Global Market"),
+    "abudhabiglobalmarketauthoritiesfinancialservicesregulatoryauthority": ("ADGM", "Financial Services Regulatory Authority of Abu Dhabi Global Market"),
+    "asic": ("ASIC", "Australian Securities and Investments Commission"),
+    "australiansecuritiesandinvestmentcommission": ("ASIC", "Australian Securities and Investments Commission"),
+    "australiansecuritiesandinvestmentscommission": ("ASIC", "Australian Securities and Investments Commission"),
+    "bafin": ("BaFin", "Federal Financial Supervisory Authority"),
+    "bundesanstaltfurfinanzdienstleistungsaufsicht": ("BaFin", "Federal Financial Supervisory Authority"),
+    "federalfinancialsupervisoryauthority": ("BaFin", "Federal Financial Supervisory Authority"),
+    "ciro": ("CIRO", "Canadian Investment Regulatory Organization"),
+    "canadianinvestmentregulatoryorganization": ("CIRO", "Canadian Investment Regulatory Organization"),
+    "cftc": ("CFTC", "Commodity Futures Trading Commission"),
+    "commodityfuturestradingcommission": ("CFTC", "Commodity Futures Trading Commission"),
+    "cysec": ("CySEC", "Cyprus Securities and Exchange Commission"),
+    "cyprussecuritiesandexchangecommission": ("CySEC", "Cyprus Securities and Exchange Commission"),
+    "dfsa": ("DFSA", "Dubai Financial Services Authority"),
+    "dubaifinancialservicesauthority": ("DFSA", "Dubai Financial Services Authority"),
+    "fca": ("FCA", "Financial Conduct Authority"),
+    "financialconductauthority": ("FCA", "Financial Conduct Authority"),
+    "finma": ("FINMA", "Swiss Financial Market Supervisory Authority"),
+    "swissfinancialmarketsupervisoryauthority": ("FINMA", "Swiss Financial Market Supervisory Authority"),
+    "finra": ("FINRA", "Financial Industry Regulatory Authority"),
+    "financialindustryregulatoryauthority": ("FINRA", "Financial Industry Regulatory Authority"),
+    "fsaseychelles": ("FSA Seychelles", "Seychelles Financial Services Authority"),
+    "financialservicesauthorityofseychelles": ("FSA Seychelles", "Seychelles Financial Services Authority"),
+    "seychellesfinancialservicesauthority": ("FSA Seychelles", "Seychelles Financial Services Authority"),
+    "seychellesfinancialsupervisoryauthority": ("FSA Seychelles", "Seychelles Financial Services Authority"),
+    "fscmauritius": ("FSC Mauritius", "Financial Services Commission Mauritius"),
+    "financialservicescommissionmauritius": ("FSC Mauritius", "Financial Services Commission Mauritius"),
+    "mauritiusfinancialservicescommission": ("FSC Mauritius", "Financial Services Commission Mauritius"),
+    "fsca": ("FSCA", "Financial Sector Conduct Authority"),
+    "financialsectorconductauthority": ("FSCA", "Financial Sector Conduct Authority"),
+    "hongkongsecuritiesandfuturescommission": ("SFC", "Hong Kong Securities and Futures Commission"),
+    "sfc": ("SFC", "Hong Kong Securities and Futures Commission"),
+    "mas": ("MAS", "Monetary Authority of Singapore"),
+    "monetaryauthorityofsingapore": ("MAS", "Monetary Authority of Singapore"),
+    "nfa": ("NFA", "National Futures Association"),
+    "nationalfuturesassociation": ("NFA", "National Futures Association"),
+    "scb": ("SCB", "Securities Commission of The Bahamas"),
+    "thesecuritiescommissionofthebahamas": ("SCB", "Securities Commission of The Bahamas"),
+    "sec": ("SEC", "United States Securities and Exchange Commission"),
+    "securitiesandexchangecommission": ("SEC", "United States Securities and Exchange Commission"),
+}
+
+
+def canonical_regulator(code: str | None, name: str | None) -> tuple[str, str]:
+    for value in (code, name):
+        if norm_name(value) in REGULATOR_ALIASES:
+            return REGULATOR_ALIASES[norm_name(value)]
+    return clean(code) or clean(name), clean(name) or clean(code)
+
+
 def hostname(value: str | None) -> str:
     value = clean(value).lower()
     if not value:
@@ -278,6 +330,8 @@ def main() -> None:
     parser.add_argument("--identity-merge-output", type=Path)
     parser.add_argument("--priority-verification", type=Path)
     parser.add_argument("--entity-resolution", type=Path)
+    parser.add_argument("--priority-intelligence", type=Path)
+    parser.add_argument("--normalization-audit-output", type=Path)
     args = parser.parse_args()
 
     tc_rows = read_csv(args.trading_central)
@@ -286,12 +340,16 @@ def main() -> None:
     directory_rows = read_csv(args.directory) if args.directory and args.directory.exists() else []
     verification_profiles = {}
     entity_resolution_profiles = {}
+    priority_intelligence_profiles = {}
     if args.priority_verification and args.priority_verification.exists():
         verification_payload = json.loads(args.priority_verification.read_text(encoding="utf-8"))
         verification_profiles = {item["slug"]: item for item in verification_payload.get("profiles", [])}
     if args.entity_resolution and args.entity_resolution.exists():
         entity_resolution_payload = json.loads(args.entity_resolution.read_text(encoding="utf-8"))
         entity_resolution_profiles = {item["slug"]: item for item in entity_resolution_payload.get("profiles", [])}
+    if args.priority_intelligence and args.priority_intelligence.exists():
+        intelligence_payload = json.loads(args.priority_intelligence.read_text(encoding="utf-8"))
+        priority_intelligence_profiles = {item["slug"]: item for item in intelligence_payload.get("profiles", [])}
 
     profiles: list[dict] = []
     used_slugs: set[str] = set()
@@ -508,6 +566,7 @@ def main() -> None:
         })
 
     identity_merge_log: list[dict[str, str]] = []
+    normalization_audit: list[dict[str, str]] = []
     domain_groups: dict[str, list[dict]] = defaultdict(list)
     for profile in profiles:
         for domain in {item.get("domain", "") for item in profile["domains"] if item.get("domain")}:
@@ -593,6 +652,94 @@ def main() -> None:
         entity_resolution = entity_resolution_profiles.get(profile["slug"])
         if entity_resolution:
             profile["canonical_regulatory_footprint"] = entity_resolution["canonical_regulatory_footprint"]
+        intelligence = priority_intelligence_profiles.get(profile["slug"])
+        if intelligence:
+            profile["people"] = intelligence.get("people", [])
+            profile["offices"] = intelligence.get("offices", [])
+            headquarters = intelligence.get("headquarters", {})
+            if headquarters.get("country"):
+                profile["headquarters"] = ", ".join(part for part in (headquarters.get("city"), headquarters.get("country")) if part)
+            profile["sales_intelligence"] = {
+                "status": intelligence.get("status", "EVIDENCE_BACKED"),
+                "why_now": intelligence.get("why_now", ""),
+                "discovery_angle": intelligence.get("discovery_angle", ""),
+                "hypothesis": bool(intelligence.get("hypothesis", True)),
+                "last_checked": intelligence.get("last_checked", ""),
+                "sources": intelligence.get("sources", []),
+            }
+            profile["technology_assessment"] = intelligence.get("technology_assessment", [])
+            profile["change_history"] = intelligence.get("change_history", [])
+        assessed_vendors = {}
+        for vendor_relationship in profile.get("vendor_relationships", []):
+            vendor = vendor_relationship.get("vendor")
+            if vendor not in {"Trading Central", "Autochartist", "Acuity Trading"}:
+                continue
+            status = vendor_relationship.get("status", "UNKNOWN")
+            if status not in {"CONFIRMED_ACTIVE", "LIKELY_ACTIVE", "DIRECTORY_REPORTED", "HISTORICAL"}:
+                status = "UNKNOWN"
+            assessed_vendors[vendor] = {
+                "vendor": vendor,
+                "status": status,
+                "confidence": vendor_relationship.get("confidence", "LOW"),
+                "evidence_url": vendor_relationship.get("evidence_url", ""),
+                "checked_date": vendor_relationship.get("checked_date", vendor_relationship.get("last_checked", "")),
+                "note": vendor_relationship.get("summary", vendor_relationship.get("description", "")),
+            }
+        for assessment in profile.get("technology_assessment", []):
+            if assessment.get("vendor") in {"Trading Central", "Autochartist", "Acuity Trading"}:
+                assessed_vendors[assessment["vendor"]] = assessment
+        profile["technology_assessment"] = [
+            assessed_vendors.get(vendor, {
+                "vendor": vendor,
+                "status": "UNKNOWN",
+                "confidence": "LOW",
+                "evidence_url": "",
+                "checked_date": "",
+                "note": "No current first-party evidence was located in this pass.",
+            })
+            for vendor in ("Trading Central", "Autochartist", "Acuity Trading")
+        ]
+        for item in profile["licenses"]:
+            old_code = clean(item.get("regulator_code"))
+            old_name = clean(item.get("regulator_name"))
+            code, name = canonical_regulator(old_code, old_name)
+            if (code, name) != (old_code, old_name):
+                item["source_regulator_code"] = old_code
+                item["source_regulator_name"] = old_name
+                normalization_audit.append({
+                    "action": "NORMALIZED_REGULATOR_NAME",
+                    "profile_slug": profile["slug"],
+                    "brand_name": profile["brand_name"],
+                    "source_value": old_code or old_name,
+                    "canonical_value": code,
+                    "license_number": clean(item.get("license_number")),
+                    "evidence_url": clean(item.get("evidence_url")),
+                })
+                item["regulator_code"], item["regulator_name"] = code, name
+        deduplicated_licenses: dict[tuple[str, str, str], dict] = {}
+        for item in profile["licenses"]:
+            key = (item.get("regulator_code", ""), item.get("license_number", ""), norm_name(item.get("legal_name")))
+            existing = deduplicated_licenses.get(key)
+            if not existing:
+                deduplicated_licenses[key] = item
+                continue
+            preferred, secondary = (item, existing) if item.get("source") == "Official regulator registry" else (existing, item)
+            for field, value in secondary.items():
+                if not preferred.get(field) and value:
+                    preferred[field] = value
+            evidence_urls = sorted({url for url in [preferred.get("evidence_url"), secondary.get("evidence_url"), *preferred.get("additional_evidence_urls", []), *secondary.get("additional_evidence_urls", [])] if url})
+            preferred["additional_evidence_urls"] = [url for url in evidence_urls if url != preferred.get("evidence_url")]
+            deduplicated_licenses[key] = preferred
+            normalization_audit.append({
+                "action": "MERGED_REGULATOR_DUPLICATE",
+                "profile_slug": profile["slug"],
+                "brand_name": profile["brand_name"],
+                "source_value": clean(secondary.get("source_regulator_code")) or clean(secondary.get("regulator_code")),
+                "canonical_value": item.get("regulator_code", ""),
+                "license_number": item.get("license_number", ""),
+                "evidence_url": secondary.get("evidence_url", ""),
+            })
+        profile["licenses"] = list(deduplicated_licenses.values())
         regulators: dict[str, dict] = {}
         for item in profile["licenses"]:
             code = item["regulator_code"] or item["regulator_name"]
@@ -634,6 +781,22 @@ def main() -> None:
             profile["priority_score"] = 0
             profile["priority_rank"] = None
             profile["priority_tier"] = "NOT_SALES_TARGET"
+        if profile["priority_tier"] == "PRIORITY_100" and "sales_intelligence" not in profile:
+            profile["sales_intelligence"] = {
+                "status": "PENDING_REVIEW",
+                "why_now": "",
+                "discovery_angle": "",
+                "hypothesis": True,
+                "last_checked": "",
+                "sources": [],
+            }
+            profile.setdefault("technology_assessment", [
+                {"vendor": vendor, "status": "UNKNOWN", "confidence": "LOW", "evidence_url": "", "checked_date": "", "note": "No current first-party evidence was located in this pass."}
+                for vendor in ("Trading Central", "Autochartist", "Acuity Trading")
+            ])
+            profile["change_history"] = []
+        if profile["priority_tier"] == "PRIORITY_100":
+            profile["intelligence_scope"] = "PRIORITY_25_GOLD" if profile.get("verification", {}).get("scope") == "PRIORITY_25" else "PRIORITY_100_NORMALIZED"
 
     profiles.sort(key=lambda item: item["brand_name"].lower())
     payload = {
@@ -712,6 +875,14 @@ def main() -> None:
                     "classification_reason": profile["company_type_reason"],
                 })
 
+    if args.normalization_audit_output:
+        args.normalization_audit_output.parent.mkdir(parents=True, exist_ok=True)
+        with args.normalization_audit_output.open("w", encoding="utf-8-sig", newline="") as handle:
+            fields = ["action", "profile_slug", "brand_name", "source_value", "canonical_value", "license_number", "evidence_url"]
+            writer = csv.DictWriter(handle, fieldnames=fields)
+            writer.writeheader()
+            writer.writerows(normalization_audit)
+
     tc_profiles = [profile for profile in profiles if any(item["vendor"] == "Trading Central" for item in profile["vendor_relationships"])]
     matched = sum(bool(profile["licenses"]) for profile in tc_profiles)
     print(json.dumps({
@@ -726,6 +897,7 @@ def main() -> None:
         "profiles_with_acuity": sum(any(item["vendor"] == "Acuity Trading" for item in profile["vendor_relationships"]) for profile in profiles),
         "profiles_with_autochartist": sum(any(item["vendor"] == "Autochartist" for item in profile["vendor_relationships"]) for profile in profiles),
         "identity_profiles_removed": len(remove_ids),
+        "regulator_names_normalized": len(normalization_audit),
         "priority_100": sum(profile["priority_tier"] == "PRIORITY_100" for profile in profiles),
         "company_types": {company_type: sum(profile["company_type"] == company_type for profile in profiles) for company_type in sorted({profile["company_type"] for profile in profiles})},
     }))
