@@ -130,9 +130,9 @@ function verificationBadge(profile, compact = true) {
 
 function primaryEvidence(profile) {
   const tool = tradingCentral(profile);
-  if (tool?.evidence_url) return { url: tool.evidence_url, label: "Tool evidence ↗" };
+  if (tool?.evidence_url) return { url: tool.evidence_url, label: "Tool ↗" };
   const license = profile.licenses?.find((item) => item.evidence_url);
-  return license ? { url: license.evidence_url, label: "Regulator source ↗" } : null;
+  return license ? { url: license.evidence_url, label: "Regulator ↗" } : null;
 }
 
 function renderTable() {
@@ -147,9 +147,9 @@ function renderTable() {
       <td class="entity-cell"><strong title="${escapeHtml(row.brand_name)}">${escapeHtml(row.brand_name)}</strong><small>${escapeHtml(row.primary_domain || `${entityCount} legal ${entityCount === 1 ? "entity" : "entities"}`)}</small></td>
       <td><span class="type-badge ${row.sales_relevance.toLowerCase()}">${escapeHtml(row.company_type)}</span></td>
       <td class="tool-cell">${row.vendor_relationships?.length ? `<div class="tool-stack">${row.vendor_relationships.slice(0, 3).map((item) => toolBadge(item, true)).join("")}</div>` : toolBadge(tool)}</td><td class="regulator-cell">${regulatorBadges(row)}</td>
-      <td>${escapeHtml(row.primary_market || "—")}</td><td class="verification-cell">${verificationBadge(row)}</td><td><span class="confidence-badge ${profileConfidence(row).toLowerCase()}">${escapeHtml(profileConfidence(row))}</span></td>
-      <td>${evidence ? `<a class="evidence-link" href="${escapeHtml(evidence.url)}" target="_blank" rel="noreferrer">${evidence.label}</a>` : "—"}</td>
-      <td><button class="row-button" type="button" tabindex="-1" aria-hidden="true">→</button></td></tr>`;
+      <td class="market-cell"><span title="${escapeHtml(row.primary_market || "Not recorded")}">${escapeHtml(row.primary_market || "—")}</span></td><td class="verification-cell">${verificationBadge(row)}</td><td class="confidence-cell"><span class="confidence-badge ${profileConfidence(row).toLowerCase()}">${escapeHtml(profileConfidence(row))}</span></td>
+      <td class="evidence-cell">${evidence ? `<a class="evidence-link" href="${escapeHtml(evidence.url)}" target="_blank" rel="noreferrer" title="${escapeHtml(evidence.label.replace(" ↗", ""))}">${evidence.label}</a>` : "—"}</td>
+      <td class="action-cell"><button class="row-button" type="button" tabindex="-1" aria-hidden="true">→</button></td></tr>`;
   }).join("");
   const pages = Math.max(1, Math.ceil(state.filtered.length / state.pageSize));
   elements.visibleCount.textContent = formatNumber(state.filtered.length);
