@@ -11,7 +11,8 @@ Credentials are intentionally excluded from Git. Copy `.env.example` to `.env` a
 ## Priority intelligence layers
 
 - `sources/priority-25-entity-resolution-overrides.json` records reviewed brand-to-entity decisions and explicit regulator no-result outcomes.
-- `sources/priority-25-sales-intelligence.json` contains the evidence-backed Priority 25 people, offices, technology assessments, sales hypotheses, and material history.
+- `sources/priority-25-sales-intelligence.json` contains evidence-backed Priority 100 sales briefs. Priority 25 records add the gold-tier people, offices, technology assessments, and material history; the remaining 75 stay explicitly hypothesis-led until first-party evidence is confirmed.
+- `sources/priority-25-monitor-results.json` is the reviewed connector export used by `scripts/sync_firecrawl_monitor_history.py`; only material events are merged into profile history.
 - `sources/priority-25-monitoring.json` records the active weekly monitors and the material-change policy.
 - `exports/priority-25-canonical-footprints.json` is the trusted canonical footprint used by the Site.
 - `exports/regulator-normalization-audit.csv` records label normalization and duplicate merges.

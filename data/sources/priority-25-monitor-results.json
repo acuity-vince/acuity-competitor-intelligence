@@ -1,0 +1,40 @@
+{
+  "exported_at": "2026-09-16",
+  "review_policy": "Only monitor-judged changes that were manually classified as material enter profile history.",
+  "checks": [
+    {
+      "monitor_id": "01a0a098-ce90-76d9-a164-d2a746aa45b9",
+      "check_id": "01a0aa7c-7704-70ea-9e01-d973cd5b5c4f",
+      "status": "partial",
+      "reviewed_at": "2026-09-16",
+      "summary": {"pages": 10, "same": 3, "changed": 6, "errors": 1},
+      "events": [
+        {
+          "meaningful_change": true,
+          "profile_slug": "atfx",
+          "date": "2026-09-15",
+          "category": "PRODUCT",
+          "summary": "ATFX expanded its promoted product range in Colombia to include crypto-related products.",
+          "evidence_url": "https://www.atfx.com/en/about-us/company-news/atfx-expands-its-range-of-products-for-promotion-in-colombia-to-include-crypto-related-products"
+        },
+        {
+          "meaningful_change": false,
+          "summary": "The remaining successful page diffs were cosmetic or tracking changes; the easyMarkets target had a DNS error."
+        }
+      ]
+    },
+    {
+      "monitor_id": "01a0a098-ffdb-721e-8ddd-fdff81365007",
+      "check_id": "01a0aa7c-84d5-715a-90ea-adda203718d1",
+      "status": "completed",
+      "reviewed_at": "2026-09-16",
+      "summary": {"pages": 15, "same": 8, "changed": 7, "errors": 0},
+      "events": [
+        {
+          "meaningful_change": false,
+          "summary": "All detected diffs were cosmetic, localization, review-rotation, or technical asset changes; no material technology or regulatory change was judged."
+        }
+      ]
+    }
+  ]
+}

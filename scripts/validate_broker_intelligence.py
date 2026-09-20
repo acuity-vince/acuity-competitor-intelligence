@@ -12,10 +12,16 @@ from pathlib import Path
 
 BANNED_COPY = re.compile(
     r"\b(delve|tapestry|seamless(?:ly)?|robust|unlock|supercharge|elevate|game-changing|"
-    r"revolutionise|myriad|plethora|beacon|ever-evolving|cutting-edge|transformative|"
-    r"synergy|holistic|embark|foster|facilitate|multifaceted|intricate|paramount)\b|"
+    r"revolutionise|myriad|plethora|realm|beacon|ever-evolving|cutting-edge|transformative|"
+    r"paradigm shift|synergy|holistic|embark|foster|facilitate|multifaceted|intricate|paramount)\b|"
+    r"testament to|stands as|underscores|navigate the landscape|in today's fast-paced world|"
+    r"it's important to note|it's worth noting|that being said|harness the power of|dive deep|"
     r"not just .+ but|more than just|whether you(?:'re| are)|that's where|say goodbye|"
-    r"imagine a world|what if i told you|here's the thing|let me be clear|at the end of the day",
+    r"imagine a world|what if i told you|think about it|plot twist|here's the thing|"
+    r"let me be clear|i'll be honest|the uncomfortable truth is|what most people get wrong|"
+    r"here's what nobody tells you|this is the part most people skip|at the end of the day|"
+    r"the result\?|in conclusion|ultimately|overall|as you can see|the key point is|"
+    r"experts agree|industry reports suggest|widely regarded as",
     re.IGNORECASE,
 )
 ALLOWED_TECH = {"CONFIRMED_ACTIVE", "LIKELY_ACTIVE", "DIRECTORY_REPORTED", "HISTORICAL", "UNKNOWN"}
@@ -48,6 +54,12 @@ def main() -> None:
             errors.append(f"{profile['slug']}: invalid technology status")
         if not profile.get("intelligence_scope"):
             errors.append(f"{profile['slug']}: missing intelligence scope")
+        intel = profile.get("sales_intelligence", {})
+        if not intel.get("why_now") or not intel.get("discovery_angle"):
+            errors.append(f"{profile['slug']}: incomplete Priority 100 sales brief")
+        if intel.get("status") == "PENDING_REVIEW":
+            errors.append(f"{profile['slug']}: Priority 100 sales brief is still pending")
+        copy_lines.extend([intel.get("why_now", ""), intel.get("discovery_angle", "")])
 
     for profile in priority25:
         footprint = profile.get("canonical_regulatory_footprint", {})
@@ -56,7 +68,6 @@ def main() -> None:
         intel = profile.get("sales_intelligence", {})
         if not intel.get("why_now") or not intel.get("discovery_angle"):
             errors.append(f"{profile['slug']}: incomplete sales brief")
-        copy_lines.extend([intel.get("why_now", ""), intel.get("discovery_angle", "")])
         for person in profile.get("people", []):
             if person.get("status") == "CONFIRMED_CURRENT" and (not person.get("name") or not person.get("evidence_url")):
                 errors.append(f"{profile['slug']}: confirmed person lacks a name or source")
@@ -79,6 +90,7 @@ def main() -> None:
         "priority_100_count": len(priority100),
         "priority_25_with_confirmed_leader": sum(any(p.get("status") == "CONFIRMED_CURRENT" for p in row.get("people", [])) for row in priority25),
         "priority_25_with_material_history": sum(bool(row.get("change_history")) for row in priority25),
+        "priority_100_with_sales_brief": sum(bool(row.get("sales_intelligence", {}).get("why_now") and row.get("sales_intelligence", {}).get("discovery_angle")) for row in priority100),
         "content_audit_score": "5/5" if not errors else "FAIL",
         "errors": errors,
     }
